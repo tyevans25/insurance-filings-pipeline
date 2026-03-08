@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "query": "What did AIG say about reserve adequacy in their latest filing?",
+        "company": "AIG"
+    },
+    {
+        "id": 2,
+        "query": "Compare loss development across all carriers"
+    },
+    {
+        "id": 3,
+        "query": "What external factors impacted insurance reserves?",
+        "company": null
+    },
+    {
+        "id": 4,
+        "query": "Show me information about commercial auto reserves",
+        "company": "Travelers"
+    },
+    {
+        "id": 5,
+        "query": "How are carriers addressing social inflation?",
+        "company": null
+    },
+    {
+        "id": 6,
+        "query": "What is Chubb's approach to loss reserving?",
+        "company": "Chubb"
+    },
+    {
+        "id": 7,
+        "query": "What are the main risk factors affecting reserves?",
+        "company": null
+    },
+    {
+        "id": 8,
+        "query": "Tell me about catastrophe loss reserves",
+        "company": null
+    }
+]
