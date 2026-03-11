@@ -1,0 +1,2692 @@
+{
+  "doc_id": "c0ba860f45812a90fb401145da8e457e9489b0fb8e1c16a7189be91e4b3a03d6",
+  "filename": "travelers_10k_2024.pdf",
+  "company": "Travelers",
+  "filing_id": 5,
+  "filing_type": "10-K",
+  "fiscal_period": "FY",
+  "metadata": {
+    "title": "trv-20241231",
+    "author": "",
+    "created_date": "2026-03-07T21:19:28",
+    "page_count": 245
+  },
+  "num_chunks": 535,
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "token_count": 200,
+      "text": "united states securities exchange commission washington 20549 form 10 annual report pursuant section 13 15 securities exchange act 1934 fiscal year ended december 31 2024 transition report pursuant se..."
+    },
+    {
+      "chunk_index": 1,
+      "token_count": 200,
+      "text": "months shorter period registrant required file reports subject filing requirements past 90 days yes indicate check mark registrant submitted electronically interactive data file required submitted pur..."
+    },
+    {
+      "chunk_index": 2,
+      "token_count": 200,
+      "text": "mark financial statements registrant included filing reflect correction error previously issued financial statements indicate check mark error corrections restatements required recovery analysis incen..."
+    },
+    {
+      "chunk_index": 3,
+      "token_count": 200,
+      "text": "43 1b unresolved staff comments 56 1c cybersecurity 56 properties 58 legal proceedings 58 safety disclosures 58 ii market registrant common equity related shareholder matters issuer purchases equity s..."
+    },
+    {
+      "chunk_index": 4,
+      "token_count": 200,
+      "text": "holding company principally engaged subsidiaries providing wide range commercial personal property casualty insurance products services businesses government units associations individuals company inc..."
+    },
+    {
+      "chunk_index": 5,
+      "token_count": 200,
+      "text": "lines business including company offer products alternative forms risk protection addition traditional insurance products products include large deductible programs various forms self insurance utiliz..."
+    },
+    {
+      "chunk_index": 6,
+      "token_count": 200,
+      "text": "availability reinsurance traditional sources reinsurance companies capital markets catastrophe bonds non traditional sources hedge funds pension plans industry capacity measured statutory capital surp..."
+    },
+    {
+      "chunk_index": 7,
+      "token_count": 200,
+      "text": "price competition company ability increase rates relative timing process dependent respective state requirements competitive market environment geographic distribution following table shows geographic..."
+    },
+    {
+      "chunk_index": 8,
+      "token_count": 200,
+      "text": "underwriting actions new existing business underwriting actions new existing business include tightening underwriting standards selective price increases changes policy terms specific hurricane tornad..."
+    },
+    {
+      "chunk_index": 9,
+      "token_count": 200,
+      "text": "market generally provides products mid sized businesses commercial accounts targeted industries construction technology life sciences public sector services energy additionally provides mono line umbr..."
+    },
+    {
+      "chunk_index": 10,
+      "token_count": 200,
+      "text": "customers national property insurance coverages programs provided northland transportation agribusiness northfield national programs northland transportation provides insurance coverage commercial tru..."
+    },
+    {
+      "chunk_index": 11,
+      "token_count": 200,
+      "text": "operations including certain assumed reinsurance arrangements selected market product information following table sets forth business insurance net written premiums market product line periods indicat..."
+    },
+    {
+      "chunk_index": 12,
+      "token_count": 200,
+      "text": "70 69 79 total domestic 20 143 18 665 16 574 91 international 935 765 061 total business insurance product line 22 078 20 430 17 635 100 principal markets methods distribution business insurance marke..."
+    },
+    {
+      "chunk_index": 13,
+      "token_count": 200,
+      "text": "50 employees large network independent agents brokers products offered select accounts guaranteed cost policies including packaged products covering property liability exposures small business risk in..."
+    },
+    {
+      "chunk_index": 14,
+      "token_count": 200,
+      "text": "large companies large network national regional brokers products offered national accounts primarily casualty programs utilize loss sensitive products large deductible lesser extent retrospectively ra..."
+    },
+    {
+      "chunk_index": 15,
+      "token_count": 200,
+      "text": "facility program international markets distributes products services principally brokers countries operates international writes business lloyd products distributed lloyd wholesale retail brokers virt..."
+    },
+    {
+      "chunk_index": 16,
+      "token_count": 200,
+      "text": "reimbursement december 31 2024 contractholder payables unpaid losses deductible layer large deductible policies approximately 19 billion associated receivables net allowance expected credit losses app..."
+    },
+    {
+      "chunk_index": 17,
+      "token_count": 200,
+      "text": "payable state federal law workplace injuries employees typically types benefits payable workers compensation policies medical benefits disability benefits death benefits vocational rehabilitation bene..."
+    },
+    {
+      "chunk_index": 18,
+      "token_count": 200,
+      "text": "insurance provides coverage goods transit unique kind exposures general liability provides coverages businesses party claims arising accidents occurring premises arising operations including result in..."
+    },
+    {
+      "chunk_index": 19,
+      "token_count": 200,
+      "text": "servicing carrier pool participant international provides coverage employers liability similar workers compensation coverage united states public product liability equivalent general liability profess..."
+    },
+    {
+      "chunk_index": 20,
+      "token_count": 200,
+      "text": "business insurance generally limits net retention use reinsurance maximum risk 20 million occurrence business insurance generally retains workers compensation exposures reinsurance treaties aggregate ..."
+    },
+    {
+      "chunk_index": 21,
+      "token_count": 200,
+      "text": "competition operates insurance regulatory framework set price charged insurance products levels coverage service provided company success competitive commercial insurance landscape largely measured ab..."
+    },
+    {
+      "chunk_index": 22,
+      "token_count": 200,
+      "text": "knowledge customized coverage specialized risk control loss handling services partnerships agents brokers focus markets competitors market primarily national property casualty insurance companies incl..."
+    },
+    {
+      "chunk_index": 23,
+      "token_count": 200,
+      "text": "national property competes focused target markets markets different requires unique combinations industry knowledge customized coverage specialized risk management claims handling services partnership..."
+    },
+    {
+      "chunk_index": 24,
+      "token_count": 200,
+      "text": "offers surety fidelity management liability professional liability property casualty coverages related risk management services customers primarily united states certain surety specialty insurance pro..."
+    },
+    {
+      "chunk_index": 25,
+      "token_count": 200,
+      "text": "company completed acquisition issued outstanding shares corvus selected product information following table sets forth bond specialty insurance net written premiums product line periods indicated desc..."
+    },
+    {
+      "chunk_index": 26,
+      "token_count": 200,
+      "text": "specialty insurance considers factors agency broker profitability financial stability staff experience strategic fit operating marketing plans agency broker appointed ongoing performance regularly mon..."
+    },
+    {
+      "chunk_index": 27,
+      "token_count": 200,
+      "text": "specialized liability exposures described business insurance section report transactional liability coverages coverages include commercial property workers compensation commercial automobile commercia..."
+    },
+    {
+      "chunk_index": 28,
+      "token_count": 200,
+      "text": "data 86312 000008631225000012 trv 20241231 htm 12 245 11 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 13 245 risk basis bond specialty insuranc..."
+    },
+    {
+      "chunk_index": 29,
+      "token_count": 200,
+      "text": "believes reputation timely consistent decision making financial stability nationwide network local underwriting claims industry experts strong producer customer relationships ability offer customers r..."
+    },
+    {
+      "chunk_index": 30,
+      "token_count": 200,
+      "text": "trv 20241231 htm 14 245 personal insurance personal insurance offers broad range property casualty insurance products services covering individuals personal risks primarily united states canada person..."
+    },
+    {
+      "chunk_index": 31,
+      "token_count": 200,
+      "text": "principal markets personal insurance products spread contiguous united states selecting new independent agencies distribute products personal insurance considers factors including financial stability ..."
+    },
+    {
+      "chunk_index": 32,
+      "token_count": 200,
+      "text": "canada company markets distributes personal insurance products principally hundreds brokers located country pricing underwriting personal insurance developed product management methodology integrates ..."
+    },
+    {
+      "chunk_index": 33,
+      "token_count": 200,
+      "text": "incidence catastrophes weather related events unusual circumstances impact supply chain disruptions labor shortages elevated inflation insurers writing personal lines property casualty policies unable..."
+    },
+    {
+      "chunk_index": 34,
+      "token_count": 200,
+      "text": "choose write business write states strategic purposes improving access commercial personal underwriting opportunities choosing write business states company considers costs benefits states residual ma..."
+    },
+    {
+      "chunk_index": 35,
+      "token_count": 200,
+      "text": "homeowners insurance dwellings condominiums tenants rental properties company writes coverage boats yachts valuable personal items jewelry umbrella liability weddings special events international inte..."
+    },
+    {
+      "chunk_index": 36,
+      "token_count": 200,
+      "text": "texas 11 new york california georgia pennsylvania florida new jersey maryland virginia colorado massachusetts illinois connecticut domestic 31 total domestic 96 international canada total internationa..."
+    },
+    {
+      "chunk_index": 37,
+      "token_count": 200,
+      "text": "business 15 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 17 245 international personal insurance competes numerous international domestic insur..."
+    },
+    {
+      "chunk_index": 38,
+      "token_count": 200,
+      "text": "satellite specialty offices 42 states organized maintain focus specific claim characteristics unique businesses company business segments claim teams specialized skills required licenses resources wor..."
+    },
+    {
+      "chunk_index": 39,
+      "token_count": 200,
+      "text": "house forensic resources technological tools staff specialized expertise scene examinations medical provider fraud schemes law firm fraud schemes data mining company dedicates investigative resources ..."
+    },
+    {
+      "chunk_index": 40,
+      "token_count": 200,
+      "text": "trained large enterprise response team existing employees team deployed short notice event catastrophe generates claim volume exceeding capacity dedicated catastrophe response team recent years intern..."
+    },
+    {
+      "chunk_index": 41,
+      "token_count": 200,
+      "text": "condition reinsurers regular basis reviews reinsurance arrangements periodically reinsurers selected based financial condition business practices price product offerings value collateral provided rein..."
+    },
+    {
+      "chunk_index": 42,
+      "token_count": 200,
+      "text": "exposure affected event severity event catastrophes restricted small geographic areas hurricanes earthquakes wildfires cyber attacks events produce significant damage loss larger areas especially area..."
+    },
+    {
+      "chunk_index": 43,
+      "token_count": 200,
+      "text": "80 qualifying loss excess billion retention billion 95 losses excess billion billion 100 losses excess billion billion maximum recovery treaty billion 92 total billion limit qualifying losses occurren..."
+    },
+    {
+      "chunk_index": 44,
+      "token_count": 200,
+      "text": "equal coverage provided reinsurance agreement described proceeds issuance deposited reinsurance trust account businesses covered reinsurance agreement subsets company overall insurance portfolio compr..."
+    },
+    {
+      "chunk_index": 45,
+      "token_count": 200,
+      "text": "paid company reinsurance agreement reinsurance agreement credit risk associated collecting amounts reinsurers regard long point iv credit risk mitigated reinsurance trust account funded long point iv ..."
+    },
+    {
+      "chunk_index": 46,
+      "token_count": 200,
+      "text": "primary beneficiary vie required consolidate vie company financial statements result evaluation reinsurance agreement long point iv company concluded vie conditions described items present long point ..."
+    },
+    {
+      "chunk_index": 47,
+      "token_count": 200,
+      "text": "loss 00 billion 00 billion treaty provides 50 cents coverage homeowners property losses arising hurricane tropical storm period july 2024 including june 30 2025 treaty covers united states coastal sta..."
+    },
+    {
+      "chunk_index": 48,
+      "token_count": 200,
+      "text": "million treaty provided 90 cents coverage period july 2024 including june 30 2025 treaty cancelled mid term replaced new business insurance treaty provides 775 million 00 billion coverage subject 350 ..."
+    },
+    {
+      "chunk_index": 49,
+      "token_count": 200,
+      "text": "31 2024 100 losses excess 200 million 139 million december 31 2024 500 million 347 million december 31 2024 case respect accumulation net property losses arising occurrence business written company ca..."
+    },
+    {
+      "chunk_index": 50,
+      "token_count": 200,
+      "text": "factors high levels catastrophe losses including result factors increased concentrations insured exposures catastrophe prone areas changing climate conditions materially adversely affect results opera..."
+    },
+    {
+      "chunk_index": 51,
+      "token_count": 200,
+      "text": "involves high degree judgment subject number variables variables discussed product line critical accounting estimates section item management discussion analysis financial condition results operations..."
+    },
+    {
+      "chunk_index": 52,
+      "token_count": 200,
+      "text": "claims litigation environmental claims litigation certain company claims claim adjustment expense reserves discounted present value note notes consolidated financial statements discussion reserves sta..."
+    },
+    {
+      "chunk_index": 53,
+      "token_count": 200,
+      "text": "reported loss reserves reinsurance recoverables net allowance estimated uncollectible amounts statutory reporting structured settlements company obtained release disclosed contingent liability recorde..."
+    },
+    {
+      "chunk_index": 54,
+      "token_count": 200,
+      "text": "pooling arrangements company domestic insurance subsidiaries participate intercompany property casualty reinsurance pooling arrangement arrangements participating subsidiaries share substantially insu..."
+    },
+    {
+      "chunk_index": 55,
+      "token_count": 200,
+      "text": "rating agency rating agency customers usually focus claims paying ratings creditors focus debt ratings investors use evaluate company overall financial strength ratings issued company subsidiaries age..."
+    },
+    {
+      "chunk_index": 56,
+      "token_count": 200,
+      "text": "company considers level increased cash funding requirements event ratings downgrade evaluation company liquidity requirements company currently believes notch downgrade debt ratings result material in..."
+    },
+    {
+      "chunk_index": 57,
+      "token_count": 200,
+      "text": "moody fitch travelers reinsurance pool 1st 16 aa2 3rd 21 aa 3rd 21 aa 3rd 21 travelers america 1st 16 aa2 3rd 21 aa 3rd 21 aa 3rd 21 floridian auto home ins 4th 16 aa 3rd 21 travelers insurance compan..."
+    },
+    {
+      "chunk_index": 58,
+      "token_count": 200,
+      "text": "company travelers personal security insurance company travelers personal insurance company st paul marine insurance company travelers casualty company st paul protective insurance company travelers co..."
+    },
+    {
+      "chunk_index": 59,
+      "token_count": 200,
+      "text": "21 6th 22 6th 22 junior subordinated debentures 7th 22 a3 7th 21 bbb 8th 22 bbb 8th 22 commercial paper amb 1st 1st 2nd 10 f1 2nd rating agency actions following rating agency actions taken respect co..."
+    },
+    {
+      "chunk_index": 60,
+      "token_count": 200,
+      "text": "sales executed objective having adequate funds available satisfy insurance debt obligations generally expected principal payments produced company fixed maturity portfolio adequately fund estimated ru..."
+    },
+    {
+      "chunk_index": 61,
+      "token_count": 200,
+      "text": "classes potential higher returns involve varying degrees risk including stable rates return liquidity note notes consolidated financial statements additional information regarding company investment p..."
+    },
+    {
+      "chunk_index": 62,
+      "token_count": 200,
+      "text": "response changing economic business environment efforts regulators internationally develop consistent approach regulation federal government historically regulated insurance business federal insurance..."
+    },
+    {
+      "chunk_index": 63,
+      "token_count": 200,
+      "text": "gov archives edgar data 86312 000008631225000012 trv 20241231 htm 25 245 management evaluate insurer business strategies approach enterprise risk management corporate governance groupwide legal entity..."
+    },
+    {
+      "chunk_index": 64,
+      "token_count": 200,
+      "text": "capital calculation beginning 2023 changes impacted capital company insurance subsidiaries required insurance regulation concerning dividends insurance subsidiaries company principal domestic insuranc..."
+    },
+    {
+      "chunk_index": 65,
+      "token_count": 200,
+      "text": "standards ensure rates excessive inadequate unfairly discriminatory used engage unfair price competition insurer ability adjust rates relative timing process dependent state requirements states enacte..."
+    },
+    {
+      "chunk_index": 66,
+      "token_count": 200,
+      "text": "commensurate company direct catastrophe risk exposure states company competitors leave states residual market mechanisms remaining insurers including company subject significant increases losses asses..."
+    },
+    {
+      "chunk_index": 67,
+      "token_count": 200,
+      "text": "types policies assessments guaranty funds second injury funds mandatory assigned risk reinsurance arrangements condition authority transact insurance virtually states property casualty insurers includ..."
+    },
+    {
+      "chunk_index": 68,
+      "token_count": 200,
+      "text": "compensation reinsurance pool various workers compensation related funds florida special disability trust north carolina beach plan louisiana citizens property insurance corporation texas windstorm in..."
+    },
+    {
+      "chunk_index": 69,
+      "token_count": 200,
+      "text": "companies ratios results outside usual ranges generally insurance company subject regulatory scrutiny depending company financial condition regulatory action certain key iris ratios fall outside usual..."
+    },
+    {
+      "chunk_index": 70,
+      "token_count": 200,
+      "text": "inadequacy policyholders surplus held company insurance subsidiaries december 31 2024 2023 exceeded level subsidiaries subject rbc regulatory action legal entity basis need additional analysis evaluat..."
+    },
+    {
+      "chunk_index": 71,
+      "token_count": 200,
+      "text": "insurance subsidiaries outside gcc differs rbc does produce ratio subject minimum value result identified action level instead gcc used conjunction regulatory tools assist lead regulator group wide su..."
+    },
+    {
+      "chunk_index": 72,
+      "token_count": 200,
+      "text": "federal reserve supervisory authority number non bank financial services holding companies including holding companies insurance company subsidiaries designated thirds vote financial stability oversig..."
+    },
+    {
+      "chunk_index": 73,
+      "token_count": 200,
+      "text": "insurance subsidiaries based canada canadian branch company insurance subsidiaries regulated solvency risk management purposes office superintendent financial institutions osfi provisions insurance co..."
+    },
+    {
+      "chunk_index": 74,
+      "token_count": 200,
+      "text": "company used lloyd insurance subsidiary brussels belgium lloyd brussels cover lloyd customers risks eu lloyd brussels regulated national bank belgium travelers conducting european insurance operations..."
+    },
+    {
+      "chunk_index": 75,
+      "token_count": 200,
+      "text": "foreign insurance subsidiaries capital significantly respective regulatory requirements december 31 2024 regulators countries company operations working international association insurance supervisors..."
+    },
+    {
+      "chunk_index": 76,
+      "token_count": 200,
+      "text": "resolution planning written plan developed financial group detailing wound event insolvency company considered iaig current criteria comframe possible criteria changed company designated iaig naic ind..."
+    },
+    {
+      "chunk_index": 77,
+      "token_count": 200,
+      "text": "sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 29 245 actions impact company regulation result increased costs compliance increased disclosure flexibility capital management adv..."
+    },
+    {
+      "chunk_index": 78,
+      "token_count": 200,
+      "text": "insurance regulations concerning change control state insurance regulatory laws contain provisions require prior approval state agencies change control insurance company domiciled cases having substan..."
+    },
+    {
+      "chunk_index": 79,
+      "token_count": 200,
+      "text": "control restrictions including approval osfi trv brazilian joint venture subject regulatory change control share transfer restrictions including approval superintend ncia seguros privados susep requir..."
+    },
+    {
+      "chunk_index": 80,
+      "token_count": 200,
+      "text": "245 enterprise risk management erm framework including material risks insurance holding company pose risk insurance entities holding company insurers having premium volume certain thresholds including..."
+    },
+    {
+      "chunk_index": 81,
+      "token_count": 200,
+      "text": "states countries conduct business including licensing market conduct financial supervision changes regulation including changes tax regulation reduce profitability limit growth item 1a risk factors ex..."
+    },
+    {
+      "chunk_index": 82,
+      "token_count": 200,
+      "text": "feedback enterprise support company long term financial strategies objectives company uses various analyses methods including proprietary party modeling processes make underwriting reinsurance decisio..."
+    },
+    {
+      "chunk_index": 83,
+      "token_count": 200,
+      "text": "board oversight erm provided risk committee board directors reviews strategies processes controls pertaining company insurance operations oversees implementation execution performance company erm prog..."
+    },
+    {
+      "chunk_index": 84,
+      "token_count": 200,
+      "text": "item financial statements supplementary data information seasonality discussion extent company business seasonal outlook item management discussion analysis financial condition results operations inco..."
+    },
+    {
+      "chunk_index": 85,
+      "token_count": 200,
+      "text": "required complete company ethics training certify reviewed understand agree comply company code business conduct ethics applicable company policies 30 26 19 pm trv 20241231 https www sec gov archives ..."
+    },
+    {
+      "chunk_index": 86,
+      "token_count": 200,
+      "text": "employee engagement efforts inform strategies company uses enhance efforts addition company chief human resources officer meets regularly chief executive officer senior leaders discuss employee engage..."
+    },
+    {
+      "chunk_index": 87,
+      "token_count": 200,
+      "text": "foundational knowledge technical skills necessary success include job training classroom instruction self study materials independent work assigned business area programs company talent strategy years..."
+    },
+    {
+      "chunk_index": 88,
+      "token_count": 200,
+      "text": "management strategy designed develop company talent equip employees skills resources necessary ensure company continued success end managers assist setting monitoring goals planning development discus..."
+    },
+    {
+      "chunk_index": 89,
+      "token_count": 200,
+      "text": "calculated reported company recent proxy statement filed april 2024 excluding company chairman chief executive officer median annual total compensation company employees approximately 117 500 ii media..."
+    },
+    {
+      "chunk_index": 90,
+      "token_count": 200,
+      "text": "401 savings plan company matches employee contributions dollar dollar eligible pay maximum annual company match 500 paying forward savings program company supports employees student loans making annua..."
+    },
+    {
+      "chunk_index": 91,
+      "token_count": 200,
+      "text": "paid time volunteering board oversight human capital management company board directors takes active role overseeing company human capital management strategy including diversity inclusion efforts chi..."
+    },
+    {
+      "chunk_index": 92,
+      "token_count": 200,
+      "text": "including travelers company iconic umbrella logo company right retain material trademark rights perpetuity long satisfies use registration requirements applicable countries company regards trademarks ..."
+    },
+    {
+      "chunk_index": 93,
+      "token_count": 200,
+      "text": "facebook com travelers account travelers com travelers addition automatically receive email alerts information company enroll email address visiting email notifications investor toolkit section invest..."
+    },
+    {
+      "chunk_index": 94,
+      "token_count": 200,
+      "text": "risk great profit small required insurance rate structure costs risks associated pools charged insurance carriers proportion direct writings assumed reinsurance insurance risks acquired ceding company..."
+    },
+    {
+      "chunk_index": 95,
+      "token_count": 200,
+      "text": "marine 34 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 36 245 catastrophe severe loss event designated reasonably expected company designated c..."
+    },
+    {
+      "chunk_index": 96,
+      "token_count": 200,
+      "text": "business reportable segments 2024 threshold ranged approximately 20 million 30 million losses reinsurance taxes catastrophe loss loss directly identified loss adjustment expenses catastrophes related ..."
+    },
+    {
+      "chunk_index": 97,
+      "token_count": 200,
+      "text": "represent cohort claims 35 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 37 245 combined ratio statutory accounting practices sap combined ratio..."
+    },
+    {
+      "chunk_index": 98,
+      "token_count": 200,
+      "text": "excluding tax impact net realized investment gains losses discontinued operations effect change tax laws tax rates enactment date cumulative effect changes accounting principles applicable financial s..."
+    },
+    {
+      "chunk_index": 99,
+      "token_count": 200,
+      "text": "commonly result large catastrophe resulting significant widespread property damage direct written premiums amounts charged insurer insureds exchange coverages provided accordance terms insurance contr..."
+    },
+    {
+      "chunk_index": 100,
+      "token_count": 200,
+      "text": "losses specified dollar retention exposure measure risk used pricing insurance product change exposure change premium policies renew attributable change portfolio risk facultative reinsurance reinsura..."
+    },
+    {
+      "chunk_index": 101,
+      "token_count": 200,
+      "text": "practice method simplified performing individual insured analysis larger insureds costs smaller insureds estimated sampling approaches extrapolated rest smaller insured population aggregate approaches..."
+    },
+    {
+      "chunk_index": 102,
+      "token_count": 200,
+      "text": "information iris ratios financial ratios calculated naic assist state insurance departments monitoring financial condition insurance companies large deductible policy insurance policy customer assumes..."
+    },
+    {
+      "chunk_index": 103,
+      "token_count": 200,
+      "text": "liabilities established insurers reinsurers reflect estimated cost claims incurred insurer reinsurer ultimately required pay respect insurance reinsurance written reserves established losses lae consi..."
+    },
+    {
+      "chunk_index": 104,
+      "token_count": 200,
+      "text": "additional products sold existing policyholders pool organization insurers reinsurers particular types risks underwritten premiums losses expenses shared agreed percentages premiums charged year polic..."
+    },
+    {
+      "chunk_index": 105,
+      "token_count": 200,
+      "text": "company policies contracts insurance issued reinsurance agreement contract specifying terms reinsurance transaction 39 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000..."
+    },
+    {
+      "chunk_index": 106,
+      "token_count": 200,
+      "text": "policyholder individual family business reinsurance policy policyholder insurance company retention rate percentage prior period premiums excluding renewal premium changes accounts policies available ..."
+    },
+    {
+      "chunk_index": 107,
+      "token_count": 200,
+      "text": "20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 42 245 second injury fund employer injured impaired worker responsible workers compensation benefit recent inju..."
+    },
+    {
+      "chunk_index": 108,
+      "token_count": 200,
+      "text": "loss reserves determined accordance sap admitted assets assets insurer prescribed permitted state recognized statutory balance sheet statutory capital surplus referred statutory surplus policyholders ..."
+    },
+    {
+      "chunk_index": 109,
+      "token_count": 200,
+      "text": "gov archives edgar data 86312 000008631225000012 trv 20241231 htm 43 245 treaty reinsurance reinsurance specified type category risks defined reinsurance agreement treaty primary insurer reinsured rei..."
+    },
+    {
+      "chunk_index": 110,
+      "token_count": 200,
+      "text": "premiums fee income claims claim adjustment expenses excluding catastrophe losses prior year reserve development insurance related expenses underwriter employee insurance company examines accepts reje..."
+    },
+    {
+      "chunk_index": 111,
+      "token_count": 200,
+      "text": "expenses insurance related expenses 42 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 44 245 unearned premium portion premiums written allocable ..."
+    },
+    {
+      "chunk_index": 112,
+      "token_count": 200,
+      "text": "exposures catastrophe prone areas changing climate conditions materially adversely affect results operations financial position liquidity adversely impact ratings ability raise capital availability co..."
+    },
+    {
+      "chunk_index": 113,
+      "token_count": 200,
+      "text": "expansion increase number amenities included average size home higher inflation including result post event demand surge believe changing climate conditions likely added frequency severity natural dis..."
+    },
+    {
+      "chunk_index": 114,
+      "token_count": 200,
+      "text": "26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 45 245 extent losses catastrophe function total insured exposure affected event severity event cov..."
+    },
+    {
+      "chunk_index": 115,
+      "token_count": 200,
+      "text": "restricting insurers reducing exposures withdrawing catastrophe prone areas mandating insurers participate residual markets residual markets resulted future result significant losses assessments insur..."
+    },
+    {
+      "chunk_index": 116,
+      "token_count": 200,
+      "text": "catastrophic events cause exhaust available reinsurance limits adversely impact cost availability reinsurance going forward basis events impact credit reinsurers discussion catastrophe reinsurance cov..."
+    },
+    {
+      "chunk_index": 117,
+      "token_count": 200,
+      "text": "biological chemical radiological means actual claims exceed claims claim adjustment expense reserves changes estimated level claims claim adjustment expense reserves necessary including result things ..."
+    },
+    {
+      "chunk_index": 118,
+      "token_count": 200,
+      "text": "legal trends including adverse changes tort environment continued persist elevated levels number years increased aggressive attorney involvement insurance claims increased litigation expanded theories..."
+    },
+    {
+      "chunk_index": 119,
+      "token_count": 200,
+      "text": "long period time addition significant portion claims costs including long tail lines business consists medical costs result increase medical inflation materially adversely impact loss costs claims cla..."
+    },
+    {
+      "chunk_index": 120,
+      "token_count": 200,
+      "text": "experts times produce estimates materially different risk exacerbated context extreme event acquisition experts providing input various estimates underlying assumptions include actuaries underwriters ..."
+    },
+    {
+      "chunk_index": 121,
+      "token_count": 200,
+      "text": "coverage litigation concerning number policyholders filed bankruptcy instances asserted portion asbestos related claims subject aggregate limits coverage individual bodily injury claim treated separat..."
+    },
+    {
+      "chunk_index": 122,
+      "token_count": 200,
+      "text": "threatened release hazardous substances joint responsible parties company continues involved litigation involving insurance coverage issues pertaining asbestos environmental claims company believes co..."
+    },
+    {
+      "chunk_index": 123,
+      "token_count": 200,
+      "text": "litigation environmental claims litigation uncertainty regarding adequacy asbestos environmental reserves sections item management discussion analysis financial condition results operations item legal..."
+    },
+    {
+      "chunk_index": 124,
+      "token_count": 200,
+      "text": "estimates range vary significantly period period materially adversely affect results operations financial position effects emerging claim coverage issues business uncertain court decisions legislative..."
+    },
+    {
+      "chunk_index": 125,
+      "token_count": 200,
+      "text": "expenditures purportedly attributable public nuisance litigation manufacturers distributors lead paint opioids perfluoroalkyl polyfluoroalkyl substances pfas allegedly harmful products entities caused..."
+    },
+    {
+      "chunk_index": 126,
+      "token_count": 200,
+      "text": "contribute changing climate conditions bankruptcies policyholders insurers lead inflated numbers values claims instances emerging issues apparent time issued affected insurance policies result extent ..."
+    },
+    {
+      "chunk_index": 127,
+      "token_count": 200,
+      "text": "resulted things reduced business volume heightened credit risk reduced valuations certain investments heightened vulnerability smaller vendors business future actions inactions united states governmen..."
+    },
+    {
+      "chunk_index": 128,
+      "token_count": 200,
+      "text": "investments returns fixed maturity short term investments decline rates reduces returns available short term investments new fixed maturity investments including purchased invest maturities existing p..."
+    },
+    {
+      "chunk_index": 129,
+      "token_count": 200,
+      "text": "governments time time operated deficits projected deficits particularly financial market disruption economic downturn severity duration deficits adverse impact collectability valuation municipal bond ..."
+    },
+    {
+      "chunk_index": 130,
+      "token_count": 200,
+      "text": "received deductions tax credits changes laws adversely impact value investment portfolio investment portfolio includes residential mortgage backed securities collateralized mortgage obligations pass s..."
+    },
+    {
+      "chunk_index": 131,
+      "token_count": 200,
+      "text": "time company enters short positions treasury futures contracts manage duration fixed maturity portfolio result realized investment losses investment portfolio subject increased valuation uncertainties..."
+    },
+    {
+      "chunk_index": 132,
+      "token_count": 200,
+      "text": "liable direct insurer risks reinsured result reinsurance arrangements eliminate obligation pay claims accordingly subject credit risk respect ability recover amounts reinsurers past certain reinsurers..."
+    },
+    {
+      "chunk_index": 133,
+      "token_count": 200,
+      "text": "associations event life insurance company fails make required annuity payments required make payments discussion providers reinsurance structured settlements item management discussion analysis financ..."
+    },
+    {
+      "chunk_index": 134,
+      "token_count": 200,
+      "text": "surety insurance operations guarantee party customer satisfy certain performance obligations construction contract certain financial obligations including exposure large customers obligations multiple..."
+    },
+    {
+      "chunk_index": 135,
+      "token_count": 200,
+      "text": "policies independent agents brokers premiums relating policies paid agents brokers payment jurisdictions premiums deemed paid actually received consequently assume degree credit risk associated amount..."
+    },
+    {
+      "chunk_index": 136,
+      "token_count": 200,
+      "text": "increase capital requirements item business ratings inability insurance subsidiaries pay dividends holding company sufficient amounts harm ability meet obligations pay future shareholder dividends mak..."
+    },
+    {
+      "chunk_index": 137,
+      "token_count": 200,
+      "text": "intense competition face including respect attracting retaining employees impact innovation technological change changing customer preferences insurance industry markets operate harm ability maintain ..."
+    },
+    {
+      "chunk_index": 138,
+      "token_count": 200,
+      "text": "used access comparative rates small commercial business 50 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 52 245 26 19 pm trv 20241231 https www ..."
+    },
+    {
+      "chunk_index": 139,
+      "token_count": 200,
+      "text": "dynamics impact success efforts improve underwriting margins insurance products efforts include seeking improved rates improved terms conditions include initiatives reducing operating expenses acquisi..."
+    },
+    {
+      "chunk_index": 140,
+      "token_count": 200,
+      "text": "vehicles use demand profitability certain products create coverage issues impact frequency severity losses able respond effectively substantial uncertainty timing impact case driverless vehicles parti..."
+    },
+    {
+      "chunk_index": 141,
+      "token_count": 200,
+      "text": "ability employees work remotely taking place broad geographic scale addition competition talent difficulty attracting retaining employees increased retirements dynamic impacted agents brokers regulato..."
+    },
+    {
+      "chunk_index": 142,
+      "token_count": 200,
+      "text": "affect future business volume results operations efforts efforts agents brokers respect new products markets alternate distribution channels changes commission terms changes way agents brokers utilize..."
+    },
+    {
+      "chunk_index": 143,
+      "token_count": 200,
+      "text": "make substantial expenditures successful successful create additional risks changes business processes workflow including use new technologies rise execution risk models underlying automated underwrit..."
+    },
+    {
+      "chunk_index": 144,
+      "token_count": 200,
+      "text": "various methods including predictive modeling forecasting sophisticated simulation modeling techniques analyze loss trends risks associated assets liabilities use modeling processes analyses methods m..."
+    },
+    {
+      "chunk_index": 145,
+      "token_count": 200,
+      "text": "business growth retention existing business adversely affected item management discussion analysis financial condition results operations catastrophe modeling subject additional risks associated busin..."
+    },
+    {
+      "chunk_index": 146,
+      "token_count": 200,
+      "text": "adversely impact investment reputation business activities outside united states subject increased volatility earnings resulting need recognize subsequently revise valuation allowance associated incom..."
+    },
+    {
+      "chunk_index": 147,
+      "token_count": 200,
+      "text": "laws jurisdictions including brazil parties joint venture circumstances liability obligations venture liability extend capital invested failure comply local laws particular market result substantial l..."
+    },
+    {
+      "chunk_index": 148,
+      "token_count": 200,
+      "text": "begun rulemaking efforts response considering doing resulting legislative regulatory actions litigation result negative publicity generate adverse rules findings curtailing use important underwriting ..."
+    },
+    {
+      "chunk_index": 149,
+      "token_count": 200,
+      "text": "financial position liquidity discussion risks impact result financial market disruption economic downturn following period financial market disruption economic downturn business materially adversely a..."
+    },
+    {
+      "chunk_index": 150,
+      "token_count": 200,
+      "text": "doing higher expect ability provide competitive services conduct business new existing customers cost effective manner ability implement strategic initiatives adversely impacted experience difficultie..."
+    },
+    {
+      "chunk_index": 151,
+      "token_count": 200,
+      "text": "ability write process new renewal business provide customer service pay claims timely manner perform necessary business functions addition internet disruptions occur frustration business platforms dis..."
+    },
+    {
+      "chunk_index": 152,
+      "token_count": 200,
+      "text": "personal insurance related information risk cyber attacks exacerbated geopolitical tensions including hostile actions taken nation states terrorist organizations experienced cyber attacks date aware e..."
+    },
+    {
+      "chunk_index": 153,
+      "token_count": 200,
+      "text": "parties business increase complex particularly parties incorporate new technologies artificial intelligence increased risks identified expose data loss manipulation disruption service monetary reputat..."
+    },
+    {
+      "chunk_index": 154,
+      "token_count": 200,
+      "text": "time products services technologies infringe intellectual property rights recent years certain entities acquired patents order allege claims infringement companies including cases intellectual propert..."
+    },
+    {
+      "chunk_index": 155,
+      "token_count": 200,
+      "text": "protect policyholders insurance company financially insolvent guaranty funds established 50 states pay covered claims policyholders event insolvency insurer subject applicable state limits funding gua..."
+    },
+    {
+      "chunk_index": 156,
+      "token_count": 200,
+      "text": "companies maintain market presence manage exposures profitability addition state tax laws specifically impact insurance industry premium taxes general tax laws federal corporate taxes enacted changed ..."
+    },
+    {
+      "chunk_index": 157,
+      "token_count": 200,
+      "text": "processing treasury investment activities highly complex constantly evolving including systems perspective activities particularly new technologies artificial intelligence incorporated require interna..."
+    },
+    {
+      "chunk_index": 158,
+      "token_count": 200,
+      "text": "cyber threats example company participates threat intelligence information sharing networks financial services information sharing analysis center fs isac company tracks industry government intelligen..."
+    },
+    {
+      "chunk_index": 159,
+      "token_count": 200,
+      "text": "state connecticut department insurance turn performs periodic financial examinations including technology control assessment addition company regularly self assesses internal policies using internal r..."
+    },
+    {
+      "chunk_index": 160,
+      "token_count": 200,
+      "text": "systems systems designed implemented maintained goal identifying assessing managing cybersecurity risks addition internal cybersecurity team company uses internal external auditors appropriate party c..."
+    },
+    {
+      "chunk_index": 161,
+      "token_count": 200,
+      "text": "executes goal ensuring timely effective resolution cybersecurity incidents maintain robustness framework time time company conducts cybersecurity tabletop testing exercises company supplier risk manag..."
+    },
+    {
+      "chunk_index": 162,
+      "token_count": 200,
+      "text": "cybersecurity controls able anticipate security breaches able implement effective preventive measures cybersecurity breaches timely manner item 1a risk factors experience difficulties technology data ..."
+    },
+    {
+      "chunk_index": 163,
+      "token_count": 200,
+      "text": "business resiliency communicated risk committee board directors regular basis item properties company leases principal executive offices new york new york approximately 160 field claim offices united ..."
+    },
+    {
+      "chunk_index": 164,
+      "token_count": 200,
+      "text": "registrant common equity related shareholder matters issuer purchases equity securities company common stock traded new york stock exchange symbol trv number holders record company common stock 29 387..."
+    },
+    {
+      "chunk_index": 165,
+      "token_count": 200,
+      "text": "34 124 73 157 48 196 85 500 property casualty insurance index 100 00 106 33 124 95 148 53 164 49 222 43 cumulative total return shareholders concept used compare performance company stock time cumulat..."
+    },
+    {
+      "chunk_index": 166,
+      "token_count": 200,
+      "text": "financial crisis 60 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 64 245 december 31 2024 company cumulative return shareholders 591 compared 49..."
+    },
+    {
+      "chunk_index": 167,
+      "token_count": 200,
+      "text": "act 1934 private transactions recent authorization approved board directors april 19 2023 added billion repurchase capacity 60 billion capacity remaining date authorizations stated expiration date tim..."
+    },
+    {
+      "chunk_index": 168,
+      "token_count": 200,
+      "text": "certain stock options exercised additional information regarding company share repurchases item management discussion analysis financial condition results operations liquidity capital resources inform..."
+    },
+    {
+      "chunk_index": 169,
+      "token_count": 200,
+      "text": "709 million 559 million tax combined ratio 92 net investment income 59 billion 95 billion tax net realized investment losses 30 million 26 million tax operating cash flows 07 billion 2024 consolidated..."
+    },
+    {
+      "chunk_index": 170,
+      "token_count": 200,
+      "text": "premiums 41 941 37 761 33 763 net investment income 590 922 562 fee income 473 433 412 net realized investment losses 30 105 204 revenues 449 353 351 total revenues 46 423 41 364 36 884 claims expense..."
+    },
+    {
+      "chunk_index": 171,
+      "token_count": 200,
+      "text": "tax basis unless noted discussions net income common share presented diluted basis overview diluted net income share 21 47 2024 increased 68 diluted net income share 12 79 2023 net income 00 billion 2..."
+    },
+    {
+      "chunk_index": 172,
+      "token_count": 200,
+      "text": "partially offset time tax benefit 211 million quarter 2023 expiration statute limitations respect tax item company insurance operations canada united kingdom republic ireland parts world corporate mem..."
+    },
+    {
+      "chunk_index": 173,
+      "token_count": 200,
+      "text": "forth information regarding company investments year ended december 31 millions 2024 2023 2022 average investments 97 012 90 941 87 191 pre tax net investment income 590 922 562 tax net investment inc..."
+    },
+    {
+      "chunk_index": 174,
+      "token_count": 200,
+      "text": "equity partnership returns included investments private equity hedge fund real estate partnerships accounted equity method accounting typically report financial statement information company month mon..."
+    },
+    {
+      "chunk_index": 175,
+      "token_count": 200,
+      "text": "204 net realized investment gains equity securities held 89 million 2024 driven impact changes fair value attributable favorable equity markets net realized investment gains equity securities held 16 ..."
+    },
+    {
+      "chunk_index": 176,
+      "token_count": 200,
+      "text": "expenses claims claim adjustment expenses claims claim adjustment expenses 2024 27 06 billion 844 million higher 2023 primarily reflecting impacts higher business volumes segments ii loss cost trends ..."
+    },
+    {
+      "chunk_index": 177,
+      "token_count": 200,
+      "text": "factors contributing net prior year reserve development discussed note notes consolidated financial statements significant catastrophe losses company defines catastrophe severe loss event designated r..."
+    },
+    {
+      "chunk_index": 178,
+      "token_count": 200,
+      "text": "pools associations company threshold disclosing catastrophes primarily determined reportable segment level threshold segment combination thereof reached segments losses event losses event identified c..."
+    },
+    {
+      "chunk_index": 179,
+      "token_count": 200,
+      "text": "storms 122 117 116 122 61 hurricane ian 76 227 150 151 227 73 winter storm 11 158 512 681 670 512 2023 pcs serial number 25 severe wind hail storms 153 147 153 32 severe wind hail storms 140 135 140 3..."
+    },
+    {
+      "chunk_index": 180,
+      "token_count": 200,
+      "text": "severe wind hail storms 159 159 46 severe wind hail storms 182 182 61 severe wind hail storms 144 144 77 hurricane helene 733 733 66 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 0..."
+    },
+    {
+      "chunk_index": 181,
+      "token_count": 200,
+      "text": "impact costs associated higher business volumes general administrative expenses discussed segment discussions follow expense expense 2024 2023 392 million 376 million respectively income tax expense i..."
+    },
+    {
+      "chunk_index": 182,
+      "token_count": 200,
+      "text": "2023 provided points points benefit respectively combined ratio combined ratio excluding prior year reserve development catastrophe losses underlying combined ratio 2024 points lower 2023 ratio basis ..."
+    },
+    {
+      "chunk_index": 183,
+      "token_count": 200,
+      "text": "519 187 082 personal insurance 17 516 16 216 14 273 total 46 550 42 972 37 876 net written premiums year ended december 31 millions 2024 2023 2022 business insurance 22 078 20 430 17 635 bond specialt..."
+    },
+    {
+      "chunk_index": 184,
+      "token_count": 200,
+      "text": "306 583 531 loss loss adjustment expense ratio 63 65 62 underwriting expense ratio 29 29 29 combined ratio 92 94 92 overview segment income 2024 31 billion 723 million 28 higher segment income 58 bill..."
+    },
+    {
+      "chunk_index": 185,
+      "token_count": 200,
+      "text": "htm 73 245 68 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 74 245 primarily reflecting impact increase segment income income taxes time tax ben..."
+    },
+    {
+      "chunk_index": 186,
+      "token_count": 200,
+      "text": "million 30 million higher 2023 primarily reflecting higher claim volume administration associated large deductible policies service business revenues revenues 2024 322 million 90 million 39 higher 202..."
+    },
+    {
+      "chunk_index": 187,
+      "token_count": 200,
+      "text": "781 million 413 million 112 higher 2023 primarily reflecting impact 14 billion increase segment income income taxes 2024 time tax benefit 171 million quarter 2023 expiration statute limitations respec..."
+    },
+    {
+      "chunk_index": 188,
+      "token_count": 200,
+      "text": "follows gross written premiums year ended december 31 millions 2024 2023 2022 domestic select accounts 768 502 126 middle market 12 971 11 800 10 532 national accounts 786 665 642 national property 82..."
+    },
+    {
+      "chunk_index": 189,
+      "token_count": 200,
+      "text": "2023 middle market net written premiums 12 02 billion 2024 increased 2023 retention rates remained strong 2024 decreased slightly 2023 renewal premium changes 2024 remained positive higher 2023 new bu..."
+    },
+    {
+      "chunk_index": 190,
+      "token_count": 200,
+      "text": "investment income 390 328 258 revenues 30 25 20 total revenues 378 008 696 total claims expenses 362 839 593 segment income income taxes 016 169 103 income tax expense 201 227 195 segment income 815 9..."
+    },
+    {
+      "chunk_index": 191,
+      "token_count": 200,
+      "text": "number surety accounts loss activity related disruption banking sector income tax expense 2024 lower 2023 primarily reflecting impact decrease segment income income taxes partially offset time tax ben..."
+    },
+    {
+      "chunk_index": 192,
+      "token_count": 200,
+      "text": "higher 2023 primarily reflecting impacts lower net favorable prior year reserve development ii higher business volumes iii loss cost 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 0..."
+    },
+    {
+      "chunk_index": 193,
+      "token_count": 200,
+      "text": "million 11 lower 2023 primarily reflecting impact 153 million decrease segment income income taxes 2024 partially offset time tax benefit million quarter 2023 expiration statute limitations respect ta..."
+    },
+    {
+      "chunk_index": 194,
+      "token_count": 200,
+      "text": "2022 domestic management liability 599 391 361 surety 387 219 153 total domestic 986 610 514 international 533 577 568 total bond specialty insurance 519 187 082 net written premiums year ended decemb..."
+    },
+    {
+      "chunk_index": 195,
+      "token_count": 200,
+      "text": "increases canada personal insurance results personal insurance follows year ended december 31 millions 2024 2023 2022 revenues earned premiums 16 638 14 962 13 250 net investment income 640 509 440 fe..."
+    },
+    {
+      "chunk_index": 196,
+      "token_count": 200,
+      "text": "million 147 million respectively catastrophe losses 2024 2023 25 billion 12 billion respectively higher underlying underwriting margins primarily reflected impacts benefit earned pricing ii lower phys..."
+    },
+    {
+      "chunk_index": 197,
+      "token_count": 200,
+      "text": "increase company consolidated net investment income 2024 compared 2023 addition refer note notes consolidated financial statements discussion company net investment income allocation methodology reven..."
+    },
+    {
+      "chunk_index": 198,
+      "token_count": 200,
+      "text": "expense benefit income tax expense 2024 294 million compared income tax benefit 103 million 2023 primarily reflecting impact 77 billion increase segment income income taxes time tax benefit 31 million..."
+    },
+    {
+      "chunk_index": 199,
+      "token_count": 200,
+      "text": "sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 81 245 written premiums personal insurance gross net written premiums follows gross written premiums year ended december 31 millio..."
+    },
+    {
+      "chunk_index": 200,
+      "token_count": 200,
+      "text": "retention rates remained strong 2024 comparable 2023 renewal premium changes 2024 remained positive lower 2023 new business premiums 2024 decreased 2023 domestic business personal insurance approximat..."
+    },
+    {
+      "chunk_index": 201,
+      "token_count": 200,
+      "text": "trends expanded insurance coverage asbestos claims far original intent insurers policyholders company received continues receive significant number asbestos claims factors underlying claim filings inc..."
+    },
+    {
+      "chunk_index": 202,
+      "token_count": 200,
+      "text": "settlements involving bankrupt policyholders include extensive releases favorable company result settlements larger amounts originally anticipated company seen reduction overall risk associated disput..."
+    },
+    {
+      "chunk_index": 203,
+      "token_count": 200,
+      "text": "certain policyholders company entered permanent settlement agreements based expected payout policyholder applicable agreement additionally portion asbestos reserves relates assumed reinsurance contrac..."
+    },
+    {
+      "chunk_index": 204,
+      "token_count": 200,
+      "text": "role insurance role non asbestos claims potential non asbestos claims resolution process applicable coverage defenses determinations including determination asbestos claim products completed operation..."
+    },
+    {
+      "chunk_index": 205,
+      "token_count": 200,
+      "text": "claims relatively flat compared 2023 net asbestos paid loss loss adjustment expenses 2024 2023 2022 282 million 212 million 245 million respectively payments behalf policyholders continue influenced f..."
+    },
+    {
+      "chunk_index": 206,
+      "token_count": 200,
+      "text": "development regard asbestos reserves company believes period reduction volatility associated company overall asbestos exposure overall asbestos environment evolved dominated exposure significant litig..."
+    },
+    {
+      "chunk_index": 207,
+      "token_count": 200,
+      "text": "foreign exchange gross ceded net ending reserves gross 708 768 674 ceded 370 390 369 net 338 378 305 environmental claims litigation company received continues receive claims policyholders allege liab..."
+    },
+    {
+      "chunk_index": 208,
+      "token_count": 200,
+      "text": "respectively net environmental paid loss loss adjustment expenses 2024 2023 2022 80 million 82 million 82 million respectively net environmental reserves 380 million 382 million 371 million december 3..."
+    },
+    {
+      "chunk_index": 209,
+      "token_count": 200,
+      "text": "adjudication disputes concerning coverage asbestos environmental claims manner inconsistent previous assessment disputes number outcome direct actions future developments pertaining ability recover re..."
+    },
+    {
+      "chunk_index": 210,
+      "token_count": 200,
+      "text": "forth additional liabilities arise amounts excess company current reserves addition company estimate claims claim adjustment expenses change additional liabilities increases estimates range reasonably..."
+    },
+    {
+      "chunk_index": 211,
+      "token_count": 200,
+      "text": "investment grade securities represented total fixed maturity investment portfolio december 31 2024 2023 respectively weighted average effective duration fixed maturities short term securities excludin..."
+    },
+    {
+      "chunk_index": 212,
+      "token_count": 200,
+      "text": "debt securities issued foreign governments 909 aaa aa1 006 aaa aa1 mortgage backed securities collateralized mortgage obligations pass securities 12 605 aaa aa1 818 aaa aa1 corporate bonds financial b..."
+    },
+    {
+      "chunk_index": 213,
+      "token_count": 200,
+      "text": "31 2024 2023 327 million 116 million securities guaranteed government respectively 80 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 87 245 follo..."
+    },
+    {
+      "chunk_index": 214,
+      "token_count": 200,
+      "text": "bond portfolio december 31 2024 2023 572 million 966 million respectively pre refunded bonds bonds states municipalities established irrevocable trusts exclusively comprised treasury securities obliga..."
+    },
+    {
+      "chunk_index": 215,
+      "token_count": 200,
+      "text": "815 148 067 aaa aa1 washington 88 752 186 026 aaa aa1 colorado 598 325 923 aa1 tennessee 837 51 888 aa1 maryland 748 113 861 aaa aa1 georgia 152 597 66 815 aaa aa1 massachusetts 216 505 721 aaa aa1 fl..."
+    },
+    {
+      "chunk_index": 216,
+      "token_count": 200,
+      "text": "aa1 higher education 095 aaa aa1 sewer 872 aaa aa1 power utilities 480 aa1 special tax 407 aaa aa1 transit 225 aa1 fuel sales 196 aaa aa1 health care 173 aa2 housing 164 aaa highway tolls 150 aa2 leas..."
+    },
+    {
+      "chunk_index": 217,
+      "token_count": 200,
+      "text": "aa1 united kingdom 96 aa3 20 aa2 total 909 aaa aa1 rated using external rating agencies company public rating does exist company does direct exposure sovereign debt issued republic ireland italy greec..."
+    },
+    {
+      "chunk_index": 218,
+      "token_count": 200,
+      "text": "portugal subtotal 58 179 eurozone non periphery germany 12 aaa 624 aaa aa1 653 a2 france 356 a2 netherlands 140 a1 81 aaa 257 a2 finland 86 aa3 belgium 19 aa1 120 a3 austria 64 aa2 subtotal 12 226 788..."
+    },
+    {
+      "chunk_index": 219,
+      "token_count": 200,
+      "text": "obligations cmos subject prepayment risk shortening lengthening duration prepayment risk securities effect income fully controlled particularly rates dramatically company investment strategy generally..."
+    },
+    {
+      "chunk_index": 220,
+      "token_count": 200,
+      "text": "company held commercial mortgage backed securities including fha project loans 15 billion 04 billion respectively information regarding company investments commercial mortgage backed securities note n..."
+    },
+    {
+      "chunk_index": 221,
+      "token_count": 200,
+      "text": "securities loan respectively tri party lending agreement average monthly balance securities loan 2024 2023 555 million 400 million respectively borrowers securities provide collateral equal 102 market..."
+    },
+    {
+      "chunk_index": 222,
+      "token_count": 200,
+      "text": "969 841 322 net unrealized investment losses included shareholders equity end year 640 129 898 net unrealized investment losses included shareholders equity 64 billion december 31 2024 compared 13 bil..."
+    },
+    {
+      "chunk_index": 223,
+      "token_count": 200,
+      "text": "93 245 investments net unrealized investment loss expected meaningfully impact company assessment capital adequacy liquidity equity securities include common non redeemable preferred stocks reported f..."
+    },
+    {
+      "chunk_index": 224,
+      "token_count": 200,
+      "text": "2024 2023 2022 respectively note notes consolidated financial statements information purchases sales investment securities purchases sales investments based cash requirements characteristics insurance..."
+    },
+    {
+      "chunk_index": 225,
+      "token_count": 200,
+      "text": "information techniques emerge based proprietary party models utilized company tables set forth december 31 2024 probabilities estimated losses comprising claims allocated claim adjustment expenses exc..."
+    },
+    {
+      "chunk_index": 226,
+      "token_count": 200,
+      "text": "relate single event probabilities address likelihood event occurring particular period amounts address potential aggregate catastrophe losses occurring year timeframe percentage common equity calculat..."
+    },
+    {
+      "chunk_index": 227,
+      "token_count": 200,
+      "text": "include losses hurricane hazards wind storm surge amounts earthquakes reflect canadian property workers compensation exposures loss amounts include effects exposure growth inflation modeling updates b..."
+    },
+    {
+      "chunk_index": 228,
+      "token_count": 200,
+      "text": "hail wildfires severe winter weather floods tsunamis volcanic eruptions solar flares naturally occurring events acts terrorism cyber events addition compared models hurricanes models earthquakes relia..."
+    },
+    {
+      "chunk_index": 229,
+      "token_count": 200,
+      "text": "cost reinsurance item 1a risk factors adversely affected pricing capital models provide materially different indications actual results changing climate conditions severe weather events decades unders..."
+    },
+    {
+      "chunk_index": 230,
+      "token_count": 200,
+      "text": "changing climate conditions expected evolve decades importantly policies renew annually company able respond changes time adjustments underwriting strategy product pricing related policy terms conditi..."
+    },
+    {
+      "chunk_index": 231,
+      "token_count": 200,
+      "text": "increased unpredictability frequency severity severe weather events emerging trends climate conditions regulatory responses catastrophe events appropriately reflected models addition factors mentioned..."
+    },
+    {
+      "chunk_index": 232,
+      "token_count": 200,
+      "text": "passed restrict carrier ability cancel non renew certain policies adjacent declared state emergency zip codes mandate discounts risk mitigation practices effective company unable 88 26 19 pm trv 20241..."
+    },
+    {
+      "chunk_index": 233,
+      "token_count": 200,
+      "text": "associated changing climate conditions event policyholders responsible result seeking recovery policies issued company company enterprise casualty emerging risk committee committee climate energy envi..."
+    },
+    {
+      "chunk_index": 234,
+      "token_count": 200,
+      "text": "659 gross reinsurance recoverables 119 261 allowance estimated uncollectible reinsurance 119 118 net reinsurance recoverables 000 143 following table presents company reinsurer groups reinsurance reco..."
+    },
+    {
+      "chunk_index": 235,
+      "token_count": 200,
+      "text": "related claim cost included liability claims claim adjustment expense reserves 89 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 97 245 company r..."
+    },
+    {
+      "chunk_index": 236,
+      "token_count": 200,
+      "text": "adequacy allowance uncollectible amounts outlook following discussion provides outlook information certain key drivers company results operations capital position premiums company earned premiums func..."
+    },
+    {
+      "chunk_index": 237,
+      "token_count": 200,
+      "text": "given volume new business relative renewal business periods meaningful increases new business despite positive impact underwriting gains time impact higher new business levels negatively impact combin..."
+    },
+    {
+      "chunk_index": 238,
+      "token_count": 200,
+      "text": "reinsurance coverages costs premium adjustments variability expenses assessments catastrophe losses non catastrophe weather related losses inherently unpredictable period period company results operat..."
+    },
+    {
+      "chunk_index": 239,
+      "token_count": 200,
+      "text": "catastrophe losses wildfires reflected company quarter 2025 earnings past decade company results included significant amounts net favorable prior year reserve development driven better expected loss e..."
+    },
+    {
+      "chunk_index": 240,
+      "token_count": 200,
+      "text": "year accordingly relatively inflation sensitive discussion item 1a risk factors actual claims exceed claims claim adjustment expense reserves changes estimated level claims claim adjustment expense re..."
+    },
+    {
+      "chunk_index": 241,
+      "token_count": 200,
+      "text": "quality liquid taxable government tax exempt taxable municipal taxable corporate agency mortgage backed bonds company invests smaller amounts equity securities real estate private equity hedge fund re..."
+    },
+    {
+      "chunk_index": 242,
+      "token_count": 200,
+      "text": "pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 99 245 accounting typically report financial statement information company month months following end re..."
+    },
+    {
+      "chunk_index": 243,
+      "token_count": 200,
+      "text": "environment opposite effects net unrealized loss discussed considered temporary nature credit impairments impact expected contractual cash flows fixed maturities company generally holds fixed maturity..."
+    },
+    {
+      "chunk_index": 244,
+      "token_count": 200,
+      "text": "investment portfolio investment portfolio discussion risks company business following financial market disruption risks company investment portfolio risk factors entitled following period financial ma..."
+    },
+    {
+      "chunk_index": 245,
+      "token_count": 200,
+      "text": "premium volumes timing actual number shares repurchased future depend variety additional factors including company financial position earnings share price catastrophe losses maintaining capital levels..."
+    },
+    {
+      "chunk_index": 246,
+      "token_count": 200,
+      "text": "liquidity capital resources forward looking statements subject risks uncertainties difficult predict company control actual results differ materially expressed implied forward looking statements forwa..."
+    },
+    {
+      "chunk_index": 247,
+      "token_count": 200,
+      "text": "losses net unrealized loss considered temporary nature credit impairments impact expected contractual cash flows fixed maturities company generally holds high quality fixed maturity investments maturi..."
+    },
+    {
+      "chunk_index": 248,
+      "token_count": 200,
+      "text": "trv established holding company liquidity target equal estimated annual pre tax expense common shareholder dividends currently approximately 33 billion trv holding company liquidity 80 billion decembe..."
+    },
+    {
+      "chunk_index": 249,
+      "token_count": 200,
+      "text": "31 2024 uncollateralized letters credit available reasonable price future company collateralize letters credit seek alternative means supporting obligations lloyd include utilizing holding company fun..."
+    },
+    {
+      "chunk_index": 250,
+      "token_count": 200,
+      "text": "provided operating activities partially offset ii net cash used financing activities iii higher net unrealized investment losses investments impact higher rates 2024 iv cost acquiring corvus company i..."
+    },
+    {
+      "chunk_index": 251,
+      "token_count": 200,
+      "text": "proceeds issuance debt common share repurchases 2024 2023 12 billion 02 billion respectively debt transactions 2023 25 2023 company issued 750 million aggregate principal 45 senior notes mature 25 205..."
+    },
+    {
+      "chunk_index": 252,
+      "token_count": 200,
+      "text": "respectively declaration payment future dividends holders company common stock discretion company board directors depend factors including company financial position earnings capital requirements comp..."
+    },
+    {
+      "chunk_index": 253,
+      "token_count": 200,
+      "text": "repurchases likely exceed net income company expects extent continues grow premium volumes capital returned shareholders relative earnings somewhat absent growth premium volumes timing actual number s..."
+    },
+    {
+      "chunk_index": 254,
+      "token_count": 200,
+      "text": "71 share 2024 2023 company acquired million million shares common stock respectively employees treasury stock primarily cover payroll withholding taxes connection vesting restricted stock unit awards ..."
+    },
+    {
+      "chunk_index": 255,
+      "token_count": 200,
+      "text": "income 00 billion ii proceeds exercise employee share options 321 million partially offset iii common share repurchases totaling 00 billion company share repurchase authorizations iv shareholder divid..."
+    },
+    {
+      "chunk_index": 256,
+      "token_count": 200,
+      "text": "net unrealized gains losses investments net taxes included shareholders equity calculated dividing debt total capitalization excluding net unrealized gains losses investments net taxes included shareh..."
+    },
+    {
+      "chunk_index": 257,
+      "token_count": 200,
+      "text": "requirements contractual obligations following table summarizes december 31 2024 company estimated future payments material contractual obligations estimated claims claim related payments table includ..."
+    },
+    {
+      "chunk_index": 258,
+      "token_count": 200,
+      "text": "pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 104 245 material cash requirements contractual obligations december 31 2024 follows payments period mill..."
+    },
+    {
+      "chunk_index": 259,
+      "token_count": 200,
+      "text": "reported foregoing table include principal total long term debt obligations agree amounts reported note represents agreements entered ordinary course business lease office space equipment furniture in..."
+    },
+    {
+      "chunk_index": 260,
+      "token_count": 200,
+      "text": "contract accounted deposit reinsurance assumptions used estimating timing reinsurance recoverables consistent used estimating timing related liabilities estimated future cash inflows company reinsuran..."
+    },
+    {
+      "chunk_index": 261,
+      "token_count": 200,
+      "text": "discounted balance sheet note notes consolidated financial statements workers compensation large deductible policies provide party coverage company typically responsible paying entire loss policies se..."
+    },
+    {
+      "chunk_index": 262,
+      "token_count": 200,
+      "text": "payment obligations agreements addition company currently subject minimum funding requirements qualified pension plan accordingly future contributions included foregoing table company believes combina..."
+    },
+    {
+      "chunk_index": 263,
+      "token_count": 200,
+      "text": "subject approval connecticut insurance department prior payment addition regulatory restrictions dividends paid company insurance subsidiaries maximum dividends paid company shareholders limited lesse..."
+    },
+    {
+      "chunk_index": 264,
+      "token_count": 200,
+      "text": "health life insurance benefit plan employees satisfying certain age service requirements certain retirees qualified domestic pension plan subject regulations employee retirement income security act 19..."
+    },
+    {
+      "chunk_index": 265,
+      "token_count": 200,
+      "text": "return maintaining appropriate level risk company overall investment strategy achieve mix approximately 85 90 investments long term growth 10 15 near term benefit payments diversification asset types ..."
+    },
+    {
+      "chunk_index": 266,
+      "token_count": 200,
+      "text": "regulatory action depending level capital inadequacy company insurance subsidiaries policyholders surplus december 31 2024 significantly level rbc regulatory action occur regulators jurisdictions comp..."
+    },
+    {
+      "chunk_index": 267,
+      "token_count": 200,
+      "text": "adjustment expense reserves gross claims claim adjustment expense reserves product line follows december 31 2024 december 31 2023 millions case ibnr total case ibnr total general liability 845 11 349 ..."
+    },
+    {
+      "chunk_index": 268,
+      "token_count": 200,
+      "text": "reflected impacts catastrophe losses 2024 ii higher volumes insured exposures iii loss cost trends current accident year partially offset iv claim payments 2024 net favorable prior year reserve develo..."
+    },
+    {
+      "chunk_index": 269,
+      "token_count": 200,
+      "text": "recoverables asset company consolidated balance sheet claims claim adjustment expense reserves reviewed regularly qualified actuaries employed company process estimating claims claim adjustment expens..."
+    },
+    {
+      "chunk_index": 270,
+      "token_count": 200,
+      "text": "claims claim adjustment expense reserves established inherent uncertainty underlying estimates including limited future settlement environment final resolution estimated liability claims claim adjustm..."
+    },
+    {
+      "chunk_index": 271,
+      "token_count": 200,
+      "text": "timing catastrophe near end reporting period affect information available company estimating reserves reporting period estimates related catastrophes adjusted actual claims emerge portion company gros..."
+    },
+    {
+      "chunk_index": 272,
+      "token_count": 200,
+      "text": "methods available analysis ultimate claim liabilities estimation method set assumption variables advantages disadvantages single estimation method better situations set assumption variables meaningful..."
+    },
+    {
+      "chunk_index": 273,
+      "token_count": 200,
+      "text": "company does believe endpoints ranges comparable companies addition potential interactions different estimation assumptions different product lines make aggregation individual ranges highly judgmental..."
+    },
+    {
+      "chunk_index": 274,
+      "token_count": 200,
+      "text": "known change estimated extent possible analysis internal company data available appropriate external data measurement specific facts circumstances particular claim portfolio known change evaluated sig..."
+    },
+    {
+      "chunk_index": 275,
+      "token_count": 200,
+      "text": "resulting estimation variability longer time final claim resolution greater exposure estimation risks greater estimation uncertainty major component claim tail reporting lag reporting lag time event t..."
+    },
+    {
+      "chunk_index": 276,
+      "token_count": 200,
+      "text": "estimation process impacting number assumptions needed produce estimate potential stability underlying data claim process ability gain understanding data product lines greater claim complexity certain..."
+    },
+    {
+      "chunk_index": 277,
+      "token_count": 200,
+      "text": "close year implicitly assume legal interpretation existing contract language remain unchanged actual results likely vary expectations assumptions causing actual paid losses claims settled future diffe..."
+    },
+    {
+      "chunk_index": 278,
+      "token_count": 200,
+      "text": "multiple factors affect final claim values uncertainty surrounding factor resolved separately stepwise fashion final impact known steps occurred sudden changes generally cause time shift claim liabili..."
+    },
+    {
+      "chunk_index": 279,
+      "token_count": 200,
+      "text": "creation new techniques improve current future estimates components product line susceptible infrequent large claims subject conventional methods cases company actuarial analysis isolate components re..."
+    },
+    {
+      "chunk_index": 280,
+      "token_count": 200,
+      "text": "severity trends paid incurred loss ratios actual versus expected analysis performed comparing actual loss development expected development embedded management estimate additional analyses performed ba..."
+    },
+    {
+      "chunk_index": 281,
+      "token_count": 200,
+      "text": "ultimate claims claim adjustment expenses accident year analyzing exposures account management estimates quarter members company management meet company actuaries review latest claims claim adjustment..."
+    },
+    {
+      "chunk_index": 282,
+      "token_count": 200,
+      "text": "reflect new actionable information audit committee board directors reviews process company establishes reserves purpose company financial statements discussion product lines following section details ..."
+    },
+    {
+      "chunk_index": 283,
+      "token_count": 200,
+      "text": "statement data schedule statements represent reported reserve development beginning year claim liabilities divided beginning claim liabilities accident years combined excluding non defense related cla..."
+    },
+    {
+      "chunk_index": 284,
+      "token_count": 200,
+      "text": "generally analyzed separately bodily injury property damage bodily injury liability payments reimburse claimant damages pertaining physical injury result policyholder legal obligation arising non inte..."
+    },
+    {
+      "chunk_index": 285,
+      "token_count": 200,
+      "text": "costs contractual limit line typically largest source reserve estimate uncertainty united states excluding assumed reinsurance contracts covering risk major contributors reserve estimate uncertainty i..."
+    },
+    {
+      "chunk_index": 286,
+      "token_count": 200,
+      "text": "greatest claim settlement complexity asbestos environmental components include latency reporting lag complexity issues materially lesser extent asbestos environmental include construction defect mass ..."
+    },
+    {
+      "chunk_index": 287,
+      "token_count": 200,
+      "text": "perceptions thereof change affect required general liability reserves included general discussion section include general liability risk factors changes claim handling philosophies changes policy prov..."
+    },
+    {
+      "chunk_index": 288,
+      "token_count": 200,
+      "text": "year change reserve estimate product line excluding estimated asbestos environmental amounts years varied averaging company averaging industry overall company year year changes driven based observed e..."
+    },
+    {
+      "chunk_index": 289,
+      "token_count": 200,
+      "text": "property commercial property generally considered short tail line simpler faster claim reporting adjustment process liability coverages uncertainty reserve setting process complex business interruptio..."
+    },
+    {
+      "chunk_index": 290,
+      "token_count": 200,
+      "text": "exclusions lags reporting claims winter damage summer homes hidden damage earthquake hail damage roofs equipment roofs court legislative changes statute limitations weather climate variability commerc..."
+    },
+    {
+      "chunk_index": 291,
+      "token_count": 200,
+      "text": "recent accident year uncertainty relevant commercial property weather related events occur second half year completely resolved following year reserve estimates associated catastrophes longer resolve ..."
+    },
+    {
+      "chunk_index": 292,
+      "token_count": 200,
+      "text": "close claims coverages generally liability coverages takes longer period time close claims reserving risk line dominated liability coverage portion product occasionally event catastrophic large single..."
+    },
+    {
+      "chunk_index": 293,
+      "token_count": 200,
+      "text": "line commercial multi peril reserves excluding asbestos environmental reserves represent approximately 10 company total claims claim adjustment expense reserves discussed line combines general liabili..."
+    },
+    {
+      "chunk_index": 294,
+      "token_count": 200,
+      "text": "viewed high frequency low moderate severity overall claim liabilities line create moderate estimation risk recently company seen increase rate attorney involvement anticipated lengthening claim develo..."
+    },
+    {
+      "chunk_index": 295,
+      "token_count": 200,
+      "text": "severe accidents including impact inflation changes auto safety technology subrogation opportunities changes claim handling philosophies frequency visits health providers number medical procedures giv..."
+    },
+    {
+      "chunk_index": 296,
+      "token_count": 200,
+      "text": "total claims claim adjustment expense reserves company change reserve estimate product line 2024 2023 2022 2024 better expected loss experience physical damage coverages accident year 2023 largely off..."
+    },
+    {
+      "chunk_index": 297,
+      "token_count": 200,
+      "text": "largest reserve risk generally comes low frequency high severity claims providing lifetime coverage medical expense arising worker injury claims subject greater inflation risk overall claim liabilitie..."
+    },
+    {
+      "chunk_index": 298,
+      "token_count": 200,
+      "text": "health providers used type medical treatments received use preferred provider networks medical cost containment practices availability new medical processes equipment changes use pharmaceutical drugs ..."
+    },
+    {
+      "chunk_index": 299,
+      "token_count": 200,
+      "text": "represent approximately 29 company total claims claim adjustment expense reserves company change reserve estimate product line 2024 2023 2022 2024 change primarily reflected better expected loss exper..."
+    },
+    {
+      "chunk_index": 300,
+      "token_count": 200,
+      "text": "sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 118 245 110 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 119 245 surety c..."
+    },
+    {
+      "chunk_index": 301,
+      "token_count": 200,
+      "text": "commercial surety exposures claim factors affecting reserve variability surety include litigation related amounts owed bonded party surety company salvage subrogation efforts results financial restruc..."
+    },
+    {
+      "chunk_index": 302,
+      "token_count": 200,
+      "text": "year result increase decrease claims claim adjustment expense reserves historically year change reserve estimate product line years varied 36 10 averaging 20 company 21 averaging 13 industry overall c..."
+    },
+    {
+      "chunk_index": 303,
+      "token_count": 200,
+      "text": "000008631225000012 trv 20241231 htm 120 245 111 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 121 245 personal automobile personal automobile in..."
+    },
+    {
+      "chunk_index": 304,
+      "token_count": 200,
+      "text": "case law litigation trends increases attorney involvement impact claims frequency claims payment capped policy limits change frequency trends including impact changes driving behavior customer coverag..."
+    },
+    {
+      "chunk_index": 305,
+      "token_count": 200,
+      "text": "overall company year year changes driven based observed events year company believes range historical outcomes illustrative reasonably possible year changes reserve estimates product line personal aut..."
+    },
+    {
+      "chunk_index": 306,
+      "token_count": 200,
+      "text": "000008631225000012 trv 20241231 htm 123 245 personal homeowners homeowners generally considered short tail coverage payments related property portion policy claim reporting settlement process generall..."
+    },
+    {
+      "chunk_index": 307,
+      "token_count": 200,
+      "text": "materials services time return property residential use lags reporting claims winter damage summer homes hidden damage earthquake hail damage roofs equipment roofs availability cost local contractors ..."
+    },
+    {
+      "chunk_index": 308,
+      "token_count": 200,
+      "text": "reasonably possible year changes reserve estimates product line personal homeowners reserves represent approximately company total claims claim adjustment expense reserves line combines liability prop..."
+    },
+    {
+      "chunk_index": 309,
+      "token_count": 200,
+      "text": "expected loss experience catastrophe non catastrophe losses accident years 2018 2020 international international includes products written company international operations products explicitly discusse..."
+    },
+    {
+      "chunk_index": 310,
+      "token_count": 200,
+      "text": "purposes international reserves generally analyzed country general coverage category general liability canada commercial property united kingdom business generally split direct versus assumed reinsura..."
+    },
+    {
+      "chunk_index": 311,
+      "token_count": 200,
+      "text": "liability trends jury awards changes propensity sue changes statutes limitations changes underlying court distortions losses resulting large single accounts single issues changes tort law changes clai..."
+    },
+    {
+      "chunk_index": 312,
+      "token_count": 200,
+      "text": "statutory reports comparative historical information runoff business indicative reasonably possible year changes reserve estimate mix runoff business accordingly company included comparative analyses ..."
+    },
+    {
+      "chunk_index": 313,
+      "token_count": 200,
+      "text": "companies obligation pay pro rata share based company voluntary market share written premium state pool participant event member mandatory pool association defaults share pool association obligations ..."
+    },
+    {
+      "chunk_index": 314,
+      "token_count": 200,
+      "text": "note notes consolidated financial statements discussion investment impairments subjective nature company analysis estimates future cash flows judgment applied analysis possible company reach different..."
+    },
+    {
+      "chunk_index": 315,
+      "token_count": 200,
+      "text": "including projected growth projected levels economic capital needed support business weighted average cost capital used purposes discounting projected cash flows changes estimates projected earnings b..."
+    },
+    {
+      "chunk_index": 316,
+      "token_count": 200,
+      "text": "act 1995 statements statements historical facts forward looking statements words likely probably anticipates expects intends plans projects believes views ensures estimates similar expressions used id..."
+    },
+    {
+      "chunk_index": 317,
+      "token_count": 200,
+      "text": "changing climate conditions strategic operational initiatives improve growth profitability competitiveness 116 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv ..."
+    },
+    {
+      "chunk_index": 318,
+      "token_count": 200,
+      "text": "rates relevant market rate price changes market risk directly influenced volatility liquidity markets related underlying assets traded following discussion company primary market risk exposures exposu..."
+    },
+    {
+      "chunk_index": 319,
+      "token_count": 200,
+      "text": "opportunities maturity dates approach additional information regarding company debt note notes consolidated financial statements liquidity capital resources section item management discussion analysis..."
+    },
+    {
+      "chunk_index": 320,
+      "token_count": 200,
+      "text": "effect future reporting periods 117 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 128 245 sensitivity analysis sensitivity analysis defined meas..."
+    },
+    {
+      "chunk_index": 321,
+      "token_count": 200,
+      "text": "inclusive credit spreads sensitivity analysis model uses various basis point changes rates measure hypothetical change fair value financial instruments included model invested assets primary exposure ..."
+    },
+    {
+      "chunk_index": 322,
+      "token_count": 200,
+      "text": "avoid losses result emerging rate trends addition loss value reflects impact rate increase fair value company financial instruments foreign currency exchange rate risk company uses fair values investm..."
+    },
+    {
+      "chunk_index": 323,
+      "token_count": 200,
+      "text": "31 2024 2023 124 statement changes shareholders equity years ended december 31 2024 2023 2022 125 statement cash flows years ended december 31 2024 2023 2022 126 notes consolidated financial statement..."
+    },
+    {
+      "chunk_index": 324,
+      "token_count": 200,
+      "text": "present fairly material respects financial position company december 31 2024 2023 results operations cash flows years year period ended december 31 2024 conformity generally accepted accounting princi..."
+    },
+    {
+      "chunk_index": 325,
+      "token_count": 200,
+      "text": "examining test basis evidence regarding amounts disclosures consolidated financial statements audits included evaluating accounting principles used significant estimates management evaluating overall ..."
+    },
+    {
+      "chunk_index": 326,
+      "token_count": 200,
+      "text": "billion identified evaluation estimate claims claim adjustment expense reserves critical audit matter process evaluating estimate claims claim adjustment expense reserves involves significant auditor ..."
+    },
+    {
+      "chunk_index": 327,
+      "token_count": 200,
+      "text": "industry data assessing selected lines business company internally prepared actuarial projection methods key assumptions comparison company internal experience related industry trends developing range..."
+    },
+    {
+      "chunk_index": 328,
+      "token_count": 200,
+      "text": "810 expense 392 376 351 total claims expenses 40 243 37 993 33 530 income income taxes 180 371 354 income tax expense 181 380 512 net income 999 991 842 net income share basic 21 76 12 93 11 91 dilute..."
+    },
+    {
+      "chunk_index": 329,
+      "token_count": 200,
+      "text": "losses recognized consolidated statement income net changes benefit plan assets obligations 296 106 87 net changes unrealized foreign currency translation 232 138 273 comprehensive income loss income ..."
+    },
+    {
+      "chunk_index": 330,
+      "token_count": 200,
+      "text": "299 total investments 94 223 88 810 cash including restricted cash 131 150 699 650 investment income accrued 752 688 premiums receivable net allowance expected credit losses 58 69 11 110 10 282 reinsu..."
+    },
+    {
+      "chunk_index": 331,
+      "token_count": 200,
+      "text": "treasury stock cost 564 559 shares 42 251 41 105 total shareholders equity 27 864 24 921 total liabilities shareholders equity 133 189 125 978 accompanying notes integral consolidated financial statem..."
+    },
+    {
+      "chunk_index": 332,
+      "token_count": 200,
+      "text": "balance end year 967 471 445 treasury stock cost balance beginning year 41 105 40 076 38 015 treasury stock acquired share repurchase authorizations 000 965 000 net shares acquired related employee sh..."
+    },
+    {
+      "chunk_index": 333,
+      "token_count": 200,
+      "text": "30 105 204 depreciation amortization 715 722 826 deferred federal income tax benefit 152 163 186 amortization deferred acquisition costs 973 226 515 equity income investments 294 157 336 premiums rece..."
+    },
+    {
+      "chunk_index": 334,
+      "token_count": 200,
+      "text": "462 385 net cash used investing activities 264 821 728 cash flows financing activities treasury stock acquired share repurchase authorizations 003 958 000 treasury stock acquired net employee share ba..."
+    },
+    {
+      "chunk_index": 335,
+      "token_count": 200,
+      "text": "financial statements include accounts travelers companies subsidiaries company preparation consolidated financial statements conformity generally accepted accounting principles gaap requires managemen..."
+    },
+    {
+      "chunk_index": 336,
+      "token_count": 200,
+      "text": "date company funded transaction internal resources provisional 19 million recorded deferred tax asset included consolidated balance sheet january 2024 later increased insignificant 2023 tax return cor..."
+    },
+    {
+      "chunk_index": 337,
+      "token_count": 200,
+      "text": "building 39 years real estate held sale carried lower cost fair value estimated costs sell short term securities short term securities original maturity year carried amortized cost approximates fair v..."
+    },
+    {
+      "chunk_index": 338,
+      "token_count": 200,
+      "text": "financial information partnerships prior receipt partnerships financial statements records material information obtained requests consolidated financial statements derivatives included investments com..."
+    },
+    {
+      "chunk_index": 339,
+      "token_count": 200,
+      "text": "estate partnerships joint ventures accounted using equity method accounting company share investee earnings losses fund reported net investment income accrual income suspended non securitized fixed ma..."
+    },
+    {
+      "chunk_index": 340,
+      "token_count": 200,
+      "text": "invested assets credit impairments credit impairments related fixed maturity investments factors considered assessing impairment fixed maturity investments credit related factors include extent fair v..."
+    },
+    {
+      "chunk_index": 341,
+      "token_count": 200,
+      "text": "recovery value impairment included net realized investment gains losses new cost basis investment previous amortized cost basis impairment recognized net realized investment gains losses new cost basi..."
+    },
+    {
+      "chunk_index": 342,
+      "token_count": 200,
+      "text": "debt estimate expected cash flows determined projecting recovery value recovery time frame assessing principal received determination recovery value incorporates issuer valuation assumption utilizing ..."
+    },
+    {
+      "chunk_index": 343,
+      "token_count": 200,
+      "text": "related issuer including limited revenue margin earnings projections likely market liquidation values assets potential additional debt incurred pre post bankruptcy restructuring ability shift existing..."
+    },
+    {
+      "chunk_index": 344,
+      "token_count": 200,
+      "text": "basis events changes circumstances indicate carrying recoverable review impairment considers valuation independent appraisal applicable incorporates estimate undiscounted cash flows expected result us..."
+    },
+    {
+      "chunk_index": 345,
+      "token_count": 200,
+      "text": "downgrade upgrade rating agency significant unforeseen changes liquidity needs changes tax laws regulatory environment securities lending company time time engaged securities lending activities genera..."
+    },
+    {
+      "chunk_index": 346,
+      "token_count": 200,
+      "text": "services reinsurance recoverables amounts recoverable reinsurers estimated manner consistent associated claim liability included reinsurance recoverables amounts related certain structured settlements..."
+    },
+    {
+      "chunk_index": 347,
+      "token_count": 200,
+      "text": "commissions premium related taxes capitalized charged expense pro rata contract periods related premiums earned deferred acquisition costs reviewed determine recoverable future income charged expense ..."
+    },
+    {
+      "chunk_index": 348,
+      "token_count": 200,
+      "text": "calculated goodwill adjusted accordingly company uses discounted cash flow model estimate fair value reporting units discounted cash flow model income approach valuation based detailed cash flow analy..."
+    },
+    {
+      "chunk_index": 349,
+      "token_count": 200,
+      "text": "carrying fair value asset result reviews performed years ended december 31 2024 2023 2022 company determined estimated fair value substantially exceeded respective carrying value reporting units years..."
+    },
+    {
+      "chunk_index": 350,
+      "token_count": 200,
+      "text": "including reserving techniques impact reinsurance reserves reviewed regularly qualified actuaries employed company reserves based estimates ultimate liability reserves effects changes estimated reserv..."
+    },
+    {
+      "chunk_index": 351,
+      "token_count": 200,
+      "text": "premiums participating dividend policies approximately total net written premiums years ended december 31 2024 2023 2022 policyholder dividends accrued earnings using best available estimates amounts ..."
+    },
+    {
+      "chunk_index": 352,
+      "token_count": 200,
+      "text": "commissioners naic statutory accounting practices permitted statutory accounting practices practices differ state prescribed statutory accounting practices naic statutory accounting practices company ..."
+    },
+    {
+      "chunk_index": 353,
+      "token_count": 200,
+      "text": "recognized ratably contract period extent coverage remains available ceded unearned premiums represent unexpired portion premiums ceded reinsurers reported asset consolidated balance sheet fee income ..."
+    },
+    {
+      "chunk_index": 354,
+      "token_count": 200,
+      "text": "recognizes deferred income tax assets liabilities expected future tax effects attributable temporary differences financial statement tax return bases assets liabilities based enacted tax rates provisi..."
+    },
+    {
+      "chunk_index": 355,
+      "token_count": 200,
+      "text": "plan permits grants nonqualified stock options incentive stock options stock appreciation rights restricted stock deferred stock stock units performance awards share based share denominated awards res..."
+    },
+    {
+      "chunk_index": 356,
+      "token_count": 200,
+      "text": "commercial automobile general liability commercial property middle market provides mid sized businesses property casualty insurance products services including workers compensation general liability c..."
+    },
+    {
+      "chunk_index": 357,
+      "token_count": 200,
+      "text": "national accounts provides large companies casualty insurance products services including workers compensation commercial automobile general liability generally utilizing loss sensitive products bundl..."
+    },
+    {
+      "chunk_index": 358,
+      "token_count": 200,
+      "text": "risk characteristics coverage requirements international international operations canada united kingdom republic ireland provides property casualty insurance risk management services customer groups i..."
+    },
+    {
+      "chunk_index": 359,
+      "token_count": 200,
+      "text": "enterprises management liability coverages including directors officers liability employment practices liability fidelity liability fiduciary liability cyber risk public corporations private companies..."
+    },
+    {
+      "chunk_index": 360,
+      "token_count": 200,
+      "text": "coverage liability bodily injury property damage uninsured motorist protection physical damage insured vehicle collision flood hail theft addition states require policies provide party personal injury..."
+    },
+    {
+      "chunk_index": 361,
+      "token_count": 200,
+      "text": "acquisition costs general administrative expenses described certain legal entities company allocates invested assets related net investment income reportable business segments pre tax net investment i..."
+    },
+    {
+      "chunk_index": 362,
+      "token_count": 200,
+      "text": "pricing using expected losses calculated company catastrophe model adjusted experience adjustments following tables summarize components company revenues income loss net written premiums total assets ..."
+    },
+    {
+      "chunk_index": 363,
+      "token_count": 200,
+      "text": "19 144 655 14 962 37 761 net investment income 085 328 509 922 fee income 400 33 433 revenues 232 25 96 353 total segment revenues 21 861 008 15 600 41 469 claims claim adjustment expenses 12 696 485 ..."
+    },
+    {
+      "chunk_index": 364,
+      "token_count": 200,
+      "text": "140 299 segment revenues reportable business segments exclude net realized investment gains losses revenues included expense segment income loss reportable business segments excludes tax impact net re..."
+    },
+    {
+      "chunk_index": 365,
+      "token_count": 200,
+      "text": "company amortization depreciation expense reportable business segment year ended december 31 millions 2024 2023 2022 business insurance 014 640 344 bond specialty insurance 842 744 697 personal insura..."
+    },
+    {
+      "chunk_index": 366,
+      "token_count": 200,
+      "text": "insurance 109 842 732 personal insurance domestic automobile 925 330 482 homeowners 550 949 916 total domestic 16 475 15 279 13 398 international 694 650 649 total personal insurance 17 169 15 929 14 ..."
+    },
+    {
+      "chunk_index": 367,
+      "token_count": 200,
+      "text": "fidelity surety 416 290 173 general liability 778 639 556 231 225 222 total domestic 425 154 951 international 533 501 467 total bond specialty insurance 958 655 418 personal insurance domestic automo..."
+    },
+    {
+      "chunk_index": 368,
+      "token_count": 200,
+      "text": "million 2024 2023 2022 respectively 140 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 154 245 travelers companies subsidiaries notes consolidate..."
+    },
+    {
+      "chunk_index": 369,
+      "token_count": 200,
+      "text": "46 423 41 364 36 884 141 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 155 245 travelers companies subsidiaries notes consolidated financial sta..."
+    },
+    {
+      "chunk_index": 370,
+      "token_count": 200,
+      "text": "83 666 amortized cost allowance expected credit losses gross unrealized fair value december 31 2023 millions gains losses treasury securities obligations government government agencies authorities 591..."
+    },
+    {
+      "chunk_index": 371,
+      "token_count": 200,
+      "text": "prepay obligations prepayment penalties december 31 2024 millions amortized cost fair value year 357 328 year years 23 640 22 965 years 10 years 22 647 20 897 10 years 21 745 19 871 75 389 71 061 mort..."
+    },
+    {
+      "chunk_index": 372,
+      "token_count": 200,
+      "text": "sale fair value 68 billion 59 billion december 31 2024 2023 respectively approximately 43 33 company cmo holdings december 31 2024 2023 respectively guaranteed fully collateralized securities issued g..."
+    },
+    {
+      "chunk_index": 373,
+      "token_count": 200,
+      "text": "million 421 million respectively securities loan tri party lending agreement proceeds sales fixed maturities classified available sale 63 billion 98 billion 66 billion 2024 2023 2022 respectively gros..."
+    },
+    {
+      "chunk_index": 374,
+      "token_count": 200,
+      "text": "157 245 travelers companies subsidiaries notes consolidated financial statements continued investments continued 31 million held wholly owned subsidiary december 31 2024 2023 respectively 86 million 8..."
+    },
+    {
+      "chunk_index": 375,
+      "token_count": 200,
+      "text": "real estate brokers negotiated terms conditions include rental rates length lease period improvements premises provided company proceeds sales real estate investments 64 million 2024 million 2023 10 m..."
+    },
+    {
+      "chunk_index": 376,
+      "token_count": 200,
+      "text": "31 2024 2023 respectively approximated fair value investments included investments private equity hedge fund real estate partnerships accounted equity method accounting typically report financial stat..."
+    },
+    {
+      "chunk_index": 377,
+      "token_count": 200,
+      "text": "exposure related risks vie date initially involved vie company reassesses vie determination respect entity ongoing basis company passive investor limited partner equity interests issued party vies inc..."
+    },
+    {
+      "chunk_index": 378,
+      "token_count": 200,
+      "text": "process described note company relies estimates factors review evaluation individual investments using process described note determining credit loss impairment exists 12 months 12 months longer total..."
+    },
+    {
+      "chunk_index": 379,
+      "token_count": 200,
+      "text": "longer total december 31 2023 millions fair value gross unrealized losses fair value gross unrealized losses fair value gross unrealized losses fixed maturities treasury securities obligations governm..."
+    },
+    {
+      "chunk_index": 380,
+      "token_count": 200,
+      "text": "agencies authorities obligations states municipalities political subdivisions 366 43 635 044 debt securities issued foreign governments mortgage backed securities collateralized mortgage obligations p..."
+    },
+    {
+      "chunk_index": 381,
+      "token_count": 200,
+      "text": "fixed maturities impairment charges credit impairment charges included net realized investment losses consolidated statement income follows year ended december 31 millions 2024 2023 2022 fixed maturit..."
+    },
+    {
+      "chunk_index": 382,
+      "token_count": 200,
+      "text": "reductions sales defaults credit impaired securities reductions impairments securities company intends sell likely required sell balance end period total net impairment charges including credit impair..."
+    },
+    {
+      "chunk_index": 383,
+      "token_count": 200,
+      "text": "credit risk single issuer greater company shareholders equity included fixed maturities investment grade securities totaling 980 million 982 million december 31 2024 2023 respectively company defines ..."
+    },
+    {
+      "chunk_index": 384,
+      "token_count": 200,
+      "text": "securities included separate component comprehensive income loss follows year ended december 31 millions 2024 2023 2022 changes net unrealized investment gains losses fixed maturities 640 248 279 inve..."
+    },
+    {
+      "chunk_index": 385,
+      "token_count": 200,
+      "text": "highest priority given unadjusted quoted prices active markets lowest priority unobservable inputs reflect company significant market assumptions level fair value hierarchy fair value measurement repo..."
+    },
+    {
+      "chunk_index": 386,
+      "token_count": 200,
+      "text": "valuation investments reported fair value financial statements fair value financial instrument estimated instrument exchanged orderly transaction knowledgeable unrelated willing parties forced transac..."
+    },
+    {
+      "chunk_index": 387,
+      "token_count": 200,
+      "text": "arm length transaction fixed maturities company utilized pricing service estimate fair value measurements approximately 99 fixed maturities december 31 2024 2023 pricing service utilizes market quotat..."
+    },
+    {
+      "chunk_index": 388,
+      "token_count": 200,
+      "text": "utilized company indicated produce estimate fair value objectively verifiable information produce valuation pricing service discontinues pricing investment company required produce estimate fair value..."
+    },
+    {
+      "chunk_index": 389,
+      "token_count": 200,
+      "text": "treasury securities provided pricing service included disclosed level hierarchy estimated fair value treasury securities included disclosed level estimates based unadjusted market prices 150 26 19 pm ..."
+    },
+    {
+      "chunk_index": 390,
+      "token_count": 200,
+      "text": "limited observable market information available estimation fair value company includes fair value estimates bonds valued using methodologies level equity securities common stock non redeemable preferr..."
+    },
+    {
+      "chunk_index": 391,
+      "token_count": 200,
+      "text": "reported investments investments include mutual funds small holdings 20 million 18 million fair value investments december 31 2024 2023 respectively disclosed level 151 26 19 pm trv 20241231 https www..."
+    },
+    {
+      "chunk_index": 392,
+      "token_count": 200,
+      "text": "total equity securities 687 647 37 investments 20 20 total 84 373 237 77 850 286 december 31 2023 millions total level level level invested assets fixed maturities treasury securities obligations gove..."
+    },
+    {
+      "chunk_index": 393,
+      "token_count": 200,
+      "text": "december 31 2024 2023 millions fixed maturities equity securities investments total balance december 31 2023 258 37 295 total realized unrealized investment gains losses reported net realized investme..."
+    },
+    {
+      "chunk_index": 394,
+      "token_count": 200,
+      "text": "losses period included consolidated statement income attributable changes fair value assets held reporting date includes impairments investments held end period amortization fixed maturities transfers..."
+    },
+    {
+      "chunk_index": 395,
+      "token_count": 200,
+      "text": "fair value level level level financial assets short term securities 766 766 933 788 45 financial liabilities debt 933 095 095 commercial paper 100 100 100 december 31 2023 millions carrying value fair..."
+    },
+    {
+      "chunk_index": 396,
+      "token_count": 200,
+      "text": "expected credit losses 50 42 write offs uncollectible premiums receivable 61 50 balance end period 11 110 58 10 282 69 154 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 00000863122..."
+    },
+    {
+      "chunk_index": 397,
+      "token_count": 200,
+      "text": "rated best company deducting mandatory pools associations allowances estimated uncollectible reinsurance company utilizes updated best credit ratings quarterly basis determining allowance total rated ..."
+    },
+    {
+      "chunk_index": 398,
+      "token_count": 200,
+      "text": "transactions assumed reinsurance refers acceptance certain insurance risks insurance companies underwritten ceded reinsurance involves transferring certain insurance risks related written earned premi..."
+    },
+    {
+      "chunk_index": 399,
+      "token_count": 200,
+      "text": "weather related earthquake losses northeastern united states northeast property catastrophe excess loss reinsurance treaty protect losses resulting weather related earthquake catastrophes northeastern..."
+    },
+    {
+      "chunk_index": 400,
+      "token_count": 200,
+      "text": "credit risk company ceded balances jointly backed pool members included reinsurance recoverables amounts related certain structured settlements structured settlements annuities purchased various life ..."
+    },
+    {
+      "chunk_index": 401,
+      "token_count": 200,
+      "text": "614 145 ceded 137 649 330 total net earned premiums 41 941 37 761 33 763 percentage assumed earned premiums net earned premiums ceded claims claim adjustment expenses incurred 249 462 187 ceded premiu..."
+    },
+    {
+      "chunk_index": 402,
+      "token_count": 200,
+      "text": "losses resulting certified acts terrorism order loss covered program subject losses loss meet certain aggregate industry loss minimums result event certified act terrorism secretary treasury consultat..."
+    },
+    {
+      "chunk_index": 403,
+      "token_count": 200,
+      "text": "losses reached 100 billion aggregate program year participating insurers liable program additional covered terrorism losses program year terrorism related losses triggered program coverage program est..."
+    },
+    {
+      "chunk_index": 404,
+      "token_count": 200,
+      "text": "htm 173 245 travelers companies subsidiaries notes consolidated financial statements continued goodwill intangible assets goodwill following table presents carrying company goodwill segment reportable..."
+    },
+    {
+      "chunk_index": 405,
+      "token_count": 200,
+      "text": "based 204 194 10 total subject amortization 304 253 51 subject amortization 226 226 total 530 253 277 customer related intangibles 87 million recorded connection acquisition corvus quarter 2024 custom..."
+    },
+    {
+      "chunk_index": 406,
+      "token_count": 200,
+      "text": "adjustments recorded connection insurance acquisitions based management estimate nominal claims claim adjustment expense reserves reinsurance recoverables method used calculated risk adjustment risk f..."
+    },
+    {
+      "chunk_index": 407,
+      "token_count": 200,
+      "text": "capital fair value non compete agreement based estimate income lost agreement place individual chose compete significant inputs fair valuation include estimates projected cash flows weighted average c..."
+    },
+    {
+      "chunk_index": 408,
+      "token_count": 200,
+      "text": "insurance claim reserves claims claim adjustment expense reserves follows december 31 millions 2024 2023 property casualty 64 088 61 621 accident health total 64 093 61 627 following table presents re..."
+    },
+    {
+      "chunk_index": 409,
+      "token_count": 200,
+      "text": "194 106 255 net reserves end year 56 419 53 804 50 853 plus reinsurance recoverables unpaid losses 669 817 790 claims claim adjustment expense reserves end year 64 088 61 621 58 643 gross claims claim..."
+    },
+    {
+      "chunk_index": 410,
+      "token_count": 200,
+      "text": "losses reinsurance recoverables unpaid losses december 31 2023 increased 27 million december 31 2022 primarily reflecting impact catastrophe losses 2023 higher level recoverables mandatory pools assoc..."
+    },
+    {
+      "chunk_index": 411,
+      "token_count": 200,
+      "text": "regarding reserve development net reinsurance basis 2024 2024 estimated claims claim adjustment expenses incurred included 548 million net favorable development claims arising prior years including 70..."
+    },
+    {
+      "chunk_index": 412,
+      "token_count": 200,
+      "text": "years 2023 2023 estimated claims claim adjustment expenses incurred included 38 million net favorable development claims arising prior years including 143 million net favorable prior year reserve deve..."
+    },
+    {
+      "chunk_index": 413,
+      "token_count": 200,
+      "text": "net favorable prior year reserve development 2023 totaled 147 million primarily driven better expected loss experience domestic operations' homeowners product line recent accident years 2022 2022 esti..."
+    },
+    {
+      "chunk_index": 414,
+      "token_count": 200,
+      "text": "primarily domestic operations general liability product line general liability excluding asbestos environmental higher expected loss experience domestic operations excess coverages multiple accident y..."
+    },
+    {
+      "chunk_index": 415,
+      "token_count": 200,
+      "text": "statements continued insurance claim reserves continued claims development following summary claims claim adjustment expense reserves including certain components company major product lines reporting..."
+    },
+    {
+      "chunk_index": 416,
+      "token_count": 200,
+      "text": "contracts 036 032 735 767 unallocated loss adjustment expense reserves 880 880 17 897 structured settlements 583 583 92 92 52 40 total property casualty 57 447 028 56 419 669 64 088 accident health to..."
+    },
+    {
+      "chunk_index": 417,
+      "token_count": 200,
+      "text": "incurred claims subject variability impact large claim activity subrogation recoveries items 163 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 1..."
+    },
+    {
+      "chunk_index": 418,
+      "token_count": 200,
+      "text": "19 208 2021 591 589 628 711 575 15 694 2022 696 736 916 851 18 258 2023 998 060 432 16 973 2024 340 120 12 629 total 16 443 cumulative paid claims allocated claim adjustment expenses net reinsurance a..."
+    },
+    {
+      "chunk_index": 419,
+      "token_count": 200,
+      "text": "20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 180 245 travelers companies subsidiaries notes consolidated financial statements continued insurance claim rese..."
+    },
+    {
+      "chunk_index": 420,
+      "token_count": 200,
+      "text": "claims age net reinsurance unaudited years 51 33 165 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 181 245 travelers companies subsidiaries note..."
+    },
+    {
+      "chunk_index": 421,
+      "token_count": 200,
+      "text": "097 097 107 238 58 432 2022 502 533 569 436 54 444 2023 781 811 716 52 398 2024 946 255 42 267 total 21 811 cumulative paid claims allocated claim adjustment expenses net reinsurance accident year una..."
+    },
+    {
+      "chunk_index": 422,
+      "token_count": 200,
+      "text": "edgar data 86312 000008631225000012 trv 20241231 htm 182 245 travelers companies subsidiaries notes consolidated financial statements continued insurance claim reserves continued commercial automobile..."
+    },
+    {
+      "chunk_index": 423,
+      "token_count": 200,
+      "text": "net reinsurance unaudited years 26 18 17 15 167 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 183 245 travelers companies subsidiaries notes con..."
+    },
+    {
+      "chunk_index": 424,
+      "token_count": 200,
+      "text": "294 237 555 95 805 2022 293 294 226 676 103 114 2023 373 365 836 97 620 2024 352 363 86 556 total 22 352 cumulative paid claims allocated claim adjustment expenses net reinsurance accident year unaudi..."
+    },
+    {
+      "chunk_index": 425,
+      "token_count": 200,
+      "text": "edgar data 86312 000008631225000012 trv 20241231 htm 184 245 travelers companies subsidiaries notes consolidated financial statements continued insurance claim reserves continued bond specialty insura..."
+    },
+    {
+      "chunk_index": 426,
+      "token_count": 200,
+      "text": "claims allocated claim adjustment expenses net reinsurance accident year unaudited 2015 38 141 234 310 338 348 381 383 387 392 2016 30 141 233 313 378 446 463 472 479 2017 38 155 262 340 404 450 488 5..."
+    },
+    {
+      "chunk_index": 427,
+      "token_count": 200,
+      "text": "2020 2021 2022 2023 2024 ibnr reserves december 31 2024 cumulative number reported claims incurred claims allocated claims adjustment expenses net reinsurance accident year unaudited 2020 274 203 219 ..."
+    },
+    {
+      "chunk_index": 428,
+      "token_count": 200,
+      "text": "insurance claim reserves continued personal insurance automobile dollars millions years ended december 31 2020 2021 2022 2023 2024 ibnr reserves december 31 2024 cumulative number reported claims incu..."
+    },
+    {
+      "chunk_index": 429,
+      "token_count": 200,
+      "text": "gov archives edgar data 86312 000008631225000012 trv 20241231 htm 187 245 travelers companies subsidiaries notes consolidated financial statements continued insurance claim reserves continued homeowne..."
+    },
+    {
+      "chunk_index": 430,
+      "token_count": 200,
+      "text": "incurred claims age net reinsurance unaudited years 67 26 172 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 188 245 travelers companies subsidia..."
+    },
+    {
+      "chunk_index": 431,
+      "token_count": 200,
+      "text": "054 2022 349 356 360 35 33 023 2023 410 434 74 32 737 2024 462 128 31 642 total 738 accident cumulative paid claims allocated claim adjustment expenses net reinsurance year unaudited 2015 146 203 228 ..."
+    },
+    {
+      "chunk_index": 432,
+      "token_count": 200,
+      "text": "foreign exchange rates loss development 173 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 189 245 travelers companies subsidiaries notes consoli..."
+    },
+    {
+      "chunk_index": 433,
+      "token_count": 200,
+      "text": "unreported claims development known claims opened claims approach estimating ibnr reserves place years material changes methodology past year detailed claim data typically insufficient produce reliabl..."
+    },
+    {
+      "chunk_index": 434,
+      "token_count": 200,
+      "text": "referred conventional actuarial methods paid loss development method assumes future change positive negative cumulative paid losses given cohort claims occur stable predictable pattern year year consi..."
+    },
+    {
+      "chunk_index": 435,
+      "token_count": 200,
+      "text": "ultimate claim counts ultimate dollars resulting estimate ultimate claim counts cohort multiplied average value claim average value analysis obtain estimated ultimate claims claim adjustment expenses ..."
+    },
+    {
+      "chunk_index": 436,
+      "token_count": 200,
+      "text": "underlying event business insurance personal insurance claim file information summarized company generally recognizes count policy claim event internal regulatory line business regardless number claim..."
+    },
+    {
+      "chunk_index": 437,
+      "token_count": 200,
+      "text": "disclosure attempting project ultimate loss payouts product line company generally finds claim count data useful granular basis aggregated basis disclosed claim development tables risks average values..."
+    },
+    {
+      "chunk_index": 438,
+      "token_count": 200,
+      "text": "review based factors combination past payments current case reserves excess specified threshold currently 100 000 perceived level exposure number reported claims products completed operations potentia..."
+    },
+    {
+      "chunk_index": 439,
+      "token_count": 200,
+      "text": "claim reserves continued applicable coverage defenses determinations including determination asbestos claim products completed operation claim subject aggregate limit available coverage claim company ..."
+    },
+    {
+      "chunk_index": 440,
+      "token_count": 200,
+      "text": "including increase severity certain policyholders high level litigation activity limited number jurisdictions individuals alleging asbestos related injury primarily mesothelioma continue target defend..."
+    },
+    {
+      "chunk_index": 441,
+      "token_count": 200,
+      "text": "asserting claims subject aggregate limits contained policies environment primarily driven frequency litigation related individuals mesothelioma company overall view current underlying asbestos environ..."
+    },
+    {
+      "chunk_index": 442,
+      "token_count": 200,
+      "text": "evaluation exposure presented policyholder change information concerning policyholder variables presented developed conventional actuarial methods used estimate reserves past years company experienced..."
+    },
+    {
+      "chunk_index": 443,
+      "token_count": 200,
+      "text": "result factors 2024 2023 2022 company increased net environmental reserves 78 million 93 million 132 million respectively asbestos environmental reserves result processes procedures discussed manageme..."
+    },
+    {
+      "chunk_index": 444,
+      "token_count": 200,
+      "text": "effective continuing analysis asbestos environmental reserves company continues study implications developments uncertainties set forth additional liabilities arise amounts excess company current rese..."
+    },
+    {
+      "chunk_index": 445,
+      "token_count": 200,
+      "text": "related hurricanes affected inability company insureds access portions impacted areas complexity factors contributing losses legal regulatory uncertainties nature information available establish reser..."
+    },
+    {
+      "chunk_index": 446,
+      "token_count": 200,
+      "text": "junior subordinated debentures december 15 2027 effective rate 147 125 125 375 senior notes march 15 2033 500 500 75 senior notes june 20 2036 400 400 25 senior notes june 15 2037 800 800 35 senior no..."
+    },
+    {
+      "chunk_index": 447,
+      "token_count": 200,
+      "text": "costs 105 108 total debt 033 031 effective rate maturity does differ materially issued rate 2023 debt issuance 25 2023 company issued 750 million aggregate principal 45 senior notes mature 25 2053 net..."
+    },
+    {
+      "chunk_index": 448,
+      "token_count": 200,
+      "text": "sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 195 245 travelers companies subsidiaries notes consolidated financial statements continued debt continued description debt commerc..."
+    },
+    {
+      "chunk_index": 449,
+      "token_count": 200,
+      "text": "adjustment amortized remaining life respective debt instruments using effective method amortization fair value adjustment reduced expense million million years ended december 31 2024 2023 respectively..."
+    },
+    {
+      "chunk_index": 450,
+      "token_count": 200,
+      "text": "fixed term credit agreement equal 13 billion 57 company net worth march 31 2022 addition credit agreement contains customary restrictive covenants certain customary events default including respect ch..."
+    },
+    {
+      "chunk_index": 451,
+      "token_count": 200,
+      "text": "000008631225000012 trv 20241231 htm 197 245 travelers companies subsidiaries notes consolidated financial statements continued debt continued shelf registration company shelf registration statement fi..."
+    },
+    {
+      "chunk_index": 452,
+      "token_count": 200,
+      "text": "expiration date timing actual number shares repurchased future depend variety factors including company financial position earnings share price catastrophe losses maintaining capital levels appropriat..."
+    },
+    {
+      "chunk_index": 453,
+      "token_count": 200,
+      "text": "performance share awards shares used employees cover exercise price related payroll withholding taxes respect certain stock options exercised years ended december 31 2024 2023 company acquired 146 mil..."
+    },
+    {
+      "chunk_index": 454,
+      "token_count": 200,
+      "text": "significantly level regulatory action occur regulators jurisdictions company foreign insurance subsidiaries located require insurance companies maintain certain levels capital depending things type in..."
+    },
+    {
+      "chunk_index": 455,
+      "token_count": 200,
+      "text": "domestic international insurance subsidiaries 74 billion 85 billion 62 billion years ended december 31 2024 2023 2022 respectively statutory capital surplus company domestic international insurance su..."
+    },
+    {
+      "chunk_index": 456,
+      "token_count": 200,
+      "text": "amounts reclassified aoci net tax 77 33 110 net oci current period 310 69 256 638 balance december 31 2022 077 179 542 005 445 oci reclassifications net tax 692 94 121 908 amounts reclassified aoci ne..."
+    },
+    {
+      "chunk_index": 457,
+      "token_count": 200,
+      "text": "changes net unrealized gains losses investment securities having credit losses recognized consolidated statement income 644 249 276 income tax expense benefit 129 481 966 net taxes 515 768 310 having ..."
+    },
+    {
+      "chunk_index": 458,
+      "token_count": 200,
+      "text": "income tax expense benefit components amounts reclassified company aoci company consolidated statement income year ended december 31 millions 2024 2023 2022 reclassification adjustments related unreal..."
+    },
+    {
+      "chunk_index": 459,
+      "token_count": 200,
+      "text": "https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 202 245 travelers companies subsidiaries notes consolidated financial statements continued 12 earnings share basic earni..."
+    },
+    {
+      "chunk_index": 460,
+      "token_count": 200,
+      "text": "22 20 net income available common shareholders basic diluted 961 969 822 common shares basic weighted average shares outstanding 228 229 237 diluted weighted average shares outstanding 228 229 237 wei..."
+    },
+    {
+      "chunk_index": 461,
+      "token_count": 200,
+      "text": "152 163 186 foreign 39 43 total deferred tax benefit 155 124 229 total income tax expense included consolidated statement income 181 380 512 composition income tax expense benefit included shareholder..."
+    },
+    {
+      "chunk_index": 462,
+      "token_count": 200,
+      "text": "recognized time tax benefit 211 million quarter 2023 expiration statute 186 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 204 245 travelers comp..."
+    },
+    {
+      "chunk_index": 463,
+      "token_count": 200,
+      "text": "assets 764 431 valuation allowance 38 35 adjusted gross deferred tax assets 726 396 deferred tax liabilities deferred acquisition costs 673 627 intangibles 87 70 depreciation 118 125 86 70 total gross..."
+    },
+    {
+      "chunk_index": 464,
+      "token_count": 200,
+      "text": "operates company subject global minimum taxes imposed rules 2024 187 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 205 245 travelers companies s..."
+    },
+    {
+      "chunk_index": 465,
+      "token_count": 200,
+      "text": "2024 2023 balance january 14 additions tax positions prior years reductions tax positions prior years additions based tax positions related current year expiration statute limitations balance december..."
+    },
+    {
+      "chunk_index": 466,
+      "token_count": 200,
+      "text": "share based incentive compensation plan travelers companies 2023 stock incentive plan 2023 incentive plan purposes align interests company non employee directors executive officers employees company s..."
+    },
+    {
+      "chunk_index": 467,
+      "token_count": 200,
+      "text": "amended restated 2014 stock incentive plan amended 2014 incentive plan terminated joining legacy share based incentive compensation plans terminated prior years legacy plans outstanding grants affecte..."
+    },
+    {
+      "chunk_index": 468,
+      "token_count": 200,
+      "text": "subject awards 2014 incentive plan outstanding 24 2023 subsequently expire forfeited canceled settled cash terminate issuance shares company compensation program non employee directors director compen..."
+    },
+    {
+      "chunk_index": 469,
+      "token_count": 200,
+      "text": "generally vest meeting certain years service criteria compensation committee board directors allow future stock options sold transferred participant stock options outstanding 2023 incentive plan 2014 ..."
+    },
+    {
+      "chunk_index": 470,
+      "token_count": 200,
+      "text": "208 245 travelers companies subsidiaries notes consolidated financial statements continued 14 share based incentive compensation continued year ended december 31 2024 2023 2022 assumptions used estima..."
+    },
+    {
+      "chunk_index": 471,
+      "token_count": 200,
+      "text": "expired 35 554 185 48 outstanding end year 005 747 153 89 years 610 vested end year 241 970 149 36 years 571 exercisable end year 558 301 134 65 years 484 represents awards requisite service rendered ..."
+    },
+    {
+      "chunk_index": 472,
+      "token_count": 200,
+      "text": "lead director fees iii dividend equivalents earned outstanding deferred compensation company performance share awards program pursuant 2023 incentive plan program company issue performance share award..."
+    },
+    {
+      "chunk_index": 473,
+      "token_count": 200,
+      "text": "depending actual return equity attained fair value restricted stock units deferred stock units performance shares measured market price company stock date grant terms 2023 incentive plan holders defer..."
+    },
+    {
+      "chunk_index": 474,
+      "token_count": 200,
+      "text": "200 66 represents awards requisite service rendered reflects number performance shares attributable performance goals attained completed performance period years service conditions met represents curr..."
+    },
+    {
+      "chunk_index": 475,
+      "token_count": 200,
+      "text": "period awards granted retiree eligible employees employees retiree eligible award vesting date considered met requisite service condition vesting terms accelerated retirement compensation cost awards ..."
+    },
+    {
+      "chunk_index": 476,
+      "token_count": 200,
+      "text": "levels date initial grant performance awards related tax benefits recognized earnings 43 million 36 million 31 million years ended december 31 2024 2023 2022 respectively december 31 2024 248 million ..."
+    },
+    {
+      "chunk_index": 477,
+      "token_count": 200,
+      "text": "stock units fair value share attributable units 244 06 remaining common stock awards granted 252 956 performance share awards settled common stock contingent company attainment certain performance mar..."
+    },
+    {
+      "chunk_index": 478,
+      "token_count": 200,
+      "text": "19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 211 245 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 2024..."
+    },
+    {
+      "chunk_index": 479,
+      "token_count": 200,
+      "text": "year 245 454 186 184 431 638 change plan assets fair value plan assets beginning year 149 938 97 95 246 033 actual return plan assets 409 551 417 549 company contributions 12 13 12 13 benefits paid 32..."
+    },
+    {
+      "chunk_index": 480,
+      "token_count": 200,
+      "text": "245 travelers companies subsidiaries notes consolidated financial statements continued 15 pension plans retirement benefits savings plans continued postretirement benefit plans year ended december 31 ..."
+    },
+    {
+      "chunk_index": 481,
+      "token_count": 200,
+      "text": "31 2024 2023 respectively nonqualified foreign plans accounted 180 million 176 million total accumulated benefit obligation december 31 2024 2023 respectively pension plans projected benefit obligatio..."
+    },
+    {
+      "chunk_index": 482,
+      "token_count": 200,
+      "text": "assumed discount rate prior year used determine projected benefit obligation december 31 2023 company discretion regarding provide additional funding provide funding qualified domestic pension plan 20..."
+    },
+    {
+      "chunk_index": 483,
+      "token_count": 200,
+      "text": "311 296 amortization unrecognized prior service benefit net actuarial gain loss 49 total non service cost benefit 119 136 147 net periodic benefit cost benefit 28 changes benefit plan assets benefit o..."
+    },
+    {
+      "chunk_index": 484,
+      "token_count": 200,
+      "text": "plans postretirement benefit plans year ended december 31 millions 2024 2023 2022 2024 2023 2022 service cost net investment income claims claim adjustment expenses 45 44 58 general administrative exp..."
+    },
+    {
+      "chunk_index": 485,
+      "token_count": 200,
+      "text": "94 domestic postretirement benefit plan 48 88 cash balance crediting rate 01 01 future compensation increase rate 00 00 assumptions used determine net periodic benefit cost discount rate qualified dom..."
+    },
+    {
+      "chunk_index": 486,
+      "token_count": 200,
+      "text": "ultimate trend rate 50 2033 2024 assumed health care cost trend rate 78 reflects known negotiated medical premium rate changes company baseline health care cost trend rate 00 discount rate assumption ..."
+    },
+    {
+      "chunk_index": 487,
+      "token_count": 200,
+      "text": "www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 217 245 travelers companies subsidiaries notes consolidated financial statements continued 15 pension plans retirement benefit..."
+    },
+    {
+      "chunk_index": 488,
+      "token_count": 200,
+      "text": "term growth 10 15 near term benefit payments diversification asset types fund strategies fund managers current target allocations plan assets 55 65 equity securities 20 40 fixed income securities rema..."
+    },
+    {
+      "chunk_index": 489,
+      "token_count": 200,
+      "text": "observable inputs determined external pricing service accordingly estimates fair value short term securities treasury securities money market mutual funds provided external pricing service included di..."
+    },
+    {
+      "chunk_index": 490,
+      "token_count": 200,
+      "text": "bond mutual funds 667 636 31 total mutual funds 845 808 37 equity securities 401 401 investments cash short term securities treasury securities 108 108 77 62 15 total cash short term securities 185 17..."
+    },
+    {
+      "chunk_index": 491,
+      "token_count": 200,
+      "text": "consolidated financial statements continued 15 pension plans retirement benefits savings plans continued postretirement benefit plans company overall investment strategy achieve mix approximately 35 6..."
+    },
+    {
+      "chunk_index": 492,
+      "token_count": 200,
+      "text": "domestic company employees eligible participate travelers 401 savings plan savings plan eligible employees contribute savings plan company makes matching contribution employee savings plan account sub..."
+    },
+    {
+      "chunk_index": 493,
+      "token_count": 200,
+      "text": "basis term lease right use asset lease liability recognized assets liabilities respectively consolidated balance sheet leases include option extend renew lease term exercise renewal option company dis..."
+    },
+    {
+      "chunk_index": 494,
+      "token_count": 200,
+      "text": "term leases lease expense 76 79 83 sublease income net lease cost 76 79 83 information operating leases cash payments settle lease liability reported cash flows 79 87 93 right use assets obtained exch..."
+    },
+    {
+      "chunk_index": 495,
+      "token_count": 200,
+      "text": "travelers companies subsidiaries notes consolidated financial statements continued 17 contingencies commitments guarantees continued asbestos environmental claims litigation ordinary course insurance ..."
+    },
+    {
+      "chunk_index": 496,
+      "token_count": 200,
+      "text": "relating insurance contracts reinsurance agreements arise insurance contracts reinsurance agreements legal costs associated lawsuits expensed period costs incurred based currently available informatio..."
+    },
+    {
+      "chunk_index": 497,
+      "token_count": 200,
+      "text": "indemnifications company provides standard indemnifications utilizes service providers normal course business indemnification clauses standard contractual terms maximum company obligation related guar..."
+    },
+    {
+      "chunk_index": 498,
+      "token_count": 200,
+      "text": "stock compensation plan resulted noncash financing transactions totaling 32 million net share settlement employee stock options material noncash financing investing activities years ended december 31 ..."
+    },
+    {
+      "chunk_index": 499,
+      "token_count": 200,
+      "text": "consistent guidance issued sec assessment internal controls financial reporting recently acquired business omitted management evaluation disclosure controls procedures management excluding assessment ..."
+    },
+    {
+      "chunk_index": 500,
+      "token_count": 200,
+      "text": "include activities implementing new efficient systems updating existing systems platforms automating manual processes utilizing technology developed parties systems changes phased multiple periods ord..."
+    },
+    {
+      "chunk_index": 501,
+      "token_count": 200,
+      "text": "directors provide reasonable assurance regarding prevention timely detection unauthorized acquisition use disposition assets material effect financial statements inherent limitations internal control ..."
+    },
+    {
+      "chunk_index": 502,
+      "token_count": 200,
+      "text": "financial reporting audited travelers companies subsidiaries company internal control financial reporting december 31 2024 based criteria established internal control integrated framework 2013 issued ..."
+    },
+    {
+      "chunk_index": 503,
+      "token_count": 200,
+      "text": "revenues net income year ended december 31 2024 audit internal control financial reporting company excluded evaluation internal control financial reporting corvus basis opinion company management resp..."
+    },
+    {
+      "chunk_index": 504,
+      "token_count": 200,
+      "text": "provide reasonable assurance regarding reliability financial reporting preparation financial statements external purposes accordance generally accepted accounting principles company internal control f..."
+    },
+    {
+      "chunk_index": 505,
+      "token_count": 200,
+      "text": "228 245 item 9b information months ended december 31 2024 company directors officers defined rule 16a securities exchange act 1934 adopted terminated modified rule 10b5 trading arrangement non rule 10..."
+    },
+    {
+      "chunk_index": 506,
+      "token_count": 200,
+      "text": "president chief technology operations officer maria olivo 60 executive vice president strategic development president international david rowland 59 executive vice president chief investment officer g..."
+    },
+    {
+      "chunk_index": 507,
+      "token_count": 200,
+      "text": "citigroup 1995 2002 including position chairman citigroup investments 2000 2002 prior joining citigroup 1995 mr heyman successively managing director salomon brothers director division market regulati..."
+    },
+    {
+      "chunk_index": 508,
+      "token_count": 200,
+      "text": "positions duracell international 1994 1999 mr frey began career deloitte 1986 andy bessette 71 executive vice president chief administrative officer january 2002 mr bessette previously held various ma..."
+    },
+    {
+      "chunk_index": 509,
+      "token_count": 200,
+      "text": "july 2018 vice president human resources international corporate july 2014 prior ms kurtzman held various positions company predecessors 1991 mojgan lefebvre 59 executive vice president chief technolo..."
+    },
+    {
+      "chunk_index": 510,
+      "token_count": 200,
+      "text": "smith barney investment bank david rowland 59 executive vice president chief investment officer august 2019 previously served executive vice president deputy chief investment officer october 2017 prio..."
+    },
+    {
+      "chunk_index": 511,
+      "token_count": 200,
+      "text": "pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 230 245 code ethics company adopted code business conduct ethics code ethics applies employees including..."
+    },
+    {
+      "chunk_index": 512,
+      "token_count": 200,
+      "text": "sections proxy statement incorporated reference compensation discussion analysis compensation committee report summary compensation table grants plan based awards 2024 narrative supplement summary com..."
+    },
+    {
+      "chunk_index": 513,
+      "token_count": 200,
+      "text": "plans excluding securities reflected column equity compensation plans approved security holders 732 432 153 46 share 236 219 addition 2023 incentive plan included travelers companies amended restated ..."
+    },
+    {
+      "chunk_index": 514,
+      "token_count": 200,
+      "text": "data 86312 000008631225000012 trv 20241231 htm 231 245 210 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 232 245 weighted average exercise price..."
+    },
+    {
+      "chunk_index": 515,
+      "token_count": 200,
+      "text": "issuance shares item 13 certain relationships related transactions director independence governance company transactions related persons nominees election directors governance company director indepen..."
+    },
+    {
+      "chunk_index": 516,
+      "token_count": 200,
+      "text": "17 2022 incorporated reference 10 travelers companies policy regarding executive incentive compensation recoupment filed exhibit 10 42 company annual report form 10 fiscal year ended december 31 2009 ..."
+    },
+    {
+      "chunk_index": 517,
+      "token_count": 200,
+      "text": "20241231 htm 233 245 10 travelers companies 2023 stock incentive plan filed exhibit company registration statement form registration 333 272161 dated 24 2023 incorporated reference 10 travelers compan..."
+    },
+    {
+      "chunk_index": 518,
+      "token_count": 200,
+      "text": "report form 10 fiscal year ended december 31 2012 incorporated reference 10 13 current director compensation program effective 24 2023 filed exhibit 10 company quarterly report form 10 fiscal quarter ..."
+    },
+    {
+      "chunk_index": 519,
+      "token_count": 200,
+      "text": "exhibit 10 40 company annual report form 10 fiscal year ended december 31 2009 incorporated reference 10 19 travelers deferred compensation plan amended restated effective january 2009 filed exhibit 9..."
+    },
+    {
+      "chunk_index": 520,
+      "token_count": 200,
+      "text": "second amendments thereto filed exhibit 10 27 company annual report form 10 fiscal year ended december 31 2004 incorporated reference 10 25 form non competition agreement filed exhibit 10 43 company a..."
+    },
+    {
+      "chunk_index": 521,
+      "token_count": 200,
+      "text": "filed exhibit 10 34 company annual report form 10 fiscal year ended december 31 2021 incorporated reference 10 31 form performance share award notification agreement 2023 filed exhibit 10 34 company a..."
+    },
+    {
+      "chunk_index": 522,
+      "token_count": 200,
+      "text": "oxley act 2002 32 certification alan schnitzer chairman chief executive officer company required section 906 sarbanes oxley act 2002 32 certification daniel frey chief financial officer company requir..."
+    },
+    {
+      "chunk_index": 523,
+      "token_count": 200,
+      "text": "cover page interactive data file embedded inline xbrl document included exhibit 101 filed herewith management contract compensatory plan directors executive officers eligible participate total securit..."
+    },
+    {
+      "chunk_index": 524,
+      "token_count": 200,
+      "text": "86312 000008631225000012 trv 20241231 htm 236 245 signatures pursuant requirements section 13 15 securities exchange act 1934 travelers companies duly caused report signed behalf undersigned thereunto..."
+    },
+    {
+      "chunk_index": 525,
+      "token_count": 200,
+      "text": "todd schermerhorn director february 13 2025 laurie thomsen director february 13 2025 bridget van kralingen director february 13 2025 david williams christine kalla february 13 2025 christine kalla att..."
+    },
+    {
+      "chunk_index": 526,
+      "token_count": 200,
+      "text": "statements notes thereto report independent registered public accounting firm 216 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 238 245 schedule..."
+    },
+    {
+      "chunk_index": 527,
+      "token_count": 200,
+      "text": "thereto report independent registered public accounting firm 217 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 239 245 schedule ii travelers com..."
+    },
+    {
+      "chunk_index": 528,
+      "token_count": 200,
+      "text": "notes thereto report independent registered public accounting firm 218 26 19 pm trv 20241231 https www sec gov archives edgar data 86312 000008631225000012 trv 20241231 htm 240 245 schedule ii travele..."
+    },
+    {
+      "chunk_index": 529,
+      "token_count": 200,
+      "text": "acquired net employee share based compensation 114 64 61 dividends paid shareholders 951 908 875 issuance debt 738 issuance common stock employee share options 321 141 267 net cash used financing acti..."
+    },
+    {
+      "chunk_index": 530,
+      "token_count": 200,
+      "text": "75 notes 2026 500 million 375 notes 2033 trv contingent obligations guarantees connection selling businesses parties certain insurance reinsurance banking facility obligations certain subsidiaries var..."
+    },
+    {
+      "chunk_index": 531,
+      "token_count": 200,
+      "text": "560 13 679 588 303 22 078 bond specialty insurance 502 365 012 958 390 774 756 832 109 personal insurance 294 992 446 16 638 640 11 606 629 640 17 169 total reportable segments 494 64 088 22 289 41 94..."
+    },
+    {
+      "chunk_index": 532,
+      "token_count": 200,
+      "text": "095 864 10 907 788 827 17 635 bond specialty insurance 430 482 679 418 258 378 625 590 732 personal insurance 091 252 942 13 250 440 10 569 102 362 14 047 total reportable segments 836 58 643 18 240 3..."
+    },
+    {
+      "chunk_index": 533,
+      "token_count": 200,
+      "text": "allowance uncollectible premiums receivable underwriting activities 69 50 61 58 deductibles 29 28 2023 reinsurance recoverables 132 14 118 allowance uncollectible premiums receivable underwriting acti..."
+    },
+    {
+      "chunk_index": 534,
+      "token_count": 90,
+      "text": "548 973 24 151 43 356 2023 306 61 621 096 20 872 37 761 922 26 159 38 226 23 276 40 201 2022 836 58 643 124 18 240 33 763 562 23 308 537 515 20 351 35 414 excludes accident health insurance business c..."
+    }
+  ]
+}

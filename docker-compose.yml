@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-  # PostgreSQL for metadata and structured data
   postgres:
     image: postgres:15
     environment:
@@ -15,7 +14,6 @@ services:
     networks:
       - pipeline_network
 
-  # QDrant for vector embeddings
   qdrant:
     image: qdrant/qdrant:latest
     ports:
@@ -26,20 +24,6 @@ services:
     networks:
       - pipeline_network
 
-  # Neo4j for knowledge graph (optional)
-  neo4j:
-    image: neo4j:5.13
-    environment:
-      NEO4J_AUTH: neo4j/password123
-    ports:
-      - "7474:7474"  # HTTP
-      - "7687:7687"  # Bolt
-    volumes:
-      - neo4j_data:/data
-    networks:
-      - pipeline_network
-
-  # Pipeline application
   pipeline:
     build: .
     environment:
@@ -50,22 +34,19 @@ services:
       POSTGRES_PASSWORD: postgres
       QDRANT_HOST: qdrant
       QDRANT_PORT: 6333
-      INPUT_DIR: /data/raw
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
     volumes:
-      - ./data:/data
-      - ./src:/app/src
+      - ./data/output:/data/output  # Only mount output
     depends_on:
       - postgres
       - qdrant
     networks:
       - pipeline_network
-    command: python /app/src/main.py
+    command: python /app/pipeline/run_ingest.py
 
 volumes:
   postgres_data:
   qdrant_data:
-  neo4j_data:
 
 networks:
   pipeline_network:

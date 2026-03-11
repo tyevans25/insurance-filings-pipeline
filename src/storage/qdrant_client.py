@@ -5,6 +5,8 @@ from qdrant_client import QdrantClient as QdrantSDK
 from qdrant_client.models import Distance, VectorParams, PointStruct
 from typing import List, Dict
 import os
+import hashlib
+
 
 class QdrantClient:
     def __init__(self, collection_name: str = 'insurance_filings'):
@@ -40,30 +42,44 @@ class QdrantClient:
         """
         points = []
         
-        for idx, chunk in enumerate(chunks):
+        for chunk in chunks:
             if 'embedding' not in chunk:
                 continue
             
+            # Use chunk_id hash for unique, stable IDs
+            point_id = int(hashlib.md5(chunk['chunk_id'].encode()).hexdigest()[:16], 16) % (2**63)
+            
+            # Get metadata from chunk
+            metadata = chunk.get('metadata', {})
+            
             point = PointStruct(
-                id=idx,  # Or use hash of chunk_id
+                id=point_id,
                 vector=chunk['embedding'],
                 payload={
                     'chunk_id': chunk['chunk_id'],
                     'filing_id': chunk.get('filing_id'),
-                    'company': chunk.get('company'),
-                    'filing_date': chunk.get('filing_date'),
-                    'section_type': chunk.get('section_type'),
-                    'text': chunk['text'][:500],  # Store truncated text
-                    'page_num': chunk.get('page_num')
+                    'company': metadata.get('company') or chunk.get('company'),
+                    'filing_date': metadata.get('filing_date') or chunk.get('filing_date'),
+                    'section_type': metadata.get('section_type') or chunk.get('section_type', 'document'),
+                    'chunk_index': metadata.get('chunk_index') or chunk.get('chunk_index', 0),
+                    'token_count': metadata.get('token_count', 0),
+                    'filename': metadata.get('filename', ''),
+                    'filing_type': metadata.get('filing_type') or chunk.get('filing_type', 'Unknown'),
+                    'text': chunk['text'][:1000]  # Store more text for context
                 }
             )
             points.append(point)
         
         if points:
-            self.client.upsert(
-                collection_name=self.collection_name,
-                points=points
-            )
+            try:
+                self.client.upsert(
+                    collection_name=self.collection_name,
+                    points=points
+                )
+                print(f"✅ QDrant: Successfully inserted {len(points)} points")
+            except Exception as e:
+                print(f"❌ QDrant insert failed: {e}")
+                raise
     
     def search(self, query_vector: List[float], limit: int = 5) -> List[Dict]:
         """

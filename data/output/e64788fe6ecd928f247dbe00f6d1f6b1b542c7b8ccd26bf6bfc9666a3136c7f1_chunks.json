@@ -1,0 +1,1422 @@
+{
+  "doc_id": "e64788fe6ecd928f247dbe00f6d1f6b1b542c7b8ccd26bf6bfc9666a3136c7f1",
+  "filename": "aig_10q_2024q3.pdf",
+  "company": "AIG",
+  "filing_id": 1,
+  "filing_type": "10-Q",
+  "fiscal_period": "Q3",
+  "metadata": {
+    "title": "aig-20240930",
+    "author": "",
+    "created_date": "2026-03-07T21:12:45",
+    "page_count": 170
+  },
+  "num_chunks": 281,
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "token_count": 200,
+      "text": "united states securities exchange commission washington 20549 form 10 quarterly report pursuant section 13 15 securities exchange act 1934 quarterly period ended september 30 2024 transition report pu..."
+    },
+    {
+      "chunk_index": 1,
+      "token_count": 200,
+      "text": "405 regulation 232 405 chapter preceding 12 months shorter period registrant required submit files yes indicate check mark registrant large accelerated filer accelerated filer non accelerated filer sm..."
+    },
+    {
+      "chunk_index": 2,
+      "token_count": 200,
+      "text": "report form 10 quarterly period ended september 30 2024 table contents form 10 item number description page financial information item financial statements note basis presentation note summary signifi..."
+    },
+    {
+      "chunk_index": 3,
+      "token_count": 200,
+      "text": "reserves 87 liquidity capital resources 92 enterprise risk management 98 glossary 99 acronyms 101 item quantitative qualitative disclosures market risk 102 item controls procedures 102 ii information ..."
+    },
+    {
+      "chunk_index": 4,
+      "token_count": 200,
+      "text": "value note 763 663 equity securities fair value note 767 665 mortgage loans receivable net allowance credit losses 37 803 2024 37 776 2023 286 441 invested assets portion measured fair value 2024 11 7..."
+    },
+    {
+      "chunk_index": 5,
+      "token_count": 200,
+      "text": "32 2023 portion measured fair value 2024 231 2023 374 553 425 assets held sale 137 30 assets discontinued operations 378 748 total assets 169 449 539 306 liabilities liability unpaid losses loss adjus..."
+    },
+    {
+      "chunk_index": 6,
+      "token_count": 200,
+      "text": "additional paid capital 00 par value 100 000 000 shares authorized shares issued 2024 2023 20 000 liquidation preference 500 485 common stock 50 par value 000 000 000 shares authorized shares issued 2..."
+    },
+    {
+      "chunk_index": 7,
+      "token_count": 200,
+      "text": "consolidated statements income loss unaudited months ended september 30 months ended september 30 dollars millions common share data 2024 2023 2024 2023 revenues premiums 945 543 17 564 19 533 net inv..."
+    },
+    {
+      "chunk_index": 8,
+      "token_count": 200,
+      "text": "194 048 expense 112 138 353 391 loss extinguishment debt 21 21 net gain loss divestitures 101 94 89 total benefits losses expenses 102 167 17 750 19 024 income continuing operations income tax expense..."
+    },
+    {
+      "chunk_index": 9,
+      "token_count": 200,
+      "text": "54 income loss discontinued operations 03 84 07 29 net income loss attributable aig common shareholders 71 81 48 83 weighted average shares outstanding basic 641 621 768 712 598 496 661 691 554 725 57..."
+    },
+    {
+      "chunk_index": 10,
+      "token_count": 200,
+      "text": "contracts 46 32 44 18 change foreign currency translation adjustments 414 232 104 339 change retirement plan liabilities adjustment 45 18 123 change comprehensive income loss related discontinued oper..."
+    },
+    {
+      "chunk_index": 11,
+      "token_count": 200,
+      "text": "75 274 34 225 565 44 445 30 44 475 common stock issued stock plans 29 25 25 purchase common stock 518 518 518 net income loss attributable aig noncontrolling interests 459 459 457 dividends common sto..."
+    },
+    {
+      "chunk_index": 12,
+      "token_count": 200,
+      "text": "65 35 42 45 balance end period 485 766 58 191 77 764 37 689 22 529 39 984 229 43 213 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20..."
+    },
+    {
+      "chunk_index": 13,
+      "token_count": 200,
+      "text": "redemption premiums 22 22 22 dividends common stock 16 share 758 758 758 comprehensive income loss 778 778 294 484 net increase decrease divestitures acquisitions 418 537 119 010 891 contributions non..."
+    },
+    {
+      "chunk_index": 14,
+      "token_count": 200,
+      "text": "317 80 16 96 71 167 balance end period 485 766 58 191 77 764 37 689 22 529 39 984 229 43 213 accompanying notes condensed consolidated financial statements aig quarter 2024 form 10 26 12 pm aig 202409..."
+    },
+    {
+      "chunk_index": 15,
+      "token_count": 200,
+      "text": "method investments net dividends distributions 57 depreciation amortization 607 893 impairments assets 24 14 changes operating assets liabilities insurance reserves 864 554 premiums receivables payabl..."
+    },
+    {
+      "chunk_index": 16,
+      "token_count": 200,
+      "text": "cash provided used investing activities continuing operations 190 595 net cash used investing activities discontinued operations 171 478 net cash used investing activities 981 073 cash flows financing..."
+    },
+    {
+      "chunk_index": 17,
+      "token_count": 200,
+      "text": "archives edgar data 5272 000000527224000126 aig 20240930 htm 11 170 table contents american international group condensed consolidated statements cash flows unaudited continued supplementary disclosur..."
+    },
+    {
+      "chunk_index": 18,
+      "token_count": 200,
+      "text": "accompanying notes condensed consolidated financial statements aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 12 170 tabl..."
+    },
+    {
+      "chunk_index": 19,
+      "token_count": 200,
+      "text": "condensed consolidated financial statements contain normal recurring adjustments including eliminations material intercompany accounts transactions necessary fair statement results presented operating..."
+    },
+    {
+      "chunk_index": 20,
+      "token_count": 200,
+      "text": "outstanding amended credit agreement total approximately billion remains available amended credit agreement sales disposals assets businesses global personal travel business june 26 2024 aig announced..."
+    },
+    {
+      "chunk_index": 21,
+      "token_count": 200,
+      "text": "170 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 14 170 table contents item notes condensed consolidated financial stat..."
+    },
+    {
+      "chunk_index": 22,
+      "token_count": 200,
+      "text": "material impact aig consolidated financial statements future application accounting standards income tax december 2023 fasb issued accounting standard update address improvements income tax disclosure..."
+    },
+    {
+      "chunk_index": 23,
+      "token_count": 200,
+      "text": "early adoption permitted company adopt guidance 2024 annual report form 10 amendment applied retrospectively prior periods presented segment information result corebridge deconsolidation longer presen..."
+    },
+    {
+      "chunk_index": 24,
+      "token_count": 200,
+      "text": "caribbean china international includes results talbot underwriting aig global specialty business north america international operating segments consist following products commercial lines consists pro..."
+    },
+    {
+      "chunk_index": 25,
+      "token_count": 200,
+      "text": "transactions measures believe common industry legal entities attributed segment based predominance activity legal entity items excluded adjusted revenues adjusted pre tax income loss table following t..."
+    },
+    {
+      "chunk_index": 26,
+      "token_count": 200,
+      "text": "fortitude funds withheld assets 51 51 29 29 net realized losses fortitude funds withheld assets 18 18 net realized gains losses fortitude funds withheld embedded derivative 157 157 57 57 net realized ..."
+    },
+    {
+      "chunk_index": 27,
+      "token_count": 200,
+      "text": "267 100 months ended september 30 2024 2023 millions adjusted revenues adjusted pre tax income loss adjusted revenues adjusted pre tax income loss general insurance north america underwriting income 6..."
+    },
+    {
+      "chunk_index": 28,
+      "token_count": 200,
+      "text": "divestitures 94 89 non operating litigation reserves settlements unfavorable favorable prior year development related amortization changes ceded retroactive reinsurance agreements 66 112 net loss rese..."
+    },
+    {
+      "chunk_index": 29,
+      "token_count": 200,
+      "text": "fortitude funds withheld assets months ended september 30 2024 restructuring costs increased primarily result employee related costs including severance real estate impairment charges additional infor..."
+    },
+    {
+      "chunk_index": 30,
+      "token_count": 200,
+      "text": "actively marketed sale anticipated occur 12 months certain specified criteria met held sale business recorded lower carrying estimated fair value cost sell carrying business exceeds estimated fair val..."
+    },
+    {
+      "chunk_index": 31,
+      "token_count": 200,
+      "text": "operations presentation global personal travel business june 26 2024 aig entered definitive agreement sell global individual personal travel insurance assistance business zurich insurance group 600 mi..."
+    },
+    {
+      "chunk_index": 32,
+      "token_count": 200,
+      "text": "resigned corebridge board directors june 2024 deconsolidation date result aig met requirements deconsolidation corebridge historical financial results corebridge periods presented reflected condensed ..."
+    },
+    {
+      "chunk_index": 33,
+      "token_count": 200,
+      "text": "gov archives edgar data 5272 000000527224000126 aig 20240930 htm 20 170 aig quarter 2024 form 10 13 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm..."
+    },
+    {
+      "chunk_index": 34,
+      "token_count": 200,
+      "text": "following provides financial information related corebridge equity method investee corebridge equity method investee periods presented equity method income loss related corebridge based fair value ass..."
+    },
+    {
+      "chunk_index": 35,
+      "token_count": 200,
+      "text": "securities fair value 579 equity securities fair value 63 mortgage loans receivable net allowance credit losses 46 732 invested assets 916 short term investments 11 346 total investments 11 15 232 293..."
+    },
+    {
+      "chunk_index": 36,
+      "token_count": 200,
+      "text": "78 790 14 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 23 170 table contents item notes condensed consolidated financia..."
+    },
+    {
+      "chunk_index": 37,
+      "token_count": 200,
+      "text": "216 923 464 income 186 372 561 total revenues 510 679 15 565 benefits losses expenses policyholder benefits losses incurred 106 618 478 change fair value market risk benefits net 418 350 484 credited ..."
+    },
+    {
+      "chunk_index": 38,
+      "token_count": 200,
+      "text": "2024 form 10 15 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 24 170 table contents item notes condensed consolidated financial statements unaudi..."
+    },
+    {
+      "chunk_index": 39,
+      "token_count": 200,
+      "text": "tax expense 507 subtotal tax gain 530 reclassification adjustment accumulated comprehensive loss june 2024 214 loss sale corebridge tax 684 fair value measurements fair value measurements recurring ba..."
+    },
+    {
+      "chunk_index": 40,
+      "token_count": 200,
+      "text": "asset liability make certain assumptions inputs hypothetical market participant use value asset liability certain cases inputs used measure fair value fall different levels fair value hierarchy cases ..."
+    },
+    {
+      "chunk_index": 41,
+      "token_count": 200,
+      "text": "034 rmbs 324 095 419 cmbs 024 82 106 clo abs 540 983 523 total bonds available sale 182 62 242 556 65 980 bond securities obligations states municipalities political subdivisions 52 52 non governments..."
+    },
+    {
+      "chunk_index": 42,
+      "token_count": 200,
+      "text": "collateral 276 209 485 total derivative liabilities 588 66 276 209 169 fortitude funds withheld payable liabilities 99 99 total 588 165 276 209 268 aig quarter 2024 form 10 17 26 12 pm aig 20240930 ht..."
+    },
+    {
+      "chunk_index": 43,
+      "token_count": 200,
+      "text": "33 33 clo abs 69 138 207 total bond securities 429 234 663 equity securities 612 39 14 665 invested assets 155 221 376 derivative assets rate contracts 335 406 741 foreign exchange contracts 450 451 e..."
+    },
+    {
+      "chunk_index": 44,
+      "token_count": 200,
+      "text": "september 30 2024 december 31 2023 respectively september 30 2024 includes aig's ownership corebridge billion aig elected fair value option presented assets liabilities condensed consolidated balance ..."
+    },
+    {
+      "chunk_index": 45,
+      "token_count": 200,
+      "text": "end period changes unrealized gains losses included income instruments held end period changes unrealized gains losses included comprehensive income loss recurring level instruments held end period mo..."
+    },
+    {
+      "chunk_index": 46,
+      "token_count": 200,
+      "text": "end period changes unrealized gains losses included comprehensive income loss recurring level instruments held end period liabilities derivative liabilities net rate contracts equity contracts 35 36 c..."
+    },
+    {
+      "chunk_index": 47,
+      "token_count": 200,
+      "text": "states municipalities political subdivisions 16 11 non governments corporate debt 418 12 63 30 16 355 13 rmbs 868 26 15 63 820 16 cmbs 48 31 24 54 clo abs 396 14 19 27 32 344 total bonds available sal..."
+    },
+    {
+      "chunk_index": 48,
+      "token_count": 200,
+      "text": "exchange contracts equity contracts 399 178 91 130 65 credit contracts contracts total derivative liabilities net 737 72 662 63 fortitude funds withheld payable 269 57 29 355 78 liabilities 98 92 tota..."
+    },
+    {
+      "chunk_index": 49,
+      "token_count": 200,
+      "text": "385 rmbs 792 46 108 173 287 37 095 cmbs 25 30 85 82 clo abs 289 23 65 380 44 12 983 49 total bonds available sale 439 16 196 638 550 51 44 556 56 bond securities corporate debt 45 46 rmbs 51 55 clo ab..."
+    },
+    {
+      "chunk_index": 50,
+      "token_count": 200,
+      "text": "10 credit contracts contracts total derivative liabilities net 453 41 376 37 fortitude funds withheld payable 148 158 10 106 liabilities 122 21 99 total 479 197 345 37 100 99 aig quarter 2024 form 10 ..."
+    },
+    {
+      "chunk_index": 51,
+      "token_count": 200,
+      "text": "51 28 820 cmbs 207 29 42 172 54 15 clo abs 483 26 39 110 17 74 15 344 total bonds available sale 475 23 56 615 204 550 13 580 14 bond securities corporate debt 44 45 rmbs 65 17 50 clo abs 158 14 12 15..."
+    },
+    {
+      "chunk_index": 52,
+      "token_count": 200,
+      "text": "contracts 271 109 32 130 49 credit contracts contracts total derivative liabilities net 583 18 97 662 96 fortitude funds withheld payable 41 25 339 355 30 liabilities 112 20 92 total 512 23 436 925 12..."
+    },
+    {
+      "chunk_index": 53,
+      "token_count": 200,
+      "text": "available sale 65 49 16 bond securities equity securities invested assets 16 16 months ended september 30 2023 assets bonds available sale 77 54 23 bond securities equity securities invested assets mi..."
+    },
+    {
+      "chunk_index": 54,
+      "token_count": 200,
+      "text": "components purchases sales issuances settlements net shown months ended september 30 2024 2023 related level assets liabilities condensed consolidated balance sheets millions purchases sales issuances..."
+    },
+    {
+      "chunk_index": 55,
+      "token_count": 200,
+      "text": "assets total 99 187 79 167 liabilities derivative liabilities net 91 160 72 fortitude funds withheld payable 29 29 total 91 131 43 24 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov a..."
+    },
+    {
+      "chunk_index": 56,
+      "token_count": 200,
+      "text": "10 10 liabilities 21 21 total 345 345 months ended september 30 2023 assets bonds available sale obligations states municipalities political subdivisions 15 16 non governments corporate debt 13 423 41..."
+    },
+    {
+      "chunk_index": 57,
+      "token_count": 200,
+      "text": "2024 form 10 25 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 34 170 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 00000052722..."
+    },
+    {
+      "chunk_index": 58,
+      "token_count": 200,
+      "text": "2023 respectively transfers level assets transfers level assets months ended september 30 2024 months ended september 30 2024 months ended september 30 2023 transfers level assets primarily included c..."
+    },
+    {
+      "chunk_index": 59,
+      "token_count": 200,
+      "text": "liquidity related transparency pricing associated observable inputs investments transfers certain investments private placement corporate debt level assets primarily result using observable pricing in..."
+    },
+    {
+      "chunk_index": 60,
+      "token_count": 200,
+      "text": "21 90 55 loss severity 41 59 77 42 59 51 constant default rate 80 38 59 yield 23 40 81 clo abs 003 discounted cash flow yield 10 82 46 cmbs 19 discounted cash flow yield 07 15 74 10 41 26 12 pm aig 20..."
+    },
+    {
+      "chunk_index": 61,
+      "token_count": 200,
+      "text": "76 65 59 93 constant default rate 82 64 73 yield 18 42 80 clo abs 100 discounted cash flow yield 31 56 94 cmbs 22 discounted cash flow yield 84 17 24 13 54 information received party valuation service..."
+    },
+    {
+      "chunk_index": 62,
+      "token_count": 200,
+      "text": "does effect risk management practices offset risks inherent level assets liabilities interrelationships unobservable inputs consider unobservable inputs market data available developed using best info..."
+    },
+    {
+      "chunk_index": 63,
+      "token_count": 200,
+      "text": "htm 38 170 table contents item notes condensed consolidated financial statements unaudited fair value measurements investments certain entities carried fair value using net asset value share following..."
+    },
+    {
+      "chunk_index": 64,
+      "token_count": 200,
+      "text": "sale company 102 92 67 50 growth equity funds make investments established companies purpose growing businesses 205 196 mezzanine funds make investments junior debt equity securities leveraged compani..."
+    },
+    {
+      "chunk_index": 65,
+      "token_count": 200,
+      "text": "20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 39 170 table contents item notes condensed consolidated financial statements unaudited fair value measurements f..."
+    },
+    {
+      "chunk_index": 66,
+      "token_count": 200,
+      "text": "posted fair value information financial instruments measured fair value following table presents carrying amounts estimated fair values financial instruments measured fair value indicates level fair v..."
+    },
+    {
+      "chunk_index": 67,
+      "token_count": 200,
+      "text": "890 10 375 debt consolidated investment entities 231 231 231 excludes 10 million september 30 2024 reclassified assets held sale condensed consolidated balance sheets excludes 85 million september 30 ..."
+    },
+    {
+      "chunk_index": 68,
+      "token_count": 200,
+      "text": "debt 33 903 25 808 652 33 034 mortgage backed asset backed collateralized rmbs 462 256 293 419 cmbs 127 69 83 106 clo abs 536 43 56 523 total mortgage backed asset backed collateralized 15 125 13 368 ..."
+    },
+    {
+      "chunk_index": 69,
+      "token_count": 200,
+      "text": "recognized oci september 30 2024 december 31 2023 fair value bonds available sale held investment grade rated totaled billion percent billion percent respectively securities available sale loss positi..."
+    },
+    {
+      "chunk_index": 70,
+      "token_count": 200,
+      "text": "cmbs 568 121 75 689 81 clo abs 389 12 45 44 434 56 total bonds available sale 19 962 193 12 586 574 32 548 767 30 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5..."
+    },
+    {
+      "chunk_index": 71,
+      "token_count": 200,
+      "text": "total bonds available sale 11 248 493 31 037 392 42 285 885 september 30 2024 held 10 479 individual fixed maturity securities unrealized loss position allowance credit losses recorded including 111 i..."
+    },
+    {
+      "chunk_index": 72,
+      "token_count": 200,
+      "text": "30 2024 total fixed maturity securities available sale millions amortized cost net allowance fair value year 626 608 year years 25 918 25 593 years years 16 595 16 180 years 073 551 mortgage backed as..."
+    },
+    {
+      "chunk_index": 73,
+      "token_count": 200,
+      "text": "losses 18 million 34 million net realized gains losses months ended 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 44 170 september 30 2024 respec..."
+    },
+    {
+      "chunk_index": 74,
+      "token_count": 200,
+      "text": "measured fair value following table presents fair value fixed maturity securities measured fair value based election fair value option reported bond securities caption financial statements equity secu..."
+    },
+    {
+      "chunk_index": 75,
+      "token_count": 200,
+      "text": "2024 includes hedge funds 187 million private equity funds billion december 31 2023 included hedge funds 411 million private equity funds billion private equity funds investments include limited partn..."
+    },
+    {
+      "chunk_index": 76,
+      "token_count": 200,
+      "text": "771 731 22 753 fixed maturity securities 16 20 equity securities 60 60 31 31 mortgage loans 52 61 73 10 83 alternative investments 42 42 19 19 investments 63 64 43 44 total investment income 967 51 01..."
+    },
+    {
+      "chunk_index": 77,
+      "token_count": 200,
+      "text": "431 106 537 includes income hedge funds private equity funds real estate investments hedge funds recorded balance sheet date private equity funds generally reported quarter lag includes dividends rece..."
+    },
+    {
+      "chunk_index": 78,
+      "token_count": 200,
+      "text": "192 net realized gains losses fortitude funds withheld embedded derivative 157 157 57 57 net realized gains losses 175 167 189 54 135 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 0..."
+    },
+    {
+      "chunk_index": 79,
+      "token_count": 200,
+      "text": "investments 26 26 13 13 17 14 net realized gains losses excluding fortitude funds withheld embedded derivative 238 38 276 571 64 635 net realized losses fortitude funds withheld embedded derivative 15..."
+    },
+    {
+      "chunk_index": 80,
+      "token_count": 200,
+      "text": "total net gains recognized period equity securities investments 60 42 102 31 46 77 net gains losses recognized period equity securities investments sold period 12 unrealized gains recognized reporting..."
+    },
+    {
+      "chunk_index": 81,
+      "token_count": 200,
+      "text": "000000527224000126 aig 20240930 htm 49 170 34 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 50 170 table contents item n..."
+    },
+    {
+      "chunk_index": 82,
+      "token_count": 200,
+      "text": "securities allowance credit losses previously recorded 12 47 51 reductions securities sold period 12 addition release allowance credit losses securities allowance recorded previous period intent sell ..."
+    },
+    {
+      "chunk_index": 83,
+      "token_count": 200,
+      "text": "did purchase securities insignificant credit deterioration origination months ended september 30 2024 2023 aig quarter 2024 form 10 35 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 ..."
+    },
+    {
+      "chunk_index": 84,
+      "token_count": 200,
+      "text": "table presents fair value securities pledged counterparties secured financing transactions including repurchase securities lending agreements millions september 30 2024 december 31 2023 fixed maturity..."
+    },
+    {
+      "chunk_index": 85,
+      "token_count": 200,
+      "text": "2024 december 31 2023 securities collateral pledged 957 200 september 30 2024 december 31 2023 carrying value reverse repurchase agreements totaled 965 million billion respectively secured financing t..."
+    },
+    {
+      "chunk_index": 86,
+      "token_count": 200,
+      "text": "13 million 15 million stock fhlbs september 30 2024 december 31 2023 respectively addition subsidiaries pledged securities available sale fair value billion september 30 2024 billion december 31 2023 ..."
+    },
+    {
+      "chunk_index": 87,
+      "token_count": 200,
+      "text": "31 2023 loans held sale carried lower cost market september 30 2024 december 31 2023 excludes 37 billion september 30 2024 december 31 2023 loans receivable aig financial products corp aigfp allowance..."
+    },
+    {
+      "chunk_index": 88,
+      "token_count": 200,
+      "text": "majority commercial mortgages portfolio non recourse loans accordingly guarantees specific items exceptions non recourse provisions extremely rare cause enforce provisions guarantee commercial real es..."
+    },
+    {
+      "chunk_index": 89,
+      "token_count": 200,
+      "text": "102 696 december 31 2023 2023 2022 2021 2020 2019 prior total millions 2x 398 167 394 135 156 784 034 00 20x 71 254 56 21 298 705 00x 11 86 97 total commercial mortgages 403 249 648 191 177 168 836 fo..."
+    },
+    {
+      "chunk_index": 90,
+      "token_count": 200,
+      "text": "debt service coverage ratio compares property net operating income debt service payments including principal weighted average debt service coverage ratio 9x 8x september 30 2024 december 31 2023 respe..."
+    },
+    {
+      "chunk_index": 91,
+      "token_count": 200,
+      "text": "100 allowance credit losses 102 35 13 165 38 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 56 170 table contents item no..."
+    },
+    {
+      "chunk_index": 92,
+      "token_count": 200,
+      "text": "mortgages loans total allowance beginning period 162 163 116 119 addition release allowance loan losses 17 17 allowance end period 165 167 133 136 months ended september 30 2024 2023 millions commerci..."
+    },
+    {
+      "chunk_index": 93,
+      "token_count": 200,
+      "text": "includes losses modifications receivables borrowers experiencing financial difficulty use probability default loss given default model determine allowance credit losses commercial mortgage loans asses..."
+    },
+    {
+      "chunk_index": 94,
+      "token_count": 200,
+      "text": "based variety factors including borrower current default outstanding debt probability default debt foreseeable future modification insufficiency borrower forecasted cash flows service outstanding debt..."
+    },
+    {
+      "chunk_index": 95,
+      "token_count": 200,
+      "text": "pay reinsurer fortitude later date additionally aig maintains ownership investments aig maintain existing accounting assets changes fair value available sale securities recognized oci aig established ..."
+    },
+    {
+      "chunk_index": 96,
+      "token_count": 200,
+      "text": "investment income commercial mortgage loans 475 456 543 528 amortized cost short term investments 21 21 46 46 fair value net investment income funds withheld investment assets 393 374 424 409 derivati..."
+    },
+    {
+      "chunk_index": 97,
+      "token_count": 200,
+      "text": "000000527224000126 aig 20240930 htm 59 170 40 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 60 170 table contents item n..."
+    },
+    {
+      "chunk_index": 98,
+      "token_count": 200,
+      "text": "income loss 31 33 34 income tax expense benefit tax impact accumulated comprehensive income loss aoci computed using aig statutory tax rate 21 percent various assets supporting fortitude funds withhel..."
+    },
+    {
+      "chunk_index": 99,
+      "token_count": 200,
+      "text": "run voluntarily involuntarily placed receivership insolvent process liquidation subject formal informal regulatory restriction assigned orrs generate significant allowance collateral collateral arrang..."
+    },
+    {
+      "chunk_index": 100,
+      "token_count": 200,
+      "text": "arrangements typically collateralized letters credit funds withheld trust agreements aig quarter 2024 form 10 41 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig..."
+    },
+    {
+      "chunk_index": 101,
+      "token_count": 200,
+      "text": "essential acquisition renewal insurance contract dac generally include agent broker commissions bonuses premium taxes medical inspection fees incurred insurance contract acquired renewed cost analyzed..."
+    },
+    {
+      "chunk_index": 102,
+      "token_count": 200,
+      "text": "primary beneficiary analysis includes review vie capital structure related contractual relationships terms nature vie operations purpose nature vie interests issued involvement entity assessing need c..."
+    },
+    {
+      "chunk_index": 103,
+      "token_count": 200,
+      "text": "aig limited circumstances aig provided guarantee vie holders following table presents total assets total liabilities associated variable interests consolidated vies classified condensed consolidated b..."
+    },
+    {
+      "chunk_index": 104,
+      "token_count": 200,
+      "text": "027 748 748 total 356 030 107 240 347 comprised primarily hedge funds private equity funds september 30 2024 december 31 2023 excludes approximately 925 million 971 million respectively vie assets rel..."
+    },
+    {
+      "chunk_index": 105,
+      "token_count": 200,
+      "text": "consolidated financial statements unaudited 11 derivatives hedge accounting 11 derivatives hedge accounting use derivatives financial instruments financial risk management programs investment operatio..."
+    },
+    {
+      "chunk_index": 106,
+      "token_count": 200,
+      "text": "gross derivative assets gross derivative liabilities gross derivative assets gross derivative liabilities millions notional fair value notional fair value notional fair value notional fair value deriv..."
+    },
+    {
+      "chunk_index": 107,
+      "token_count": 200,
+      "text": "53 million 50 million fair value liability 33 million 32 million respectively net notional represents maximum exposure loss portfolio consists primarily stable value wraps contracts multiple underlyin..."
+    },
+    {
+      "chunk_index": 108,
+      "token_count": 200,
+      "text": "collateral obtained counterparty upfront contingent basis minimize risk counterparties unable fulfill contractual obligations monitoring counterparty credit exposure collateral value generally requiri..."
+    },
+    {
+      "chunk_index": 109,
+      "token_count": 200,
+      "text": "transactions factors prevailing time downgrade collateral posted parties derivative transactions 574 million 593 million september 30 2024 december 31 2023 respectively case collateral posted derivati..."
+    },
+    {
+      "chunk_index": 110,
+      "token_count": 200,
+      "text": "fair value hedges include foreign currency forwards cross currency swaps designated hedges change fair value foreign currency denominated available sale securities attributable changes foreign exchang..."
+    },
+    {
+      "chunk_index": 111,
+      "token_count": 200,
+      "text": "income millions hedging derivatives excluded components hedged items net impact months ended september 30 2024 foreign exchange contracts net realized gains losses 53 53 months ended september 30 2023..."
+    },
+    {
+      "chunk_index": 112,
+      "token_count": 200,
+      "text": "11 derivatives hedge accounting derivatives designated hedging instruments following table presents effect derivative instruments designated hedging instruments condensed consolidated statements incom..."
+    },
+    {
+      "chunk_index": 113,
+      "token_count": 200,
+      "text": "senior debt ratings bbb bbb standard poor financial services llc subsidiary global downgrade baa2 baa3 moody investors service permit counterparties make additional collateral calls permit certain cou..."
+    },
+    {
+      "chunk_index": 114,
+      "token_count": 200,
+      "text": "changes fair value recognized net investment income investments hybrid securities reported bond securities condensed consolidated balance sheets fair value hybrid securities million september 30 2024 ..."
+    },
+    {
+      "chunk_index": 115,
+      "token_count": 200,
+      "text": "events changes estimates common given loss trends vary time required changes trends recognized confirmed reserve changes increase previous estimates ultimate cost referred unfavorable adverse developm..."
+    },
+    {
+      "chunk_index": 116,
+      "token_count": 200,
+      "text": "rollforward activity loss reserves months ended september 30 months ended september 30 millions 2024 2023 2024 2023 liability unpaid loss loss adjustment expenses beginning period 69 783 70 284 70 393..."
+    },
+    {
+      "chunk_index": 117,
+      "token_count": 200,
+      "text": "583 237 211 losses loss adjustment expenses recognized gain divestitures 316 316 retroactive reinsurance adjustment net discount 107 121 71 180 dispositions reclassified held sale net reinsurance reco..."
+    },
+    {
+      "chunk_index": 118,
+      "token_count": 200,
+      "text": "exposures months ended september 30 2024 2023 respectively 47 million 22 million months ended september 30 2024 2023 respectively includes benefit charge change discount retroactive reinsurance 22 mil..."
+    },
+    {
+      "chunk_index": 119,
+      "token_count": 200,
+      "text": "account security nico claim payment obligations berkshire provided parental guarantee secure obligations nico agreement prior year development months ended september 30 2024 recognized unfavorable pri..."
+    },
+    {
+      "chunk_index": 120,
+      "token_count": 200,
+      "text": "development uk europe casualty months ended september 30 2023 recognized favorable prior year loss reserve development 380 million excluding discount amortization deferred gain development period larg..."
+    },
+    {
+      "chunk_index": 121,
+      "token_count": 200,
+      "text": "used 2007 life table rates prescribed permitted state new york based percent rate pennsylvania delaware based treasury rate plus liquidity premium case applying tabular discount factor nominal reserve..."
+    },
+    {
+      "chunk_index": 122,
+      "token_count": 200,
+      "text": "consolidated financial statements unaudited 12 insurance liabilities following table presents components loss reserve discount discussed millions september 30 2024 december 31 2023 workers' compensati..."
+    },
+    {
+      "chunk_index": 123,
+      "token_count": 200,
+      "text": "30 2024 2023 respectively excludes million 15 million discount related certain long tail liabilities uk months ended september 30 2024 2023 respectively amortization deferred gain retroactive reinsura..."
+    },
+    {
+      "chunk_index": 124,
+      "token_count": 200,
+      "text": "sheets months ended september 30 millions liability durations 2024 2023 present value expected net premiums balance beginning year 702 929 effect changes discount rate assumptions aoci 339 262 beginni..."
+    },
+    {
+      "chunk_index": 125,
+      "token_count": 200,
+      "text": "value expected future policy benefits balance beginning year 149 380 effect changes discount rate assumptions aoci 441 362 beginning balance original discount rate 590 742 effect actual variances expe..."
+    },
+    {
+      "chunk_index": 126,
+      "token_count": 200,
+      "text": "net liability cash flows aggregated segment level utilizing segment level weighted average rates current discount rate table following table presents undiscounted expected future benefit payments undi..."
+    },
+    {
+      "chunk_index": 127,
+      "token_count": 200,
+      "text": "12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 76 170 table contents item notes condensed consolidated financial statements unaudited 13 contingencie..."
+    },
+    {
+      "chunk_index": 128,
+      "token_count": 200,
+      "text": "defend indemnify insureds insurance contracts generally considered establishment loss reserves separate apart foregoing matters involving insurance reinsurance coverage aig parent subsidiaries respect..."
+    },
+    {
+      "chunk_index": 129,
+      "token_count": 200,
+      "text": "result additional expenses limitations certain business activities reputational damage commitments normal course business enter commitments invest limited partnerships private equity funds hedge funds..."
+    },
+    {
+      "chunk_index": 130,
+      "token_count": 200,
+      "text": "77 170 aig quarter 2024 form 10 51 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 78 170 table contents item notes condensed consolidated financia..."
+    },
+    {
+      "chunk_index": 131,
+      "token_count": 200,
+      "text": "vies note 10 additional information derivatives note 11 14 equity shares outstanding preferred stock march 14 2019 issued 20 000 shares series 85 non cumulative perpetual preferred stock series prefer..."
+    },
+    {
+      "chunk_index": 132,
+      "token_count": 200,
+      "text": "issued treasury stock common stock outstanding millions shares beginning year 906 217 688 shares issued shares repurchased 65 65 shares end period 906 276 630 dividends dividends payable aig common st..."
+    },
+    {
+      "chunk_index": 133,
+      "token_count": 200,
+      "text": "aig common stock shares repurchased time time open market private purchases forward derivative accelerated repurchase automatic repurchase transactions certain share repurchases time time effected sec..."
+    },
+    {
+      "chunk_index": 134,
+      "token_count": 200,
+      "text": "risk benefits attributable changes credit risk change discount rates used measure traditional limited payment long duration insurance contracts foreign currency translation adjustments retirement plan..."
+    },
+    {
+      "chunk_index": 135,
+      "token_count": 200,
+      "text": "adjustments 279 279 change net actuarial loss 62 62 change prior service cost change deferred tax asset liability 14 141 23 323 10 18 847 total comprehensive income loss 66 694 81 147 269 45 918 coreb..."
+    },
+    {
+      "chunk_index": 136,
+      "token_count": 200,
+      "text": "2023 net tax 106 10 888 476 233 979 821 14 037 change unrealized appreciation depreciation investments 98 729 631 change 13 13 change fair value market risk benefits net 130 130 change discount rates ..."
+    },
+    {
+      "chunk_index": 137,
+      "token_count": 200,
+      "text": "250 250 change discount rates 474 474 change future policy benefits 210 210 change foreign currency translation adjustments 323 323 change net actuarial loss 167 167 change prior service cost change d..."
+    },
+    {
+      "chunk_index": 138,
+      "token_count": 200,
+      "text": "currency translation adjustments retirement plan liabilities adjustment total months ended september 30 2024 unrealized change arising period 45 514 12 427 967 reclassification adjustments included ne..."
+    },
+    {
+      "chunk_index": 139,
+      "token_count": 200,
+      "text": "20240930 htm 82 170 table contents item notes condensed consolidated financial statements unaudited 14 equity millions unrealized appreciation depreciation fixed maturity securities allowance credit l..."
+    },
+    {
+      "chunk_index": 140,
+      "token_count": 200,
+      "text": "23 933 23 979 total comprehensive income loss income tax expense benefit 33 238 250 474 323 170 134 income tax expense benefit 798 54 374 33 45 391 total comprehensive income loss net income tax expen..."
+    },
+    {
+      "chunk_index": 141,
+      "token_count": 200,
+      "text": "taken investments 23 net realized gains losses total 23 unrealized appreciation depreciation investments investments 354 933 net realized gains losses total 354 933 change retirement plan liabilities ..."
+    },
+    {
+      "chunk_index": 142,
+      "token_count": 200,
+      "text": "84 170 table contents item notes condensed consolidated financial statements unaudited 15 earnings common share eps 15 earnings common share eps basic eps computation based weighted average number com..."
+    },
+    {
+      "chunk_index": 143,
+      "token_count": 200,
+      "text": "net noncontrolling 22 326 055 671 net income loss attributable aig common shareholders 459 020 324 528 denominator eps weighted average common shares outstanding basic 641 621 768 712 598 496 661 691 ..."
+    },
+    {
+      "chunk_index": 144,
+      "token_count": 200,
+      "text": "2024 respectively million million months ended september 30 2023 respectively effect including common shares calculation anti dilutive information regarding repurchases aig common stock note 14 16 inc..."
+    },
+    {
+      "chunk_index": 145,
+      "token_count": 200,
+      "text": "notes condensed consolidated financial statements unaudited 16 income taxes tax accounting policies consider foreign earnings respect certain operations canada south africa japan latin america bermuda..."
+    },
+    {
+      "chunk_index": 146,
+      "token_count": 200,
+      "text": "uncertain tax positions realizability deferred tax assets recorded period change occurs interim tax expense benefit months ended september 30 2024 effective tax rate income continuing operations 25 pe..."
+    },
+    {
+      "chunk_index": 147,
+      "token_count": 200,
+      "text": "benefits related share based compensation payments recorded income statement effect foreign operations primarily related income foreign operations taxed statutory tax rates higher 21 percent foreign t..."
+    },
+    {
+      "chunk_index": 148,
+      "token_count": 200,
+      "text": "announced sale validus foreign valuation allowance changes state local income taxes tax charges partially offset tax benefits related potential resolution irs audit matter net increase associated unce..."
+    },
+    {
+      "chunk_index": 149,
+      "token_count": 200,
+      "text": "20240930 htm 88 170 table contents item notes condensed consolidated financial statements unaudited 16 income taxes quarter taxable income projections updated reflect latest projections income insuran..."
+    },
+    {
+      "chunk_index": 150,
+      "token_count": 200,
+      "text": "related changes forecasts income future periods items related current year recorded discretely factoring multiple data points assessing relative weight positive negative evidence concluded valuation a..."
+    },
+    {
+      "chunk_index": 151,
+      "token_count": 200,
+      "text": "income months ended september 30 2024 recognized net 15 million decrease deferred tax asset valuation allowance associated certain foreign jurisdictions tax examinations currently examination irs tax ..."
+    },
+    {
+      "chunk_index": 152,
+      "token_count": 200,
+      "text": "subsequent events debt redemption october 21 2024 aig announced redeem outstanding zero coupon callable notes 2047 notes november 22 2024 redemption date redemption price equal 135 631 face notes outs..."
+    },
+    {
+      "chunk_index": 153,
+      "token_count": 200,
+      "text": "particular subject quarterly report form 10 unless mentioned unless context indicates use terms aig company refer american international group delaware corporation consolidated subsidiaries use term a..."
+    },
+    {
+      "chunk_index": 154,
+      "token_count": 200,
+      "text": "expense reduction efforts outcome contingencies legal proceedings anticipated organizational business regulatory changes effect catastrophic events natural man macroeconomic geopolitical events antici..."
+    },
+    {
+      "chunk_index": 155,
+      "token_count": 200,
+      "text": "government shutdown geopolitical events conflicts including conflict russia ukraine conflict israel surrounding areas occurrence catastrophic events natural man including effects climate change geopol..."
+    },
+    {
+      "chunk_index": 156,
+      "token_count": 200,
+      "text": "nonperformance defaults counterparties ability adequately assess risk estimate related losses effectiveness enterprise risk management policies procedures including respect business continuity disaste..."
+    },
+    {
+      "chunk_index": 157,
+      "token_count": 200,
+      "text": "date report case document incorporated reference date document obligation publicly update revise forward looking statements result new information future events required applicable law additional info..."
+    },
+    {
+      "chunk_index": 158,
+      "token_count": 200,
+      "text": "overview 92 liquidity capital resources highlights 93 analysis sources uses cash 94 liquidity capital resources aig parent subsidiaries 94 credit facilities 95 contractual obligations 95 balance sheet..."
+    },
+    {
+      "chunk_index": 159,
+      "token_count": 200,
+      "text": "operations trends business segments believe allow meaningful comparisons insurance competitors use measures reconciliations comparable gaap measure provided consolidated basis consolidated results ope..."
+    },
+    {
+      "chunk_index": 160,
+      "token_count": 200,
+      "text": "basis tangible book value share derived dividing total aig common shareholders equity excluding intangible assets aig tangible common shareholders equity total common shares outstanding book value sha..."
+    },
+    {
+      "chunk_index": 161,
+      "token_count": 200,
+      "text": "income excluding investments aoci adjusted return equity used rate return common shareholders equity excluding investments aoci believe measure useful investors eliminates fair value investments fluct..."
+    },
+    {
+      "chunk_index": 162,
+      "token_count": 200,
+      "text": "useful investors eliminates fair value investments fluctuate significantly period period changes market conditions exclude portion dta representing tax attributes related nols camtcs ftcs utilized amo..."
+    },
+    {
+      "chunk_index": 163,
+      "token_count": 200,
+      "text": "elimination international reporting lag adjusted revenues gaap measure segments adjusted pre tax income derived excluding items set forth income continuing operations income tax definition consistent ..."
+    },
+    {
+      "chunk_index": 164,
+      "token_count": 200,
+      "text": "settlements restructuring costs related initiatives designed reduce operating expenses improve efficiency simplify organization portion favorable unfavorable prior year reserve development ceded risk ..."
+    },
+    {
+      "chunk_index": 165,
+      "token_count": 200,
+      "text": "premiums earned losses loss adjustment expenses general insurance excludes net loss reserve discount underwriting expenses incurred combined ratio 100 indicates underwriting income combined ratio 100 ..."
+    },
+    {
+      "chunk_index": 166,
+      "token_count": 200,
+      "text": "basis exclude catastrophes impact reserve discounting outside management control exclude prior year development provide transparency related current accident year results results discontinued operatio..."
+    },
+    {
+      "chunk_index": 167,
+      "token_count": 200,
+      "text": "require use assumptions matters highly uncertain time estimation extent actual experience differs assumptions used consolidated financial condition results operations cash flows materially affected ce..."
+    },
+    {
+      "chunk_index": 168,
+      "token_count": 200,
+      "text": "reflected condensed consolidated financial statements discontinued operations share repurchases corebridge sale shares aig deconsolidation date september 30 2024 aig held 48 percent outstanding common..."
+    },
+    {
+      "chunk_index": 169,
+      "token_count": 200,
+      "text": "individual personal travel insurance assistance business notes condensed consolidated financial statements business segments general insurance general insurance leading provider insurance products ser..."
+    },
+    {
+      "chunk_index": 170,
+      "token_count": 200,
+      "text": "regulatory industry economic factors regulatory environment operations world subject regulation different types regulatory authorities including insurance securities united states abroad insurance fin..."
+    },
+    {
+      "chunk_index": 171,
+      "token_count": 200,
+      "text": "required comply dora january 2025 insurance subsidiaries subject regulation supervision states jurisdictions business expect domestic international regulations applicable regulated entities continue e..."
+    },
+    {
+      "chunk_index": 172,
+      "token_count": 200,
+      "text": "rates sales maturities additional information investment asset liability management strategies investments impact currency volatility currency volatility remains acute strengthening dollar euro britis..."
+    },
+    {
+      "chunk_index": 173,
+      "token_count": 200,
+      "text": "effects foreign exchange general insurance discussion results operations respect movements major currencies included preceding table consolidated results operations following section provides comparat..."
+    },
+    {
+      "chunk_index": 174,
+      "token_count": 200,
+      "text": "investment income 973 856 14 942 537 16 net realized gains losses net realized gains losses excluding fortitude funds withheld assets embedded derivative 189 nm 238 571 58 net realized losses fortitud..."
+    },
+    {
+      "chunk_index": 175,
+      "token_count": 200,
+      "text": "346 311 194 048 expense 112 138 19 353 391 10 loss extinguishment debt 21 nm 21 95 net gain loss divestitures 101 nm 94 89 total benefits losses expenses 102 167 17 750 19 024 income continuing operat..."
+    },
+    {
+      "chunk_index": 176,
+      "token_count": 200,
+      "text": "term debt 892 10 375 debt consolidated investment entities 162 231 total aig shareholders equity 45 039 45 351 book value share 71 46 65 14 adjusted book value share 73 90 78 50 tangible book value sh..."
+    },
+    {
+      "chunk_index": 177,
+      "token_count": 200,
+      "text": "million increase foreign exchange gains lower losses sales securities 86 million higher derivative hedge activity gains 27 million partially offset lower sales alternative investments 43 million incre..."
+    },
+    {
+      "chunk_index": 178,
+      "token_count": 200,
+      "text": "30 2024 2023 comparison net income loss attributable aig common shareholders decreased billion following decrease income loss discontinued operations net income taxes billion primarily result loss dec..."
+    },
+    {
+      "chunk_index": 179,
+      "token_count": 200,
+      "text": "securities lower derivative hedge activity losses 71 million 51 million increase foreign exchange gains partially offset lower sales alternative investments 30 million decrease net income attributable..."
+    },
+    {
+      "chunk_index": 180,
+      "token_count": 200,
+      "text": "unrealized gains losses related fortitude funds withheld assets 531 791 subtotal investments aoci 543 203 adjusted common shareholders' equity 46 582 54 069 total aig common shareholders' equity 45 03..."
+    },
+    {
+      "chunk_index": 181,
+      "token_count": 200,
+      "text": "5272 000000527224000126 aig 20240930 htm 108 170 table contents item consolidated results operations september 30 december 31 millions share data 2024 2023 total common shares outstanding 630 688 book..."
+    },
+    {
+      "chunk_index": 182,
+      "token_count": 200,
+      "text": "194 16 091 864 16 244 14 836 average aig adjusted common shareholders' equity 46 936 56 825 50 298 57 440 56 766 average aig common shareholders' equity 44 742 40 734 44 434 41 196 41 930 average inta..."
+    },
+    {
+      "chunk_index": 183,
+      "token_count": 200,
+      "text": "2024 2023 2024 2023 revenues 751 267 20 074 21 412 changes fair values equity securities aig's investment corebridge 25 31 172 93 income expense net 17 16 40 net investment income fortitude funds with..."
+    },
+    {
+      "chunk_index": 184,
+      "token_count": 200,
+      "text": "109 170 table contents item consolidated results operations following table presents reconciliation pre tax income loss net income loss attributable aig adjusted pre tax income loss adjusted tax incom..."
+    },
+    {
+      "chunk_index": 185,
+      "token_count": 200,
+      "text": "income fortitude funds withheld assets 51 11 40 29 23 net realized losses fortitude funds withheld assets 18 14 net realized gains losses fortitude funds withheld embedded derivative 157 33 124 57 12 ..."
+    },
+    {
+      "chunk_index": 186,
+      "token_count": 200,
+      "text": "81 adjusted tax income common share attributable aig common shareholders diluted 23 04 months ended september 30 2024 2023 millions common share data pre tax total tax benefit charge non controlling i..."
+    },
+    {
+      "chunk_index": 187,
+      "token_count": 200,
+      "text": "assets 123 26 97 106 22 84 net realized losses fortitude funds withheld assets 38 30 64 13 51 net realized losses fortitude funds withheld embedded derivative 158 33 125 25 20 net realized losses 234 ..."
+    },
+    {
+      "chunk_index": 188,
+      "token_count": 200,
+      "text": "245 797 441 099 791 286 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 110 170 70 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov..."
+    },
+    {
+      "chunk_index": 189,
+      "token_count": 200,
+      "text": "statements 2023 annual report noncontrolling primarily relates corebridge portion corebridge earnings aig did corebridge consolidated june 2024 historical results corebridge owned aig reflected income..."
+    },
+    {
+      "chunk_index": 190,
+      "token_count": 200,
+      "text": "north america international operations primarily comprised corporate consolidation eliminations following table summarizes adjusted pre tax income loss business segment operations note condensed conso..."
+    },
+    {
+      "chunk_index": 191,
+      "token_count": 200,
+      "text": "north america consists insurance businesses united states canada bermuda international consists regional insurance businesses japan united kingdom europe middle east africa emea region asia pacific la..."
+    },
+    {
+      "chunk_index": 192,
+      "token_count": 200,
+      "text": "results included adjusted pre tax income general insurance north america november 2023 aig completed sale validus reinsurance validus including alphacat managers talbot treaty reinsurance business ren..."
+    },
+    {
+      "chunk_index": 193,
+      "token_count": 200,
+      "text": "net worth individuals offered private client select pcs covers auto homeowners umbrella yacht fine art collections 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 a..."
+    },
+    {
+      "chunk_index": 194,
+      "token_count": 200,
+      "text": "opportunities profitable markets segments expand capabilities footprint underwriting excellence continue enhance portfolio optimization strength underwriting framework guidelines clear communication r..."
+    },
+    {
+      "chunk_index": 195,
+      "token_count": 200,
+      "text": "value driven insurance solutions providing high quality tailored end end support stakeholders doing leverage world class global franchise multinational capabilities balance sheet strength financial fl..."
+    },
+    {
+      "chunk_index": 196,
+      "token_count": 200,
+      "text": "pricing levels putting pressure rates focused retaining best accounts led strong retention portfolio retention rates coupled exposure limit management strategy reduce volatility portfolio continue pro..."
+    },
+    {
+      "chunk_index": 197,
+      "token_count": 200,
+      "text": "net limits appropriate utilizing reinsurance reduce volatility continuing risk selection strategy improve profitability personal insurance focuses individual customers group corporate clients market c..."
+    },
+    {
+      "chunk_index": 198,
+      "token_count": 200,
+      "text": "60 59 59 59 acquisition ratio 19 19 19 19 general operating expense ratio 12 11 12 12 expense ratio 31 30 31 31 combined ratio 92 90 91 91 adjustments accident year loss ratio adjusted accident year c..."
+    },
+    {
+      "chunk_index": 199,
+      "token_count": 200,
+      "text": "160 total net premiums written 380 462 17 825 20 964 15 14 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 117 170 74 aig quarter 2024 form 10 26 1..."
+    },
+    {
+      "chunk_index": 200,
+      "token_count": 200,
+      "text": "2024 flooding rainstorms 130 132 windstorms hailstorms 16 476 135 611 winter storms 52 54 wildfires 36 36 earthquakes 10 10 reinstatement premiums 12 10 total catastrophe related charges 23 578 275 85..."
+    },
+    {
+      "chunk_index": 201,
+      "token_count": 200,
+      "text": "439 72 nm 161 550 90 net premiums earned 638 079 14 610 254 18 losses loss adjustment expenses incurred 847 975 029 732 12 acquisition expenses amortization deferred policy acquisition costs 352 445 2..."
+    },
+    {
+      "chunk_index": 202,
+      "token_count": 200,
+      "text": "accident year loss ratio adjusted accident year combined ratio adjusted catastrophe losses reinstatement premiums 12 11 prior year development net reinsurance prior year premiums accident year loss ra..."
+    },
+    {
+      "chunk_index": 203,
+      "token_count": 200,
+      "text": "loss comparison months ended september 30 2024 2023 underwriting income decreased 198 million primarily lower net favorable prior year development points 128 million higher favorable development prope..."
+    },
+    {
+      "chunk_index": 204,
+      "token_count": 200,
+      "text": "earned 309 343 872 924 losses loss adjustment expenses incurred 764 853 443 700 acquisition expenses amortization deferred policy acquisition costs 511 473 514 468 acquisition expenses 173 190 490 554..."
+    },
+    {
+      "chunk_index": 205,
+      "token_count": 200,
+      "text": "89 91 adjustments accident year loss ratio adjusted accident year combined ratio adjusted catastrophe losses reinstatement premiums prior year development net reinsurance prior year premiums accident ..."
+    },
+    {
+      "chunk_index": 206,
+      "token_count": 200,
+      "text": "retentions new business production partially offset sale aig lower production financial lines underwriting income loss comparison months ended september 30 2024 2023 underwriting income increased 24 m..."
+    },
+    {
+      "chunk_index": 207,
+      "token_count": 200,
+      "text": "financial lines development turned unfavorable higher unfavorable development casualty driven claim specific emergence european excess casualty accident year 2016 lower catastrophe losses points 59 mi..."
+    },
+    {
+      "chunk_index": 208,
+      "token_count": 200,
+      "text": "investment income 125 45 178 345 130 165 income nm 50 total adjusted revenues 123 171 28 431 490 12 benefits losses expenses losses loss adjustment expenses incurred 114 94 78 329 76 acquisition expen..."
+    },
+    {
+      "chunk_index": 209,
+      "token_count": 200,
+      "text": "balance lower expense 22 million primarily driven savings billion debt reduction cash tender offers debt redemption maturity 2023 2024 months ended september 30 2024 2023 comparison adjusted pre tax l..."
+    },
+    {
+      "chunk_index": 210,
+      "token_count": 200,
+      "text": "diversification asset class sector issuer geographic perspective primary objectives generation investment income preservation capital liquidity management growth surplus majority assets backing insura..."
+    },
+    {
+      "chunk_index": 211,
+      "token_count": 200,
+      "text": "instruments partially offset lower income alternative investments mortgage loans investment strategies investment strategies assessed segment level involve considerations include local general market ..."
+    },
+    {
+      "chunk_index": 212,
+      "token_count": 200,
+      "text": "term investments strategy allows diversify sources liquidity reduce cost maintaining sufficient liquidity general insurance investments generally split reserve backing surplus portfolios insurance res..."
+    },
+    {
+      "chunk_index": 213,
+      "token_count": 200,
+      "text": "securities held insurance companies consist primarily investment grade securities generally denominated currencies countries operate utilize derivatives manage asset liability duration currency exposu..."
+    },
+    {
+      "chunk_index": 214,
+      "token_count": 200,
+      "text": "surplus alternative investments subject periodic earnings fluctuations historically achieved yields excess fixed maturity portfolio yields provided added diversification broader portfolio national ass..."
+    },
+    {
+      "chunk_index": 215,
+      "token_count": 200,
+      "text": "designations presented reflect added granularity designation categories adopted naic 2020 subdivide category fixed maturity securities appending letter modifiers numerical designations description com..."
+    },
+    {
+      "chunk_index": 216,
+      "token_count": 200,
+      "text": "783 323 185 291 51 272 mortgage backed asset backed collateralized 13 526 606 14 132 49 117 135 301 15 433 total 48 090 14 023 62 113 832 440 320 592 66 705 26 12 pm aig 20240930 https www sec gov arc..."
+    },
+    {
+      "chunk_index": 217,
+      "token_count": 200,
+      "text": "portfolio non rated fixed maturity securities september 30 2024 approximately 83 percent investments rated investment grade basis analysis investment managers equivalent credit standpoint securities r..."
+    },
+    {
+      "chunk_index": 218,
+      "token_count": 200,
+      "text": "31 2023 rating fixed maturity securities aaa 131 625 15 16 146 641 aa 12 673 12 775 122 145 12 795 12 920 15 502 14 758 121 73 15 623 14 831 bbb 13 299 12 992 118 96 13 417 13 088 investment grade 272..."
+    },
+    {
+      "chunk_index": 219,
+      "token_count": 200,
+      "text": "16 235 15 474 bbb 13 816 13 509 207 177 14 023 13 686 investment grade 540 079 35 30 575 109 non rated 55 167 55 175 total 65 980 65 242 763 663 66 743 65 905 aig quarter 2024 form 10 81 26 12 pm aig ..."
+    },
+    {
+      "chunk_index": 220,
+      "token_count": 200,
+      "text": "31 2023 fair value bonds available sale held investment grade rated totaled billion billion respectively following table presents fair value aggregate credit exposures non governments fixed maturity s..."
+    },
+    {
+      "chunk_index": 221,
+      "token_count": 200,
+      "text": "454 661 231 italy 23 112 276 411 420 spain 10 126 108 62 306 353 denmark 230 49 287 297 belgium 35 110 94 14 253 276 luxembourg 19 64 70 153 227 finland 20 75 103 95 euro zone 144 26 40 210 194 total ..."
+    },
+    {
+      "chunk_index": 222,
+      "token_count": 200,
+      "text": "total 753 272 254 860 12 139 11 956 investments municipal bonds september 30 2024 municipal bond portfolio composed primarily essential service revenue bonds high quality tax exempt bonds 99 percent p..."
+    },
+    {
+      "chunk_index": 223,
+      "token_count": 200,
+      "text": "investments corporate debt securities following table presents fair value available sale corporate debt securities industry categories industry category millions september 30 2024 december 31 2023 fin..."
+    },
+    {
+      "chunk_index": 224,
+      "token_count": 200,
+      "text": "aig 20240930 htm 134 170 table contents item investments investments rmbs following table presents fair value aig rmbs available sale securities millions september 30 2024 december 31 2023 agency rmbs..."
+    },
+    {
+      "chunk_index": 225,
+      "token_count": 200,
+      "text": "075 604 agency 766 488 265 55 total 106 147 fair value cmbs holdings remained stable months ended september 30 2024 majority investments cmbs tranches contain substantial credit protection features co..."
+    },
+    {
+      "chunk_index": 226,
+      "token_count": 200,
+      "text": "dollars millions cost loss items cost loss items cost loss items cost loss items investment grade bonds months 257 68 610 24 281 74 618 11 months 957 44 307 96 24 053 68 310 12 months 25 009 790 982 8..."
+    },
+    {
+      "chunk_index": 227,
+      "token_count": 200,
+      "text": "33 365 014 10 106 051 633 428 254 147 40 35 670 794 10 574 represents number consecutive months fair value cost represents percentage fair value cost bonds represents amortized cost net allowance item..."
+    },
+    {
+      "chunk_index": 228,
+      "token_count": 200,
+      "text": "ohio 62 30 92 washington 49 11 60 states 34 153 47 74 47 12 333 foreign 44 330 228 114 215 124 117 128 31 total 204 198 194 461 444 272 127 696 100 aig quarter 2024 form 10 85 26 12 pm aig 20240930 ht..."
+    },
+    {
+      "chunk_index": 229,
+      "token_count": 200,
+      "text": "total 213 267 223 518 460 247 121 836 100 does reflect allowance credit losses additional information commercial mortgage loans note condensed consolidated financial statements note consolidated finan..."
+    },
+    {
+      "chunk_index": 230,
+      "token_count": 200,
+      "text": "54 135 months ended september 30 2024 2023 millions excluding fortitude funds withheld assets fortitude funds withheld assets total excluding fortitude funds withheld assets fortitude funds withheld a..."
+    },
+    {
+      "chunk_index": 231,
+      "token_count": 200,
+      "text": "prior year period lower net realized losses excluding fortitude funds withheld assets 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 137 170 month..."
+    },
+    {
+      "chunk_index": 232,
+      "token_count": 200,
+      "text": "unrealized gains losses investments months ended september 30 2024 primarily attributable change fair value fixed maturity securities months ended september 30 2024 net unrealized gains related fixed ..."
+    },
+    {
+      "chunk_index": 233,
+      "token_count": 200,
+      "text": "adjustment expenses gross liability unpaid losses loss adjustment expenses net liability unpaid losses loss adjustment expenses reinsurance recoverable unpaid losses loss adjustment expenses gross lia..."
+    },
+    {
+      "chunk_index": 234,
+      "token_count": 200,
+      "text": "123 operations run run long tail insurance lines net discount 277 229 506 283 360 643 run product lines 225 64 289 228 60 288 blackboard holdings 50 115 165 91 119 210 unallocated loss adjustment expe..."
+    },
+    {
+      "chunk_index": 235,
+      "token_count": 200,
+      "text": "aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 140 170 table contents item insurance reserves prior year development following table summarizes incurred fa..."
+    },
+    {
+      "chunk_index": 236,
+      "token_count": 200,
+      "text": "30 2024 2023 respectively excludes related changes amortization deferred gain 178 million 68 million months ended september 30 2024 2023 respectively 175 million 65 million months ended september 30 2..."
+    },
+    {
+      "chunk_index": 237,
+      "token_count": 200,
+      "text": "driven claim specific emergence accident year 2016 favorable development uk europe property special risks reflecting favorable development majority regions favorable development uk europe japan person..."
+    },
+    {
+      "chunk_index": 238,
+      "token_count": 200,
+      "text": "5272 000000527224000126 aig 20240930 htm 141 170 88 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 142 170 table contents..."
+    },
+    {
+      "chunk_index": 239,
+      "token_count": 200,
+      "text": "unfavorable development uk europe casualty uk financial lines reflecting unfavorable loss experience months ended september 30 2023 recognized favorable prior year loss reserve development 325 million..."
+    },
+    {
+      "chunk_index": 240,
+      "token_count": 200,
+      "text": "insurance 10 product lines 36 13 49 total general insurance north america 63 44 19 general insurance international uk europe casualty financial lines 181 185 uk europe property special risks 44 41 uk ..."
+    },
+    {
+      "chunk_index": 241,
+      "token_count": 200,
+      "text": "43 total general insurance north america 154 67 87 general insurance international uk europe casualty financial lines 104 45 149 uk europe property special risks 28 43 71 uk europe japan personal insu..."
+    },
+    {
+      "chunk_index": 242,
+      "token_count": 200,
+      "text": "prior year favorable unfavorable development 264 99 165 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 145 170 months ended september 30 2023 mill..."
+    },
+    {
+      "chunk_index": 243,
+      "token_count": 200,
+      "text": "146 170 table contents item insurance reserves note certain categories claims construction defect claims environmental claims reinsurance recoverable losses reclassified earlier later accident year in..."
+    },
+    {
+      "chunk_index": 244,
+      "token_count": 200,
+      "text": "reserves amortization deferred gain millions september 30 2024 december 31 2023 gross covered losses covered reserves discount 10 127 10 849 inception date losses paid 31 181 30 157 attachment point 2..."
+    },
+    {
+      "chunk_index": 245,
+      "token_count": 200,
+      "text": "discount 143 196 149 205 favorable unfavorable prior year reserve development ceded nico 304 145 241 178 amortization attributed deferred gain inception 34 41 102 123 amortization attributed changes d..."
+    },
+    {
+      "chunk_index": 246,
+      "token_count": 200,
+      "text": "established quarter 2018 series reinsurance transactions related run operations reinsurance transactions designed consolidate insurance run lines single legal entity september 30 2024 billion reserves..."
+    },
+    {
+      "chunk_index": 247,
+      "token_count": 200,
+      "text": "debt holders including arising reasonably foreseeable contingencies events circumstances cause cash capital needs exceed projected liquidity readily deployable capital resources information regarding ..."
+    },
+    {
+      "chunk_index": 248,
+      "token_count": 200,
+      "text": "shares aig june july 2024 sold aggregate approximately 31 million shares corebridge common stock secondary offering public offering price 29 20 share included 30 million shares initially offered parti..."
+    },
+    {
+      "chunk_index": 249,
+      "token_count": 200,
+      "text": "payment 365 625 share series 85 non cumulative perpetual preferred stock series preferred stock months ended march 31 2024 totaling million march 15 2024 redeemed 20 000 outstanding shares series pref..."
+    },
+    {
+      "chunk_index": 250,
+      "token_count": 200,
+      "text": "rule 10b5 repurchase plan october 2024 october 30 2024 aig parent repurchased approximately million shares aig common stock aggregate purchase price approximately 500 million aig quarter 2024 form 10 ..."
+    },
+    {
+      "chunk_index": 251,
+      "token_count": 200,
+      "text": "months ended september 30 2024 billion including billion used discontinued operations compared net cash used investing activities billion including billion discontinued operations prior year period fi..."
+    },
+    {
+      "chunk_index": 252,
+      "token_count": 200,
+      "text": "aig series preferred stock billion repurchase approximately 35 million shares aig common stock 67 million net inflows issuance repayment long term debt million net outflows issuance repayment debt con..."
+    },
+    {
+      "chunk_index": 253,
+      "token_count": 200,
+      "text": "plans distribute capital shareholders dividends aig common stock repurchase authorizations deploy capital liability management insurance companies expect insurance companies able continue satisfy reas..."
+    },
+    {
+      "chunk_index": 254,
+      "token_count": 200,
+      "text": "payments payments dividends expenses investment purchases collateral requirements insurance companies require additional funding meet capital liquidity needs certain circumstances example large catast..."
+    },
+    {
+      "chunk_index": 255,
+      "token_count": 200,
+      "text": "consolidated net worth total consolidated debt total consolidated capitalization failure satisfy requirements contained facility restrict access facility material adverse effect financial condition re..."
+    },
+    {
+      "chunk_index": 256,
+      "token_count": 200,
+      "text": "2024 balance beginning year issuances maturities repayments effect foreign exchange changes balance end period millions debt issued guaranteed general borrowings notes bonds payable 079 459 20 649 jun..."
+    },
+    {
+      "chunk_index": 257,
+      "token_count": 200,
+      "text": "debt 10 375 509 20 892 debt consolidated investment entities guaranteed aig 231 68 162 september 30 2024 includes debt consolidated investment entities primarily related real estate investments 162 mi..."
+    },
+    {
+      "chunk_index": 258,
+      "token_count": 200,
+      "text": "914 340 191 733 borrowings supported assets notes bonds payable 19 12 series aigfp matched notes bonds payable 18 18 total borrowings supported assets 37 12 18 total debt issued guaranteed 891 421 274..."
+    },
+    {
+      "chunk_index": 259,
+      "token_count": 200,
+      "text": "26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 155 170 96 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 527..."
+    },
+    {
+      "chunk_index": 260,
+      "token_count": 200,
+      "text": "ii termination business contracts iii requirement post collateral benefit counterparties event downgrade long term senior debt ratings certain aig entities required post additional collateral derivati..."
+    },
+    {
+      "chunk_index": 261,
+      "token_count": 200,
+      "text": "ratings long term icr aig general insurance subsidiaries long term icr aig parent bbb bbb revised outlook long term icrs stable positive best affirmed 'a' financial strength rating aig general insuran..."
+    },
+    {
+      "chunk_index": 262,
+      "token_count": 200,
+      "text": "form 10 97 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 157 170 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000..."
+    },
+    {
+      "chunk_index": 263,
+      "token_count": 200,
+      "text": "2024 repurchased approximately million shares aig common stock aggregate purchase price approximately 500 million october 30 2024 billion remained board's authorization timing future share repurchases..."
+    },
+    {
+      "chunk_index": 264,
+      "token_count": 200,
+      "text": "business processes risk management efforts successful material adverse effects business results operations cash flows liquidity financial condition occur information regarding risks associated busines..."
+    },
+    {
+      "chunk_index": 265,
+      "token_count": 200,
+      "text": "edgar data 5272 000000527224000126 aig 20240930 htm 159 170 98 aig quarter 2024 form 10 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 160 170 tab..."
+    },
+    {
+      "chunk_index": 266,
+      "token_count": 200,
+      "text": "adjusted revenues exclude net realized gains losses income non operating litigation settlements included income gaap purposes changes fair value securities used hedge guaranteed living benefits includ..."
+    },
+    {
+      "chunk_index": 267,
+      "token_count": 200,
+      "text": "representing tax attributes related net operating loss carryforwards nols corporate alternative minimum tax credits camtcs foreign tax credits ftcs utilized amounts interim periods estimates based pro..."
+    },
+    {
+      "chunk_index": 268,
+      "token_count": 200,
+      "text": "adjusted book value share derived dividing total aig common shareholders equity excluding investments aoci aig adjusted common equity total common shares outstanding casualty insurance insurance prima..."
+    },
+    {
+      "chunk_index": 269,
+      "token_count": 200,
+      "text": "www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 161 170 aig quarter 2024 form 10 99 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 202..."
+    },
+    {
+      "chunk_index": 270,
+      "token_count": 200,
+      "text": "adjuster fees portion general expenses allocated claim settlement costs loss ratio losses loss adjustment expenses incurred divided net premiums earned loss reserve development increase decrease incur..."
+    },
+    {
+      "chunk_index": 271,
+      "token_count": 200,
+      "text": "noncontrolling interests portion equity ownership consolidated subsidiary attributable controlling parent company pool reinsurance arrangement underwriting results pool members combined shared member ..."
+    },
+    {
+      "chunk_index": 272,
+      "token_count": 200,
+      "text": "aig tangible common shareholders equity return aig tangible common equity derived dividing actual interim periods annualized adjusted tax income attributable aig common shareholders average aig tangib..."
+    },
+    {
+      "chunk_index": 273,
+      "token_count": 200,
+      "text": "return common shareholders equity excluding investments aoci dta aig ownership corebridge believe measure useful investors eliminates fair value investments fluctuate significantly period period chang..."
+    },
+    {
+      "chunk_index": 274,
+      "token_count": 200,
+      "text": "balance sheets acronyms accident health insurance isda international swaps derivatives association abs asset backed securities moody's moody's investors' service apti adjusted pre tax income naic nati..."
+    },
+    {
+      "chunk_index": 275,
+      "token_count": 200,
+      "text": "designed ensure information required disclosed reports filed submitted securities exchange act 1934 amended exchange act recorded processed summarized reported time periods specified sec rules forms i..."
+    },
+    {
+      "chunk_index": 276,
+      "token_count": 200,
+      "text": "table contents ii information item legal proceedings discussion legal proceedings note 13 condensed consolidated financial statements incorporated reference item 1a risk factors addition information s..."
+    },
+    {
+      "chunk_index": 277,
+      "token_count": 200,
+      "text": "247 456 excludes excise tax 50 million inflation reduction act 2022 months ended september 30 2024 months ended september 30 2024 aig parent repurchased approximately 20 million shares aig common stoc..."
+    },
+    {
+      "chunk_index": 278,
+      "token_count": 200,
+      "text": "10 103 26 12 pm aig 20240930 https www sec gov archives edgar data 5272 000000527224000126 aig 20240930 htm 168 170 table contents item exhibits exhibit index exhibit number description location 10 le..."
+    },
+    {
+      "chunk_index": 279,
+      "token_count": 191,
+      "text": "september 30 2024 2023 iv condensed consolidated statements cash flows months ended september 30 2024 2023 condensed consolidated statements comprehensive income loss months ended september 30 2024 20..."
+    },
+    {
+      "chunk_index": 280,
+      "token_count": 41,
+      "text": "officer kathleen carbone kathleen carbone vice president chief accounting officer principal accounting officer dated november 2024 aig quarter 2024 form 10 105 26 12 pm aig 20240930 https www sec gov ..."
+    }
+  ]
+}

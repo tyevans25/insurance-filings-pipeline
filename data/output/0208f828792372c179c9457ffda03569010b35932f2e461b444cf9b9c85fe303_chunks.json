@@ -1,0 +1,1022 @@
+{
+  "doc_id": "0208f828792372c179c9457ffda03569010b35932f2e461b444cf9b9c85fe303",
+  "filename": "chubb_10q_2024q2.pdf",
+  "company": "Chubb",
+  "filing_id": 4,
+  "filing_type": "10-Q",
+  "fiscal_period": "Q2",
+  "metadata": {
+    "title": "cb-20240630",
+    "author": "",
+    "created_date": "2026-03-07T21:16:23",
+    "page_count": 138
+  },
+  "num_chunks": 201,
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "token_count": 200,
+      "text": "table contents united states securities exchange commission washington 20549 form 10 quarterly report pursuant section 13 15 securities exchange act 1934 quarterly period ended june 30 2024 transition..."
+    },
+    {
+      "chunk_index": 1,
+      "token_count": 200,
+      "text": "exchange guarantee chubb ina holdings llc 875 senior notes 2029 cb 29a new york stock exchange guarantee chubb ina holdings llc 40 senior notes 2031 cb 31 new york stock exchange guarantee chubb ina h..."
+    },
+    {
+      "chunk_index": 2,
+      "token_count": 200,
+      "text": "emerging growth company emerging growth company indicate check mark registrant elected use extended transition period complying new revised nancial accounting standards provided pursuant section 13 ex..."
+    },
+    {
+      "chunk_index": 3,
+      "token_count": 200,
+      "text": "statements unaudited note general signi accounting policies note acquisitions note investments 10 note fair value measurements 15 note reinsurance 22 note deferred policy acquisition costs 23 note goo..."
+    },
+    {
+      "chunk_index": 4,
+      "token_count": 200,
+      "text": "gov archives edgar data 896159 000089615924000010 cb 20240630 htm 138 table contents financial information item financial statements consolidated balance sheets unaudited chubb limited subsidiaries ju..."
+    },
+    {
+      "chunk_index": 5,
+      "token_count": 200,
+      "text": "net valuation allowance 54 53 15 929 13 379 reinsurance recoverable losses loss expenses net valuation allowance 381 367 19 355 19 952 reinsurance recoverable policy bene ts 291 280 deferred policy ac..."
+    },
+    {
+      "chunk_index": 6,
+      "token_count": 200,
+      "text": "balances 087 009 149 833 short term debt 553 460 long term debt 13 178 13 035 trust preferred securities 309 308 total liabilities 173 976 166 991 commitments contingencies refer note 12 shareholders ..."
+    },
+    {
+      "chunk_index": 7,
+      "token_count": 200,
+      "text": "20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 138 table contents consolidated statements operations comprehensive income unaudited chubb limited subsidiaries..."
+    },
+    {
+      "chunk_index": 8,
+      "token_count": 200,
+      "text": "intangibles 80 70 160 142 cigna integration expenses 15 14 37 total expenses 11 129 648 21 387 18 429 income income tax 706 185 342 461 income tax expense 490 392 832 776 net income 216 793 510 685 ne..."
+    },
+    {
+      "chunk_index": 9,
+      "token_count": 200,
+      "text": "866 878 048 earnings share basic earnings share attributable chubb 51 35 10 79 92 diluted earnings share attributable chubb 46 32 10 68 84 accompanying notes consolidated financial statements 26 16 pm..."
+    },
+    {
+      "chunk_index": 10,
+      "token_count": 200,
+      "text": "188 680 15 665 166 net shares redeemed issued employee share based compensation plans 17 142 206 exercise stock options 19 13 share based compensation expense 90 73 172 155 par value reduction 759 759..."
+    },
+    {
+      "chunk_index": 11,
+      "token_count": 200,
+      "text": "875 61 038 52 875 noncontrolling interests balance beginning period 896 184 net decrease acquisitions 296 707 net income loss attributable noncontrolling interests 14 137 comprehensive loss attributab..."
+    },
+    {
+      "chunk_index": 12,
+      "token_count": 200,
+      "text": "income partially owned entities 278 460 deferred income taxes 131 43 unpaid losses loss expenses 338 561 unearned premiums 214 913 future policy bene ts 954 351 insurance reinsurance balances payable ..."
+    },
+    {
+      "chunk_index": 13,
+      "token_count": 200,
+      "text": "acquisition subsidiaries 538 252 846 340 net cash ows used investing activities 066 262 cash ows nancing activities dividends paid common shares 698 688 common shares repurchased 056 267 proceeds issu..."
+    },
+    {
+      "chunk_index": 14,
+      "token_count": 200,
+      "text": "archives edgar data 896159 000089615924000010 cb 20240630 htm 138 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 10 138 table contents notes conso..."
+    },
+    {
+      "chunk_index": 15,
+      "token_count": 200,
+      "text": "america gaap opinion management ect adjustments necessary fair statement results nancial position periods signi intercompany accounts transactions including internal reinsurance transactions eliminate..."
+    },
+    {
+      "chunk_index": 16,
+      "token_count": 200,
+      "text": "related notes included 2023 form 10 debt march 2024 chubb ina holdings llc chubb ina issued billion percent senior notes march 2034 senior unsecured notes guaranteed senior basis chubb limited rank eq..."
+    },
+    {
+      "chunk_index": 17,
+      "token_count": 200,
+      "text": "https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 11 138 annual periods beginning december 15 2024 retrospective application required currently evaluating impact disclosu..."
+    },
+    {
+      "chunk_index": 18,
+      "token_count": 200,
+      "text": "business assigned north america commercial insurance segment huatai group huatai insurance group huatai group chinese nancial services holding company parent company huatai property casualty insurance..."
+    },
+    {
+      "chunk_index": 19,
+      "token_count": 200,
+      "text": "generated 458 million goodwill attributable expected growth pro tability 655 million intangible assets goodwill expected deductible income tax purposes additionally acquisition generated 309 million v..."
+    },
+    {
+      "chunk_index": 20,
+      "token_count": 200,
+      "text": "831 unearned premiums 800 future policy bene ts 351 policyholders' account balances 014 insurance reinsurance balances payable 644 accounts payable accrued expenses liabilities 682 deferred tax liabil..."
+    },
+    {
+      "chunk_index": 21,
+      "token_count": 200,
+      "text": "attributable chubb 785 675 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 14 138 table contents notes consolidated financial statements continued ..."
+    },
+    {
+      "chunk_index": 22,
+      "token_count": 200,
+      "text": "802 22 058 municipal 074 10 155 929 111 128 156 148 549 106 571 following table presents xed maturities contractual maturity june 30 2024 december 31 2023 millions dollars net carrying value fair valu..."
+    },
+    {
+      "chunk_index": 23,
+      "token_count": 200,
+      "text": "factors considered evaluation expected credit losses 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 15 138 10 26 16 pm cb 20240630 https www sec g..."
+    },
+    {
+      "chunk_index": 24,
+      "token_count": 200,
+      "text": "056 municipal 154 469 161 623 164 total afs xed maturities 17 393 226 52 606 895 69 999 121 12 months 12 months total december 31 2023 fair value gross unrealized loss fair value gross unrealized loss..."
+    },
+    {
+      "chunk_index": 25,
+      "token_count": 200,
+      "text": "cb 20240630 htm 17 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries following table presents roll forward valuation allowance expected credit l..."
+    },
+    {
+      "chunk_index": 26,
+      "token_count": 200,
+      "text": "data 896159 000089615924000010 cb 20240630 htm 18 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries net realized gains losses following table pr..."
+    },
+    {
+      "chunk_index": 27,
+      "token_count": 200,
+      "text": "losses fair value changes follows months ended june 30 2024 2023 millions dollars equity securities investments private equities total equity securities private equities total net gains losses recogni..."
+    },
+    {
+      "chunk_index": 28,
+      "token_count": 200,
+      "text": "138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries private equities private equities include investment funds limited partnerships measured fair ..."
+    },
+    {
+      "chunk_index": 29,
+      "token_count": 200,
+      "text": "redeem receives distributions based liquidation underlying assets categories investment funds chubb does ability sell transfer investments consent general partner individual funds investment category ..."
+    },
+    {
+      "chunk_index": 30,
+      "token_count": 200,
+      "text": "investment fund longer lock period chubb notify investment fund manager intention redeem noti cation date prescribed subscription agreement subsequent noti cation investment fund redeem chubb investme..."
+    },
+    {
+      "chunk_index": 31,
+      "token_count": 200,
+      "text": "chubb limited subsidiaries 30 2024 december 31 2023 investments primarily xed maturities totaling 18 370 million 18 242 million respectively cash 168 million 172 million respectively following table p..."
+    },
+    {
+      "chunk_index": 32,
+      "token_count": 200,
+      "text": "30 2024 december 31 2023 215 million 153 million respectively maximum risk loss approximates carrying investments classi ed equity securities consolidated balance sheets fair value measurements fair v..."
+    },
+    {
+      "chunk_index": 33,
+      "token_count": 200,
+      "text": "obtain fair value measurements majority investment securities based management understanding methodologies used pricing services produce estimate fair value 26 16 pm cb 20240630 https www sec gov arch..."
+    },
+    {
+      "chunk_index": 34,
+      "token_count": 200,
+      "text": "pricing services prepare estimates fair value measurements using pricing applications pricing models include available relevant market information benchmark curves benchmarking like securities sector ..."
+    },
+    {
+      "chunk_index": 35,
+      "token_count": 200,
+      "text": "single broker quote typically market maker disclaimers quotes indicate price indicative include fair value estimates level equity securities equity securities active markets classi ed level fair value..."
+    },
+    {
+      "chunk_index": 36,
+      "token_count": 200,
+      "text": "active markets investments principally include xed maturities carried fair value changes fair value recorded net realized gains losses consolidated statements operations xed maturities principally rel..."
+    },
+    {
+      "chunk_index": 37,
+      "token_count": 200,
+      "text": "unaudited chubb limited subsidiaries investment derivatives actively traded investment derivative instruments including futures options forward contracts classi ed level fair values based quoted marke..."
+    },
+    {
+      "chunk_index": 38,
+      "token_count": 200,
+      "text": "instruments recorded assets accounts payable accrued expenses liabilities consolidated balance sheets chubb maintains positions convertible securities contain embedded derivatives convertible securiti..."
+    },
+    {
+      "chunk_index": 39,
+      "token_count": 200,
+      "text": "assets fixed maturities available sale treasury agency 128 613 741 non 34 286 632 34 918 corporate asset backed securities 40 911 709 43 620 mortgage backed securities 24 594 20 24 614 municipal 947 9..."
+    },
+    {
+      "chunk_index": 40,
+      "token_count": 200,
+      "text": "information market risk bene ts 18 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 28 138 table contents notes consolidated financial statements co..."
+    },
+    {
+      "chunk_index": 41,
+      "token_count": 200,
+      "text": "risk bene ts 771 771 total liabilities measured fair value 173 133 771 077 excluded table investments 702 million principally policy loans measured using nav practical expedient excluded table private..."
+    },
+    {
+      "chunk_index": 42,
+      "token_count": 200,
+      "text": "87 settlements 126 191 balance end period 632 709 20 100 12 net realized gains losses attributable changes fair value balance sheet date change net unrealized gains losses included oci balance sheet d..."
+    },
+    {
+      "chunk_index": 43,
+      "token_count": 200,
+      "text": "june 30 2024 millions dollars available sale debt securities equity securities short term investments non corporate asset backed securities mortgage backed securities balance beginning period 692 622 ..."
+    },
+    {
+      "chunk_index": 44,
+      "token_count": 200,
+      "text": "realized gains losses attributable changes fair value balance sheet date change net unrealized gains losses included oci balance sheet date excluded tables reconciliation market risk bene ts presented..."
+    },
+    {
+      "chunk_index": 45,
+      "token_count": 200,
+      "text": "carrying value millions dollars level level level total assets private debt held investment 696 696 680 total assets 696 696 680 liabilities repurchase agreements 149 149 149 short term debt 528 528 5..."
+    },
+    {
+      "chunk_index": 46,
+      "token_count": 200,
+      "text": "17 884 285 reinsurance recoverable paid losses loss expenses 946 82 068 82 reinsurance recoverable losses loss expenses 19 355 381 19 952 367 reinsurance recoverable policy bene ts 291 280 net valuati..."
+    },
+    {
+      "chunk_index": 47,
+      "token_count": 200,
+      "text": "costs following tables present roll forward deferred policy acquisitions costs long duration contracts included life insurance segment months ended june 30 2024 millions dollars term life universal li..."
+    },
+    {
+      "chunk_index": 48,
+      "token_count": 200,
+      "text": "828 overseas general insurance segment excluded table 651 total deferred policy acquisition costs long duration contracts 479 deferred policy acquisition costs short duration contracts 187 total defer..."
+    },
+    {
+      "chunk_index": 49,
+      "token_count": 200,
+      "text": "unpaid losses loss expenses months ended june 30 millions dollars 2024 2023 gross unpaid losses loss expenses beginning period 80 122 75 747 reinsurance recoverable unpaid losses beginning period 17 8..."
+    },
+    {
+      "chunk_index": 50,
+      "token_count": 200,
+      "text": "months ended june 30 2024 2023 respectively net unpaid losses loss expenses increased 544 million months ended june 30 2024 principally ecting underlying exposure growth impact reinsurance commutation..."
+    },
+    {
+      "chunk_index": 51,
+      "token_count": 200,
+      "text": "total 2024 north america commercial insurance 142 144 46 146 192 north america personal insurance 64 64 116 116 north america agricultural insurance 28 28 overseas general insurance 36 97 61 35 185 15..."
+    },
+    {
+      "chunk_index": 52,
+      "token_count": 200,
+      "text": "million respectively workers' compensation lower expected loss experience annual assessment multi claimant events including industrial accidents favorable development partially offset net adverse deve..."
+    },
+    {
+      "chunk_index": 53,
+      "token_count": 200,
+      "text": "development months ended june 30 2023 included favorable claim development short tail property casualty net favorable development months ended june 30 2023 included 110 million favorable catastrophe d..."
+    },
+    {
+      "chunk_index": 54,
+      "token_count": 200,
+      "text": "10 692 64 16 693 effect changes cash ow assumptions 70 111 187 effect actual variances expected experience 12 21 129 121 adjusted beginning period balance 986 036 10 674 63 16 759 issuances 111 620 19..."
+    },
+    {
+      "chunk_index": 55,
+      "token_count": 200,
+      "text": "85 102 195 effect actual variances expected experience 31 129 107 adjusted beginning period balance 748 10 107 15 044 492 28 391 issuances 111 620 196 39 966 accrual 35 151 300 494 bene ts payments 11..."
+    },
+    {
+      "chunk_index": 56,
+      "token_count": 200,
+      "text": "net liability future policy bene ts reinsurance recoverable 953 597 287 485 13 322 reinsurance recoverable future policy bene ts 103 44 110 257 net liability future policy bene ts reinsurance recovera..."
+    },
+    {
+      "chunk_index": 57,
+      "token_count": 200,
+      "text": "changes discount rate assumptions 54 21 346 421 balance end period 914 378 10 023 37 14 352 net premiums collected represent portion gross premiums collected policyholders used fund expected bene 27 2..."
+    },
+    {
+      "chunk_index": 58,
+      "token_count": 200,
+      "text": "507 22 78 ending balance original discount rate 665 440 14 613 261 23 979 effect changes discount rate assumptions 127 76 575 782 balance end period 538 364 14 038 257 23 197 liability future policy b..."
+    },
+    {
+      "chunk_index": 59,
+      "token_count": 200,
+      "text": "pro liability 452 044 liability future policy bene ts consolidated balance sheet 14 663 11 064 business principally comprises certain overseas general insurance accident health policies certain chubb ..."
+    },
+    {
+      "chunk_index": 60,
+      "token_count": 200,
+      "text": "future bene payments 26 037 23 661 undiscounted expected future gross premiums 38 166 34 381 discounted expected future bene payments 15 058 14 038 discounted expected future gross premiums 22 556 21 ..."
+    },
+    {
+      "chunk_index": 61,
+      "token_count": 200,
+      "text": "life insurance segment accretion rate current discount rate june 30 june 30 2024 2023 2024 2023 life insurance term life life 10 policyholders' account balances separate accounts unearned revenue liab..."
+    },
+    {
+      "chunk_index": 62,
+      "token_count": 200,
+      "text": "ts 30 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 41 138 table contents notes consolidated financial statements continued unaudited chubb limit..."
+    },
+    {
+      "chunk_index": 63,
+      "token_count": 200,
+      "text": "201 cash surrender value 611 618 013 013 316 guarantees bene ts payable event death net risk ned current guaranteed minimum death bene excess current account balance balance sheet date following table..."
+    },
+    {
+      "chunk_index": 64,
+      "token_count": 200,
+      "text": "points greater 150 basis points total guaranteed minimum crediting rates 00 439 32 479 01 00 81 328 310 719 greater 00 21 21 total 541 328 342 219 annuities june 30 2024 millions dollars guaranteed mi..."
+    },
+    {
+      "chunk_index": 65,
+      "token_count": 200,
+      "text": "978 01 00 363 42 405 greater 00 total 920 42 240 186 388 32 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 43 138 table contents notes consolidate..."
+    },
+    {
+      "chunk_index": 66,
+      "token_count": 200,
+      "text": "573 190 premiums deposits 576 517 policy charges 80 70 surrenders withdrawals 426 246 bene payments 208 193 investment performance 502 361 including foreign exchange 103 15 balance end period 834 574 ..."
+    },
+    {
+      "chunk_index": 67,
+      "token_count": 200,
+      "text": "000089615924000010 cb 20240630 htm 44 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries 11 market risk bene ts reinsurance programs covering var..."
+    },
+    {
+      "chunk_index": 68,
+      "token_count": 200,
+      "text": "guaranteed values xed valuation date reinsurance coverage ends earlier maturity underlying variable annuity policy reinsurance treaty withdrawals lapses mortality improvements assumed projection glb r..."
+    },
+    {
+      "chunk_index": 69,
+      "token_count": 200,
+      "text": "lapse rates mrbs glb annuitization rates assumptions regarding lapse rates glb annuitization rates differ treaty underlying methodologies determine rates applied treaty comparable lapse rate percentag..."
+    },
+    {
+      "chunk_index": 70,
+      "token_count": 200,
+      "text": "based additional experience obtained related policyholder behavior availability updated information market conditions market participant assumptions demographics force annuities detailed information l..."
+    },
+    {
+      "chunk_index": 71,
+      "token_count": 200,
+      "text": "capital individual jurisdiction local currency include use derivatives discussed chubb's derivatives satisfy hedge accounting requirements discussed consider economic hedging planned cross border tran..."
+    },
+    {
+      "chunk_index": 72,
+      "token_count": 200,
+      "text": "631 cross currency swaps net investment hedges oa ap 39 96 599 10 128 619 127 96 213 136 128 250 includes fair value embedded derivatives related mrb book business 26 16 pm cb 20240630 https www sec g..."
+    },
+    {
+      "chunk_index": 73,
+      "token_count": 200,
+      "text": "date hedges expected highly effective cross currency swaps fair value hedges chubb holds certain cross currency swaps designated fair value hedges objective cross currency swaps hedge foreign currency..."
+    },
+    {
+      "chunk_index": 74,
+      "token_count": 200,
+      "text": "currency exposure net investments certain foreign subsidiaries converting cash ows dollar british pound sterling japanese yen swiss franc hedged risk designated foreign currency exposure arising funct..."
+    },
+    {
+      "chunk_index": 75,
+      "token_count": 200,
+      "text": "chubb limited subsidiaries derivative instruments designated hedges derivative instruments designated hedges carried fair value changes fair value recorded net realized gains losses futures contracts ..."
+    },
+    {
+      "chunk_index": 76,
+      "token_count": 200,
+      "text": "management market exposure futures futures contracts holder right obligation participate market movements determined index underlying security futures contract based settlement daily cash equal change..."
+    },
+    {
+      "chunk_index": 77,
+      "token_count": 200,
+      "text": "risk associated derivative nancial instruments relates potential non performance counterparties non performance anticipated order minimize risk loss management monitors 26 16 pm cb 20240630 https www ..."
+    },
+    {
+      "chunk_index": 78,
+      "token_count": 200,
+      "text": "portfolio available sale equity security chubb purchases convertible securities total return speci cally conversion feature iv tba acquiring tbas make commitment purchase future issuance mortgage back..."
+    },
+    {
+      "chunk_index": 79,
+      "token_count": 200,
+      "text": "operated party banking institution certain assets loaned quali ed borrowers earn incremental return securities lending collateral drawn chubb event institution borrowing securities default lending agr..."
+    },
+    {
+      "chunk_index": 80,
+      "token_count": 200,
+      "text": "000089615924000010 cb 20240630 htm 54 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries june 30 2024 december 31 2023 repurchase agreement oblig..."
+    },
+    {
+      "chunk_index": 81,
+      "token_count": 200,
+      "text": "833 difference 140 91 repurchase agreements collateral posted required exceed gross liability potential risks exist secured borrowing transactions market conditions counterparty exposure collateral pl..."
+    },
+    {
+      "chunk_index": 82,
+      "token_count": 200,
+      "text": "2024 72 million unrecognized tax bene ts remain outstanding reasonably possible months unrecognized tax bene ts change resulting evaluation unrecognized tax bene ts arising examinations taxing authori..."
+    },
+    {
+      "chunk_index": 83,
+      "token_count": 200,
+      "text": "things allegations underwriting errors misconduct employment claims regulatory activity disputes arising business ventures opinion management ultimate liability matters believe likely material consoli..."
+    },
+    {
+      "chunk_index": 84,
+      "token_count": 200,
+      "text": "91 share general meeting way distribution capital contribution reserves transferred free reserves payment board directors board determine record payment dates annual dividend paid date 2025 annual gen..."
+    },
+    {
+      "chunk_index": 85,
+      "token_count": 200,
+      "text": "stock options purchases employee stock purchase plan espp share cancellations 2023 annual general meeting held 17 2023 shareholders approved cancellation 14 925 028 shares purchased share repurchase p..."
+    },
+    {
+      "chunk_index": 86,
+      "token_count": 200,
+      "text": "unaudited chubb limited subsidiaries chubb limited securities repurchase authorizations board authorized share repurchase programs follows billion chubb common shares 19 2022 june 30 2023 billion chub..."
+    },
+    {
+      "chunk_index": 87,
+      "token_count": 200,
+      "text": "ed aoci tax 107 114 287 change period tax 489 194 166 592 income tax expense bene 44 49 122 total comprehensive income loss 482 150 117 470 noncontrolling interests net tax balance end period net tax ..."
+    },
+    {
+      "chunk_index": 88,
+      "token_count": 200,
+      "text": "htm 59 138 41 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 60 138 table contents notes consolidated financial statements continued unaudited chu..."
+    },
+    {
+      "chunk_index": 89,
+      "token_count": 200,
+      "text": "period tax 30 50 17 income tax expense bene 11 total comprehensive income loss 24 39 13 noncontrolling interests net tax balance end period net tax 11 53 11 53 postretirement bene liability adjustment..."
+    },
+    {
+      "chunk_index": 90,
+      "token_count": 200,
+      "text": "24 34 income tax expense 17 91 90 253 net income cumulative foreign currency translation adjustment cross currency swaps expense income tax expense income tax expense net income net gains losses fair ..."
+    },
+    {
+      "chunk_index": 91,
+      "token_count": 200,
+      "text": "issued estimated grant date using black scholes option pricing model amended 2016 ltip permits grants service based restricted stock restricted stock units performance shares performance stock units c..."
+    },
+    {
+      "chunk_index": 92,
+      "token_count": 200,
+      "text": "013 performance stock units employees cers grant date fair value 254 84 service based restricted stock unit performance stock unit represents obligation deliver holder common share vesting end deferra..."
+    },
+    {
+      "chunk_index": 93,
+      "token_count": 200,
+      "text": "prior service cost settlements total non service cost bene 28 22 net periodic bene cost bene 28 22 pension bene plans postretirement bene plans 2024 2023 2024 2023 months ended june 30 plans non plans..."
+    },
+    {
+      "chunk_index": 94,
+      "token_count": 200,
+      "text": "losses loss expenses administrative expenses total service cost non service cost bene losses loss expenses administrative expenses 28 23 total non service cost bene 31 26 net periodic bene cost bene 2..."
+    },
+    {
+      "chunk_index": 95,
+      "token_count": 200,
+      "text": "396 related gains losses fair value changes separate account assets qualify separate account treatment gaap equity net income partially owned entities includes share net income loss underlying operati..."
+    },
+    {
+      "chunk_index": 96,
+      "token_count": 200,
+      "text": "include results operations huatai consolidated results included income expense gains losses fair value changes separate account assets qualify separate account treatment gaap offsetting movement separ..."
+    },
+    {
+      "chunk_index": 97,
+      "token_count": 200,
+      "text": "insurance segment results huatai's insurance business included overseas general insurance presented gross underwriting income loss net investment income loss income expense required consolidation acco..."
+    },
+    {
+      "chunk_index": 98,
+      "token_count": 200,
+      "text": "integration expenses income tax expense net income loss attributable noncontrolling interests reported corporate cigna integration expenses time costs directly attributable party consulting fees emplo..."
+    },
+    {
+      "chunk_index": 99,
+      "token_count": 200,
+      "text": "20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 68 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries po..."
+    },
+    {
+      "chunk_index": 100,
+      "token_count": 200,
+      "text": "dollars north america commercial insurance north america personal insurance north america agricultural insurance overseas general insurance global reinsurance life insurance corporate segment measure ..."
+    },
+    {
+      "chunk_index": 101,
+      "token_count": 200,
+      "text": "182 182 cigna integration expenses income tax expense 490 490 net income loss 957 216 net loss attributable noncontrolling interests 14 14 net income loss attributable chubb 943 230 47 26 16 pm cb 202..."
+    },
+    {
+      "chunk_index": 102,
+      "token_count": 200,
+      "text": "underwriting income loss 805 150 88 466 72 69 156 501 net investment income 726 86 14 200 48 161 93 145 income expense 10 26 14 81 100 amortization expense purchased intangibles 15 43 70 segment incom..."
+    },
+    {
+      "chunk_index": 103,
+      "token_count": 200,
+      "text": "losses loss expenses 249 775 592 097 292 54 103 12 158 policy bene ts 192 101 106 399 policy acquisition costs 348 599 66 665 161 594 433 administrative expenses 655 174 679 20 425 206 164 underwritin..."
+    },
+    {
+      "chunk_index": 104,
+      "token_count": 200,
+      "text": "htm 71 138 table contents notes consolidated financial statements continued unaudited chubb limited subsidiaries months ended june 30 2023 millions dollars north america commercial insurance north ame..."
+    },
+    {
+      "chunk_index": 105,
+      "token_count": 200,
+      "text": "394 107 286 231 498 135 326 net realized gains losses 385 381 market risk bene ts gains losses 122 122 expense 325 325 cigna integration expenses 37 37 income tax expense 776 776 net income loss 780 6..."
+    },
+    {
+      "chunk_index": 106,
+      "token_count": 200,
+      "text": "606 667 415 571 876 409 277 783 416 770 537 basic earnings share attributable chubb 51 35 10 79 92 diluted earnings share attributable chubb 46 32 10 68 84 potential anti dilutive share conversions 34..."
+    },
+    {
+      "chunk_index": 107,
+      "token_count": 200,
+      "text": "htm 74 138 table contents item management's discussion analysis financial condition results operations following discussion results operations nancial condition liquidity capital resources months ende..."
+    },
+    {
+      "chunk_index": 108,
+      "token_count": 200,
+      "text": "consolidated operating results 54 segment operating results 59 net realized unrealized gains losses 69 effective income tax rate 70 non gaap reconciliation 70 amortization purchased intangibles amorti..."
+    },
+    {
+      "chunk_index": 109,
+      "token_count": 200,
+      "text": "certain risks uncertainties factors potential events occur cause actual results differ materially statements risks uncertainties factors described documents le securities exchange commission sec inclu..."
+    },
+    {
+      "chunk_index": 110,
+      "token_count": 200,
+      "text": "regulatory policies developments actions investigations treaties judicial decisions rulings new theories liability legal tactics settlement terms effects data privacy cyber laws regulation global poli..."
+    },
+    {
+      "chunk_index": 111,
+      "token_count": 200,
+      "text": "equivalent effects public company bankruptcies accounting restatements disclosures investigations public companies relating possible accounting irregularities corporate governance issues acquisitions ..."
+    },
+    {
+      "chunk_index": 112,
+      "token_count": 200,
+      "text": "technology business strategy adapt new technologies management response factors actual events including limited described cautioned place undue reliance forward looking statements speak dates undertak..."
+    },
+    {
+      "chunk_index": 113,
+      "token_count": 200,
+      "text": "results starting acquisition date amounts attributable shareholders chubb ected noncontrolling interests huatai group's life asset management businesses included life insurance segment huatai group's ..."
+    },
+    {
+      "chunk_index": 114,
+      "token_count": 200,
+      "text": "market risk bene ts gains losses 29 nm 122 93 total revenues 13 835 11 833 16 26 729 22 890 16 losses loss expenses 431 683 13 12 158 10 831 12 policy bene ts 219 830 46 399 627 47 policy acquisition ..."
+    },
+    {
+      "chunk_index": 115,
+      "token_count": 200,
+      "text": "dollar basis amounts calculated translating prior period results using local currency exchange rates comparable current period financial highlights months ended june 30 2024 net income attributable ch..."
+    },
+    {
+      "chunk_index": 116,
+      "token_count": 200,
+      "text": "ratio 482 million respectively compared 400 million 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 79 138 54 26 16 pm cb 20240630 https www sec go..."
+    },
+    {
+      "chunk_index": 117,
+      "token_count": 200,
+      "text": "net unrealized losses 478 million related cumulative foreign exchange translation net unrealized losses investment portfolio 476 million ecting mark market impact xed income portfolio total capital re..."
+    },
+    {
+      "chunk_index": 118,
+      "token_count": 200,
+      "text": "personal automobile 614 460 33 29 256 887 41 36 personal 520 485 085 992 10 total personal lines 489 119 17 17 761 955 20 19 global 828 786 677 595 reinsurance lines 411 293 40 40 770 570 35 35 total ..."
+    },
+    {
+      "chunk_index": 119,
+      "token_count": 200,
+      "text": "000089615924000010 cb 20240630 htm 81 138 55 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 82 138 table contents property short tail lines grew g..."
+    },
+    {
+      "chunk_index": 120,
+      "token_count": 200,
+      "text": "large structured transaction months ended june 30 2024 life insurance grew consolidation huatai group organic growth asia latin america combined insurance north america consolidation huatai group cont..."
+    },
+    {
+      "chunk_index": 121,
+      "token_count": 200,
+      "text": "june 30 2024 net premiums earned increased billion 12 percent 13 percent constant dollars net premiums earned increased 11 percent 11 percent constant dollars comprising growth commercial insurance co..."
+    },
+    {
+      "chunk_index": 122,
+      "token_count": 200,
+      "text": "period ends expense adjustments correlate prior period loss development policies refer non gaap reconciliation section information reinstatement premiums catastrophe losses adjustments prior period de..."
+    },
+    {
+      "chunk_index": 123,
+      "token_count": 200,
+      "text": "principally short tail property marine lines corporate run portfolio adverse development 102 million primarily molestation related claims development pre tax net favorable ppd months ended june 30 202..."
+    },
+    {
+      "chunk_index": 124,
+      "token_count": 200,
+      "text": "expense ratio policy acquisition cost ratio administrative expense ratio calculate ratios dividing respective expense amounts net premiums earned calculate ratios life insurance segment use measures m..."
+    },
+    {
+      "chunk_index": 125,
+      "token_count": 200,
+      "text": "earned higher percentage net premiums earned property lines homeowners factors substantially offset higher loss trends certain casualty lines price changes keeping pace loss trends nancial lines incre..."
+    },
+    {
+      "chunk_index": 126,
+      "token_count": 200,
+      "text": "respectively increase policy bene ts primarily consolidation huatai group refer respective sections follow discussion net investment income income expense net realized gains losses expense amortizatio..."
+    },
+    {
+      "chunk_index": 127,
+      "token_count": 200,
+      "text": "dollars percentages 2024 2023 24 vs 23 2024 2023 ytd 24 vs ytd 23 net premiums written 501 155 10 190 443 net premiums earned 900 606 780 975 losses loss expenses 074 871 249 600 11 policy acquisition..."
+    },
+    {
+      "chunk_index": 128,
+      "token_count": 200,
+      "text": "2024 2023 2024 2023 net catastrophe losses 252 231 488 393 favorable prior period development 144 146 192 218 catastrophe losses june 30 2024 2023 primarily ooding hail tornadoes wind events winter st..."
+    },
+    {
+      "chunk_index": 129,
+      "token_count": 200,
+      "text": "months ended june 30 2024 respectively ecting growth net premiums written described combined ratio combined ratio increased months ended june 30 2024 ecting higher catastrophe losses lower favorable p..."
+    },
+    {
+      "chunk_index": 130,
+      "token_count": 200,
+      "text": "84 174 163 underwriting income 249 150 66 435 231 88 net investment income 108 86 25 210 168 25 income expense nm nm amortization purchased intangibles segment income 357 234 52 642 394 63 combined ra..."
+    },
+    {
+      "chunk_index": 131,
+      "token_count": 200,
+      "text": "30 millions dollars 2024 2023 2024 2023 net catastrophe losses 138 147 308 306 favorable prior period development 64 33 116 16 catastrophe losses june 30 2024 2023 primarily ooding hail tornadoes wind..."
+    },
+    {
+      "chunk_index": 132,
+      "token_count": 200,
+      "text": "auto loss trends additionally improvement includes lower acquisition expenses commission reductions auto excess lines higher percentage net premiums earned excess surplus homeowners lines carry lower ..."
+    },
+    {
+      "chunk_index": 133,
+      "token_count": 200,
+      "text": "20 underwriting income 35 88 59 91 89 net investment income 21 14 51 42 31 37 income expense nm amortization purchased intangibles 13 13 segment income 49 96 47 120 107 12 combined ratio loss loss exp..."
+    },
+    {
+      "chunk_index": 134,
+      "token_count": 200,
+      "text": "months ended june 30 2024 primarily lower commodity prices current year decrease net premiums written months ended june 30 2024 ects return premium 41 million government risk sharing formula related 2..."
+    },
+    {
+      "chunk_index": 135,
+      "token_count": 200,
+      "text": "combined ratio excluding catastrophe losses increased months ended june 30 2024 primarily unfavorable year year impact crop commodity price hedge activity produced loss quarter versus gain year cay co..."
+    },
+    {
+      "chunk_index": 136,
+      "token_count": 200,
+      "text": "consolidation accounting previously included share huatai results based equity method investment income expense months ended months ended june 30 change june 30 change millions dollars percentages 202..."
+    },
+    {
+      "chunk_index": 137,
+      "token_count": 200,
+      "text": "ratio 25 25 pts 25 25 pts administrative expense ratio 10 10 pts 10 10 pts combined ratio 88 84 pts 86 84 pts catastrophe losses pts pts prior period development pts pts cay combined ratio excluding c..."
+    },
+    {
+      "chunk_index": 138,
+      "token_count": 200,
+      "text": "note consolidated financial statements prior period development net premiums written region months ended june 30 millions dollars percentages 2024 2024 total 2023 2023 total 2023 24 vs 23 24 vs 23 reg..."
+    },
+    {
+      "chunk_index": 139,
+      "token_count": 200,
+      "text": "operations premiums overall net premiums written increased 449 million 021 million 473 million 022 million constant dollar basis months ended june 30 2024 respectively ecting growth commercial lines 1..."
+    },
+    {
+      "chunk_index": 140,
+      "token_count": 200,
+      "text": "june 30 2024 ecting growth commercial lines driven growth new business positive rate increases property casualty lines personal lines business including automobile mexico continues strong growth 64 26..."
+    },
+    {
+      "chunk_index": 141,
+      "token_count": 200,
+      "text": "segment represents reinsurance operations comprising chubb tempest bermuda chubb tempest usa chubb tempest international chubb tempest canada global reinsurance markets reinsurance products worldwide ..."
+    },
+    {
+      "chunk_index": 142,
+      "token_count": 200,
+      "text": "38 pts 46 42 pts policy acquisition cost ratio 23 27 pts 25 26 pts administrative expense ratio pts pts combined ratio 72 69 pts 74 72 pts catastrophe losses pts pts prior period development pts pts c..."
+    },
+    {
+      "chunk_index": 143,
+      "token_count": 200,
+      "text": "increase net premiums written described including large structured transaction fully earned written 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm..."
+    },
+    {
+      "chunk_index": 144,
+      "token_count": 200,
+      "text": "life insurance segment includes 100 percent results huatai group's life asset management business required consolidation accounting previously included share huatai results based equity method investm..."
+    },
+    {
+      "chunk_index": 145,
+      "token_count": 200,
+      "text": "segment income 276 254 544 498 nm meaningful premiums net premiums written increased 310 million 650 million 342 million 716 million constant dollar basis months ended june 30 2024 respectively intern..."
+    },
+    {
+      "chunk_index": 146,
+      "token_count": 200,
+      "text": "change millions dollars percentages 2024 2023 2023 24 vs 23 24 vs 23 2024 2023 2023 24 vs 23 24 vs 23 deposits collected universal life investment contracts 547 400 384 36 42 147 709 685 61 67 deposit..."
+    },
+    {
+      "chunk_index": 147,
+      "token_count": 200,
+      "text": "percent huatai group non insurance operations results comprising real estate holding company activity included corporate months ended months ended june 30 change june 30 change millions dollars percen..."
+    },
+    {
+      "chunk_index": 148,
+      "token_count": 200,
+      "text": "943 098 13 817 780 nm meaningful administrative expenses increased million 14 million months ended june 30 2024 respectively primarily increased spending support growth 26 16 pm cb 20240630 https www ..."
+    },
+    {
+      "chunk_index": 149,
+      "token_count": 200,
+      "text": "investment strategy investment managers manage investment portfolio maximize total return speci guidelines designed minimize risk majority investment portfolio available sale reported fair value effec..."
+    },
+    {
+      "chunk_index": 150,
+      "token_count": 200,
+      "text": "swaps designated hedges accounting purposes reported separate components accumulated comprehensive income loss shareholders equity consolidated balance sheets following tables present net realized unr..."
+    },
+    {
+      "chunk_index": 151,
+      "token_count": 200,
+      "text": "sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 104 138 69 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 105 138 table cont..."
+    },
+    {
+      "chunk_index": 152,
+      "token_count": 200,
+      "text": "tax net unrealized losses 489 million 166 million investment portfolio months ended june 30 2024 respectively primarily driven higher rates effective income tax rate effective tax rate etr ects mix in..."
+    },
+    {
+      "chunk_index": 153,
+      "token_count": 200,
+      "text": "evaluate trends results exclusive effect uctuations exchange rates dollar currencies international business transacted exchange rates uctuate signi cantly periods distort analysis trends impact determ..."
+    },
+    {
+      "chunk_index": 154,
+      "token_count": 200,
+      "text": "event signi decline commodity pricing impacts underwriting results view gains losses derivatives results underwriting operations cay combined ratio excluding catastrophe losses cats excludes cats prio..."
+    },
+    {
+      "chunk_index": 155,
+      "token_count": 200,
+      "text": "correlate prior period loss development policies fully earned period adjustments recorded prior period expense adjustments typically relate adjustable commission reserves policyholder dividend reserve..."
+    },
+    {
+      "chunk_index": 156,
+      "token_count": 200,
+      "text": "related adjustments favorable unfavorable 144 64 61 16 93 192 net premiums earned adjustments ppd unfavorable favorable expense adjustments unfavorable favorable ppd reinstatement premiums unfavorable..."
+    },
+    {
+      "chunk_index": 157,
+      "token_count": 200,
+      "text": "cay combined ratio ex cats loss loss expense ratio adjusted 60 53 81 49 50 57 policy acquisition cost administrative expense ratio adjusted 20 25 35 27 26 cay combined ratio ex cats 80 78 89 85 77 83 ..."
+    },
+    {
+      "chunk_index": 158,
+      "token_count": 200,
+      "text": "61 780 catastrophe losses related adjustments catastrophe losses net related adjustments 231 147 26 400 reinstatement premiums collected expensed catastrophe losses catastrophe losses gross related ad..."
+    },
+    {
+      "chunk_index": 159,
+      "token_count": 200,
+      "text": "618 357 633 908 243 759 combined ratio loss loss expense ratio 62 62 79 48 38 59 policy acquisition cost administrative expense ratio 20 26 35 30 26 combined ratio 82 88 86 84 69 85 cay combined ratio..."
+    },
+    {
+      "chunk_index": 160,
+      "token_count": 200,
+      "text": "commercial insurance north america personal insurance north america agricultural insurance overseas general insurance global reinsurance corporate total months ended june 30 2024 millions dollars rati..."
+    },
+    {
+      "chunk_index": 161,
+      "token_count": 200,
+      "text": "favorable unfavorable 10 policy acquisition costs administrative expenses adjusted 996 773 68 344 181 206 568 denominator net premiums earned 780 983 754 545 634 20 696 net premiums earned adjustments..."
+    },
+    {
+      "chunk_index": 162,
+      "token_count": 200,
+      "text": "table references calculating ratios 74 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 113 138 table contents north america commercial insurance no..."
+    },
+    {
+      "chunk_index": 163,
+      "token_count": 200,
+      "text": "443 629 816 233 10 567 policy acquisition costs administrative expenses policy acquisition costs administrative expenses 838 712 58 031 145 192 976 expense adjustments favorable unfavorable policy acq..."
+    },
+    {
+      "chunk_index": 164,
+      "token_count": 200,
+      "text": "ratio 85 add impact gains losses crop derivatives combined ratio 85 note ratios calculated using dollars accordingly calculations using rounded amounts differ letters included table references calcula..."
+    },
+    {
+      "chunk_index": 165,
+      "token_count": 200,
+      "text": "reduction deferred tax liability associated intangible assets quarter 2024 21 fourth quarter 2024 21 2025 75 2026 70 2027 65 2028 62 2029 53 total 367 amortization fair value adjustment assumed long t..."
+    },
+    {
+      "chunk_index": 166,
+      "token_count": 200,
+      "text": "23 12 38 29 equity securities 35 59 15 private equities 31 12 47 21 investments 22 20 45 37 gross investment income 519 194 957 346 investment expenses 51 49 98 94 net investment income 468 145 859 25..."
+    },
+    {
+      "chunk_index": 167,
+      "token_count": 200,
+      "text": "30 millions dollars 2024 2023 2024 2023 total mark market gain private equity pre tax 53 17 187 274 investments investment portfolio invested primarily publicly traded investment grade xed income secu..."
+    },
+    {
+      "chunk_index": 168,
+      "token_count": 200,
+      "text": "data 896159 000089615924000010 cb 20240630 htm 117 138 table contents june 30 2024 december 31 2023 millions dollars fair value cost amortized cost net fair value cost amortized cost net short term in..."
+    },
+    {
+      "chunk_index": 169,
+      "token_count": 200,
+      "text": "rating june 30 2024 december 31 2023 millions dollars percentages fair value total fair value total treasury agency 741 590 corporate asset backed securities 43 620 37 42 830 37 mortgage backed securi..."
+    },
+    {
+      "chunk_index": 170,
+      "token_count": 200,
+      "text": "10 largest global exposures corporate bonds fair value june 30 2024 millions dollars fair value bank america corp 804 morgan stanley 705 jpmorgan chase 652 wells fargo 614 goldman sachs group 561 citi..."
+    },
+    {
+      "chunk_index": 171,
+      "token_count": 200,
+      "text": "state general obligation bonds essential service revenue bonds including education utilities water power sewers non chubb local currency investment portfolios strict contractual investment guidelines ..."
+    },
+    {
+      "chunk_index": 172,
+      "token_count": 200,
+      "text": "income portfolio country sovereign non government securities june 30 2024 millions dollars fair value amortized cost net republic korea 812 774 people's republic china 627 567 canada 911 954 taiwan 88..."
+    },
+    {
+      "chunk_index": 173,
+      "token_count": 200,
+      "text": "company's country risk non corporate securities issued foreign subsidiaries corporations investment grade corporate xed income portfolio investment grade securities different characteristics investmen..."
+    },
+    {
+      "chunk_index": 174,
+      "token_count": 200,
+      "text": "www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 120 138 historical default experience holdings highly diversi ed industries generally subject percent issuer limit 80 26 16 pm..."
+    },
+    {
+      "chunk_index": 175,
+      "token_count": 200,
+      "text": "62 238 losses loss expenses incurred 14 422 264 12 158 losses loss expenses paid 12 080 670 410 including foreign exchange translation 273 69 204 balance june 30 2024 82 191 17 409 64 782 net valuatio..."
+    },
+    {
+      "chunk_index": 176,
+      "token_count": 200,
+      "text": "level inputs lowest priority unobservable data level inputs level includes inputs quoted prices level observable assets liabilities directly indirectly refer note consolidated financial statements inf..."
+    },
+    {
+      "chunk_index": 177,
+      "token_count": 200,
+      "text": "aggregate single occurrence millions dollars percentages chubb total chubb shareholders equity chubb total chubb shareholders equity chubb total chubb shareholders equity 10 796 573 165 100 282 636 87..."
+    },
+    {
+      "chunk_index": 178,
+      "token_count": 200,
+      "text": "march 31 2024 worldwide hurricane pmls ect latest north atlantic hurricane vulnerability model estimates chubb loss pro le inherently uncertain reasons including following use party modeling packages ..."
+    },
+    {
+      "chunk_index": 179,
+      "token_count": 200,
+      "text": "climate change resulting climate peril impacts timescale relevant business tests conducted adjusting baseline view risk perils hurricane inland ood wild ect increases frequency severity modeled domain..."
+    },
+    {
+      "chunk_index": 180,
+      "token_count": 200,
+      "text": "prior renewal date consider coverage intend buy make material changes current structure light various factors including modeled pml assessment various return periods reinsurance pricing risk tolerance..."
+    },
+    {
+      "chunk_index": 181,
+      "token_count": 200,
+      "text": "85 billion billion natural perils terrorism united states excluding alaska hawaii billion billion named windstorm earthquake united states northeast states billion billion named windstorm earthquake i..."
+    },
+    {
+      "chunk_index": 182,
+      "token_count": 200,
+      "text": "business operations june 30 december 31 millions dollars ratios 2024 2023 short term debt 553 460 long term debt 13 178 13 035 total nancial debt 14 731 14 495 trust preferred securities 309 308 total..."
+    },
+    {
+      "chunk_index": 183,
+      "token_count": 200,
+      "text": "15 552 491 common shares treasury weighted average cost 159 49 share billion share repurchase authorization remained period july 2024 july 25 2024 repurchased 175 465 common shares total 45 million se..."
+    },
+    {
+      "chunk_index": 184,
+      "token_count": 200,
+      "text": "paid date 2025 annual general meeting authorized abstain distributing dividend discretion annual dividend approved 2024 represented 20 share increase 05 quarter prior year dividend following table rep..."
+    },
+    {
+      "chunk_index": 185,
+      "token_count": 200,
+      "text": "term timing mismatches expected ows ows cash currency programs allow optimize investment income avoiding portfolio disruption need arise generally access capital markets credit facilities letter credi..."
+    },
+    {
+      "chunk_index": 186,
+      "token_count": 200,
+      "text": "assess subsidiaries draw dividends based number factors considerations regulatory legal restrictions subsidiary nancial condition paramount dividend decision chubb limited received dividends 700 milli..."
+    },
+    {
+      "chunk_index": 187,
+      "token_count": 200,
+      "text": "june 30 2024 2023 operating cash ows billion months ended june 30 2024 compared billion prior year period primarily higher net premiums collected net investment income impact huatai consolidation cash..."
+    },
+    {
+      "chunk_index": 188,
+      "token_count": 200,
+      "text": "htm 129 138 table contents internal external forces uence nancial condition results operations cash ows claim settlements premium levels investment returns impacted changing rates ation economic condi..."
+    },
+    {
+      "chunk_index": 189,
+      "token_count": 200,
+      "text": "441 subsidiaries issuers guarantors 257 263 667 593 af liated notional cash pooling programs 154 594 618 455 short term debt 553 460 long term debt 13 178 13 035 trust preferred securities 309 308 lia..."
+    },
+    {
+      "chunk_index": 190,
+      "token_count": 200,
+      "text": "217 comprehensive loss 60 269 item quantitative qualitative disclosures market risk refer item 7a included 2023 form 10 foreign currency management global company chubb entities transact business mult..."
+    },
+    {
+      "chunk_index": 191,
+      "token_count": 200,
+      "text": "reward tables estimates sensitivities instantaneous changes economic inputs equity shock rate shock june 30 2024 fair value mrb liability fvl fair value speci derivative instruments held hedge value p..."
+    },
+    {
+      "chunk_index": 192,
+      "token_count": 200,
+      "text": "87 26 16 pm cb 20240630 https www sec gov archives edgar data 896159 000089615924000010 cb 20240630 htm 132 138 table contents change aa rated credit spreads impacts rate used discount cash ows fair v..."
+    },
+    {
+      "chunk_index": 193,
+      "token_count": 200,
+      "text": "51 132 264 100 bps increase decrease fvl 77 191 327 494 709 973 increase decrease hedge value 104 104 209 313 418 increase decrease net income 181 191 223 285 396 555 sensitivities economic variables ..."
+    },
+    {
+      "chunk_index": 194,
+      "token_count": 200,
+      "text": "claims 100 immediate mortality 131 138 147 138 126 112 treaty limits function ceiling equity markets fall shocks table incrementally negative impacts begin drop speci nature claim limits annual claim ..."
+    },
+    {
+      "chunk_index": 195,
+      "token_count": 200,
+      "text": "gov archives edgar data 896159 000089615924000010 cb 20240630 htm 134 138 table contents item controls procedures chubb management participation chubb chief executive cer chief financial cer evaluated..."
+    },
+    {
+      "chunk_index": 196,
+      "token_count": 200,
+      "text": "disclosure controls procedures working incorporate huatai group noted changes chubb's internal controls nancial reporting months ended june 30 2024 materially affected reasonably likely materially aff..."
+    },
+    {
+      "chunk_index": 197,
+      "token_count": 200,
+      "text": "86 billion june june 30 184 203 275 98 181 300 81 billion total 402 265 253 72 254 236 column represents open market share repurchases surrender chubb common shares satisfy tax withholding obligations..."
+    },
+    {
+      "chunk_index": 198,
+      "token_count": 200,
+      "text": "chubb ned rule 16a exchange act informed adoption termination rule 10b5 trading arrangement non rule 10b5 trading arrangement terms ned item 408 sec regulation 91 26 16 pm cb 20240630 https www sec go..."
+    },
+    {
+      "chunk_index": 199,
+      "token_count": 190,
+      "text": "certi cation pursuant 18 section 1350 adopted pursuant section 906 sarbanes oxley act 2002 101 following nancial information chubb limited quarterly report form 10 quarter ended june 30 2024 formatted..."
+    },
+    {
+      "chunk_index": 200,
+      "token_count": 40,
+      "text": "greenberg evan greenberg chairman chief executive cer july 26 2024 peter enns peter enns executive vice president chief financial cer 93 26 16 pm cb 20240630 https www sec gov archives edgar data 8961..."
+    }
+  ]
+}

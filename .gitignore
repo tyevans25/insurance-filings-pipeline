@@ -50,4 +50,7 @@ htmlcov/
 
 # Database files (Docker volumes)
 *.db
-*.sqlite
+*.sqlite# PDFs are too large for Git
+*.pdf
+data/raw/**/*.pdf
+data/input/**/*.pdf

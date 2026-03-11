@@ -1,30 +1,24 @@
-# PDF Processing
-PyPDF2==3.0.1
+# Their M02 dependencies
+PyMuPDF==1.23.8
+scikit-learn==1.3.2
+sentence-transformers==2.3.0
 pdfplumber==0.10.3
 
-# NLP & Text Processing
-nltk==3.8.1
-sentence-transformers==2.3.0
-spacy==3.7.2
-
-# Databases
+# Your database dependencies (keep these)
 psycopg2-binary==2.9.9
 qdrant-client==1.7.0
-neo4j==5.14.1
 
-# Data Processing
-pandas==2.1.4
-numpy==1.26.2
-
-# ML Dependencies
-torch==2.1.2
-transformers==4.36.0
-huggingface-hub==0.20.0
-
-# Utilities
-python-dotenv==1.0.0
-pyyaml==6.0.1
-
-# M03 - Agentic AI
+# Your M03 dependencies (keep these)
 anthropic>=0.18.0
 streamlit>=1.30.0
+python-dotenv>=1.0.0
+
+# Shared dependencies
+torch==2.1.2
+transformers==4.36.0
+pandas==2.1.4
+
+# Remove these (replaced by PyMuPDF):
+pdfplumber==0.10.3
+# nltk==3.8.1
+# spacy==3.7.2
