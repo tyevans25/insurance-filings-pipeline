@@ -24,6 +24,10 @@ from pipeline.chunk_text import clean_and_tokenize, chunk_tokens
 print("✓ chunk_text")
 from pipeline.embed import embed_texts
 print("✓ embed")
+from pipeline.section_filter import filter_chunks_for_narrative
+print("✓ section_filter")
+from pipeline.table_extractor import extract_tables_from_pdf
+print("✓ table_extractor")
 
 print("\nImporting database clients...")
 from src.storage.postgres_client import PostgresClient
@@ -44,17 +48,9 @@ def stable_chunk_id(doc_id: str, chunk_index: int) -> str:
 
 
 def extract_company_from_filename(filepath: str) -> str:
-    """
-    Extract company name from filename (flexible, works with any structure)
-    
-    Examples:
-        aig_10q_2024q3.pdf -> AIG
-        travelers_10k_2024.pdf -> Travelers
-        chubb_10k_2024.pdf -> Chubb
-    """
+    """Extract company name from filename"""
     filename = Path(filepath).name.lower()
     
-    # Known companies (expandable without code changes)
     company_map = {
         'aig': 'AIG',
         'travelers': 'Travelers',
@@ -70,13 +66,10 @@ def extract_company_from_filename(filepath: str) -> str:
         'liberty mutual': 'Liberty Mutual',
     }
     
-    # Check filename for company name
     for key, company in company_map.items():
         if key in filename:
             return company
     
-    # Fallback: try to extract first word from filename
-    # Example: "progressive_10k_2024.pdf" -> "Progressive"
     parts = filename.replace('.pdf', '').replace('.txt', '').split('_')
     if parts:
         return parts[0].capitalize()
@@ -85,22 +78,14 @@ def extract_company_from_filename(filepath: str) -> str:
 
 
 def extract_filing_info(filename: str) -> dict:
-    """
-    Extract filing type and fiscal period from filename
-    
-    Examples:
-        aig_10k_2024.pdf -> {'filing_type': '10-K', 'fiscal_period': 'FY'}
-        travelers_10q_2024q3.pdf -> {'filing_type': '10-Q', 'fiscal_period': 'Q3'}
-    """
+    """Extract filing type and fiscal period from filename"""
     filename_lower = filename.lower()
     
-    # Detect filing type
     if '10-k' in filename_lower or '10k' in filename_lower:
         filing_type = '10-K'
         fiscal_period = 'FY'
     elif '10-q' in filename_lower or '10q' in filename_lower:
         filing_type = '10-Q'
-        # Try to detect quarter
         if 'q1' in filename_lower:
             fiscal_period = 'Q1'
         elif 'q2' in filename_lower:
@@ -110,7 +95,7 @@ def extract_filing_info(filename: str) -> dict:
         elif 'q4' in filename_lower:
             fiscal_period = 'Q4'
         else:
-            fiscal_period = 'Q3'  # Default
+            fiscal_period = 'Q3'
     else:
         filing_type = 'Unknown'
         fiscal_period = 'Unknown'
@@ -122,11 +107,10 @@ def extract_filing_info(filename: str) -> dict:
 
 
 def main():
-    input_dir = Path("/data/input")  # Flat structure
+    input_dir = Path("/data/input")
     output_dir = Path("/data/output")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Scan files using their scanner
     print(f"📂 Scanning directory: {input_dir}")
     jobs = ingest(input_dir)
     print(f"\n✅ Ingestion complete: {len(jobs)} files found\n")
@@ -135,7 +119,6 @@ def main():
         print("⚠️  No files found! Check that PDFs/TXT files are in /data/input/")
         return
 
-    # Initialize YOUR databases
     print("🔌 Connecting to databases...")
     postgres = PostgresClient()
     qdrant = QdrantClient()
@@ -143,7 +126,9 @@ def main():
     
     collection_ready = False
     total_chunks = 0
+    total_narrative_chunks = 0
     total_embeddings = 0
+    total_tables = 0
 
     for idx, job in enumerate(jobs, 1):
         path = Path(job.filepath)
@@ -151,7 +136,7 @@ def main():
         print(f"📄 File {idx}/{len(jobs)}: {job.filename}")
         print(f"{'='*80}")
 
-        # 1) Extract text + metadata using THEIR extractor
+        # 1) Extract text + metadata
         try:
             raw_text, meta = extract_text_and_metadata(path)
             print(f"✅ Extracted {len(raw_text):,} characters")
@@ -160,29 +145,13 @@ def main():
             print(f"❌ Failed to extract text: {e}")
             continue
 
-        # 2) Clean + tokenize using THEIR method
-        tokens = clean_and_tokenize(raw_text)
-        print(f"🔤 Tokens after cleaning: {len(tokens):,}")
-
-        if len(tokens) < 10:
-            print("⚠️  Too few tokens, skipping file")
-            continue
-
-        # 3) Chunk using THEIR chunker
-        chunks = chunk_tokens(tokens, chunk_size=200, overlap=50)
-        print(f"📦 Created {len(chunks)} chunks")
-
-        if not chunks:
-            print("⚠️  No chunks created, skipping")
-            continue
-
-        # 4) Extract company and filing info from filename
+        # 2) Extract company and filing info
         company = extract_company_from_filename(job.filepath)
         filing_info = extract_filing_info(job.filename)
         print(f"🏢 Company: {company}")
         print(f"📊 Filing: {filing_info['filing_type']} ({filing_info['fiscal_period']})")
 
-        # 5) Insert filing into YOUR PostgreSQL
+        # 3) Insert filing into PostgreSQL
         filing_data = {
             'company': company,
             'filing_date': meta.get('created_date'),
@@ -207,7 +176,64 @@ def main():
             print(f"❌ Failed to insert filing: {e}")
             continue
 
-        # 6) Prepare chunks for PostgreSQL
+        # 4) Extract financial tables (only for PDFs)
+        if path.suffix.lower() == '.pdf':
+            try:
+                tables = extract_tables_from_pdf(str(path))
+                print(f"📊 Extracted {len(tables)} financial tables")
+                
+                for table in tables:
+                    table_data = {
+                        'filing_id': filing_id,
+                        'table_type': 'loss_reserves',
+                        'page_num': table.get('page_num', 0),
+                        'table_data': table,
+                        'metadata': {
+                            'title': table.get('title', ''),
+                            'years': table.get('years', []),
+                            'company': company,
+                            'filing_type': filing_info['filing_type']
+                        }
+                    }
+                    try:
+                        postgres.insert_table(table_data)
+                        total_tables += 1
+                    except Exception as e:
+                        print(f"⚠️  Failed to insert table: {e}")
+                
+                if tables:
+                    print(f"💾 PostgreSQL: Inserted {len(tables)} tables")
+            except Exception as e:
+                print(f"⚠️  Table extraction skipped: {e}")
+
+        # 5) Clean + tokenize
+        tokens = clean_and_tokenize(raw_text)
+        print(f"🔤 Tokens after cleaning: {len(tokens):,}")
+
+        if len(tokens) < 10:
+            print("⚠️  Too few tokens, skipping file")
+            continue
+
+        # 6) Chunk
+        chunks = chunk_tokens(tokens, chunk_size=200, overlap=50)
+        print(f"📦 Created {len(chunks)} total chunks")
+
+        if not chunks:
+            print("⚠️  No chunks created, skipping")
+            continue
+
+        # 7) Filter for narrative content only
+        narrative_indices = filter_chunks_for_narrative(chunks)
+        filtered_chunks = [chunks[i] for i in narrative_indices]
+        print(f"📝 Kept {len(filtered_chunks)} narrative chunks (filtered out {len(chunks) - len(filtered_chunks)} table/numeric chunks)")
+
+        if not filtered_chunks:
+            print("⚠️  No narrative chunks after filtering, skipping")
+            continue
+
+        chunks = filtered_chunks
+
+        # 8) Prepare chunks for PostgreSQL
         pg_chunks = []
         for chunk in chunks:
             chunk_id = stable_chunk_id(job.doc_id, chunk.chunk_index)
@@ -215,7 +241,7 @@ def main():
                 'chunk_id': chunk_id,
                 'filing_id': filing_id,
                 'chunk_index': chunk.chunk_index,
-                'section_type': 'document',
+                'section_type': 'narrative',
                 'page_num': 1,
                 'text': chunk.chunk_text,
                 'cleaned_text': chunk.chunk_text,
@@ -224,20 +250,21 @@ def main():
                     'token_count': chunk.token_count,
                     'company': company,
                     'filing_date': meta.get('created_date'),
-                    'filing_type': filing_info['filing_type']
+                    'filing_type': filing_info['filing_type'],
+                    'is_narrative': True
                 }
             })
 
-        # Insert chunks into PostgreSQL
         try:
             postgres.insert_chunks(pg_chunks)
             print(f"💾 PostgreSQL: Inserted {len(pg_chunks)} chunks")
             total_chunks += len(pg_chunks)
+            total_narrative_chunks += len(pg_chunks)
         except Exception as e:
             print(f"❌ Failed to insert chunks: {e}")
             continue
 
-        # 7) Generate embeddings using THEIR embedder
+        # 9) Generate embeddings
         print(f"🧠 Generating embeddings...")
         try:
             chunk_texts = [c.chunk_text for c in chunks]
@@ -247,7 +274,7 @@ def main():
             print(f"❌ Failed to generate embeddings: {e}")
             continue
 
-        # 8) Ensure QDrant collection exists
+        # 10) Ensure QDrant collection exists
         if not collection_ready:
             try:
                 qdrant._create_collection()
@@ -257,7 +284,7 @@ def main():
                 print(f"❌ Failed to create QDrant collection: {e}")
                 continue
 
-        # 9) Prepare chunks for QDrant (with embeddings)
+        # 11) Prepare chunks for QDrant
         qdrant_chunks = []
         for chunk, vector in zip(chunks, vectors):
             chunk_id = stable_chunk_id(job.doc_id, chunk.chunk_index)
@@ -269,15 +296,15 @@ def main():
                 'metadata': {
                     'company': company,
                     'filing_date': meta.get('created_date'),
-                    'section_type': 'document',
+                    'section_type': 'narrative',
                     'chunk_index': chunk.chunk_index,
                     'token_count': chunk.token_count,
                     'filename': job.filename,
-                    'filing_type': filing_info['filing_type']
+                    'filing_type': filing_info['filing_type'],
+                    'is_narrative': True
                 }
             })
 
-        # Insert into QDrant
         try:
             qdrant.insert_embeddings(qdrant_chunks)
             print(f"💾 QDrant: Inserted {len(qdrant_chunks)} embeddings")
@@ -286,40 +313,16 @@ def main():
             print(f"❌ Failed to insert into QDrant: {e}")
             continue
 
-        # 10) Save local artifacts
-        # chunks_path = output_dir / f"{job.doc_id}_chunks.json"
-        # chunks_path.write_text(
-        #     json.dumps({
-        #         'doc_id': job.doc_id,
-        #         'filename': job.filename,
-        #         'company': company,
-        #         'filing_id': filing_id,
-        #         'filing_type': filing_info['filing_type'],
-        #         'fiscal_period': filing_info['fiscal_period'],
-        #         'metadata': meta,
-        #         'num_chunks': len(chunks),
-        #         'chunks': [
-        #             {
-        #                 'chunk_index': c.chunk_index,
-        #                 'token_count': c.token_count,
-        #                 'text': c.chunk_text[:200] + '...'
-        #             }
-        #             for c in chunks
-        #         ]
-        #     }, indent=2),
-        #     encoding='utf-8'
-        # )
-        # print(f"📁 Saved artifacts: {chunks_path.name}")
-
     # Final summary
     print(f"\n{'='*80}")
     print("🎉 PIPELINE COMPLETE!")
     print(f"{'='*80}")
     print(f"📊 Summary:")
     print(f"   • Files processed: {len(jobs)}")
-    print(f"   • Total chunks: {total_chunks:,}")
+    print(f"   • Total narrative chunks: {total_narrative_chunks:,}")
+    print(f"   • Total tables extracted: {total_tables:,}")
     print(f"   • Total embeddings: {total_embeddings:,}")
-    print(f"   • PostgreSQL: ✅ {total_chunks:,} chunks")
+    print(f"   • PostgreSQL: ✅ {total_chunks:,} chunks, {total_tables:,} tables")
     print(f"   • QDrant: ✅ {total_embeddings:,} vectors")
     print(f"{'='*80}\n")
 

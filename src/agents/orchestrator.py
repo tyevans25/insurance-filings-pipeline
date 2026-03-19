@@ -11,6 +11,7 @@ import json
 # Load environment variables from .env
 load_dotenv()
 
+
 class ReservingAgent:
     def __init__(self):
         self.tools = AgentTools()
@@ -20,19 +21,19 @@ class ReservingAgent:
 
 You have access to SEC filings (10-K, 10-Q) from major insurance carriers: AIG, Travelers, and Chubb.
 
-Your capabilities:
-- semantic_search: Find relevant text passages about specific topics using vector similarity
-- get_filing_metadata: Get basic filing information (dates, types, companies)
-- get_chunks_by_section: Get text from specific sections (Risk Factors, MD&A, etc.)
+Available Tools:
+1. semantic_search(query, limit, company) - Search narrative text from filings
+2. get_filing_metadata(company, filing_type) - Get filing information
+3. get_financial_tables(company, keyword) - Query structured financial tables and data
 
-When answering questions:
-1. Use semantic_search to find the most relevant information
-2. Cite specific companies, filing types, and dates in your answers
-3. Be precise about financial metrics and technical terms
-4. If information is from multiple sources, synthesize clearly
-5. Acknowledge uncertainty if the data doesn't fully answer the question
+When answering questions about reserves, loss development, or financial metrics:
+1. First use get_financial_tables() to find relevant structured data
+2. Then use semantic_search() for narrative context
+3. Combine both sources in your answer
+4. Always cite specific companies, filing types, and dates
+5. Distinguish between narrative text and tabular data
 
-Your user is a Senior Reserving Actuary preparing quarterly reserve reviews."""
+Acknowledge any limitations in the available data and suggest what additional information would be helpful."""
     
     def answer_query(self, query: str, company: str = None) -> Dict:
         """
@@ -49,45 +50,62 @@ Your user is a Senior Reserving Actuary preparing quarterly reserve reviews."""
         if company:
             print(f"   Focusing on: {company}")
         
-        # Step 1: Semantic search for relevant context
-        print("   Searching for relevant passages...")
+        # Check if query needs financial tables
+        financial_keywords = ['reserve', 'loss', 'ratio', 'premium', 'metric', 'amount', 'billion', 'million', 'data', 'number']
+        needs_tables = any(kw in query.lower() for kw in financial_keywords)
+        
+        context_parts = []
+        
+        # Get table data if query seems financial
+        if needs_tables:
+            print("   Querying financial tables...")
+            tables = self.tools.get_financial_tables(company=company, keyword='reserve')
+            if tables:
+                table_summary = f"\n=== Financial Tables ({len(tables)} found) ===\n"
+                for i, table in enumerate(tables[:5], 1):  # Top 5 tables
+                    title = table.get('metadata', {}).get('title', 'Untitled')
+                    company_name = table.get('company', 'Unknown')
+                    filing_type = table.get('filing_type', 'Unknown')
+                    page = table.get('page_num', 0)
+                    
+                    table_summary += f"\n[Table {i}] {company_name} {filing_type} - Page {page}\n"
+                    table_summary += f"Title: {title}\n"
+                    
+                    # Include sample data
+                    if table.get('table_data'):
+                        data_str = str(table['table_data'])[:300]
+                        table_summary += f"Data: {data_str}...\n"
+                
+                context_parts.append(table_summary)
+                print(f"   Found {len(tables)} financial tables")
+        
+        # Get semantic search results
+        print("   Searching narrative text...")
         search_results = self.tools.semantic_search(query, limit=5, company=company)
         
-        # Step 2: Build context from search results
-        context = self._build_context(search_results)
+        if search_results:
+            narrative_context = "\n=== Narrative Context from Filings ===\n"
+            for i, result in enumerate(search_results, 1):
+                metadata = result.get('metadata', {})
+                narrative_context += f"\n[Passage {i}] {metadata.get('company')} - {metadata.get('filing_type')}\n"
+                narrative_context += f"{result['text'][:400]}...\n"
+            context_parts.append(narrative_context)
+            print(f"   Found {len(search_results)} relevant passages")
         
-        # Step 3: Generate answer with Claude
-        print("   Generating answer...")
-        answer = self._synthesize_answer(query, context)
+        # Combine contexts
+        full_context = "\n".join(context_parts) if context_parts else "No relevant information found."
+        
+        # Generate answer
+        print("   Generating answer with Claude...")
+        answer = self._synthesize_answer(query, full_context)
         
         return {
             'query': query,
             'answer': answer,
             'sources': search_results,
-            'num_sources': len(search_results)
+            'num_sources': len(search_results),
+            'num_tables': len(tables) if needs_tables and tables else 0
         }
-    
-    def _build_context(self, search_results: List[Dict]) -> str:
-        """Build context string from search results"""
-        if not search_results:
-            return "No relevant information found in the filings."
-        
-        context_parts = ["=== Relevant Passages from SEC Filings ===\n"]
-        
-        for i, result in enumerate(search_results, 1):
-            metadata = result.get('metadata', {})
-            company = metadata.get('company', 'Unknown')
-            filing_date = metadata.get('filing_date', 'Unknown date')
-            section = metadata.get('section_type', 'Unknown section')
-            text = result.get('text', '')
-            score = result.get('score', 0)
-            
-            context_parts.append(f"\n[{i}] {company} - {filing_date} ({section})")
-            context_parts.append(f"Relevance: {score:.3f}")
-            context_parts.append(f"{text[:500]}...")
-            context_parts.append("-" * 80)
-        
-        return "\n".join(context_parts)
     
     def _synthesize_answer(self, query: str, context: str) -> str:
         """Use Claude to synthesize final answer from context"""
@@ -107,7 +125,8 @@ Please answer this question: {query}
 
 Provide a clear, concise answer that:
 - Cites specific companies and filing dates
-- Highlights key findings from the passages
+- References both tabular data and narrative context when available
+- Highlights key findings
 - Notes any important caveats or limitations
 - Is written for an actuarial audience"""
                 }

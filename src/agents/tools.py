@@ -102,3 +102,50 @@ class AgentTools:
             results = [dict(zip(columns, row)) for row in cur.fetchall()]
         
         return results
+    
+    def get_financial_tables(self, company: str = None, keyword: str = None) -> List[Dict]:
+        """
+        Query financial tables from PostgreSQL
+        
+        Args:
+            company: Filter by company name
+            keyword: Search in table titles
+        
+        Returns:
+            List of table data with metadata
+        """
+        query = """
+            SELECT 
+                t.table_id,
+                t.table_type,
+                t.page_num,
+                t.table_data,
+                t.metadata,
+                f.company,
+                f.filing_type,
+                f.filing_date
+            FROM financial_tables t
+            JOIN filings f ON t.filing_id = f.filing_id
+            WHERE 1=1
+        """
+        params = []
+        
+        if company:
+            query += " AND f.company = %s"
+            params.append(company)
+        
+        if keyword:
+            query += " AND t.metadata->>'title' ILIKE %s"
+            params.append(f'%{keyword}%')
+        
+        query += " ORDER BY f.filing_date DESC LIMIT 20"
+        
+        with self.postgres.conn.cursor() as cur:
+            cur.execute(query, params)
+            columns = [desc[0] for desc in cur.description]
+            results = []
+            for row in cur.fetchall():
+                result = dict(zip(columns, row))
+                results.append(result)
+        
+        return results

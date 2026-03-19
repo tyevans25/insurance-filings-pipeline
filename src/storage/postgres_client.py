@@ -5,6 +5,8 @@ import psycopg2
 from psycopg2.extras import Json, execute_values
 from typing import List, Dict, Optional
 import os
+import json
+
 
 class PostgresClient:
     def __init__(self):
@@ -50,8 +52,8 @@ class PostgresClient:
             filing_id INTEGER REFERENCES filings(filing_id) ON DELETE CASCADE,
             table_type VARCHAR(50),
             page_num INTEGER,
-            data JSONB,
-            extracted_metrics JSONB
+            table_data JSONB,
+            metadata JSONB
         );
         
         CREATE TABLE IF NOT EXISTS financial_metrics (
@@ -70,6 +72,7 @@ class PostgresClient:
         CREATE INDEX IF NOT EXISTS idx_chunks_section ON text_chunks(section_type);
         CREATE INDEX IF NOT EXISTS idx_metrics_name ON financial_metrics(metric_name);
         CREATE INDEX IF NOT EXISTS idx_metrics_filing ON financial_metrics(filing_id);
+        CREATE INDEX IF NOT EXISTS idx_tables_filing ON financial_tables(filing_id);
         """
         
         with self.conn.cursor() as cur:
@@ -127,10 +130,31 @@ class PostgresClient:
         
         self.conn.commit()
     
-    def insert_financial_table(self, filing_id: int, table: Dict):
-        """Insert financial table data"""
+    def insert_table(self, table_data: dict) -> int:
+        """Insert financial table. Returns table_id"""
         query = """
-        INSERT INTO financial_tables (filing_id, table_type, page_num, data, extracted_metrics)
+        INSERT INTO financial_tables (filing_id, table_type, page_num, table_data, metadata)
+        VALUES (%s, %s, %s, %s, %s)
+        RETURNING table_id
+        """
+        
+        with self.conn.cursor() as cur:
+            cur.execute(query, (
+                table_data['filing_id'],
+                table_data.get('table_type', 'unknown'),
+                table_data.get('page_num', 0),
+                Json(table_data.get('table_data', {})),
+                Json(table_data.get('metadata', {}))
+            ))
+            table_id = cur.fetchone()[0]
+        
+        self.conn.commit()
+        return table_id
+    
+    def insert_financial_table(self, filing_id: int, table: Dict):
+        """Insert financial table data (legacy method)"""
+        query = """
+        INSERT INTO financial_tables (filing_id, table_type, page_num, table_data, metadata)
         VALUES (%s, %s, %s, %s, %s)
         """
         
