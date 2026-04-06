@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "category": "reserve_adequacy",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "What did AIG say about reserve adequacy in their latest filing?",
+    "expected_keywords": ["reserve", "adequacy", "loss", "development", "AIG"],
+    "expected_min_sources": 2,
+    "notes": "Should cite AIG 10-Q 2024 Q3; must reference reserve methodology or development"
+  },
+  {
+    "id": 2,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Compare loss development across all carriers",
+    "expected_keywords": ["AIG", "Travelers", "Chubb", "development", "reserve"],
+    "expected_min_sources": 3,
+    "notes": "Must reference all three carriers to get full credit"
+  },
+  {
+    "id": 3,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What external factors impacted insurance reserves?",
+    "expected_keywords": ["inflation", "catastrophe", "litigation", "reserve"],
+    "expected_min_sources": 2,
+    "notes": "Should mention macro factors like inflation, social trends, climate"
+  },
+  {
+    "id": 4,
+    "category": "line_of_business",
+    "difficulty": "easy",
+    "company": "Travelers",
+    "query": "Show me information about commercial auto reserves",
+    "expected_keywords": ["commercial auto", "reserve", "Travelers", "liability"],
+    "expected_min_sources": 1,
+    "notes": "Travelers has specific commercial auto reserve disclosures"
+  },
+  {
+    "id": 5,
+    "category": "trend_analysis",
+    "difficulty": "hard",
+    "company": null,
+    "query": "How are carriers addressing social inflation?",
+    "expected_keywords": ["social inflation", "litigation", "severity", "trend"],
+    "expected_min_sources": 1,
+    "notes": "Social inflation may not be explicitly named; look for litigation/severity language"
+  },
+  {
+    "id": 6,
+    "category": "reserve_methodology",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What is Chubb's approach to loss reserving?",
+    "expected_keywords": ["Chubb", "reserve", "IBNR", "methodology", "actuarial"],
+    "expected_min_sources": 2,
+    "notes": "Chubb 10-K 2024 has detailed reserve methodology section"
+  },
+  {
+    "id": 7,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What are the main risk factors affecting reserves?",
+    "expected_keywords": ["risk", "reserve", "uncertainty", "assumption"],
+    "expected_min_sources": 2,
+    "notes": "Should cover multiple risk categories across carriers"
+  },
+  {
+    "id": 8,
+    "category": "catastrophe",
+    "difficulty": "medium",
+    "company": null,
+    "query": "Tell me about catastrophe loss reserves",
+    "expected_keywords": ["catastrophe", "loss", "reserve", "hurricane", "natural disaster"],
+    "expected_min_sources": 2,
+    "notes": "Chubb 10-K has specific catastrophe loss data for 2024"
+  },
+  {
+    "id": 9,
+    "category": "reserve_adequacy",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What does Travelers say about reserve adequacy and prior year development?",
+    "expected_keywords": ["Travelers", "prior year", "development", "reserve", "favorable"],
+    "expected_min_sources": 2,
+    "notes": "Travelers 10-Q Q2 2024 has prior period development disclosures"
+  },
+  {
+    "id": 10,
+    "category": "financial_metrics",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What is Chubb's combined ratio and how does it compare to prior years?",
+    "expected_keywords": ["combined ratio", "Chubb", "loss ratio", "expense ratio"],
+    "expected_min_sources": 1,
+    "notes": "Should include numeric values from Chubb 10-K 2024"
+  },
+  {
+    "id": 11,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What are the reserve trends for workers compensation across carriers?",
+    "expected_keywords": ["workers compensation", "reserve", "favorable", "development"],
+    "expected_min_sources": 1,
+    "notes": "Travelers has workers' comp data; may not be in all filings"
+  },
+  {
+    "id": 12,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How do carriers reserve for asbestos and environmental exposures?",
+    "expected_keywords": ["asbestos", "environmental", "reserve", "A&E"],
+    "expected_min_sources": 1,
+    "notes": "Both Chubb and Travelers have A&E reserve disclosures"
+  },
+  {
+    "id": 13,
+    "category": "reserve_methodology",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Describe the actuarial methods used by carriers to estimate IBNR reserves",
+    "expected_keywords": ["IBNR", "Bornhuetter-Ferguson", "development", "actuarial", "method"],
+    "expected_min_sources": 2,
+    "notes": "Chubb 10-K discusses multiple actuarial methods explicitly"
+  },
+  {
+    "id": 14,
+    "category": "financial_metrics",
+    "difficulty": "easy",
+    "company": "AIG",
+    "query": "What are AIG's total loss and LAE reserves?",
+    "expected_keywords": ["AIG", "loss", "LAE", "reserve", "billion"],
+    "expected_min_sources": 1,
+    "notes": "Should return a dollar figure from AIG's balance sheet"
+  },
+  {
+    "id": 15,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Compare the reserve sensitivity analyses across AIG, Travelers, and Chubb",
+    "expected_keywords": ["sensitivity", "reserve", "percent", "change", "impact"],
+    "expected_min_sources": 2,
+    "notes": "All three carriers publish sensitivity tables; challenge is cross-referencing"
+  },
+  {
+    "id": 16,
+    "category": "catastrophe",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What catastrophe events most impacted Chubb's reserves in 2024?",
+    "expected_keywords": ["Chubb", "hurricane", "catastrophe", "2024", "million"],
+    "expected_min_sources": 1,
+    "notes": "Hurricane Helene, Milton, Rio Grande storms referenced in Chubb 10-K"
+  },
+  {
+    "id": 17,
+    "category": "reinsurance",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How does reinsurance affect the carriers' net reserve positions?",
+    "expected_keywords": ["reinsurance", "net", "ceded", "reserve", "gross"],
+    "expected_min_sources": 1,
+    "notes": "Reinsurance recoverable is a key reserve concept in all filings"
+  },
+  {
+    "id": 18,
+    "category": "trend_analysis",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What loss cost trends are carriers observing in casualty lines?",
+    "expected_keywords": ["casualty", "loss", "trend", "severity", "frequency"],
+    "expected_min_sources": 1,
+    "notes": "Look for general liability, umbrella, auto liability discussions"
+  },
+  {
+    "id": 19,
+    "category": "reserve_adequacy",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "What is AIG's reserve development history over recent accident years?",
+    "expected_keywords": ["AIG", "development", "accident year", "prior year", "reserve"],
+    "expected_min_sources": 1,
+    "notes": "Development triangles or narrative discussion in AIG 10-Q"
+  },
+  {
+    "id": 20,
+    "category": "financial_metrics",
+    "difficulty": "easy",
+    "company": "Travelers",
+    "query": "What is Travelers' net written premium volume?",
+    "expected_keywords": ["Travelers", "net written premium", "premium", "billion"],
+    "expected_min_sources": 1,
+    "notes": "Basic financial metric available in Travelers 10-Q"
+  },
+  {
+    "id": 21,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How do carriers describe the uncertainty in their reserve estimates?",
+    "expected_keywords": ["uncertainty", "estimate", "reserve", "judgment", "range"],
+    "expected_min_sources": 2,
+    "notes": "All carriers have language about reserve uncertainty in MD&A"
+  },
+  {
+    "id": 22,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What does Travelers report about personal auto reserve trends?",
+    "expected_keywords": ["personal auto", "Travelers", "reserve", "development"],
+    "expected_min_sources": 1,
+    "notes": "Travelers has personal lines segment with auto data"
+  },
+  {
+    "id": 23,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What are the reserve issues in general liability lines?",
+    "expected_keywords": ["general liability", "reserve", "development", "IBNR"],
+    "expected_min_sources": 1,
+    "notes": "GL is a major line for all three carriers"
+  },
+  {
+    "id": 24,
+    "category": "reserve_methodology",
+    "difficulty": "hard",
+    "company": "Chubb",
+    "query": "How does Chubb handle reserve discounting and present value adjustments?",
+    "expected_keywords": ["Chubb", "discount", "present value", "reserve", "fair value"],
+    "expected_min_sources": 1,
+    "notes": "Chubb 10-K mentions fair value adjustments of $60M and $62M"
+  },
+  {
+    "id": 25,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How does economic inflation affect insurance reserves according to the filings?",
+    "expected_keywords": ["inflation", "reserve", "loss cost", "severity"],
+    "expected_min_sources": 1,
+    "notes": "Economic inflation impact on severity trends"
+  },
+  {
+    "id": 26,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Compare how AIG, Travelers, and Chubb describe their reserve review processes",
+    "expected_keywords": ["AIG", "Travelers", "Chubb", "review", "reserve", "process"],
+    "expected_min_sources": 3,
+    "notes": "Must cover all three carriers; synthesis question"
+  },
+  {
+    "id": 27,
+    "category": "catastrophe",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What does Travelers report about catastrophe losses and reserve implications?",
+    "expected_keywords": ["Travelers", "catastrophe", "loss", "reserve"],
+    "expected_min_sources": 1,
+    "notes": "Travelers 10-Q Q2 2024 should have cat loss data"
+  },
+  {
+    "id": 28,
+    "category": "financial_metrics",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What is Chubb's loss ratio by segment for the most recent period?",
+    "expected_keywords": ["Chubb", "loss ratio", "segment", "P&C", "reinsurance"],
+    "expected_min_sources": 1,
+    "notes": "Chubb breaks out loss ratios by NA P&C, Overseas, Life segments"
+  },
+  {
+    "id": 29,
+    "category": "trend_analysis",
+    "difficulty": "hard",
+    "company": null,
+    "query": "What is the trend in favorable vs adverse reserve development across the industry?",
+    "expected_keywords": ["favorable", "adverse", "development", "reserve", "trend"],
+    "expected_min_sources": 2,
+    "notes": "Should discuss prior year development directionality"
+  },
+  {
+    "id": 30,
+    "category": "reserve_adequacy",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What was Chubb's favorable prior year reserve development in 2024?",
+    "expected_keywords": ["Chubb", "favorable", "prior year", "development", "2024", "million"],
+    "expected_min_sources": 1,
+    "notes": "Chubb reported $290M favorable development in 2024"
+  },
+  {
+    "id": 31,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What does Travelers report about surety reserve risks?",
+    "expected_keywords": ["surety", "reserve", "Travelers", "construction", "risk"],
+    "expected_min_sources": 1,
+    "notes": "Travelers 10-Q has specific surety risk factor discussion"
+  },
+  {
+    "id": 32,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What legal and regulatory risks do carriers cite that could affect reserves?",
+    "expected_keywords": ["legal", "regulatory", "reserve", "legislation", "court"],
+    "expected_min_sources": 1,
+    "notes": "Changes in law, court interpretations affecting reserve adequacy"
+  },
+  {
+    "id": 33,
+    "category": "financial_metrics",
+    "difficulty": "easy",
+    "company": "AIG",
+    "query": "What are the key financial highlights from AIG's most recent quarterly filing?",
+    "expected_keywords": ["AIG", "premium", "income", "loss", "ratio"],
+    "expected_min_sources": 1,
+    "notes": "Basic financial summary from AIG Q3 2024 10-Q"
+  },
+  {
+    "id": 34,
+    "category": "reinsurance",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What does Chubb say about its reinsurance program and treaty structure?",
+    "expected_keywords": ["Chubb", "reinsurance", "treaty", "proportional", "excess"],
+    "expected_min_sources": 1,
+    "notes": "Chubb 10-K discusses treaty reinsurance structure in detail"
+  },
+  {
+    "id": 35,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How do climate change and severe weather trends impact reserve estimates?",
+    "expected_keywords": ["climate", "weather", "catastrophe", "reserve", "risk"],
+    "expected_min_sources": 1,
+    "notes": "Climate risk discussed in risk factors section of all carriers"
+  },
+  {
+    "id": 36,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "How do the three carriers differ in their exposure to long-tail liability risks?",
+    "expected_keywords": ["long-tail", "liability", "reserve", "development", "IBNR"],
+    "expected_min_sources": 2,
+    "notes": "Long-tail exposures require substantial IBNR; all carriers differ"
+  },
+  {
+    "id": 37,
+    "category": "reserve_methodology",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What assumptions do carriers make about tail factors in their reserve models?",
+    "expected_keywords": ["tail factor", "reserve", "assumption", "development", "pattern"],
+    "expected_min_sources": 1,
+    "notes": "Chubb 10-K explicitly references tail factor sensitivity of $1.1B per 1%"
+  },
+  {
+    "id": 38,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What are carriers saying about homeowners insurance reserve trends?",
+    "expected_keywords": ["homeowners", "reserve", "weather", "inflation", "materials"],
+    "expected_min_sources": 1,
+    "notes": "Travelers has homeowners reserve data with specific inflation references"
+  },
+  {
+    "id": 39,
+    "category": "financial_metrics",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "What are AIG's investment income and its relationship to reserve adequacy?",
+    "expected_keywords": ["AIG", "investment income", "reserve", "discount", "yield"],
+    "expected_min_sources": 1,
+    "notes": "Investment income offsets underwriting losses; relevant to reserve context"
+  },
+  {
+    "id": 40,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What cyber liability reserve challenges do carriers discuss?",
+    "expected_keywords": ["cyber", "liability", "reserve", "risk"],
+    "expected_min_sources": 1,
+    "notes": "Cyber is an emerging risk mentioned in risk factors; may have limited content"
+  },
+  {
+    "id": 41,
+    "category": "reserve_adequacy",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "How did Travelers' asbestos reserve position change in the most recent period?",
+    "expected_keywords": ["Travelers", "asbestos", "reserve", "million", "development"],
+    "expected_min_sources": 1,
+    "notes": "Travelers added $284M to asbestos reserves per results data"
+  },
+  {
+    "id": 42,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "What are the differences in reserving philosophies between Chubb and Travelers?",
+    "expected_keywords": ["Chubb", "Travelers", "reserve", "philosophy", "methodology"],
+    "expected_min_sources": 2,
+    "notes": "Requires comparing Chubb and Travelers reserve methodology sections"
+  },
+  {
+    "id": 43,
+    "category": "financial_metrics",
+    "difficulty": "easy",
+    "company": "Chubb",
+    "query": "What was Chubb's net income for the most recent annual period?",
+    "expected_keywords": ["Chubb", "net income", "2024", "billion"],
+    "expected_min_sources": 1,
+    "notes": "Basic financial metric from Chubb 10-K 2024"
+  },
+  {
+    "id": 44,
+    "category": "trend_analysis",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How has reserve development trended over the last three years?",
+    "expected_keywords": ["reserve", "development", "trend", "year", "favorable"],
+    "expected_min_sources": 2,
+    "notes": "Multi-year trend comparison; requires longitudinal data"
+  },
+  {
+    "id": 45,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "What lines of business does AIG highlight in their reserve disclosures?",
+    "expected_keywords": ["AIG", "line", "business", "reserve", "commercial"],
+    "expected_min_sources": 1,
+    "notes": "AIG breaks out reserves by business segment"
+  },
+  {
+    "id": 46,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How do interest rate changes impact insurance company reserves?",
+    "expected_keywords": ["interest rate", "reserve", "discount", "yield", "investment"],
+    "expected_min_sources": 1,
+    "notes": "AIG mentions interest rate impacts in their filings"
+  },
+  {
+    "id": 47,
+    "category": "reserve_methodology",
+    "difficulty": "hard",
+    "company": "Travelers",
+    "query": "What is Travelers' process for the annual comprehensive reserve review?",
+    "expected_keywords": ["Travelers", "reserve review", "actuarial", "annual", "comprehensive"],
+    "expected_min_sources": 1,
+    "notes": "Travelers describes its reserve review process in detail in 10-Q"
+  },
+  {
+    "id": 48,
+    "category": "catastrophe",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What catastrophe models or tools do carriers use for reserve estimation?",
+    "expected_keywords": ["catastrophe", "model", "reserve", "estimate", "tool"],
+    "expected_min_sources": 1,
+    "notes": "Cat modeling is a key input to reserve estimation"
+  },
+  {
+    "id": 49,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "What operational risks does AIG identify that could impact reserve adequacy?",
+    "expected_keywords": ["AIG", "operational", "risk", "reserve", "claims"],
+    "expected_min_sources": 1,
+    "notes": "Operational risks like claims handling cited in AIG risk factors"
+  },
+  {
+    "id": 50,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Which carrier has the highest reserve-to-premium ratio and what does this indicate?",
+    "expected_keywords": ["reserve", "premium", "ratio", "AIG", "Travelers", "Chubb"],
+    "expected_min_sources": 2,
+    "notes": "Quantitative comparison; requires financial table data from multiple carriers"
+  },
+  {
+    "id": 51,
+    "category": "reserve_adequacy",
+    "difficulty": "easy",
+    "company": "Chubb",
+    "query": "What does Chubb say about the adequacy of its A&E reserves?",
+    "expected_keywords": ["Chubb", "asbestos", "environmental", "reserve", "adequacy"],
+    "expected_min_sources": 1,
+    "notes": "Chubb has specific A&E reserve language in 10-K"
+  },
+  {
+    "id": 52,
+    "category": "trend_analysis",
+    "difficulty": "hard",
+    "company": null,
+    "query": "What loss severity trends are emerging across all three carriers?",
+    "expected_keywords": ["severity", "loss", "trend", "inflation", "carrier"],
+    "expected_min_sources": 2,
+    "notes": "Severity trends driven by medical costs, litigation, repairs"
+  },
+  {
+    "id": 53,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What is Chubb's exposure to professional liability and D&O reserves?",
+    "expected_keywords": ["Chubb", "professional liability", "D&O", "reserve"],
+    "expected_min_sources": 1,
+    "notes": "Chubb has significant E&O and D&O lines"
+  },
+  {
+    "id": 54,
+    "category": "reinsurance",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How do ceded reinsurance recoverables affect the carriers' balance sheets?",
+    "expected_keywords": ["ceded", "reinsurance", "recoverable", "balance sheet", "reserve"],
+    "expected_min_sources": 1,
+    "notes": "Reinsurance recoverables are a significant asset item"
+  },
+  {
+    "id": 55,
+    "category": "financial_metrics",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What is Travelers' reserve development as a percentage of net earned premium?",
+    "expected_keywords": ["Travelers", "development", "premium", "percentage", "reserve"],
+    "expected_min_sources": 1,
+    "notes": "Ratio analysis; needs both development and premium data"
+  },
+  {
+    "id": 56,
+    "category": "external_factors",
+    "difficulty": "hard",
+    "company": null,
+    "query": "How do changes in tort law and judicial trends impact P&C reserves?",
+    "expected_keywords": ["tort", "judicial", "litigation", "reserve", "law"],
+    "expected_min_sources": 1,
+    "notes": "Nuclear verdicts, third-party litigation funding; social inflation drivers"
+  },
+  {
+    "id": 57,
+    "category": "reserve_methodology",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What is the Bornhuetter-Ferguson method and how do carriers apply it?",
+    "expected_keywords": ["Bornhuetter-Ferguson", "reserve", "method", "expected", "loss"],
+    "expected_min_sources": 1,
+    "notes": "Chubb 10-K explicitly mentions B-F method"
+  },
+  {
+    "id": 58,
+    "category": "catastrophe",
+    "difficulty": "easy",
+    "company": null,
+    "query": "What was the total catastrophe loss impact across carriers in 2024?",
+    "expected_keywords": ["catastrophe", "2024", "loss", "million", "billion"],
+    "expected_min_sources": 1,
+    "notes": "Chubb: $459M net cat losses in 2024; need Travelers data too"
+  },
+  {
+    "id": 59,
+    "category": "risk_factors",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What foreign currency risks does Chubb identify affecting its reserves?",
+    "expected_keywords": ["Chubb", "foreign currency", "reserve", "exchange", "international"],
+    "expected_min_sources": 1,
+    "notes": "Chubb is a global insurer with significant FX exposure"
+  },
+  {
+    "id": 60,
+    "category": "cross_carrier_comparison",
+    "difficulty": "hard",
+    "company": null,
+    "query": "How do carriers' approaches to setting IBNR differ from each other?",
+    "expected_keywords": ["IBNR", "AIG", "Travelers", "Chubb", "method", "approach"],
+    "expected_min_sources": 2,
+    "notes": "Detailed methodological comparison; high difficulty"
+  },
+  {
+    "id": 61,
+    "category": "line_of_business",
+    "difficulty": "easy",
+    "company": "AIG",
+    "query": "What commercial property lines does AIG have and how large are the reserves?",
+    "expected_keywords": ["AIG", "commercial property", "reserve", "billion"],
+    "expected_min_sources": 1,
+    "notes": "AIG is a major commercial property writer"
+  },
+  {
+    "id": 62,
+    "category": "financial_metrics",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What are the return on equity figures for each carrier?",
+    "expected_keywords": ["return on equity", "ROE", "AIG", "Travelers", "Chubb"],
+    "expected_min_sources": 1,
+    "notes": "Financial performance metric; may not be in all filings"
+  },
+  {
+    "id": 63,
+    "category": "reserve_adequacy",
+    "difficulty": "hard",
+    "company": null,
+    "query": "Are there any signals of reserve strengthening or weakening across the carriers?",
+    "expected_keywords": ["strengthening", "weakening", "reserve", "adverse", "development"],
+    "expected_min_sources": 2,
+    "notes": "Requires synthesis across multiple filings"
+  },
+  {
+    "id": 64,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": "AIG",
+    "query": "How does AIG describe the impact of COVID-19 related claims on reserves?",
+    "expected_keywords": ["COVID", "pandemic", "reserve", "claims", "AIG"],
+    "expected_min_sources": 1,
+    "notes": "Pandemic effects on reserves may have waned by 2024"
+  },
+  {
+    "id": 65,
+    "category": "trend_analysis",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How are medical cost trends affecting bodily injury reserve adequacy?",
+    "expected_keywords": ["medical", "bodily injury", "reserve", "trend", "severity"],
+    "expected_min_sources": 1,
+    "notes": "Medical cost inflation is a key driver of BI severity"
+  },
+  {
+    "id": 66,
+    "category": "reinsurance",
+    "difficulty": "hard",
+    "company": "AIG",
+    "query": "What is AIG's reinsurance recoverables position and counterparty credit risk?",
+    "expected_keywords": ["AIG", "reinsurance", "recoverable", "credit risk", "counterparty"],
+    "expected_min_sources": 1,
+    "notes": "Reinsurance credit risk is a significant AIG disclosure item"
+  },
+  {
+    "id": 67,
+    "category": "reserve_methodology",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What data sources and systems does Travelers use in its reserve analysis?",
+    "expected_keywords": ["Travelers", "data", "system", "reserve", "analysis"],
+    "expected_min_sources": 1,
+    "notes": "Travelers describes its actuarial data infrastructure"
+  },
+  {
+    "id": 68,
+    "category": "risk_factors",
+    "difficulty": "easy",
+    "company": null,
+    "query": "What do the filings say about the risk of reserve deficiency?",
+    "expected_keywords": ["deficiency", "reserve", "risk", "inadequate", "shortfall"],
+    "expected_min_sources": 1,
+    "notes": "Standard risk factor language in all carriers"
+  },
+  {
+    "id": 69,
+    "category": "cross_carrier_comparison",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How does each carrier segment its reserve disclosures?",
+    "expected_keywords": ["segment", "reserve", "commercial", "personal", "specialty"],
+    "expected_min_sources": 2,
+    "notes": "AIG has PCGC segments; Travelers has commercial/personal/bond"
+  },
+  {
+    "id": 70,
+    "category": "catastrophe",
+    "difficulty": "medium",
+    "company": "Travelers",
+    "query": "What is Travelers' catastrophe reinsurance program structure?",
+    "expected_keywords": ["Travelers", "catastrophe", "reinsurance", "excess", "retention"],
+    "expected_min_sources": 1,
+    "notes": "Cat XL program details typically in 10-Q"
+  },
+  {
+    "id": 71,
+    "category": "financial_metrics",
+    "difficulty": "hard",
+    "company": null,
+    "query": "What is the relationship between underwriting income and reserve releases across carriers?",
+    "expected_keywords": ["underwriting income", "reserve", "release", "development"],
+    "expected_min_sources": 2,
+    "notes": "Reserve releases boost underwriting income; important connection"
+  },
+  {
+    "id": 72,
+    "category": "line_of_business",
+    "difficulty": "medium",
+    "company": "Chubb",
+    "query": "What is Chubb's life insurance reserve position?",
+    "expected_keywords": ["Chubb", "life", "reserve", "future policy benefits", "billion"],
+    "expected_min_sources": 1,
+    "notes": "Chubb has $16.1B in future policy benefits as of Dec 2024"
+  },
+  {
+    "id": 73,
+    "category": "reserve_adequacy",
+    "difficulty": "hard",
+    "company": null,
+    "query": "What would a one standard deviation adverse scenario look like for each carrier's reserves?",
+    "expected_keywords": ["adverse", "scenario", "reserve", "sensitivity", "stress"],
+    "expected_min_sources": 1,
+    "notes": "Stress testing / sensitivity analysis; requires quantitative data"
+  },
+  {
+    "id": 74,
+    "category": "trend_analysis",
+    "difficulty": "medium",
+    "company": null,
+    "query": "How are carriers responding to increased claims frequency in recent years?",
+    "expected_keywords": ["frequency", "claims", "trend", "reserve", "response"],
+    "expected_min_sources": 1,
+    "notes": "Frequency vs severity trade-offs in reserve setting"
+  },
+  {
+    "id": 75,
+    "category": "external_factors",
+    "difficulty": "medium",
+    "company": null,
+    "query": "What geopolitical risks do carriers identify as potential impacts on reserves?",
+    "expected_keywords": ["geopolitical", "risk", "reserve", "war", "political"],
+    "expected_min_sources": 1,
+    "notes": "War exclusions, political risk; mentioned in AIG and Chubb risk factors"
+  }
+]
