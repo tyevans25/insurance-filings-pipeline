@@ -401,7 +401,7 @@ The combined system improved answer completeness from 71.9% to 75.5% (+3.6%), ad
 ## Future Work
 
 **Potential Enhancements:**
-- Expand to 15 carriers (original M01 scope)
+- Expand to carriers
 - Add historical coverage (2020-2024)
 - Implement hybrid search (BM25 + semantic)
 - Add multi-turn conversation memory
