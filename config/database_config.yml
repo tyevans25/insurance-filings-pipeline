@@ -1,0 +1,11 @@
+postgres:
+  host: localhost
+  port: 5432
+  database: insurance_filings
+  user: postgres
+  password: postgres
+
+qdrant:
+  host: localhost
+  port: 6333
+  collection: insurance_filings

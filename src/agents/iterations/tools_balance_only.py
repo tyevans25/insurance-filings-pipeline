@@ -1,6 +1,6 @@
 """
 Agent tools for querying the insurance filings data
-VARIANT 4: COMBINED - Query Expansion + Balanced Retrieval
+VARIANT 3: Balanced Retrieval ONLY (no query expansion)
 """
 from typing import List, Dict
 import os
@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from storage.postgres_client import PostgresClient
 from storage.qdrant_client import QdrantClient
-from agents.query_expansion import expand_query  # M05 Improvement #1
+# NO query expansion import
 
 
 class AgentTools:
@@ -27,7 +27,7 @@ class AgentTools:
     def semantic_search(self, query: str, limit: int = 5, company: str = None) -> List[Dict]:
         """
         Search for relevant chunks using semantic similarity
-        VARIANT 4: WITH query expansion
+        VARIANT 3: NO query expansion
         
         Args:
             query: Natural language query
@@ -37,11 +37,8 @@ class AgentTools:
         Returns:
             List of relevant chunks with metadata
         """
-        # EXPAND QUERY WITH SYNONYMS (M05 Improvement #1)
-        expanded_query = expand_query(query)
-        
-        # Generate embedding for EXPANDED query
-        query_vectors = self.embed_fn([expanded_query])
+        # NO QUERY EXPANSION - use query as-is
+        query_vectors = self.embed_fn([query])
         query_vector = query_vectors[0]
         
         # Search QDrant
@@ -81,7 +78,6 @@ class AgentTools:
     def balanced_search(self, query: str, limit: int = 5) -> List[Dict]:
         """
         Get balanced results from all companies (M05 Improvement #2)
-        VARIANT 4: Uses query expansion (from semantic_search)
         
         Args:
             query: Natural language query
@@ -95,7 +91,6 @@ class AgentTools:
         
         all_results = []
         for company in companies:
-            # semantic_search now includes query expansion
             results = self.semantic_search(query, per_company, company)
             all_results.extend(results)
         

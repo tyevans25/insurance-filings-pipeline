@@ -133,28 +133,52 @@ Password: password123
 ```
 
 ## Project Structure
+
 ```
-.
+insurance-filings-pipeline/
+├── data/
+│   ├── input/              # PDF SEC filings
+│   ├── output/             # Processing artifacts
+│   ├── test_queries.json   # M03 batch queries
+│   └── batch_results.json  # M03 batch results
+├── eval/                   # M04 evaluation framework
+│   ├── eval_test_set.json
+│   ├── eval_results_baseline.json
+│   └── run_evaluation.py
+├── pipeline/               # M02 data pipeline
+│   ├── ingest.py
+│   ├── extract_text.py
+│   ├── section_filter.py
+│   ├── table_extractor.py
+│   ├── chunk_text.py
+│   ├── embed.py
+│   └── run_ingest.py
+├── src/
+│   ├── agents/            # M03 agent
+│   │   ├── tools.py
+│   │   └── orchestrator.py
+│   ├── storage/
+│   │   ├── postgres_client.py
+│   │   └── qdrant_client.py
+│   ├── interfaces/
+│   │   ├── streamlit_app.py
+│   │   └── batch_query.py
+│   └── utils/
+│       ├── logger.py
+│       └── validators.py
+├── config/
+│   ├── database_config.yml
+│   └── pipeline_config.yml
+├── tests/
+├── notebooks/
+│   └── exploratory_analysis.ipynb
 ├── docker-compose.yml
-├── Dockerfile
 ├── requirements.txt
 ├── README.md
-├── eval_queries.json          # Sample queries for batch testing
-├── data/
-│   ├── raw/                   # Input PDFs (5 filings)
-│   └── results.json           # Pre-generated batch results
-└── src/
-    ├── main.py                # M02 pipeline orchestrator
-    ├── ingestion/             # PDF scanning & metadata
-    ├── extraction/            # Text/table extraction
-    ├── processing/            # Cleaning & embeddings
-    ├── storage/               # Database clients
-    ├── agents/                # M03 AI agent
-    │   ├── orchestrator.py    # Main agent logic
-    │   └── tools.py           # Search & query tools
-    └── interfaces/            # M03 user interfaces
-        ├── streamlit_app.py   # Chat UI
-        └── batch_query.py     # Batch evaluation
+├── M02_MILESTONE.md
+├── M03_MILESTONE.md
+├── M04_MILESTONE.md
+└── M05_MILESTONE.md
 ```
 
 ## System Statistics

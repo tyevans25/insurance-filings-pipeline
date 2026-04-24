@@ -1,6 +1,6 @@
 """
 Main agent orchestrator - decides which tools to use and synthesizes answers
-VARIANT 4: COMBINED - Query Expansion + Balanced Retrieval
+VARIANT 3: Balanced Retrieval ONLY (no query expansion)
 """
 from typing import Dict, List
 import os
@@ -23,17 +23,18 @@ class ReservingAgent:
 You have access to SEC filings (10-K, 10-Q) from major insurance carriers: AIG, Travelers, and Chubb.
 
 Available Tools:
-1. semantic_search(query, limit, company) - Search narrative text with actuarial synonym expansion
+1. semantic_search(query, limit, company) - Search narrative text from filings
 2. get_filing_metadata(company, filing_type) - Get filing information
 3. get_financial_tables(company, keyword) - Query structured financial tables and data
 4. balanced_search(query, limit) - Search across all companies with balanced representation (M05)
 
 When answering questions about reserves, loss development, or financial metrics:
 1. First use get_financial_tables() to find relevant structured data
-2. Then use balanced_search() for multi-company narrative context or semantic_search() for single-company
-3. Combine both sources in your answer
-4. Always cite specific companies, filing types, and dates
-5. Distinguish between narrative text and tabular data
+2. Then use semantic_search() or balanced_search() for narrative context
+3. Use balanced_search() for cross-carrier comparisons to ensure all companies are represented
+4. Combine both sources in your answer
+5. Always cite specific companies, filing types, and dates
+6. Distinguish between narrative text and tabular data
 
 Acknowledge any limitations in the available data and suggest what additional information would be helpful."""
     
@@ -82,14 +83,13 @@ Acknowledge any limitations in the available data and suggest what additional in
                 context_parts.append(table_summary)
                 print(f"   Found {len(tables)} financial tables")
         
-        # VARIANT 4: Use balanced_search for multi-company, semantic_search for single-company
-        # BOTH use query expansion (from tools.py)
+        # VARIANT 3: Use balanced_search for multi-company queries
         print("   Searching narrative text...")
         if company:
-            # Single company - use regular search (WITH expansion)
+            # Single company - use regular search (NO expansion)
             search_results = self.tools.semantic_search(query, limit=5, company=company)
         else:
-            # Multi-company - use balanced search (WITH expansion)
+            # Multi-company - use balanced search
             search_results = self.tools.balanced_search(query, limit=5)
         
         if search_results:

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2026-04-23T18:29:32.578899",
+    "timestamp": "2026-04-23T19:51:56.855041",
     "mode": "live",
     "total_test_items": 75,
     "results_evaluated": 75
@@ -10,45 +10,39 @@
     "successful": 75,
     "failed": 0,
     "composite_score": {
-      "mean": 85.689,
-      "min": 52.0,
+      "mean": 86.139,
+      "min": 56.5,
       "max": 100.0,
-      "p25": 64.0,
+      "p25": 71.0,
       "p75": 100.0
     },
-    "keyword_coverage_mean": 0.922,
+    "keyword_coverage_mean": 0.906,
     "source_adequacy_mean": 1.0,
-    "completeness_mean": 0.719,
-    "avg_processing_time_seconds": 13.411,
+    "completeness_mean": 0.707,
+    "avg_processing_time_seconds": 14.573,
     "failure_modes": {
-      "none": 49,
-      "retrieval_gap": 25,
-      "single_carrier_only": 1
+      "none": 47,
+      "retrieval_gap": 24,
+      "single_carrier_only": 4
     },
     "by_category": {
-      "reserve_adequacy": 81.6,
-      "cross_carrier_comparison": 87.5,
-      "external_factors": 94.2,
-      "line_of_business": 85.7,
-      "trend_analysis": 95.4,
-      "reserve_methodology": 82.5,
-      "risk_factors": 88.4,
-      "catastrophe": 90.1,
-      "financial_metrics": 73.9,
-      "reinsurance": 82.0
+      "reserve_adequacy": 94.2,
+      "cross_carrier_comparison": 90.5,
+      "external_factors": 84.1,
+      "line_of_business": 80.1,
+      "trend_analysis": 88.1,
+      "reserve_methodology": 87.0,
+      "risk_factors": 90.5,
+      "catastrophe": 79.3,
+      "financial_metrics": 78.4,
+      "reinsurance": 98.5
     },
     "by_difficulty": {
-      "medium": 85.4,
-      "hard": 90.9,
-      "easy": 76.7
+      "medium": 86.1,
+      "hard": 90.4,
+      "easy": 78.0
     },
     "low_performers": [
-      {
-        "id": 34,
-        "query": "What does Chubb say about its reinsurance program and treaty",
-        "score": 52.0,
-        "failure_mode": "retrieval_gap"
-      },
       {
         "id": 20,
         "query": "What is Travelers' net written premium volume?",
@@ -68,20 +62,8 @@
         "failure_mode": "retrieval_gap"
       },
       {
-        "id": 45,
-        "query": "What lines of business does AIG highlight in their reserve d",
-        "score": 58.0,
-        "failure_mode": "retrieval_gap"
-      },
-      {
-        "id": 30,
-        "query": "What was Chubb's favorable prior year reserve development in",
-        "score": 59.0,
-        "failure_mode": "retrieval_gap"
-      },
-      {
-        "id": 69,
-        "query": "How does each carrier segment its reserve disclosures?",
+        "id": 32,
+        "query": "What legal and regulatory risks do carriers cite that could ",
         "score": 61.0,
         "failure_mode": "retrieval_gap"
       },
@@ -92,14 +74,32 @@
         "failure_mode": "retrieval_gap"
       },
       {
-        "id": 10,
-        "query": "What is Chubb's combined ratio and how does it compare to pr",
+        "id": 14,
+        "query": "What are AIG's total loss and LAE reserves?",
         "score": 64.0,
         "failure_mode": "retrieval_gap"
       },
       {
-        "id": 14,
-        "query": "What are AIG's total loss and LAE reserves?",
+        "id": 16,
+        "query": "What catastrophe events most impacted Chubb's reserves in 20",
+        "score": 64.0,
+        "failure_mode": "retrieval_gap"
+      },
+      {
+        "id": 30,
+        "query": "What was Chubb's favorable prior year reserve development in",
+        "score": 64.0,
+        "failure_mode": "retrieval_gap"
+      },
+      {
+        "id": 39,
+        "query": "What are AIG's investment income and its relationship to res",
+        "score": 64.0,
+        "failure_mode": "retrieval_gap"
+      },
+      {
+        "id": 45,
+        "query": "What lines of business does AIG highlight in their reserve d",
         "score": 64.0,
         "failure_mode": "retrieval_gap"
       }
@@ -116,18 +116,18 @@
         "score": 100.0
       },
       {
-        "id": 4,
-        "query": "Show me information about commercial auto reserves",
-        "score": 100.0
-      },
-      {
-        "id": 7,
-        "query": "What are the main risk factors affecting reserves?",
-        "score": 100.0
-      },
-      {
         "id": 9,
         "query": "What does Travelers say about reserve adequacy and prior yea",
+        "score": 100.0
+      },
+      {
+        "id": 12,
+        "query": "How do carriers reserve for asbestos and environmental expos",
+        "score": 100.0
+      },
+      {
+        "id": 17,
+        "query": "How does reinsurance affect the carriers' net reserve positi",
         "score": 100.0
       }
     ]
@@ -140,7 +140,7 @@
       "company": "AIG",
       "query": "What did AIG say about reserve adequacy in their latest filing?",
       "status": "success",
-      "processing_time_seconds": 22.11,
+      "processing_time_seconds": 17.96,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
@@ -150,8 +150,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 100.0
       },
-      "answer_length": 2144,
-      "answer_snippet": "Based on AIG's latest 10-Q filing (Q3 2024), here are the key findings regarding reserve adequacy:\n\n## Reserve Discounting\nAIG maintains a **consistent net loss reserve discount of $1.2 billion** as o"
+      "answer_length": 2087,
+      "answer_snippet": "Based on the available data from AIG's Q3 2024 10-Q filing, here's what AIG disclosed about reserve adequacy:\n\n## Key Reserve Adequacy Indicators\n\n**Loss Reserve Discounting**: AIG maintains a consist"
     },
     {
       "id": 2,
@@ -160,8 +160,8 @@
       "company": null,
       "query": "Compare loss development across all carriers",
       "status": "success",
-      "processing_time_seconds": 16.53,
-      "num_sources": 5,
+      "processing_time_seconds": 16.71,
+      "num_sources": 4,
       "failure_mode": "none",
       "scores": {
         "keyword_coverage": 1.0,
@@ -170,8 +170,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 100.0
       },
-      "answer_length": 2846,
-      "answer_snippet": "Based on the available SEC filing data, I can provide a limited comparison of loss development across the three carriers, though the information is incomplete for a comprehensive analysis.\n\n## Key Fin"
+      "answer_length": 3122,
+      "answer_snippet": "Based on the available SEC filing data, I can provide a limited comparison of loss development across AIG, Chubb, and Travelers, though the information is incomplete for a comprehensive analysis.\n\n## "
     },
     {
       "id": 3,
@@ -180,18 +180,18 @@
       "company": null,
       "query": "What external factors impacted insurance reserves?",
       "status": "success",
-      "processing_time_seconds": 15.8,
-      "num_sources": 5,
+      "processing_time_seconds": 14.4,
+      "num_sources": 4,
       "failure_mode": "none",
       "scores": {
-        "keyword_coverage": 0.5,
+        "keyword_coverage": 0.75,
         "source_adequacy": 1.0,
         "answer_completeness": 1.0,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 87.5
+        "composite_score": 93.8
       },
-      "answer_length": 2318,
-      "answer_snippet": "Based on the SEC filing data provided, several external factors impacted insurance reserves across the major carriers:\n\n## Key External Factors Identified\n\n### Catastrophe Losses\n**Travelers (2024 10-"
+      "answer_length": 2549,
+      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into external factors impacting insurance reserves, though the provided excerpts don't extensively detail external factors.\n\n## K"
     },
     {
       "id": 4,
@@ -200,547 +200,7 @@
       "company": "Travelers",
       "query": "Show me information about commercial auto reserves",
       "status": "success",
-      "processing_time_seconds": 11.46,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2074,
-      "answer_snippet": "Based on my review of the available SEC filing data, I have **limited specific information about commercial auto reserves** from the Travelers 10-K filing provided.\n\n## Available Information\n\n**From N"
-    },
-    {
-      "id": 5,
-      "category": "trend_analysis",
-      "difficulty": "hard",
-      "company": null,
-      "query": "How are carriers addressing social inflation?",
-      "status": "success",
-      "processing_time_seconds": 10.88,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 76.0
-      },
-      "answer_length": 1885,
-      "answer_snippet": "Based on the provided SEC filing excerpts, I cannot provide a comprehensive answer about how carriers are addressing social inflation, as the passages do not contain specific information about social "
-    },
-    {
-      "id": 6,
-      "category": "reserve_methodology",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What is Chubb's approach to loss reserving?",
-      "status": "success",
-      "processing_time_seconds": 14.01,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 2331,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into Chubb's loss reserving approach, though the data is incomplete for a comprehensive analysis.\n\n## Key Reserve Components (Chu"
-    },
-    {
-      "id": 7,
-      "category": "risk_factors",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What are the main risk factors affecting reserves?",
-      "status": "success",
-      "processing_time_seconds": 15.05,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2673,
-      "answer_snippet": "Based on the SEC filing information provided, here are the main risk factors affecting reserves for these major P&C insurers:\n\n## Key Risk Factors Identified\n\n### Catastrophe Risk\n**Travelers (10-K)**"
-    },
-    {
-      "id": 8,
-      "category": "catastrophe",
-      "difficulty": "medium",
-      "company": null,
-      "query": "Tell me about catastrophe loss reserves",
-      "status": "success",
-      "processing_time_seconds": 14.28,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 86.7
-      },
-      "answer_length": 2597,
-      "answer_snippet": "Based on the available SEC filing data, here are the key findings regarding catastrophe loss reserves:\n\n## Catastrophe Loss Activity\n\n**Chubb (2024 10-K):**\n- Net catastrophe losses of $622 million in"
-    },
-    {
-      "id": 9,
-      "category": "reserve_adequacy",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What does Travelers say about reserve adequacy and prior year development?",
-      "status": "success",
-      "processing_time_seconds": 9.99,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 1944,
-      "answer_snippet": "Based on Travelers' 2024 10-K filing, here's what the company reports regarding reserve adequacy and prior year development:\n\n## Key Findings on Prior Year Development\n\n**Favorable Development Pattern"
-    },
-    {
-      "id": 10,
-      "category": "financial_metrics",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What is Chubb's combined ratio and how does it compare to prior years?",
-      "status": "success",
-      "processing_time_seconds": 11.41,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 1879,
-      "answer_snippet": "Based on the available SEC filing data from Chubb, I can provide limited information about their combined ratio performance:\n\n## Available Combined Ratio Information\n\nFrom Chubb's 10-Q filing, the nar"
-    },
-    {
-      "id": 11,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What are the reserve trends for workers compensation across carriers?",
-      "status": "success",
-      "processing_time_seconds": 13.98,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2684,
-      "answer_snippet": "Based on the available SEC filing data, here are the workers compensation reserve trends across the carriers analyzed:\n\n## Key Findings by Carrier\n\n### AIG (10-Q Filings)\n**Favorable Development**: AI"
-    },
-    {
-      "id": 12,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How do carriers reserve for asbestos and environmental exposures?",
-      "status": "success",
-      "processing_time_seconds": 13.91,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.75,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 93.8
-      },
-      "answer_length": 2595,
-      "answer_snippet": "Based on the SEC filings from AIG, Travelers, and Chubb, carriers employ several key approaches for reserving asbestos and environmental exposures:\n\n## Reserving Approach and Composition\n\n**Chubb (10-"
-    },
-    {
-      "id": 13,
-      "category": "reserve_methodology",
-      "difficulty": "hard",
-      "company": null,
-      "query": "Describe the actuarial methods used by carriers to estimate IBNR reserves",
-      "status": "success",
-      "processing_time_seconds": 14.59,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2659,
-      "answer_snippet": "Based on the SEC filings from Travelers, Chubb, and AIG, here are the key actuarial methods used to estimate IBNR reserves:\n\n## Primary IBNR Estimation Methods\n\n**Travelers (2024 10-K)** employs multi"
-    },
-    {
-      "id": 14,
-      "category": "financial_metrics",
-      "difficulty": "easy",
-      "company": "AIG",
-      "query": "What are AIG's total loss and LAE reserves?",
-      "status": "success",
-      "processing_time_seconds": 12.45,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 1961,
-      "answer_snippet": "Based on the available data from AIG's SEC filings, I cannot provide the total loss and LAE reserves figure from the information provided. Here's what I can determine:\n\n## Available Information\n\n**Los"
-    },
-    {
-      "id": 15,
-      "category": "cross_carrier_comparison",
-      "difficulty": "hard",
-      "company": null,
-      "query": "Compare the reserve sensitivity analyses across AIG, Travelers, and Chubb",
-      "status": "success",
-      "processing_time_seconds": 14.43,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 95.0
-      },
-      "answer_length": 2646,
-      "answer_snippet": "Based on the provided SEC filing excerpts, I can offer limited insights into reserve sensitivity analyses across these three major carriers, though the available data is incomplete for a comprehensive"
-    },
-    {
-      "id": 16,
-      "category": "catastrophe",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What catastrophe events most impacted Chubb's reserves in 2024?",
-      "status": "success",
-      "processing_time_seconds": 11.35,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 1997,
-      "answer_snippet": "Based on the available SEC filing data from Chubb's 10-K and 10-Q filings, I cannot provide a definitive answer about specific catastrophe events that most impacted Chubb's reserves in 2024. Here's wh"
-    },
-    {
-      "id": 17,
-      "category": "reinsurance",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How does reinsurance affect the carriers' net reserve positions?",
-      "status": "success",
-      "processing_time_seconds": 14.51,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 76.0
-      },
-      "answer_length": 2636,
-      "answer_snippet": "## Impact of Reinsurance on Carriers' Net Reserve Positions\n\nBased on the SEC filing data provided, reinsurance significantly affects carriers' net reserve positions through several key mechanisms:\n\n#"
-    },
-    {
-      "id": 18,
-      "category": "trend_analysis",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What loss cost trends are carriers observing in casualty lines?",
-      "status": "success",
-      "processing_time_seconds": 13.27,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 91.7
-      },
-      "answer_length": 2404,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into casualty loss cost trends, though the information is somewhat fragmented:\n\n## Key Findings from Available Data\n\n### Reserve "
-    },
-    {
-      "id": 19,
-      "category": "reserve_adequacy",
-      "difficulty": "medium",
-      "company": "AIG",
-      "query": "What is AIG's reserve development history over recent accident years?",
-      "status": "success",
-      "processing_time_seconds": 13.16,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 2370,
-      "answer_snippet": "Based on the available SEC filing data from AIG's 10-Q filings, here's what we can determine about AIG's reserve development history:\n\n## Recent Reserve Development Performance\n\n**Favorable Developmen"
-    },
-    {
-      "id": 20,
-      "category": "financial_metrics",
-      "difficulty": "easy",
-      "company": "Travelers",
-      "query": "What is Travelers' net written premium volume?",
-      "status": "success",
-      "processing_time_seconds": 9.44,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 0.75,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 56.5
-      },
-      "answer_length": 1807,
-      "answer_snippet": "Based on the available data from Travelers' SEC filings, I cannot provide a specific net written premium volume figure from the information presented. Here's what the data shows:\n\n## Available Premium"
-    },
-    {
-      "id": 21,
-      "category": "risk_factors",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How do carriers describe the uncertainty in their reserve estimates?",
-      "status": "success",
-      "processing_time_seconds": 12.14,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 95.0
-      },
-      "answer_length": 2439,
-      "answer_snippet": "Based on the available SEC filing data, insurance carriers describe reserve estimate uncertainty through several key dimensions:\n\n## Primary Sources of Uncertainty\n\n**Travelers** (10-K) identifies spe"
-    },
-    {
-      "id": 22,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What does Travelers report about personal auto reserve trends?",
-      "status": "success",
-      "processing_time_seconds": 14.01,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2289,
-      "answer_snippet": "Based on Travelers' 2024 10-K filing, here are the key findings regarding personal auto reserve trends:\n\n## Overall Reserve Development Performance\n\n**Favorable Development**: Travelers reported net f"
-    },
-    {
-      "id": 23,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What are the reserve issues in general liability lines?",
-      "status": "success",
-      "processing_time_seconds": 14.83,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 91.7
-      },
-      "answer_length": 2901,
-      "answer_snippet": "Based on the available SEC filing data, I can provide insights on reserve issues in general liability lines, though the data is somewhat limited for a comprehensive analysis.\n\n## Key Reserve Challenge"
-    },
-    {
-      "id": 24,
-      "category": "reserve_methodology",
-      "difficulty": "hard",
-      "company": "Chubb",
-      "query": "How does Chubb handle reserve discounting and present value adjustments?",
-      "status": "success",
-      "processing_time_seconds": 15.02,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2568,
-      "answer_snippet": "Based on Chubb's 10-K filing data, here's how Chubb handles reserve discounting and present value adjustments:\n\n## Reserve Discounting Approach\n\n**Present Value Methodology**: According to Chubb's 10-"
-    },
-    {
-      "id": 25,
-      "category": "external_factors",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How does economic inflation affect insurance reserves according to the filings?",
-      "status": "success",
-      "processing_time_seconds": 12.83,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.75,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 93.8
-      },
-      "answer_length": 2400,
-      "answer_snippet": "Based on the provided SEC filing excerpts, there is **limited direct discussion of economic inflation's impact on insurance reserves**. However, I can identify some relevant insights:\n\n## Key Findings"
-    },
-    {
-      "id": 26,
-      "category": "cross_carrier_comparison",
-      "difficulty": "hard",
-      "company": null,
-      "query": "Compare how AIG, Travelers, and Chubb describe their reserve review processes",
-      "status": "success",
-      "processing_time_seconds": 15.71,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2885,
-      "answer_snippet": "Based on the available SEC filing data, I can provide a partial comparison of reserve review processes, though the information is limited primarily to AIG and Chubb, with no specific data available fo"
-    },
-    {
-      "id": 27,
-      "category": "catastrophe",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What does Travelers report about catastrophe losses and reserve implications?",
-      "status": "success",
-      "processing_time_seconds": 13.43,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2635,
-      "answer_snippet": "Based on Travelers' 2024 10-K filing, here are the key findings regarding catastrophe losses and reserve implications:\n\n## Catastrophe Loss Levels\n\n**Tabular Data:**\n- **2024**: $1.03 billion in catas"
-    },
-    {
-      "id": 28,
-      "category": "financial_metrics",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What is Chubb's loss ratio by segment for the most recent period?",
-      "status": "success",
-      "processing_time_seconds": 10.49,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 58.0
-      },
-      "answer_length": 1867,
-      "answer_snippet": "Based on the available data from Chubb's SEC filings, I cannot provide a comprehensive answer about Chubb's loss ratio by segment for the most recent period due to significant limitations in the extra"
-    },
-    {
-      "id": 29,
-      "category": "trend_analysis",
-      "difficulty": "hard",
-      "company": null,
-      "query": "What is the trend in favorable vs adverse reserve development across the industry?",
-      "status": "success",
-      "processing_time_seconds": 15.24,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2677,
-      "answer_snippet": "Based on the available SEC filing data, here's an analysis of reserve development trends across the industry:\n\n## Key Findings on Reserve Development Trends\n\n### Favorable Development Observed\n**Trave"
-    },
-    {
-      "id": 30,
-      "category": "reserve_adequacy",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What was Chubb's favorable prior year reserve development in 2024?",
-      "status": "success",
-      "processing_time_seconds": 10.58,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 0.833,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 59.0
-      },
-      "answer_length": 1880,
-      "answer_snippet": "Based on the available SEC filing data, I cannot provide a specific answer about Chubb's favorable prior year reserve development in 2024 from the information provided.\n\n## Analysis of Available Data\n"
-    },
-    {
-      "id": 31,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What does Travelers report about surety reserve risks?",
-      "status": "success",
-      "processing_time_seconds": 10.55,
+      "processing_time_seconds": 13.8,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
@@ -750,37 +210,37 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 91.0
       },
-      "answer_length": 2069,
-      "answer_snippet": "Based on Travelers' 10-K filing, the company provides limited but specific insights into surety reserve risks:\n\n## Key Surety Reserve Risk Factors\n\nAccording to Travelers' 10-K narrative, **claim fact"
+      "answer_length": 2882,
+      "answer_snippet": "Based on the provided SEC filing information, I have limited specific data about commercial auto reserves. Let me search for more comprehensive information about commercial auto reserves across the av"
     },
     {
-      "id": 32,
-      "category": "risk_factors",
-      "difficulty": "medium",
+      "id": 5,
+      "category": "trend_analysis",
+      "difficulty": "hard",
       "company": null,
-      "query": "What legal and regulatory risks do carriers cite that could affect reserves?",
+      "query": "How are carriers addressing social inflation?",
       "status": "success",
-      "processing_time_seconds": 13.6,
+      "processing_time_seconds": 10.52,
       "num_sources": 5,
-      "failure_mode": "none",
+      "failure_mode": "retrieval_gap",
       "scores": {
-        "keyword_coverage": 0.6,
+        "keyword_coverage": 0.75,
         "source_adequacy": 1.0,
-        "answer_completeness": 0.8,
+        "answer_completeness": 0.2,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 84.0
+        "composite_score": 69.8
       },
-      "answer_length": 2919,
-      "answer_snippet": "Based on the provided SEC filing excerpts, I can identify several legal and regulatory risks that carriers cite as potentially affecting reserves, though the data provided is somewhat limited in scope"
+      "answer_length": 1784,
+      "answer_snippet": "Based on the provided SEC filing excerpts, I cannot provide a comprehensive analysis of how carriers are addressing social inflation, as the passages do not contain specific information about social i"
     },
     {
-      "id": 33,
-      "category": "financial_metrics",
-      "difficulty": "easy",
-      "company": "AIG",
-      "query": "What are the key financial highlights from AIG's most recent quarterly filing?",
+      "id": 6,
+      "category": "reserve_methodology",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What is Chubb's approach to loss reserving?",
       "status": "success",
-      "processing_time_seconds": 12.18,
+      "processing_time_seconds": 14.66,
       "num_sources": 5,
       "failure_mode": "retrieval_gap",
       "scores": {
@@ -790,37 +250,57 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 64.0
       },
-      "answer_length": 2297,
-      "answer_snippet": "Based on the narrative passages provided from AIG's Q3 2024 10-Q filing, I can identify some key developments, but the available information is limited and lacks the structured financial data needed f"
+      "answer_length": 2438,
+      "answer_snippet": "Based on the SEC filing information provided, here's what I can discern about Chubb's approach to loss reserving:\n\n## Key Findings from Available Data\n\n### Reserve Composition (Chubb 10-K, Page 74)\nTh"
     },
     {
-      "id": 34,
-      "category": "reinsurance",
+      "id": 7,
+      "category": "risk_factors",
       "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What does Chubb say about its reinsurance program and treaty structure?",
+      "company": null,
+      "query": "What are the main risk factors affecting reserves?",
       "status": "success",
-      "processing_time_seconds": 12.49,
+      "processing_time_seconds": 13.48,
       "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.75,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 93.8
+      },
+      "answer_length": 2634,
+      "answer_snippet": "Based on the SEC filing data provided, I can identify several key risk factors affecting reserves, though the available excerpts provide limited comprehensive coverage.\n\n## Key Risk Factors Identified"
+    },
+    {
+      "id": 8,
+      "category": "catastrophe",
+      "difficulty": "medium",
+      "company": null,
+      "query": "Tell me about catastrophe loss reserves",
+      "status": "success",
+      "processing_time_seconds": 15.86,
+      "num_sources": 3,
       "failure_mode": "retrieval_gap",
       "scores": {
-        "keyword_coverage": 0.6,
+        "keyword_coverage": 0.8,
         "source_adequacy": 1.0,
         "answer_completeness": 0.2,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 52.0
+        "composite_score": 71.0
       },
-      "answer_length": 2466,
-      "answer_snippet": "Based on the SEC filing excerpts provided, here's what Chubb discloses about its reinsurance program and treaty structure:\n\n## Reinsurance Program Structure\n\n**Purpose and Scope**: According to Chubb'"
+      "answer_length": 2891,
+      "answer_snippet": "Based on the SEC filing data provided, I can offer some insights about catastrophe loss reserves, though the available information is somewhat limited for a comprehensive analysis.\n\n## Key Findings fr"
     },
     {
-      "id": 35,
-      "category": "external_factors",
+      "id": 9,
+      "category": "reserve_adequacy",
       "difficulty": "medium",
-      "company": null,
-      "query": "How do climate change and severe weather trends impact reserve estimates?",
+      "company": "Travelers",
+      "query": "What does Travelers say about reserve adequacy and prior year development?",
       "status": "success",
-      "processing_time_seconds": 16.04,
+      "processing_time_seconds": 14.01,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
@@ -830,8 +310,528 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 100.0
       },
-      "answer_length": 2978,
-      "answer_snippet": "Based on the SEC filings from AIG, Travelers, and Chubb, climate change and severe weather trends create significant challenges for reserve estimation in several key ways:\n\n## Primary Impacts on Reser"
+      "answer_length": 2725,
+      "answer_snippet": "Based on Travelers' 2024 10-K filing, here's what they report about reserve adequacy and prior year development:\n\n## Prior Year Development Performance\n\n**Favorable Development Trend**: Travelers expe"
+    },
+    {
+      "id": 10,
+      "category": "financial_metrics",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What is Chubb's combined ratio and how does it compare to prior years?",
+      "status": "success",
+      "processing_time_seconds": 10.93,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.5,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 85.0
+      },
+      "answer_length": 2115,
+      "answer_snippet": "Based on the available information from Chubb's SEC filings, I can provide limited insights into Chubb's combined ratio performance:\n\n## Available Combined Ratio Information\n\n**From Chubb 10-Q (Q2 202"
+    },
+    {
+      "id": 11,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What are the reserve trends for workers compensation across carriers?",
+      "status": "success",
+      "processing_time_seconds": 13.12,
+      "num_sources": 5,
+      "failure_mode": "single_carrier_only",
+      "scores": {
+        "keyword_coverage": 0.75,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.5,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 78.8
+      },
+      "answer_length": 2407,
+      "answer_snippet": "Based on the available SEC filing data, here are the workers' compensation reserve trends across the carriers:\n\n## Key Findings by Carrier\n\n**AIG (10-Q filings)**\n- Reported **favorable prior year los"
+    },
+    {
+      "id": 12,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How do carriers reserve for asbestos and environmental exposures?",
+      "status": "success",
+      "processing_time_seconds": 13.63,
+      "num_sources": 3,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2630,
+      "answer_snippet": "Based on the SEC filings provided, here's how carriers reserve for asbestos and environmental (A&E) exposures:\n\n## Key Reserving Approaches\n\n**AIG** maintains a consistent **$1.2 billion net loss rese"
+    },
+    {
+      "id": 13,
+      "category": "reserve_methodology",
+      "difficulty": "hard",
+      "company": null,
+      "query": "Describe the actuarial methods used by carriers to estimate IBNR reserves",
+      "status": "success",
+      "processing_time_seconds": 15.36,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 95.0
+      },
+      "answer_length": 2986,
+      "answer_snippet": "Based on the SEC filings from AIG, Travelers, and Chubb, here are the actuarial methods used by these carriers to estimate IBNR reserves:\n\n## Primary IBNR Estimation Methods\n\n### Chubb (10-K Filing)\nC"
+    },
+    {
+      "id": 14,
+      "category": "financial_metrics",
+      "difficulty": "easy",
+      "company": "AIG",
+      "query": "What are AIG's total loss and LAE reserves?",
+      "status": "success",
+      "processing_time_seconds": 10.76,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 1718,
+      "answer_snippet": "Based on the available data from AIG's SEC filings, I cannot provide AIG's total loss and LAE reserves from the information presented.\n\n## Key Findings from Available Data:\n\n**Loss Reserve Discount In"
+    },
+    {
+      "id": 15,
+      "category": "cross_carrier_comparison",
+      "difficulty": "hard",
+      "company": null,
+      "query": "Compare the reserve sensitivity analyses across AIG, Travelers, and Chubb",
+      "status": "success",
+      "processing_time_seconds": 13.99,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.4,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 85.0
+      },
+      "answer_length": 2623,
+      "answer_snippet": "Looking at the available data from the SEC filings, I can provide a limited comparison of reserve-related information across the three carriers, though comprehensive reserve sensitivity analyses are n"
+    },
+    {
+      "id": 16,
+      "category": "catastrophe",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What catastrophe events most impacted Chubb's reserves in 2024?",
+      "status": "success",
+      "processing_time_seconds": 11.94,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 2113,
+      "answer_snippet": "Based on the provided SEC filing information from Chubb, I cannot provide a definitive answer about which specific catastrophe events most impacted Chubb's reserves in 2024. Here's what the available "
+    },
+    {
+      "id": 17,
+      "category": "reinsurance",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How does reinsurance affect the carriers' net reserve positions?",
+      "status": "success",
+      "processing_time_seconds": 15.76,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2689,
+      "answer_snippet": "## How Reinsurance Affects Carriers' Net Reserve Positions\n\nBased on the available SEC filing data, reinsurance significantly impacts carriers' net reserve positions through both direct reserve reduct"
+    },
+    {
+      "id": 18,
+      "category": "trend_analysis",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What loss cost trends are carriers observing in casualty lines?",
+      "status": "success",
+      "processing_time_seconds": 14.13,
+      "num_sources": 3,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 76.0
+      },
+      "answer_length": 2473,
+      "answer_snippet": "Based on the available data from the SEC filings, I have limited specific information about loss cost trends in casualty lines. Let me provide what can be gleaned from the available information:\n\n## A"
+    },
+    {
+      "id": 19,
+      "category": "reserve_adequacy",
+      "difficulty": "medium",
+      "company": "AIG",
+      "query": "What is AIG's reserve development history over recent accident years?",
+      "status": "success",
+      "processing_time_seconds": 21.85,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 6713,
+      "answer_snippet": "Let me search for more comprehensive information about AIG's reserve development history to provide you with a complete analysis.\n\n<function_calls>\n<invoke name=\"get_financial_tables\">\n<parameter name"
+    },
+    {
+      "id": 20,
+      "category": "financial_metrics",
+      "difficulty": "easy",
+      "company": "Travelers",
+      "query": "What is Travelers' net written premium volume?",
+      "status": "success",
+      "processing_time_seconds": 10.13,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 0.75,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 56.5
+      },
+      "answer_length": 1675,
+      "answer_snippet": "Based on the available information from Travelers' SEC filings, I cannot provide a complete answer about their net written premium volume from the data provided.\n\n## Available Premium Information\n\nFro"
+    },
+    {
+      "id": 21,
+      "category": "risk_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How do carriers describe the uncertainty in their reserve estimates?",
+      "status": "success",
+      "processing_time_seconds": 14.61,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 95.0
+      },
+      "answer_length": 2919,
+      "answer_snippet": "Based on the SEC filing data provided, here's how carriers describe uncertainty in their reserve estimates:\n\n## Key Findings on Reserve Uncertainty\n\n### Actuarial Methods and Data Limitations\n**Chubb "
+    },
+    {
+      "id": 22,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "What does Travelers report about personal auto reserve trends?",
+      "status": "success",
+      "processing_time_seconds": 13.38,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2224,
+      "answer_snippet": "Based on Travelers' 2024 10-K filing, here are the key findings regarding personal auto reserve trends:\n\n## Overall Reserve Development Performance\n\n**Favorable Development**: Travelers reported **net"
+    },
+    {
+      "id": 23,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What are the reserve issues in general liability lines?",
+      "status": "success",
+      "processing_time_seconds": 45.52,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 10374,
+      "answer_snippet": "I need to search for more specific information about general liability reserve issues, as the provided data is limited. Let me gather additional relevant information.\n\n<function_calls>\n<invoke name=\"s"
+    },
+    {
+      "id": 24,
+      "category": "reserve_methodology",
+      "difficulty": "hard",
+      "company": "Chubb",
+      "query": "How does Chubb handle reserve discounting and present value adjustments?",
+      "status": "success",
+      "processing_time_seconds": 11.77,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2213,
+      "answer_snippet": "## Chubb's Reserve Discounting and Present Value Adjustments\n\nBased on Chubb's 2024 10-K filing, here's how the company handles reserve discounting and present value adjustments:\n\n### Key Approach\n\nCh"
+    },
+    {
+      "id": 25,
+      "category": "external_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How does economic inflation affect insurance reserves according to the filings?",
+      "status": "success",
+      "processing_time_seconds": 17.9,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.75,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 93.8
+      },
+      "answer_length": 3215,
+      "answer_snippet": "Based on my analysis of the provided SEC filing information, I have limited direct evidence about how economic inflation affects insurance reserves according to these specific filings. Let me provide "
+    },
+    {
+      "id": 26,
+      "category": "cross_carrier_comparison",
+      "difficulty": "hard",
+      "company": null,
+      "query": "Compare how AIG, Travelers, and Chubb describe their reserve review processes",
+      "status": "success",
+      "processing_time_seconds": 13.89,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2472,
+      "answer_snippet": "Based on the available SEC filing data, I can only provide a partial comparison of reserve review processes, as the data is limited primarily to AIG and Chubb, with no substantive information about Tr"
+    },
+    {
+      "id": 27,
+      "category": "catastrophe",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "What does Travelers report about catastrophe losses and reserve implications?",
+      "status": "success",
+      "processing_time_seconds": 13.45,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2616,
+      "answer_snippet": "Based on Travelers' 2024 10-K filing, here are the key findings regarding catastrophe losses and reserve implications:\n\n## Catastrophe Loss Amounts\n\n**Tabular Data:**\n- **2024 catastrophe losses: $1.0"
+    },
+    {
+      "id": 28,
+      "category": "financial_metrics",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What is Chubb's loss ratio by segment for the most recent period?",
+      "status": "success",
+      "processing_time_seconds": 10.21,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 58.0
+      },
+      "answer_length": 1746,
+      "answer_snippet": "Based on the available data from Chubb's SEC filings, I cannot provide a complete breakdown of Chubb's loss ratio by segment for the most recent period due to limitations in the extracted information."
+    },
+    {
+      "id": 29,
+      "category": "trend_analysis",
+      "difficulty": "hard",
+      "company": null,
+      "query": "What is the trend in favorable vs adverse reserve development across the industry?",
+      "status": "success",
+      "processing_time_seconds": 12.69,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2403,
+      "answer_snippet": "Based on the available SEC filing data, here's my analysis of reserve development trends across the industry:\n\n## Reserve Development Trends\n\n### Favorable Development Pattern Observed\n\nThe available "
+    },
+    {
+      "id": 30,
+      "category": "reserve_adequacy",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What was Chubb's favorable prior year reserve development in 2024?",
+      "status": "success",
+      "processing_time_seconds": 10.13,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 1757,
+      "answer_snippet": "Based on the available data from Chubb's SEC filings, I cannot provide a specific answer to your question about Chubb's favorable prior year reserve development in 2024.\n\n## Data Limitations\n\nThe fina"
+    },
+    {
+      "id": 31,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "What does Travelers report about surety reserve risks?",
+      "status": "success",
+      "processing_time_seconds": 11.65,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.8,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 85.0
+      },
+      "answer_length": 1822,
+      "answer_snippet": "Based on Travelers' 2024 10-K filing, here are the key surety reserve risks reported:\n\n## Surety Reserve Risk Factors\n\nAccording to Travelers' 2024 10-K (page reference from narrative context), the co"
+    },
+    {
+      "id": 32,
+      "category": "risk_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What legal and regulatory risks do carriers cite that could affect reserves?",
+      "status": "success",
+      "processing_time_seconds": 12.16,
+      "num_sources": 4,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 0.4,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 61.0
+      },
+      "answer_length": 2380,
+      "answer_snippet": "Based on the available SEC filing excerpts, I can identify some regulatory risks that carriers cite, though the provided data is limited in scope for a comprehensive regulatory risk analysis.\n\n## Key "
+    },
+    {
+      "id": 33,
+      "category": "financial_metrics",
+      "difficulty": "easy",
+      "company": "AIG",
+      "query": "What are the key financial highlights from AIG's most recent quarterly filing?",
+      "status": "success",
+      "processing_time_seconds": 31.16,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 7665,
+      "answer_snippet": "Based on the limited narrative context provided from AIG's Q3 2024 10-Q filing, I can identify a few key highlights, but I need to search for more comprehensive financial data to provide a complete an"
+    },
+    {
+      "id": 34,
+      "category": "reinsurance",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What does Chubb say about its reinsurance program and treaty structure?",
+      "status": "success",
+      "processing_time_seconds": 11.22,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 94.0
+      },
+      "answer_length": 2253,
+      "answer_snippet": "Based on the SEC filing information provided, here's what Chubb discloses about its reinsurance program and treaty structure:\n\n## Reinsurance Program Overview\n\n**Chubb (10-K, December 31, 2024)** desc"
+    },
+    {
+      "id": 35,
+      "category": "external_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How do climate change and severe weather trends impact reserve estimates?",
+      "status": "success",
+      "processing_time_seconds": 17.03,
+      "num_sources": 4,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 76.0
+      },
+      "answer_length": 3518,
+      "answer_snippet": "Based on the SEC filings provided, I can offer some insights on how climate change and severe weather trends impact reserve estimates, though the available data has notable limitations.\n\n## Key Findin"
     },
     {
       "id": 36,
@@ -839,6 +839,166 @@
       "difficulty": "hard",
       "company": null,
       "query": "How do the three carriers differ in their exposure to long-tail liability risks?",
+      "status": "success",
+      "processing_time_seconds": 15.32,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 95.0
+      },
+      "answer_length": 3287,
+      "answer_snippet": "Based on the limited narrative context provided, I can offer some initial observations about long-tail liability exposure differences, but I need to gather more comprehensive data to provide a thoroug"
+    },
+    {
+      "id": 37,
+      "category": "reserve_methodology",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What assumptions do carriers make about tail factors in their reserve models?",
+      "status": "success",
+      "processing_time_seconds": 36.23,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 8124,
+      "answer_snippet": "I need to search for more specific information about tail factors and their assumptions in reserve models, as the provided data doesn't contain sufficient detail about tail factor assumptions.\n\n<funct"
+    },
+    {
+      "id": 38,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What are carriers saying about homeowners insurance reserve trends?",
+      "status": "success",
+      "processing_time_seconds": 15.45,
+      "num_sources": 4,
+      "failure_mode": "single_carrier_only",
+      "scores": {
+        "keyword_coverage": 0.4,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.5,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 70.0
+      },
+      "answer_length": 2483,
+      "answer_snippet": "Based on the available SEC filings, I can provide limited insights about homeowners insurance reserve trends:\n\n## Key Findings from Available Data\n\n**Travelers (10-K)** shows the most specific homeown"
+    },
+    {
+      "id": 39,
+      "category": "financial_metrics",
+      "difficulty": "medium",
+      "company": "AIG",
+      "query": "What are AIG's investment income and its relationship to reserve adequacy?",
+      "status": "success",
+      "processing_time_seconds": 18.37,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 3554,
+      "answer_snippet": "I need to search for more specific information about AIG's investment income and its relationship to reserve adequacy, as the current data focuses primarily on loss reserve discounts. Let me gather ad"
+    },
+    {
+      "id": 40,
+      "category": "risk_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What cyber liability reserve challenges do carriers discuss?",
+      "status": "success",
+      "processing_time_seconds": 12.43,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2079,
+      "answer_snippet": "Based on my review of the available SEC filing data, I must note a significant limitation: **the provided information does not contain specific discussions of cyber liability reserve challenges** by t"
+    },
+    {
+      "id": 41,
+      "category": "reserve_adequacy",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "How did Travelers' asbestos reserve position change in the most recent period?",
+      "status": "success",
+      "processing_time_seconds": 11.13,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 1964,
+      "answer_snippet": "Based on Travelers' 2024 10-K filing, here is how their asbestos reserve position changed in the most recent period:\n\n## Key Reserve Changes\n\n**Reserve Strengthening**: Travelers increased its net asb"
+    },
+    {
+      "id": 42,
+      "category": "cross_carrier_comparison",
+      "difficulty": "hard",
+      "company": null,
+      "query": "What are the differences in reserving philosophies between Chubb and Travelers?",
+      "status": "success",
+      "processing_time_seconds": 14.37,
+      "num_sources": 2,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 0.667,
+        "composite_score": 67.7
+      },
+      "answer_length": 3022,
+      "answer_snippet": "I need to search for information about reserving philosophies for both Chubb and Travelers. The passages you provided don't contain reserving information, so let me search for relevant data.\n\nLet me s"
+    },
+    {
+      "id": 43,
+      "category": "financial_metrics",
+      "difficulty": "easy",
+      "company": "Chubb",
+      "query": "What was Chubb's net income for the most recent annual period?",
+      "status": "success",
+      "processing_time_seconds": 8.94,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 0.75,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 56.5
+      },
+      "answer_length": 1576,
+      "answer_snippet": "Based on the provided narrative passages from Chubb's SEC filings, I cannot determine Chubb's net income for the most recent annual period. The passages provided focus primarily on:\n\n- Share repurchas"
+    },
+    {
+      "id": 44,
+      "category": "trend_analysis",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How has reserve development trended over the last three years?",
       "status": "success",
       "processing_time_seconds": 14.71,
       "num_sources": 5,
@@ -850,168 +1010,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 100.0
       },
-      "answer_length": 2839,
-      "answer_snippet": "Based on the available SEC filing excerpts, I can provide a preliminary analysis of how these three carriers differ in their long-tail liability exposure, though the data is limited and requires addit"
-    },
-    {
-      "id": 37,
-      "category": "reserve_methodology",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What assumptions do carriers make about tail factors in their reserve models?",
-      "status": "success",
-      "processing_time_seconds": 12.78,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2368,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights about tail factor assumptions, though the information is incomplete for a comprehensive analysis.\n\n## Available Information on Re"
-    },
-    {
-      "id": 38,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What are carriers saying about homeowners insurance reserve trends?",
-      "status": "success",
-      "processing_time_seconds": 13.34,
-      "num_sources": 5,
-      "failure_mode": "single_carrier_only",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.5,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 80.0
-      },
-      "answer_length": 2178,
-      "answer_snippet": "Based on the available SEC filings, here's what carriers are saying about homeowners insurance reserve trends:\n\n## Key Findings\n\n**Travelers (10-K filing)** provides the most specific commentary on ho"
-    },
-    {
-      "id": 39,
-      "category": "financial_metrics",
-      "difficulty": "medium",
-      "company": "AIG",
-      "query": "What are AIG's investment income and its relationship to reserve adequacy?",
-      "status": "success",
-      "processing_time_seconds": 15.15,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2900,
-      "answer_snippet": "Based on the provided SEC filing data from AIG's 10-Q filings, I can provide limited insights into AIG's investment income and reserve adequacy relationship, though the available data has significant "
-    },
-    {
-      "id": 40,
-      "category": "risk_factors",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What cyber liability reserve challenges do carriers discuss?",
-      "status": "success",
-      "processing_time_seconds": 14.83,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 91.7
-      },
-      "answer_length": 2781,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into cyber liability reserve challenges, though the information is not specifically focused on reserving aspects.\n\n## Key Cyber R"
-    },
-    {
-      "id": 41,
-      "category": "reserve_adequacy",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "How did Travelers' asbestos reserve position change in the most recent period?",
-      "status": "success",
-      "processing_time_seconds": 13.0,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 2224,
-      "answer_snippet": "## Travelers' Asbestos Reserve Position - Most Recent Period Analysis\n\nBased on Travelers' 2024 10-K filing, the company's asbestos reserve position experienced significant strengthening in the most r"
-    },
-    {
-      "id": 42,
-      "category": "cross_carrier_comparison",
-      "difficulty": "hard",
-      "company": null,
-      "query": "What are the differences in reserving philosophies between Chubb and Travelers?",
-      "status": "success",
-      "processing_time_seconds": 11.16,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 67.7
-      },
-      "answer_length": 1814,
-      "answer_snippet": "Based on the provided SEC filing excerpts, I cannot adequately answer your question about the differences in reserving philosophies between Chubb and Travelers. Here's why:\n\n## Data Limitations\n\nThe n"
-    },
-    {
-      "id": 43,
-      "category": "financial_metrics",
-      "difficulty": "easy",
-      "company": "Chubb",
-      "query": "What was Chubb's net income for the most recent annual period?",
-      "status": "success",
-      "processing_time_seconds": 9.84,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 0.75,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 56.5
-      },
-      "answer_length": 1511,
-      "answer_snippet": "Based on the provided narrative context from Chubb's SEC filings, I cannot determine Chubb's net income for the most recent annual period. The passages provided focus primarily on:\n\n- Share repurchase"
-    },
-    {
-      "id": 44,
-      "category": "trend_analysis",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How has reserve development trended over the last three years?",
-      "status": "success",
-      "processing_time_seconds": 16.07,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 3053,
-      "answer_snippet": "## Reserve Development Trends: 2022-2024 Analysis\n\nBased on the available SEC filing data, here are the key reserve development trends across the three major carriers:\n\n### Favorable Development Patte"
+      "answer_length": 2802,
+      "answer_snippet": "Based on the available SEC filing data, here's an analysis of reserve development trends over the last three years:\n\n## Reserve Development Trends (2022-2024)\n\n### Travelers - Consistent Favorable Dev"
     },
     {
       "id": 45,
@@ -1020,47 +1020,7 @@
       "company": "AIG",
       "query": "What lines of business does AIG highlight in their reserve disclosures?",
       "status": "success",
-      "processing_time_seconds": 13.0,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 58.0
-      },
-      "answer_length": 1881,
-      "answer_snippet": "Based on the available SEC filing data provided, I cannot definitively identify the specific lines of business that AIG highlights in their reserve disclosures.\n\n## Available Reserve Information\n\nFrom"
-    },
-    {
-      "id": 46,
-      "category": "external_factors",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How do interest rate changes impact insurance company reserves?",
-      "status": "success",
-      "processing_time_seconds": 12.24,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 86.7
-      },
-      "answer_length": 2271,
-      "answer_snippet": "Based on the SEC filing data provided, I can identify several key ways interest rate changes impact insurance company reserves:\n\n## Reserve Discounting Effects\n\n**AIG's Loss Reserve Discounting:**\nFro"
-    },
-    {
-      "id": 47,
-      "category": "reserve_methodology",
-      "difficulty": "hard",
-      "company": "Travelers",
-      "query": "What is Travelers' process for the annual comprehensive reserve review?",
-      "status": "success",
-      "processing_time_seconds": 11.7,
+      "processing_time_seconds": 11.49,
       "num_sources": 5,
       "failure_mode": "retrieval_gap",
       "scores": {
@@ -1070,8 +1030,48 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 64.0
       },
-      "answer_length": 2203,
-      "answer_snippet": "Based on my review of the available Travelers 10-K filing data, I cannot provide a comprehensive answer about Travelers' specific process for their annual comprehensive reserve review. The available i"
+      "answer_length": 1983,
+      "answer_snippet": "Based on the available SEC filing data, I cannot provide a comprehensive answer about the specific lines of business AIG highlights in their reserve disclosures due to significant limitations in the e"
+    },
+    {
+      "id": 46,
+      "category": "external_factors",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How do interest rate changes impact insurance company reserves?",
+      "status": "success",
+      "processing_time_seconds": 17.27,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2783,
+      "answer_snippet": "Based on the SEC filings from AIG, Chubb, and Travelers, I can provide insights into how interest rate changes impact insurance company reserves, though the available data provides limited direct disc"
+    },
+    {
+      "id": 47,
+      "category": "reserve_methodology",
+      "difficulty": "hard",
+      "company": "Travelers",
+      "query": "What is Travelers' process for the annual comprehensive reserve review?",
+      "status": "success",
+      "processing_time_seconds": 10.36,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 1699,
+      "answer_snippet": "Based on my review of the provided Travelers SEC filing data, **I do not have sufficient information to describe Travelers' process for the annual comprehensive reserve review**.\n\n## Available Informa"
     },
     {
       "id": 48,
@@ -1079,6 +1079,226 @@
       "difficulty": "medium",
       "company": null,
       "query": "What catastrophe models or tools do carriers use for reserve estimation?",
+      "status": "success",
+      "processing_time_seconds": 11.86,
+      "num_sources": 4,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 76.0
+      },
+      "answer_length": 2156,
+      "answer_snippet": "Based on the available SEC filing data, the information about specific catastrophe models and tools used for reserve estimation is limited. Here's what I can determine:\n\n## Key Findings from Available"
+    },
+    {
+      "id": 49,
+      "category": "risk_factors",
+      "difficulty": "medium",
+      "company": "AIG",
+      "query": "What operational risks does AIG identify that could impact reserve adequacy?",
+      "status": "success",
+      "processing_time_seconds": 11.61,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2146,
+      "answer_snippet": "Based on my analysis of the available AIG SEC filing data, I need to provide an important caveat: **The search results do not contain specific information about operational risks that could impact res"
+    },
+    {
+      "id": 50,
+      "category": "cross_carrier_comparison",
+      "difficulty": "hard",
+      "company": null,
+      "query": "Which carrier has the highest reserve-to-premium ratio and what does this indicate?",
+      "status": "success",
+      "processing_time_seconds": 11.15,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 1837,
+      "answer_snippet": "Based on the available SEC filing data, I cannot definitively determine which carrier has the highest reserve-to-premium ratio, as the provided information is insufficient for this calculation.\n\n## Av"
+    },
+    {
+      "id": 51,
+      "category": "reserve_adequacy",
+      "difficulty": "easy",
+      "company": "Chubb",
+      "query": "What does Chubb say about the adequacy of its A&E reserves?",
+      "status": "success",
+      "processing_time_seconds": 10.43,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 1689,
+      "answer_snippet": "Based on the provided SEC filing excerpts, I cannot find specific information about Chubb's assessment of the adequacy of its Asbestos & Environmental (A&E) reserves.\n\n## Available Reserve Data from C"
+    },
+    {
+      "id": 52,
+      "category": "trend_analysis",
+      "difficulty": "hard",
+      "company": null,
+      "query": "What loss severity trends are emerging across all three carriers?",
+      "status": "success",
+      "processing_time_seconds": 12.41,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2203,
+      "answer_snippet": "Based on the available SEC filing data, I can provide only limited insights into loss severity trends across the three carriers due to the fragmented nature of the extracted information.\n\n## Key Findi"
+    },
+    {
+      "id": 53,
+      "category": "line_of_business",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What is Chubb's exposure to professional liability and D&O reserves?",
+      "status": "success",
+      "processing_time_seconds": 11.73,
+      "num_sources": 5,
+      "failure_mode": "retrieval_gap",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.2,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 64.0
+      },
+      "answer_length": 1884,
+      "answer_snippet": "Based on the available SEC filing data, I cannot provide specific information about Chubb's exposure to professional liability and D&O reserves from the current search results.\n\n## Available Reserve I"
+    },
+    {
+      "id": 54,
+      "category": "reinsurance",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How do ceded reinsurance recoverables affect the carriers' balance sheets?",
+      "status": "success",
+      "processing_time_seconds": 13.8,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2566,
+      "answer_snippet": "Based on the SEC filing excerpts provided, here's how ceded reinsurance recoverables affect the carriers' balance sheets:\n\n## Balance Sheet Impact of Ceded Reinsurance Recoverables\n\n### Asset Recognit"
+    },
+    {
+      "id": 55,
+      "category": "financial_metrics",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "What is Travelers' reserve development as a percentage of net earned premium?",
+      "status": "success",
+      "processing_time_seconds": 11.71,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2086,
+      "answer_snippet": "Based on the Travelers 2024 10-K filing data provided, I can calculate some reserve development ratios, though the analysis is limited by incomplete premium data in the available information.\n\n## Key "
+    },
+    {
+      "id": 56,
+      "category": "external_factors",
+      "difficulty": "hard",
+      "company": null,
+      "query": "How do changes in tort law and judicial trends impact P&C reserves?",
+      "status": "success",
+      "processing_time_seconds": 19.8,
+      "num_sources": 3,
+      "failure_mode": "single_carrier_only",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.5,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 85.0
+      },
+      "answer_length": 3518,
+      "answer_snippet": "Based on the SEC filing information provided, here's how changes in tort law and judicial trends impact P&C reserves:\n\n## Key Impacts on P&C Reserves\n\n### **Travelers' Assessment (10-K Filing)**\nTrave"
+    },
+    {
+      "id": 57,
+      "category": "reserve_methodology",
+      "difficulty": "medium",
+      "company": null,
+      "query": "What is the Bornhuetter-Ferguson method and how do carriers apply it?",
+      "status": "success",
+      "processing_time_seconds": 13.78,
+      "num_sources": 4,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.8,
+        "cross_carrier_coverage": 0.667,
+        "composite_score": 85.7
+      },
+      "answer_length": 2611,
+      "answer_snippet": "Based on the SEC filing information provided, I can offer some insights about the Bornhuetter-Ferguson method, though the available passages provide limited detail.\n\n## What is the Bornhuetter-Ferguso"
+    },
+    {
+      "id": 58,
+      "category": "catastrophe",
+      "difficulty": "easy",
+      "company": null,
+      "query": "What was the total catastrophe loss impact across carriers in 2024?",
+      "status": "success",
+      "processing_time_seconds": 10.97,
+      "num_sources": 4,
+      "failure_mode": "single_carrier_only",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 0.5,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 80.0
+      },
+      "answer_length": 1869,
+      "answer_snippet": "Based on the available SEC filing data, I can provide partial information about 2024 catastrophe losses, but the data is incomplete for a comprehensive cross-carrier analysis.\n\n## Available 2024 Catas"
+    },
+    {
+      "id": 59,
+      "category": "risk_factors",
+      "difficulty": "medium",
+      "company": "Chubb",
+      "query": "What foreign currency risks does Chubb identify affecting its reserves?",
       "status": "success",
       "processing_time_seconds": 13.65,
       "num_sources": 5,
@@ -1088,230 +1308,10 @@
         "source_adequacy": 1.0,
         "answer_completeness": 1.0,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 95.0
-      },
-      "answer_length": 2704,
-      "answer_snippet": "Based on the available SEC filings, here are the key findings regarding catastrophe models and tools used by carriers for reserve estimation:\n\n## Catastrophe Modeling Approaches\n\n**Chubb (10-Q filing)"
-    },
-    {
-      "id": 49,
-      "category": "risk_factors",
-      "difficulty": "medium",
-      "company": "AIG",
-      "query": "What operational risks does AIG identify that could impact reserve adequacy?",
-      "status": "success",
-      "processing_time_seconds": 15.68,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 2460,
-      "answer_snippet": "Based on the available data from AIG's SEC filings, I can provide limited insights into operational risks affecting reserve adequacy, though the search results don't contain comprehensive operational "
-    },
-    {
-      "id": 50,
-      "category": "cross_carrier_comparison",
-      "difficulty": "hard",
-      "company": null,
-      "query": "Which carrier has the highest reserve-to-premium ratio and what does this indicate?",
-      "status": "success",
-      "processing_time_seconds": 12.84,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 1914,
-      "answer_snippet": "Based on the available SEC filing data, I cannot definitively determine which carrier has the highest reserve-to-premium ratio because the provided financial tables and narrative passages do not conta"
-    },
-    {
-      "id": 51,
-      "category": "reserve_adequacy",
-      "difficulty": "easy",
-      "company": "Chubb",
-      "query": "What does Chubb say about the adequacy of its A&E reserves?",
-      "status": "success",
-      "processing_time_seconds": 13.47,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 1805,
-      "answer_snippet": "Based on my review of the available Chubb SEC filing data, I cannot find specific information about Chubb's assessment of the adequacy of its A&E (Asbestos & Environmental) reserves.\n\n## Data Availabl"
-    },
-    {
-      "id": 52,
-      "category": "trend_analysis",
-      "difficulty": "hard",
-      "company": null,
-      "query": "What loss severity trends are emerging across all three carriers?",
-      "status": "success",
-      "processing_time_seconds": 14.52,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2496,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights on loss severity trends, though the dataset has significant constraints for comprehensive trend analysis.\n\n## Key Findings from A"
-    },
-    {
-      "id": 53,
-      "category": "line_of_business",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What is Chubb's exposure to professional liability and D&O reserves?",
-      "status": "success",
-      "processing_time_seconds": 10.98,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 64.0
-      },
-      "answer_length": 1899,
-      "answer_snippet": "Based on the available SEC filing data from Chubb, I cannot provide specific information about Chubb's exposure to professional liability and D&O reserves.\n\n## Analysis of Available Data\n\n**Financial "
-    },
-    {
-      "id": 54,
-      "category": "reinsurance",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How do ceded reinsurance recoverables affect the carriers' balance sheets?",
-      "status": "success",
-      "processing_time_seconds": 14.0,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2623,
-      "answer_snippet": "Based on the SEC filing excerpts provided, here's how ceded reinsurance recoverables affect the carriers' balance sheets:\n\n## Balance Sheet Impact\n\n**Asset Recognition**: Both AIG and Chubb treat rein"
-    },
-    {
-      "id": 55,
-      "category": "financial_metrics",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What is Travelers' reserve development as a percentage of net earned premium?",
-      "status": "success",
-      "processing_time_seconds": 9.76,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 1710,
-      "answer_snippet": "Based on the Travelers 10-K filing data provided, I can identify the reserve development figures but cannot calculate the percentage of net earned premium due to missing premium data.\n\n## Key Reserve "
-    },
-    {
-      "id": 56,
-      "category": "external_factors",
-      "difficulty": "hard",
-      "company": null,
-      "query": "How do changes in tort law and judicial trends impact P&C reserves?",
-      "status": "success",
-      "processing_time_seconds": 14.63,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 91.7
-      },
-      "answer_length": 2540,
-      "answer_snippet": "Based on the SEC filings analyzed, tort law and judicial trends represent significant drivers of P&C reserve adequacy, particularly impacting liability reserves across major carriers.\n\n## Key Impacts "
-    },
-    {
-      "id": 57,
-      "category": "reserve_methodology",
-      "difficulty": "medium",
-      "company": null,
-      "query": "What is the Bornhuetter-Ferguson method and how do carriers apply it?",
-      "status": "success",
-      "processing_time_seconds": 14.23,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 0.8,
-        "cross_carrier_coverage": 0.667,
-        "composite_score": 85.7
-      },
-      "answer_length": 2580,
-      "answer_snippet": "Based on the SEC filing information provided, I can explain the Bornhuetter-Ferguson method and its application by carriers:\n\n## What is the Bornhuetter-Ferguson Method?\n\nThe Bornhuetter-Ferguson (BF)"
-    },
-    {
-      "id": 58,
-      "category": "catastrophe",
-      "difficulty": "easy",
-      "company": null,
-      "query": "What was the total catastrophe loss impact across carriers in 2024?",
-      "status": "success",
-      "processing_time_seconds": 11.0,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 95.0
-      },
-      "answer_length": 1922,
-      "answer_snippet": "Based on the available SEC filing data, I can provide partial information about catastrophe losses in 2024, though the data is incomplete across all three carriers.\n\n## Available 2024 Catastrophe Loss"
-    },
-    {
-      "id": 59,
-      "category": "risk_factors",
-      "difficulty": "medium",
-      "company": "Chubb",
-      "query": "What foreign currency risks does Chubb identify affecting its reserves?",
-      "status": "success",
-      "processing_time_seconds": 12.29,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 0.8,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
         "composite_score": 94.0
       },
-      "answer_length": 2462,
-      "answer_snippet": "Based on my analysis of Chubb's 2024 10-K filing, I can identify several foreign currency risks affecting the company's reserves, though the available data provides limited specific detail on reserve-"
+      "answer_length": 2844,
+      "answer_snippet": "Based on my analysis of Chubb's 2024 10-K filing, I need to search more specifically for information about foreign currency risks affecting reserves, as the current data primarily shows reserve amount"
     },
     {
       "id": 60,
@@ -1320,8 +1320,8 @@
       "company": null,
       "query": "How do carriers' approaches to setting IBNR differ from each other?",
       "status": "success",
-      "processing_time_seconds": 11.02,
-      "num_sources": 5,
+      "processing_time_seconds": 11.84,
+      "num_sources": 4,
       "failure_mode": "retrieval_gap",
       "scores": {
         "keyword_coverage": 1.0,
@@ -1330,8 +1330,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 76.0
       },
-      "answer_length": 1869,
-      "answer_snippet": "Based on the narrative context provided from the SEC filings, I cannot provide a comprehensive analysis of how carriers' approaches to setting IBNR (Incurred But Not Reported reserves) differ from eac"
+      "answer_length": 2263,
+      "answer_snippet": "Based on the limited information provided from the SEC filings, I can only offer a partial analysis of carriers' IBNR setting approaches, as the passages contain insufficient detail for a comprehensiv"
     },
     {
       "id": 61,
@@ -1340,7 +1340,7 @@
       "company": "AIG",
       "query": "What commercial property lines does AIG have and how large are the reserves?",
       "status": "success",
-      "processing_time_seconds": 13.22,
+      "processing_time_seconds": 12.59,
       "num_sources": 5,
       "failure_mode": "retrieval_gap",
       "scores": {
@@ -1350,8 +1350,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 64.0
       },
-      "answer_length": 2155,
-      "answer_snippet": "Based on the provided SEC filing data from AIG, I can provide limited information about their loss reserves, but the data does not contain specific details about commercial property lines or their res"
+      "answer_length": 2095,
+      "answer_snippet": "Based on my analysis of the provided information, I cannot adequately answer your question about AIG's commercial property lines and reserve sizes. Here's why and what additional information would be "
     },
     {
       "id": 62,
@@ -1360,18 +1360,18 @@
       "company": null,
       "query": "What are the return on equity figures for each carrier?",
       "status": "success",
-      "processing_time_seconds": 9.96,
-      "num_sources": 5,
-      "failure_mode": "retrieval_gap",
+      "processing_time_seconds": 10.91,
+      "num_sources": 4,
+      "failure_mode": "none",
       "scores": {
         "keyword_coverage": 1.0,
         "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
+        "answer_completeness": 1.0,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 76.0
+        "composite_score": 100.0
       },
-      "answer_length": 1612,
-      "answer_snippet": "Based on the provided SEC filing excerpts, I can only find limited return on equity (ROE) information:\n\n## Available ROE Data\n\n**AIG (10-Q, Q3 2024):**\n- The filing mentions \"reconciliations return eq"
+      "answer_length": 1781,
+      "answer_snippet": "Based on the provided narrative context from the SEC filings, I can only find limited return on equity information, and it appears incomplete.\n\n## Available ROE Data\n\n**AIG (10-Q, Q3 2024):**\nThe fili"
     },
     {
       "id": 63,
@@ -1380,8 +1380,8 @@
       "company": null,
       "query": "Are there any signals of reserve strengthening or weakening across the carriers?",
       "status": "success",
-      "processing_time_seconds": 14.16,
-      "num_sources": 5,
+      "processing_time_seconds": 14.85,
+      "num_sources": 4,
       "failure_mode": "none",
       "scores": {
         "keyword_coverage": 0.8,
@@ -1390,8 +1390,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 95.0
       },
-      "answer_length": 2664,
-      "answer_snippet": "Based on the available SEC filing data, I can identify several signals regarding reserve positioning across the carriers:\n\n## Key Findings\n\n**AIG (10-Q Filings)**\n- **Reserve Discount Stability**: AIG"
+      "answer_length": 2569,
+      "answer_snippet": "Based on the available SEC filing data, here are the key signals regarding reserve movements across the carriers:\n\n## AIG - Stable Reserve Discount Position\n\n**Tabular Evidence:** AIG maintains a cons"
     },
     {
       "id": 64,
@@ -1400,67 +1400,7 @@
       "company": "AIG",
       "query": "How does AIG describe the impact of COVID-19 related claims on reserves?",
       "status": "success",
-      "processing_time_seconds": 12.95,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 1981,
-      "answer_snippet": "Based on my analysis of the provided AIG SEC filing data, I cannot find specific information about COVID-19 related claims impact on reserves in the excerpts provided.\n\n## Available Information\n\nThe f"
-    },
-    {
-      "id": 65,
-      "category": "trend_analysis",
-      "difficulty": "medium",
-      "company": null,
-      "query": "How are medical cost trends affecting bodily injury reserve adequacy?",
-      "status": "success",
-      "processing_time_seconds": 13.41,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2561,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into how medical cost trends are affecting bodily injury reserve adequacy:\n\n## Key Findings from Available Data\n\n### Medical Cost"
-    },
-    {
-      "id": 66,
-      "category": "reinsurance",
-      "difficulty": "hard",
-      "company": "AIG",
-      "query": "What is AIG's reinsurance recoverables position and counterparty credit risk?",
-      "status": "success",
-      "processing_time_seconds": 11.93,
-      "num_sources": 5,
-      "failure_mode": "none",
-      "scores": {
-        "keyword_coverage": 1.0,
-        "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
-        "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
-      },
-      "answer_length": 2410,
-      "answer_snippet": "Based on AIG's Q3 2025 10-Q filing, here is an analysis of their reinsurance recoverables position and counterparty credit risk:\n\n## Reinsurance Recoverables Position\n\n**Total Position:** AIG reported"
-    },
-    {
-      "id": 67,
-      "category": "reserve_methodology",
-      "difficulty": "medium",
-      "company": "Travelers",
-      "query": "What data sources and systems does Travelers use in its reserve analysis?",
-      "status": "success",
-      "processing_time_seconds": 25.14,
+      "processing_time_seconds": 10.69,
       "num_sources": 5,
       "failure_mode": "retrieval_gap",
       "scores": {
@@ -1470,8 +1410,68 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 64.0
       },
-      "answer_length": 9469,
-      "answer_snippet": "I need to search for more specific information about Travelers' data sources and systems used in reserve analysis, as the current passages don't contain sufficient detail about their methodologies and"
+      "answer_length": 1792,
+      "answer_snippet": "Based on my analysis of the provided SEC filing data from AIG, I cannot find any specific information about COVID-19 related claims and their impact on reserves.\n\n## Key Findings:\n\n**Available Data:**"
+    },
+    {
+      "id": 65,
+      "category": "trend_analysis",
+      "difficulty": "medium",
+      "company": null,
+      "query": "How are medical cost trends affecting bodily injury reserve adequacy?",
+      "status": "success",
+      "processing_time_seconds": 13.7,
+      "num_sources": 3,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 0.8,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 95.0
+      },
+      "answer_length": 2488,
+      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into how medical cost trends are affecting bodily injury reserve adequacy:\n\n## Key Findings from Available Data\n\n**Medical Cost I"
+    },
+    {
+      "id": 66,
+      "category": "reinsurance",
+      "difficulty": "hard",
+      "company": "AIG",
+      "query": "What is AIG's reinsurance recoverables position and counterparty credit risk?",
+      "status": "success",
+      "processing_time_seconds": 12.24,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 2204,
+      "answer_snippet": "Based on the AIG 10-Q filing information provided, here is AIG's reinsurance recoverables position and counterparty credit risk assessment:\n\n## Reinsurance Recoverables Position\n\n**Total Position:** A"
+    },
+    {
+      "id": 67,
+      "category": "reserve_methodology",
+      "difficulty": "medium",
+      "company": "Travelers",
+      "query": "What data sources and systems does Travelers use in its reserve analysis?",
+      "status": "success",
+      "processing_time_seconds": 30.1,
+      "num_sources": 5,
+      "failure_mode": "none",
+      "scores": {
+        "keyword_coverage": 1.0,
+        "source_adequacy": 1.0,
+        "answer_completeness": 1.0,
+        "cross_carrier_coverage": 1.0,
+        "composite_score": 100.0
+      },
+      "answer_length": 7304,
+      "answer_snippet": "Based on my analysis of the available SEC filing data from Travelers, I need to search for more specific information about their reserve analysis data sources and systems, as the current extracts focu"
     },
     {
       "id": 68,
@@ -1480,7 +1480,7 @@
       "company": null,
       "query": "What do the filings say about the risk of reserve deficiency?",
       "status": "success",
-      "processing_time_seconds": 14.5,
+      "processing_time_seconds": 16.76,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
@@ -1490,8 +1490,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 90.0
       },
-      "answer_length": 2818,
-      "answer_snippet": "Based on the available SEC filing information, here are the key insights regarding reserve deficiency risk:\n\n## Reserve Development Patterns\n\n**Travelers (10-K)** shows consistently favorable reserve "
+      "answer_length": 2963,
+      "answer_snippet": "Based on the available SEC filing data, here are the key insights regarding reserve deficiency risk:\n\n## Key Findings on Reserve Deficiency Risk\n\n### Risk Factors and Uncertainties\n\n**Chubb (10-K)** e"
     },
     {
       "id": 69,
@@ -1500,18 +1500,18 @@
       "company": null,
       "query": "How does each carrier segment its reserve disclosures?",
       "status": "success",
-      "processing_time_seconds": 14.17,
+      "processing_time_seconds": 15.12,
       "num_sources": 5,
-      "failure_mode": "retrieval_gap",
+      "failure_mode": "none",
       "scores": {
-        "keyword_coverage": 0.4,
+        "keyword_coverage": 1.0,
         "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
+        "answer_completeness": 1.0,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 61.0
+        "composite_score": 100.0
       },
-      "answer_length": 2242,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into reserve disclosure segmentation for these carriers:\n\n## Key Findings by Carrier\n\n**AIG (10-Q filings)**\n- Consistently repor"
+      "answer_length": 2701,
+      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights into reserve disclosure segmentation for these carriers, though the data is incomplete for a comprehensive analysis.\n\n## AIG Rese"
     },
     {
       "id": 70,
@@ -1520,18 +1520,18 @@
       "company": "Travelers",
       "query": "What is Travelers' catastrophe reinsurance program structure?",
       "status": "success",
-      "processing_time_seconds": 12.78,
+      "processing_time_seconds": 11.94,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
-        "keyword_coverage": 1.0,
+        "keyword_coverage": 0.8,
         "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
+        "answer_completeness": 0.8,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
+        "composite_score": 85.0
       },
-      "answer_length": 2350,
-      "answer_snippet": "Based on the SEC filing excerpts provided from Travelers' 2024 10-K filing, I can offer a partial view of their catastrophe reinsurance program structure, though the available information has signific"
+      "answer_length": 2254,
+      "answer_snippet": "Based on the Travelers 10-K filing information provided, I can offer some insights into their catastrophe reinsurance program structure, though the available excerpts provide limited detail on the spe"
     },
     {
       "id": 71,
@@ -1540,7 +1540,7 @@
       "company": null,
       "query": "What is the relationship between underwriting income and reserve releases across carriers?",
       "status": "success",
-      "processing_time_seconds": 12.38,
+      "processing_time_seconds": 12.68,
       "num_sources": 5,
       "failure_mode": "none",
       "scores": {
@@ -1550,8 +1550,8 @@
         "cross_carrier_coverage": 1.0,
         "composite_score": 100.0
       },
-      "answer_length": 2467,
-      "answer_snippet": "Based on the available SEC filing data, I can provide limited insights about the relationship between underwriting income and reserve releases, though the data is insufficient for a comprehensive anal"
+      "answer_length": 2390,
+      "answer_snippet": "Based on the provided SEC filing excerpts, I can offer limited insights into the relationship between underwriting income and reserve releases, though the available data is insufficient for a comprehe"
     },
     {
       "id": 72,
@@ -1560,18 +1560,18 @@
       "company": "Chubb",
       "query": "What is Chubb's life insurance reserve position?",
       "status": "success",
-      "processing_time_seconds": 13.12,
+      "processing_time_seconds": 11.96,
       "num_sources": 5,
-      "failure_mode": "none",
+      "failure_mode": "retrieval_gap",
       "scores": {
         "keyword_coverage": 1.0,
         "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
+        "answer_completeness": 0.2,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
+        "composite_score": 64.0
       },
-      "answer_length": 2167,
-      "answer_snippet": "Based on the available SEC filing data from Chubb's 10-K and 10-Q filings, I can provide limited insight into Chubb's life insurance reserve position, though the data is incomplete for a comprehensive"
+      "answer_length": 2278,
+      "answer_snippet": "Based on the available SEC filing data from Chubb, I can provide limited information about their life insurance reserve position:\n\n## Key Findings from Chubb's 10-K Filing\n\n**Limited Reserve Details A"
     },
     {
       "id": 73,
@@ -1580,18 +1580,18 @@
       "company": null,
       "query": "What would a one standard deviation adverse scenario look like for each carrier's reserves?",
       "status": "success",
-      "processing_time_seconds": 12.98,
+      "processing_time_seconds": 13.33,
       "num_sources": 5,
-      "failure_mode": "retrieval_gap",
+      "failure_mode": "none",
       "scores": {
         "keyword_coverage": 0.8,
         "source_adequacy": 1.0,
-        "answer_completeness": 0.2,
+        "answer_completeness": 1.0,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 71.0
+        "composite_score": 95.0
       },
-      "answer_length": 2153,
-      "answer_snippet": "Based on the SEC filing data provided, I cannot construct meaningful one standard deviation adverse scenarios for the carriers' reserves due to significant limitations in the available information.\n\n#"
+      "answer_length": 2277,
+      "answer_snippet": "Based on the available SEC filing data, I can only provide limited insights into adverse reserve scenarios for these carriers, as the filings don't explicitly quantify one standard deviation adverse s"
     },
     {
       "id": 74,
@@ -1600,18 +1600,18 @@
       "company": null,
       "query": "How are carriers responding to increased claims frequency in recent years?",
       "status": "success",
-      "processing_time_seconds": 14.01,
+      "processing_time_seconds": 11.66,
       "num_sources": 5,
-      "failure_mode": "none",
+      "failure_mode": "retrieval_gap",
       "scores": {
         "keyword_coverage": 1.0,
         "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
+        "answer_completeness": 0.2,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
+        "composite_score": 76.0
       },
-      "answer_length": 2519,
-      "answer_snippet": "Based on the available SEC filing excerpts, I can provide limited insights into how carriers are responding to increased claims frequency, though the passages don't directly address frequency trends o"
+      "answer_length": 2123,
+      "answer_snippet": "Based on the provided SEC filing excerpts, I have limited information about carriers' specific responses to increased claims frequency. Let me search for more comprehensive data on this topic.\n\n## Ava"
     },
     {
       "id": 75,
@@ -1620,18 +1620,18 @@
       "company": null,
       "query": "What geopolitical risks do carriers identify as potential impacts on reserves?",
       "status": "success",
-      "processing_time_seconds": 13.49,
+      "processing_time_seconds": 13.85,
       "num_sources": 5,
-      "failure_mode": "none",
+      "failure_mode": "retrieval_gap",
       "scores": {
         "keyword_coverage": 1.0,
         "source_adequacy": 1.0,
-        "answer_completeness": 1.0,
+        "answer_completeness": 0.2,
         "cross_carrier_coverage": 1.0,
-        "composite_score": 100.0
+        "composite_score": 76.0
       },
-      "answer_length": 2296,
-      "answer_snippet": "Based on the provided SEC filing data, I have limited visibility into specific geopolitical risks that carriers identify as potential impacts on reserves. However, I can provide the following analysis"
+      "answer_length": 2484,
+      "answer_snippet": "Based on my analysis of the provided SEC filings data, I need to note significant limitations in addressing your question about geopolitical risks and their potential impacts on reserves.\n\n## Key Find"
     }
   ]
 }

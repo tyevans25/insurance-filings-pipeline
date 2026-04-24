@@ -1,6 +1,6 @@
 """
 Agent tools for querying the insurance filings data
-VARIANT 4: COMBINED - Query Expansion + Balanced Retrieval
+VARIANT 2: Query Expansion ONLY (no balanced search)
 """
 from typing import List, Dict
 import os
@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from storage.postgres_client import PostgresClient
 from storage.qdrant_client import QdrantClient
@@ -27,7 +27,7 @@ class AgentTools:
     def semantic_search(self, query: str, limit: int = 5, company: str = None) -> List[Dict]:
         """
         Search for relevant chunks using semantic similarity
-        VARIANT 4: WITH query expansion
+        M05: WITH query expansion
         
         Args:
             query: Natural language query
@@ -78,30 +78,7 @@ class AgentTools:
         
         return results[:limit]
     
-    def balanced_search(self, query: str, limit: int = 5) -> List[Dict]:
-        """
-        Get balanced results from all companies (M05 Improvement #2)
-        VARIANT 4: Uses query expansion (from semantic_search)
-        
-        Args:
-            query: Natural language query
-            limit: Number of results
-        
-        Returns:
-            List of results balanced across all companies
-        """
-        companies = ['AIG', 'Travelers', 'Chubb']
-        per_company = (limit // 3) + 1
-        
-        all_results = []
-        for company in companies:
-            # semantic_search now includes query expansion
-            results = self.semantic_search(query, per_company, company)
-            all_results.extend(results)
-        
-        # Sort by score, keep top limit
-        all_results.sort(key=lambda x: x.get('score', 0), reverse=True)
-        return all_results[:limit]
+    # NO balanced_search method in this variant
     
     def get_filing_metadata(self, company: str = None, filing_type: str = None) -> List[Dict]:
         """
