@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850">
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">
+    DAIS System Architecture (with M05 Improvements)
+  </text>
+  
+  <!-- Stage 1: Data Pipeline -->
+  <rect x="50" y="80" width="280" height="600" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="190" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1976D2">
+    Stage 1: Data Pipeline
+  </text>
+  
+  <!-- PDF Input -->
+  <rect x="80" y="140" width="220" height="50" fill="#BBDEFB" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="170" text-anchor="middle" font-family="Arial" font-size="14">PDF SEC Filings (5)</text>
+  
+  <!-- Ingestion -->
+  <rect x="80" y="210" width="220" height="50" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="240" text-anchor="middle" font-family="Arial" font-size="14">Ingestion and Validation</text>
+  
+  <!-- Text Extraction -->
+  <rect x="80" y="280" width="220" height="50" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="310" text-anchor="middle" font-family="Arial" font-size="14">Text Extraction</text>
+  
+  <!-- Table Extraction -->
+  <rect x="80" y="350" width="220" height="50" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="380" text-anchor="middle" font-family="Arial" font-size="14">Table Extraction</text>
+  
+  <!-- Chunking -->
+  <rect x="80" y="420" width="220" height="50" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="450" text-anchor="middle" font-family="Arial" font-size="14">Chunking (1000 chars)</text>
+  
+  <!-- Embedding -->
+  <rect x="80" y="490" width="220" height="50" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="520" text-anchor="middle" font-family="Arial" font-size="14">Vector Embedding</text>
+  
+  <!-- Storage -->
+  <rect x="80" y="560" width="220" height="50" fill="#64B5F6" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="190" y="590" text-anchor="middle" font-family="Arial" font-size="14">Storage (PG + QDrant)</text>
+  
+  <!-- Stage 2: Databases -->
+  <rect x="380" y="80" width="280" height="600" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+  <text x="520" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#388E3C">
+    Stage 2: Data Storage
+  </text>
+  
+  <!-- PostgreSQL -->
+  <rect x="410" y="200" width="220" height="180" fill="#A5D6A7" stroke="#388E3C" stroke-width="1.5"/>
+  <text x="520" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">PostgreSQL</text>
+  <text x="520" y="255" text-anchor="middle" font-family="Arial" font-size="12">• Filings table</text>
+  <text x="520" y="280" text-anchor="middle" font-family="Arial" font-size="12">• Text chunks (3,224)</text>
+  <text x="520" y="305" text-anchor="middle" font-family="Arial" font-size="12">• Financial tables (700+)</text>
+  <text x="520" y="330" text-anchor="middle" font-family="Arial" font-size="12">• Metadata</text>
+  <text x="520" y="355" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Structured Data</text>
+  
+  <!-- QDrant -->
+  <rect x="410" y="410" width="220" height="180" fill="#A5D6A7" stroke="#388E3C" stroke-width="1.5"/>
+  <text x="520" y="435" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">QDrant Vector DB</text>
+  <text x="520" y="465" text-anchor="middle" font-family="Arial" font-size="12">• 3,224 vectors</text>
+  <text x="520" y="490" text-anchor="middle" font-family="Arial" font-size="12">• 384 dimensions</text>
+  <text x="520" y="515" text-anchor="middle" font-family="Arial" font-size="12">• Cosine similarity</text>
+  <text x="520" y="540" text-anchor="middle" font-family="Arial" font-size="12">• Semantic search</text>
+  <text x="520" y="565" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Vector Search</text>
+  
+  <!-- Stage 3: AI Agent with M05 -->
+  <rect x="710" y="80" width="440" height="600" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <text x="930" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#F57C00">
+    Stage 3: AI Agent (M05 Enhanced)
+  </text>
+  
+  <!-- User Query -->
+  <rect x="740" y="140" width="380" height="50" fill="#FFE0B2" stroke="#F57C00" stroke-width="1.5"/>
+  <text x="930" y="170" text-anchor="middle" font-family="Arial" font-size="13">User Query: "What catastrophe events impacted reserves?"</text>
+  
+  <!-- M05: Query Expansion (NEW) -->
+  <rect x="740" y="210" width="380" height="70" fill="#FFD54F" stroke="#FF6F00" stroke-width="2"/>
+  <text x="930" y="235" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">M05.1: Query Expansion</text>
+  <text x="930" y="255" text-anchor="middle" font-family="Arial" font-size="11">Expand: "catastrophe" to "CAT", "natural disaster", "major event"</text>
+  <text x="930" y="272" text-anchor="middle" font-family="Arial" font-size="10" fill="#E65100">50+ actuarial synonym mappings</text>
+  
+  <!-- Orchestrator -->
+  <rect x="740" y="300" width="380" height="50" fill="#FFCC80" stroke="#F57C00" stroke-width="1.5"/>
+  <text x="930" y="330" text-anchor="middle" font-family="Arial" font-size="14">Orchestrator (Tool Selection)</text>
+  
+  <!-- M05: Balanced Retrieval (NEW) -->
+  <rect x="740" y="370" width="380" height="90" fill="#FFD54F" stroke="#FF6F00" stroke-width="2"/>
+  <text x="930" y="395" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">M05.2: Balanced Multi-Company Search</text>
+  <text x="930" y="415" text-anchor="middle" font-family="Arial" font-size="11">Retrieve top-K/3 from each company (AIG, Travelers, Chubb)</text>
+  <text x="930" y="435" text-anchor="middle" font-family="Arial" font-size="11">Prevents single-carrier dominance in cross-company queries</text>
+  <text x="930" y="452" text-anchor="middle" font-family="Arial" font-size="10" fill="#E65100">Ensures comprehensive coverage</text>
+  
+  <!-- Tools -->
+  <rect x="740" y="480" width="380" height="90" fill="#FFB74D" stroke="#F57C00" stroke-width="1.5"/>
+  <text x="930" y="505" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Tools</text>
+  <text x="930" y="528" text-anchor="middle" font-family="Arial" font-size="12">• Semantic Search (with expanded query)</text>
+  <text x="930" y="548" text-anchor="middle" font-family="Arial" font-size="12">• Balanced Search (multi-company) — M05</text>
+  <text x="930" y="568" text-anchor="middle" font-family="Arial" font-size="12">• Table Query  •  Metadata Query</text>
+  
+  <!-- Claude API -->
+  <rect x="740" y="590" width="380" height="50" fill="#FF9800" stroke="#F57C00" stroke-width="1.5"/>
+  <text x="930" y="620" text-anchor="middle" font-family="Arial" font-size="14">Claude Sonnet 4 (Response Synthesis)</text>
+  
+  <!-- Arrows -->
+  <!-- Pipeline to Storage -->
+  <path d="M 330 300 L 380 300" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 330 500 L 380 500" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Storage to Agent -->
+  <path d="M 660 290 L 710 390" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 660 500 L 710 510" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- M05 Performance Box -->
+  <rect x="50" y="710" width="500" height="100" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+  <text x="70" y="735" font-family="Arial" font-size="14" font-weight="bold" fill="#388E3C">M05 Performance Improvement</text>
+  <text x="70" y="760" font-family="Arial" font-size="12">• Baseline (M04): 85.7 / 100</text>
+  <text x="70" y="780" font-family="Arial" font-size="12">• Final (M05 Combined): 87.1 / 100 (+1.4 points)</text>
+  <text x="70" y="800" font-family="Arial" font-size="12">• Completeness: 71.9% to 75.5% (+3.6%)</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="710" width="550" height="100" fill="#F5F5F5" stroke="#666" stroke-width="1"/>
+  <text x="620" y="735" font-family="Arial" font-size="14" font-weight="bold">Legend</text>
+  
+  <rect x="620" y="750" width="15" height="15" fill="#90CAF9" stroke="#1976D2"/>
+  <text x="640" y="762" font-family="Arial" font-size="11">Processing Step</text>
+  
+  <rect x="620" y="775" width="15" height="15" fill="#A5D6A7" stroke="#388E3C"/>
+  <text x="640" y="787" font-family="Arial" font-size="11">Storage</text>
+  
+  <rect x="780" y="750" width="15" height="15" fill="#FFB74D" stroke="#F57C00"/>
+  <text x="800" y="762" font-family="Arial" font-size="11">AI Component</text>
+  
+  <rect x="780" y="775" width="15" height="15" fill="#FFD54F" stroke="#FF6F00"/>
+  <text x="800" y="787" font-family="Arial" font-size="11" font-weight="bold">M05 Improvement</text>
+</svg>

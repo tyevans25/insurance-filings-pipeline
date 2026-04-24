@@ -102,12 +102,22 @@ docker-compose run --rm pipeline python /app/src/interfaces/batch_query.py --inp
 ```
 
 ## Architecture
-```
-Input PDFs → Ingestion → Extraction → Chunking → Embedding → Storage → AI Agent
-    ↓          ↓            ↓           ↓          ↓         ↓         ↓
-  5 files   Metadata    Text/Tables   1000-char  384-dim   PostgreSQL Query
-            parsing                   chunks     vectors   + QDrant   Answer
-```
+
+### System Overview (with M05 Improvements)
+![System Architecture](diagrams/architecture_diagram_m05.svg)
+
+The architecture shows three stages:
+1. **Data Pipeline (M02):** Processes 5 SEC filings into 3,224 chunks and 700+ tables
+2. **Data Storage:** Hybrid PostgreSQL + QDrant architecture
+3. **AI Agent (M03, enhanced in M05):** 
+   - **M05.1 Query Expansion:** Maps actuarial terms to synonyms (50+ mappings)
+   - **M05.2 Balanced Retrieval:** Ensures multi-company representation
+
+### Data Flow
+![Data Flow](diagrams/dataflow_diagram_m05.svg)
+
+### Database Schema
+![Database Schema](diagrams/database_schema.svg)
 
 ## Database Access
 
@@ -139,46 +149,82 @@ insurance-filings-pipeline/
 ├── data/
 │   ├── input/              # PDF SEC filings
 │   ├── output/             # Processing artifacts
-│   ├── test_queries.json   # M03 batch queries
-│   └── batch_results.json  # M03 batch results
-├── eval/                   # M04 evaluation framework
+│   ├── processed/          # Processed data
+│   └── .gitkeep
+├── diagrams/               # Visual architecture diagrams (M02)
+│   ├── architecture_diagram_m05.svg
+│   ├── database_schema.svg
+│   └── dataflow_diagram_m05.svg
+├── eval/                   # M04 evaluation + M05 ablation
+│   ├── initial/
+│   │   ├── eval_queries_test.json
+│   │   └── results_test.json
 │   ├── eval_test_set.json
-│   ├── eval_results_baseline.json
+│   ├── eval_results_baseline.json      # V1: 85.7
+│   ├── results_query_exp_only.json     # V2: 79.6
+│   ├── results_balanced_only.json      # V3: 86.1
+│   ├── results_combined.json           # V4: 87.1 (WINNER)
 │   └── run_evaluation.py
-├── pipeline/               # M02 data pipeline
-│   ├── ingest.py
-│   ├── extract_text.py
-│   ├── section_filter.py
-│   ├── table_extractor.py
-│   ├── chunk_text.py
-│   ├── embed.py
-│   └── run_ingest.py
-├── src/
-│   ├── agents/            # M03 agent
-│   │   ├── tools.py
-│   │   └── orchestrator.py
-│   ├── storage/
-│   │   ├── postgres_client.py
-│   │   └── qdrant_client.py
-│   ├── interfaces/
-│   │   ├── streamlit_app.py
-│   │   └── batch_query.py
-│   └── utils/
-│       ├── logger.py
-│       └── validators.py
-├── config/
-│   ├── database_config.yml
-│   └── pipeline_config.yml
-├── tests/
 ├── notebooks/
 │   └── exploratory_analysis.ipynb
+├── pipeline/              # M02: Data pipeline
+│   ├── __init__.py
+│   ├── chunk_text.py
+│   ├── embed.py
+│   ├── extract_text.py
+│   ├── ingest.py
+│   ├── run_ingest.py
+│   ├── section_filter.py
+│   └── table_extractor.py
+├── src/
+│   ├── agents/            # M03: AI agent + M05 improvements
+│   │   ├── iterations/           # M05: Ablation variants
+│   │   │   ├── orchestrator_balance_only.py
+│   │   │   ├── orchestrator_baseline.py
+│   │   │   ├── orchestrator_combined.py
+│   │   │   ├── orchestrator_query_exp.py
+│   │   │   ├── tools_balance_only.py
+│   │   │   ├── tools_baseline.py
+│   │   │   ├── tools_combined.py
+│   │   │   └── tools_query_exp.py
+│   │   ├── __init__.py
+│   │   ├── orchestrator.py       # Production (V4 Combined)
+│   │   ├── query_expansion.py    # M05: Synonym expansion
+│   │   └── tools.py              # Production (V4 Combined)
+│   ├── storage/
+│   │   ├── __init__.py
+│   │   ├── postgres_client.py
+│   │   └── qdrant_client.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   └── validators.py
+│   └── __init__.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_extraction.py
+│   ├── test_pipeline.py
+│   ├── test_processing.py
+│   └── test_storage.py
+├── .env
+├── .env.example
+├── .gitignore
+├── backfill_qdrant.py
 ├── docker-compose.yml
-├── requirements.txt
-├── README.md
+├── Dockerfile
+├── eval_queries.json
 ├── M02_MILESTONE.md
 ├── M03_MILESTONE.md
 ├── M04_MILESTONE.md
-└── M05_MILESTONE.md
+├── M05_MILESTONE.md
+├── Milestone-Evaluation.md
+├── project-evaluation-scores.csv
+├── README.md
+├── requirements.txt
+├── resync_qdrant.py
+├── resync_qdrant_v2.py
+├── results.json
+└── test_pymupdf.py
 ```
 
 ## System Statistics

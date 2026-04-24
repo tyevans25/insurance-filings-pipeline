@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">
+    Database Schema - PostgreSQL
+  </text>
+  
+  <!-- Filings Table -->
+  <rect x="50" y="80" width="280" height="240" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <rect x="50" y="80" width="280" height="40" fill="#1976D2"/>
+  <text x="190" y="105" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">
+    filings
+  </text>
+  
+  <text x="70" y="140" font-family="Courier" font-size="13" font-weight="bold">filing_id</text>
+  <text x="240" y="140" font-family="Arial" font-size="11" fill="#666">SERIAL PK</text>
+  <text x="70" y="165" font-family="Courier" font-size="13">company</text>
+  <text x="240" y="165" font-family="Arial" font-size="11" fill="#666">VARCHAR(50)</text>
+  <text x="70" y="190" font-family="Courier" font-size="13">filing_date</text>
+  <text x="240" y="190" font-family="Arial" font-size="11" fill="#666">DATE</text>
+  <text x="70" y="215" font-family="Courier" font-size="13">filing_type</text>
+  <text x="240" y="215" font-family="Arial" font-size="11" fill="#666">VARCHAR(10)</text>
+  <text x="70" y="240" font-family="Courier" font-size="13">filename</text>
+  <text x="240" y="240" font-family="Arial" font-size="11" fill="#666">VARCHAR(255)</text>
+  <text x="70" y="265" font-family="Courier" font-size="13">page_count</text>
+  <text x="240" y="265" font-family="Arial" font-size="11" fill="#666">INT</text>
+  <text x="70" y="295" font-family="Arial" font-size="11" fill="#1976D2" font-style="italic">5 rows total</text>
+  
+  <!-- Text Chunks Table -->
+  <rect x="380" y="80" width="280" height="240" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+  <rect x="380" y="80" width="280" height="40" fill="#388E3C"/>
+  <text x="520" y="105" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">
+    text_chunks
+  </text>
+  
+  <text x="400" y="140" font-family="Courier" font-size="13" font-weight="bold">chunk_id</text>
+  <text x="570" y="140" font-family="Arial" font-size="11" fill="#666">SERIAL PK</text>
+  <text x="400" y="165" font-family="Courier" font-size="13">filing_id</text>
+  <text x="570" y="165" font-family="Arial" font-size="11" fill="#666">INT FK</text>
+  <text x="400" y="190" font-family="Courier" font-size="13">text</text>
+  <text x="570" y="190" font-family="Arial" font-size="11" fill="#666">TEXT</text>
+  <text x="400" y="215" font-family="Courier" font-size="13">page_num</text>
+  <text x="570" y="215" font-family="Arial" font-size="11" fill="#666">INT</text>
+  <text x="400" y="240" font-family="Courier" font-size="13">section_type</text>
+  <text x="570" y="240" font-family="Arial" font-size="11" fill="#666">VARCHAR(100)</text>
+  <text x="400" y="265" font-family="Courier" font-size="13">chunk_index</text>
+  <text x="570" y="265" font-family="Arial" font-size="11" fill="#666">INT</text>
+  <text x="400" y="295" font-family="Arial" font-size="11" fill="#388E3C" font-style="italic">3,224 rows total</text>
+  
+  <!-- Financial Tables -->
+  <rect x="50" y="360" width="280" height="240" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <rect x="50" y="360" width="280" height="40" fill="#F57C00"/>
+  <text x="190" y="385" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">
+    financial_tables
+  </text>
+  
+  <text x="70" y="420" font-family="Courier" font-size="13" font-weight="bold">table_id</text>
+  <text x="240" y="420" font-family="Arial" font-size="11" fill="#666">SERIAL PK</text>
+  <text x="70" y="445" font-family="Courier" font-size="13">filing_id</text>
+  <text x="240" y="445" font-family="Arial" font-size="11" fill="#666">INT FK</text>
+  <text x="70" y="470" font-family="Courier" font-size="13">table_type</text>
+  <text x="240" y="470" font-family="Arial" font-size="11" fill="#666">VARCHAR(50)</text>
+  <text x="70" y="495" font-family="Courier" font-size="13">table_data</text>
+  <text x="240" y="495" font-family="Arial" font-size="11" fill="#666">JSONB</text>
+  <text x="70" y="520" font-family="Courier" font-size="13">metadata</text>
+  <text x="240" y="520" font-family="Arial" font-size="11" fill="#666">JSONB</text>
+  <text x="70" y="545" font-family="Courier" font-size="13">page_num</text>
+  <text x="240" y="545" font-family="Arial" font-size="11" fill="#666">INT</text>
+  <text x="70" y="575" font-family="Arial" font-size="11" fill="#F57C00" font-style="italic">700+ rows total</text>
+  
+  <!-- QDrant Collection -->
+  <rect x="380" y="360" width="280" height="240" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+  <rect x="380" y="360" width="280" height="40" fill="#7B1FA2"/>
+  <text x="520" y="385" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">
+    QDrant: insurance_filings
+  </text>
+  
+  <text x="400" y="420" font-family="Courier" font-size="13" font-weight="bold">point_id</text>
+  <text x="570" y="420" font-family="Arial" font-size="11" fill="#666">UUID</text>
+  <text x="400" y="445" font-family="Courier" font-size="13">vector</text>
+  <text x="570" y="445" font-family="Arial" font-size="11" fill="#666">FLOAT[384]</text>
+  <text x="400" y="470" font-family="Courier" font-size="13">company</text>
+  <text x="570" y="470" font-family="Arial" font-size="11" fill="#666">Payload</text>
+  <text x="400" y="495" font-family="Courier" font-size="13">filing_date</text>
+  <text x="570" y="495" font-family="Arial" font-size="11" fill="#666">Payload</text>
+  <text x="400" y="520" font-family="Courier" font-size="13">text</text>
+  <text x="570" y="520" font-family="Arial" font-size="11" fill="#666">Payload</text>
+  <text x="400" y="545" font-family="Courier" font-size="13">page_num</text>
+  <text x="570" y="545" font-family="Arial" font-size="11" fill="#666">Payload</text>
+  <text x="400" y="575" font-family="Arial" font-size="11" fill="#7B1FA2" font-style="italic">3,224 vectors (cosine)</text>
+  
+  <!-- Relationship Lines -->
+  <!-- filings to text_chunks -->
+  <path d="M 330 200 L 380 200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="345" y="190" font-family="Arial" font-size="10" fill="#666">1:N</text>
+  
+  <!-- filings to financial_tables -->
+  <path d="M 190 320 L 190 360" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="200" y="345" font-family="Arial" font-size="10" fill="#666">1:N</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <text x="720" y="100" font-family="Arial" font-size="12" font-weight="bold">Key:</text>
+  <text x="720" y="130" font-family="Arial" font-size="11" font-weight="bold">PK</text>
+  <text x="750" y="130" font-family="Arial" font-size="11">Primary Key</text>
+  <text x="720" y="155" font-family="Arial" font-size="11" font-weight="bold">FK</text>
+  <text x="750" y="155" font-family="Arial" font-size="11">Foreign Key</text>
+  <text x="720" y="180" font-family="Arial" font-size="11" font-weight="bold">1:N</text>
+  <text x="750" y="180" font-family="Arial" font-size="11">One-to-Many</text>
+  
+  <rect x="720" y="210" width="15" height="15" fill="#E3F2FD" stroke="#1976D2"/>
+  <text x="740" y="222" font-family="Arial" font-size="10">PostgreSQL Table</text>
+  
+  <rect x="720" y="235" width="15" height="15" fill="#F3E5F5" stroke="#7B1FA2"/>
+  <text x="740" y="247" font-family="Arial" font-size="10">QDrant Collection</text>
+</svg>
