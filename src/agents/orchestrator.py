@@ -1,145 +1,188 @@
 """
-Main agent orchestrator - decides which tools to use and synthesizes answers
-VARIANT 4: COMBINED - Query Expansion + Balanced Retrieval
+Multi-Agent Orchestrator
+Coordinates Retrieval → Analysis → Synthesis pipeline
+Now supports multiple LLM providers (Claude/Ollama)
 """
-from typing import Dict, List
+
+from typing import Optional
+import sys
 import os
-from dotenv import load_dotenv
-from anthropic import Anthropic
-from agents.tools import AgentTools
-import json
 
-# Load environment variables from .env
-load_dotenv()
+# Add project root to path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.agents.retrieval_agent import RetrievalAgent
+from src.agents.analysis_agent import AnalysisAgent
+from src.agents.synthesis_agent import SynthesisAgent
 
 
-class ReservingAgent:
-    def __init__(self):
-        self.tools = AgentTools()
-        self.client = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
-        
-        self.system_prompt = """You are an expert P&C insurance reserving analyst with deep knowledge of actuarial science and loss reserving.
-
-You have access to SEC filings (10-K, 10-Q) from major insurance carriers: AIG, Travelers, and Chubb.
-
-Available Tools:
-1. semantic_search(query, limit, company) - Search narrative text with actuarial synonym expansion
-2. get_filing_metadata(company, filing_type) - Get filing information
-3. get_financial_tables(company, keyword) - Query structured financial tables and data
-4. balanced_search(query, limit) - Search across all companies with balanced representation (M05)
-
-When answering questions about reserves, loss development, or financial metrics:
-1. First use get_financial_tables() to find relevant structured data
-2. Then use balanced_search() for multi-company narrative context or semantic_search() for single-company
-3. Combine both sources in your answer
-4. Always cite specific companies, filing types, and dates
-5. Distinguish between narrative text and tabular data
-
-Acknowledge any limitations in the available data and suggest what additional information would be helpful."""
+class MultiAgentOrchestrator:
+    """
+    Orchestrator that coordinates the multi-agent pipeline:
+    1. RetrievalAgent: Fetches relevant documents and tables
+    2. AnalysisAgent: Processes and structures retrieved data
+    3. SynthesisAgent: Generates natural language response
+    """
     
-    def answer_query(self, query: str, company: str = None) -> Dict:
+    def __init__(self, llm_provider: Optional[str] = None):
         """
-        Answer a user query using available tools
+        Initialize orchestrator with all agents
         
         Args:
-            query: User's natural language question
-            company: Optional company to focus on
-        
-        Returns:
-            Dict with answer and sources
+            llm_provider: 'claude' or 'ollama' (optional, defaults to env var)
         """
-        print(f"\n🔍 Processing query: {query}")
-        if company:
-            print(f"   Focusing on: {company}")
+        print(f"[Orchestrator] Initializing multi-agent system...")
         
-        # Check if query needs financial tables
-        financial_keywords = ['reserve', 'loss', 'ratio', 'premium', 'metric', 'amount', 'billion', 'million', 'data', 'number']
-        needs_tables = any(kw in query.lower() for kw in financial_keywords)
+        # Import database clients
+        from src.storage.postgres_client import PostgresClient
+        from src.storage.qdrant_client import QdrantClient
         
-        context_parts = []
-        tables = []
+        # Initialize database clients
+        postgres_client = PostgresClient()
+        qdrant_client = QdrantClient()
         
-        # Get table data if query seems financial
-        if needs_tables:
-            print("   Querying financial tables...")
-            tables = self.tools.get_financial_tables(company=company, keyword='reserve')
-            if tables:
-                table_summary = f"\n=== Financial Tables ({len(tables)} found) ===\n"
-                for i, table in enumerate(tables[:5], 1):  # Top 5 tables
-                    title = table.get('metadata', {}).get('title', 'Untitled')
-                    company_name = table.get('company', 'Unknown')
-                    filing_type = table.get('filing_type', 'Unknown')
-                    page = table.get('page_num', 0)
-                    
-                    table_summary += f"\n[Table {i}] {company_name} {filing_type} - Page {page}\n"
-                    table_summary += f"Title: {title}\n"
-                    
-                    # Include sample data
-                    if table.get('table_data'):
-                        data_str = str(table['table_data'])[:300]
-                        table_summary += f"Data: {data_str}...\n"
-                
-                context_parts.append(table_summary)
-                print(f"   Found {len(tables)} financial tables")
+        # Initialize agents with required dependencies
+        self.retrieval_agent = RetrievalAgent(postgres_client, qdrant_client)
+        self.analysis_agent = AnalysisAgent()
+        self.synthesis_agent = SynthesisAgent(llm_provider=llm_provider)
         
-        # VARIANT 4: Use balanced_search for multi-company, semantic_search for single-company
-        # BOTH use query expansion (from tools.py)
-        print("   Searching narrative text...")
-        if company:
-            # Single company - use regular search (WITH expansion)
-            search_results = self.tools.semantic_search(query, limit=5, company=company)
-        else:
-            # Multi-company - use balanced search (WITH expansion)
-            search_results = self.tools.balanced_search(query, limit=5)
-        
-        if search_results:
-            narrative_context = "\n=== Narrative Context from Filings ===\n"
-            for i, result in enumerate(search_results, 1):
-                metadata = result.get('metadata', {})
-                narrative_context += f"\n[Passage {i}] {metadata.get('company')} - {metadata.get('filing_type')}\n"
-                narrative_context += f"{result['text'][:400]}...\n"
-            context_parts.append(narrative_context)
-            print(f"   Found {len(search_results)} relevant passages")
-        
-        # Combine contexts
-        full_context = "\n".join(context_parts) if context_parts else "No relevant information found."
-        
-        # Generate answer
-        print("   Generating answer with Claude...")
-        answer = self._synthesize_answer(query, full_context)
-        
-        return {
-            'query': query,
-            'answer': answer,
-            'sources': search_results,
-            'num_sources': len(search_results),
-            'num_tables': len(tables) if needs_tables and tables else 0
-        }
+        provider_info = self.synthesis_agent.get_provider_info()
+        print(f"[Orchestrator] Ready with LLM provider: {provider_info['provider']} ({provider_info['model']})")
     
-    def _synthesize_answer(self, query: str, context: str) -> str:
-        """Use Claude to synthesize final answer from context"""
+    def query(
+        self,
+        user_query: str,
+        company: Optional[str] = None,
+        use_balanced_search: bool = True,
+        llm_provider: Optional[str] = None
+    ) -> dict:
+        """
+        Process user query through multi-agent pipeline
         
-        response = self.client.messages.create(
-            model="claude-sonnet-4-20250514",
-            max_tokens=2000,
-            system=self.system_prompt,
-            messages=[
-                {
-                    "role": "user",
-                    "content": f"""Based on the following information from SEC filings:
-
-{context}
-
-Please answer this question: {query}
-
-Provide a clear, concise answer that:
-- Cites specific companies and filing dates
-- References both tabular data and narrative context when available
-- Highlights key findings
-- Notes any important caveats or limitations
-- Is written for an actuarial audience"""
-                }
-            ]
+        Args:
+            user_query: Natural language query from user
+            company: Optional company filter (AIG, Travelers, Chubb, or None for all)
+            use_balanced_search: Whether to use balanced multi-company search
+            llm_provider: Optional override for LLM provider (dev mode only)
+            
+        Returns:
+            Dictionary containing:
+                - answer: Natural language response
+                - sources: List of source documents/tables
+                - num_sources: Count of sources
+                - companies_mentioned: List of companies in results
+                - pipeline_stats: Metadata about the query
+        """
+        print(f"\n[Orchestrator] Processing query: '{user_query[:50]}...'")
+        print(f"[Orchestrator] Company filter: {company or 'All'}")
+        print(f"[Orchestrator] Balanced search: {use_balanced_search}")
+        
+        # If llm_provider override provided (dev mode), reinitialize synthesis agent
+        if llm_provider and llm_provider != self.synthesis_agent.llm_client.provider:
+            print(f"[Orchestrator] Switching LLM provider to: {llm_provider}")
+            self.synthesis_agent = SynthesisAgent(llm_provider=llm_provider)
+        
+        # Step 1: Retrieval Agent - Get relevant documents and tables
+        print("[Orchestrator] Step 1/3: Retrieval Agent")
+        
+        # Retrieve documents
+        documents = self.retrieval_agent.retrieve_documents(
+            query=user_query,
+            company=company,
+            limit=5,
+            use_balanced=use_balanced_search
         )
         
-        return response.content[0].text
+        # Retrieve financial tables
+        tables = self.retrieval_agent.retrieve_financial_tables(
+            company=company,
+            keyword="reserve"
+        )
+        
+        retrieval_results = {
+            'documents': documents,
+            'tables': tables
+        }
+        
+        num_docs = len(retrieval_results.get('documents', []))
+        num_tables = len(retrieval_results.get('tables', []))
+        print(f"[Orchestrator] Retrieved {num_docs} documents, {num_tables} tables")
+        
+        # Step 2: Analysis Agent - Process and structure data
+        print("[Orchestrator] Step 2/3: Analysis Agent")
+        analyzed_data = self.analysis_agent.analyze(
+            query=user_query,
+            documents=retrieval_results.get('documents', []),
+            tables=retrieval_results.get('tables', [])
+        )
+        
+        # Step 3: Synthesis Agent - Generate response
+        print("[Orchestrator] Step 3/3: Synthesis Agent")
+        
+        # Build context for synthesis from analyzed data
+        synthesis_context = {
+            'documents': retrieval_results.get('documents', []),
+            'tables': retrieval_results.get('tables', []),
+            'key_facts': analyzed_data.get('key_facts', []),
+            'metrics': analyzed_data.get('financial_metrics', [])
+        }
+        
+        answer = self.synthesis_agent.synthesize(
+            user_query=user_query,
+            analyzed_data=synthesis_context,
+            company=company
+        )
+        
+        # Combine all sources
+        all_sources = (
+            retrieval_results.get('documents', []) + 
+            retrieval_results.get('tables', [])
+        )
+        
+        # Extract unique companies mentioned
+        companies_mentioned = list(set(
+            source.get('company') 
+            for source in all_sources 
+            if source.get('company')
+        ))
+        
+        # Calculate average relevance score
+        scores = [s.get('relevance_score', 0) for s in all_sources if s.get('relevance_score')]
+        avg_score = sum(scores) / len(scores) if scores else 0.0
+        
+        # Build response
+        response = {
+            'answer': answer,
+            'sources': all_sources,
+            'num_sources': len(all_sources),
+            'companies_mentioned': companies_mentioned,
+            'pipeline_stats': {
+                'documents_retrieved': num_docs,
+                'tables_retrieved': num_tables,
+                'companies_mentioned': companies_mentioned,
+                'avg_relevance_score': round(avg_score, 3),
+                'llm_provider': self.synthesis_agent.llm_client.provider,
+                'llm_model': self.synthesis_agent.llm_client.model
+            }
+        }
+        
+        print(f"[Orchestrator] Complete! Generated {len(answer)} character response")
+        print(f"[Orchestrator] LLM used: {response['pipeline_stats']['llm_provider']}")
+        
+        return response
+
+
+if __name__ == "__main__":
+    # Test orchestrator
+    orchestrator = MultiAgentOrchestrator()
+    
+    result = orchestrator.query(
+        user_query="What are AIG's catastrophe losses from Hurricane Helene?",
+        company="AIG",
+        use_balanced_search=False
+    )
+    
+    print("\n=== RESULT ===")
+    print(f"Answer: {result['answer'][:200]}...")
+    print(f"Sources: {result['num_sources']}")
+    print(f"Stats: {result['pipeline_stats']}")

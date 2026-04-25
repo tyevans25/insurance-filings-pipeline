@@ -169,6 +169,32 @@ class PostgresClient:
         
         self.conn.commit()
     
+    def query(self, sql: str, params: tuple = None) -> List[Dict]:
+        """
+        Execute SELECT query and return results as list of dicts
+        
+        Args:
+            sql: SQL query string
+            params: Query parameters (tuple or list)
+            
+        Returns:
+            List of result dictionaries
+        """
+        with self.conn.cursor() as cur:
+            if params:
+                cur.execute(sql, params)
+            else:
+                cur.execute(sql)
+            
+            # Get column names
+            columns = [desc[0] for desc in cur.description] if cur.description else []
+            
+            # Fetch all results
+            rows = cur.fetchall()
+            
+            # Convert to list of dicts
+            return [dict(zip(columns, row)) for row in rows]
+    
     def close(self):
         """Close database connection"""
         self.conn.close()
