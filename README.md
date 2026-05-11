@@ -6,8 +6,8 @@ AI-powered multi-agent system for analyzing P&C insurance 10-K/10-Q filings from
 
 **M02 - Data Pipeline:** Ingests SEC filings, extracts text/tables, generates embeddings, stores in vector database  
 **M03 - AI Agent:** Interactive chat interface and batch query system for actuarial Q&A  
-**M04 - Evaluation:** Systematic testing and baseline performance measurement  
-**M05 - Improvements:** Query expansion and balanced multi-company retrieval (87.1/100 score)  
+**M04 - Evaluation:** Comprehensive testing framework with 75 actuarial queries (baseline: 85.7/100)  
+**M05 - Improvements:** Ablation study with query expansion + balanced retrieval (final: 87.1/100)  
 **M06 - Production System:** Multi-agent architecture + React frontend + LLM provider abstraction
 
 ---
@@ -33,10 +33,20 @@ AI-powered multi-agent system for analyzing P&C insurance 10-K/10-Q filings from
 - Environment variable configuration for easy switching
 - Dev mode toggle for provider selection
 
-### Preserved M05 Improvements
-- Query expansion with actuarial synonym mapping (50+ terms)
-- Balanced multi-company retrieval
-- Validated 87.1/100 performance score
+### Evaluation Framework (M04)
+- ✅ 75-query test set across 10 actuarial categories
+- ✅ Multi-metric scoring (keyword, source, completeness)
+- ✅ Baseline performance: 85.7/100 composite score
+- ✅ Failure mode analysis
+- ✅ Category-level performance tracking
+
+### Iterative Improvements (M05)
+- ✅ Query expansion with actuarial synonyms
+- ✅ Balanced multi-company retrieval
+- ✅ Ablation study (4 variants tested)
+- ✅ Performance: 87.1/100 composite score (+1.4 from baseline)
+- ✅ Completeness: 75.5% (+3.6% from baseline)
+- ✅ Catastrophe category breakthrough: 99.2/100 (+28.2 points)
 
 ---
 
@@ -49,6 +59,7 @@ AI-powered multi-agent system for analyzing P&C insurance 10-K/10-Q filings from
 - Anthropic API key (for Claude provider)
 
 ### 1. Clone and Setup
+
 
 ```bash
 git clone <repository-url>
@@ -453,9 +464,7 @@ SELECT COUNT(*) FROM financial_tables;
 ```
 
 **QDrant Dashboard:**
-```
 http://localhost:6333/dashboard
-```
 
 **API Documentation:**
 ```
@@ -476,7 +485,6 @@ http://localhost:8000/docs
 | LLM provider errors | Verify API keys in `.env` |
 | Database connection fails | Run `docker-compose ps`, restart if needed |
 | Port already in use | Change port in uvicorn/npm command |
-
 ### Debugging Commands
 
 ```bash
@@ -488,7 +496,6 @@ curl http://localhost:8000/providers
 
 # View backend logs
 # (check terminal running uvicorn)
-
 # View frontend logs
 # (check terminal running npm dev)
 
