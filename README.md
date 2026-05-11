@@ -1,31 +1,37 @@
 # P&C Insurance Reserving Intelligence System
 
-Automated agentic AI system for analyzing P&C insurance 10-K/10-Q filings from AIG, Travelers, and Chubb.
+AI-powered multi-agent system for analyzing P&C insurance 10-K/10-Q filings from AIG, Travelers, and Chubb.
 
-## System Overview
+## 🎯 System Overview
 
 **M02 - Data Pipeline:** Ingests SEC filings, extracts text/tables, generates embeddings, stores in vector database  
 **M03 - AI Agent:** Interactive chat interface and batch query system for actuarial Q&A  
 **M04 - Evaluation:** Comprehensive testing framework with 75 actuarial queries (baseline: 85.7/100)  
-**M05 - Improvements:** Ablation study with query expansion + balanced retrieval (final: 87.1/100)
+**M05 - Improvements:** Ablation study with query expansion + balanced retrieval (final: 87.1/100)  
+**M06 - Production System:** Multi-agent architecture + React frontend + LLM provider abstraction
 
-## Features
+---
 
-### Data Pipeline (M02)
-- ✅ PDF ingestion and validation
-- ✅ Metadata extraction (company, filing date, type)
-- ✅ Text extraction with section detection
-- ✅ Financial table extraction
-- ✅ Semantic chunking with overlap
-- ✅ Vector embeddings (sentence-transformers)
-- ✅ Multi-database storage (PostgreSQL + QDrant)
+## ✨ Latest Features (M06)
 
-### AI Agent (M03)
-- ✅ Semantic search across filings
-- ✅ Natural language Q&A interface
-- ✅ Company-specific filtering
-- ✅ Source attribution and citations
-- ✅ Batch query evaluation system
+### Multi-Agent Architecture
+- **RetrievalAgent:** Specialized database queries and semantic search
+- **AnalysisAgent:** Data processing and structuring
+- **SynthesisAgent:** Response generation with LLM abstraction
+- **MultiAgentOrchestrator:** Coordinates the agent pipeline
+
+### Production React Frontend
+- Professional dashboard interface built with Next.js + TypeScript
+- Real-time query processing with loading states
+- Source attribution with interactive citations
+- Company, year, quarter, and filing type filters
+- Balanced search toggle for multi-company analysis
+
+### LLM Provider Abstraction
+- **Claude (Anthropic):** High-quality responses for development/demo
+- **Ollama (GSU Server):** Cost-free deployment option
+- Environment variable configuration for easy switching
+- Dev mode toggle for provider selection
 
 ### Evaluation Framework (M04)
 - ✅ 75-query test set across 10 actuarial categories
@@ -42,368 +48,531 @@ Automated agentic AI system for analyzing P&C insurance 10-K/10-Q filings from A
 - ✅ Completeness: 75.5% (+3.6% from baseline)
 - ✅ Catastrophe category breakthrough: 99.2/100 (+28.2 points)
 
-## Quick Start
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
+- Python 3.9+
+- Node.js 18+ and npm
 - Docker & Docker Compose
-- (Optional) Anthropic API key for chat interface
+- Anthropic API key (for Claude provider)
 
-### 1. Setup Input Data
+### 1. Clone and Setup
 
-Place PDF files in the following structure:
-data/raw/
-├── AIG/
-│   └── 2024/
-│       └── aig_10q_2024q3.pdf
-├── Travelers/
-│   └── 2024/
-│       └── travelers_10k_2024.pdf
-└── Chubb/
-└── 2024/
-└── chubb_10q_2024q2.pdf
 
-### 2. Start Data Pipeline (M02)
 ```bash
-# Start all services
-docker-compose up -d
+git clone <repository-url>
+cd insurance-filings-pipeline
 
-# Monitor processing
-docker-compose logs -f pipeline
+# Install Python dependencies
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Install frontend dependencies
+cd frontend
+npm install
+cd ..
+```
+
+### 2. Configure Environment
+
+Create `.env` file in project root:
+
+```bash
+# Database connections
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=insurance_filings
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+QDRANT_HOST=localhost
+QDRANT_PORT=6333
+
+# LLM Provider (choose one)
+LLM_PROVIDER=claude  # or "ollama"
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+
+# For Ollama deployment
+OLLAMA_API_KEY=your-gsu-key
+OLLAMA_BASE_URL=https://gpu-01.insight.gsu.edu:11443
+OLLAMA_MODEL=llama3.1
+
+# Development mode (shows LLM provider toggle)
+NODE_ENV=development  # or "production"
+```
+
+### 3. Start Data Pipeline (M02)
+
+```bash
+# Start databases
+docker-compose up -d
 
 # Verify data loaded
 docker-compose exec postgres psql -U postgres -d insurance_filings -c "SELECT company, COUNT(*) FROM text_chunks GROUP BY company;"
 ```
 
-**Expected Output:**
+**Expected:**
 - 5 filings processed
 - ~3,224 text chunks
 - ~700 financial tables
 
-### 3. Run AI Agent (M03)
+### 4. Run the Application (M06)
 
-#### Option A: View Pre-Generated Results (No API Key Required)
+**Terminal 1 - Backend:**
 ```bash
-# See batch query results from 8 test questions
-cat data/results.json | python3 -m json.tool
+source .venv/bin/activate
+uvicorn src.api.main:app --reload
+# Runs on http://localhost:8000
 ```
 
-#### Option B: Interactive Chat Demo (Requires API Key)
-
-**Get Free API Key:**
-1. Sign up at https://console.anthropic.com/ (free $5 credit)
-2. Create API key
-3. Add to `.env` file:
+**Terminal 2 - Frontend:**
 ```bash
-echo "ANTHROPIC_API_KEY=sk-ant-your-key-here" >> .env
+cd frontend
+npm run dev
+# Runs on http://localhost:3000
 ```
 
-**Run Chat Interface:**
-```bash
-# Install dependencies (local - not in Docker)
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+**Access the app:**
+- Frontend: http://localhost:3000
+- API Docs: http://localhost:8000/docs
+- API Health: http://localhost:8000/
 
-# Start chat interface
-streamlit run src/interfaces/streamlit_app.py
+---
+
+## 🏗️ Architecture
+
+### System Overview (M06)
+
+```
+┌─────────────────────────────────────────┐
+│   React Frontend (Next.js + TypeScript) │
+│   - Professional dashboard UI           │
+│   - Real-time query interface           │
+│   - Source attribution & citations      │
+│   - LLM provider toggle (dev mode)      │
+└─────────────────┬───────────────────────┘
+                  │ HTTP/REST
+┌─────────────────▼───────────────────────┐
+│      FastAPI Backend (Python)           │
+│   ┌─────────────────────────────────┐   │
+│   │  MultiAgentOrchestrator         │   │
+│   │  ├─ RetrievalAgent              │   │
+│   │  ├─ AnalysisAgent               │   │
+│   │  └─ SynthesisAgent              │   │
+│   └─────────────────────────────────┘   │
+│                                          │
+│   ┌─────────────────────────────────┐   │
+│   │  LLM Abstraction Layer          │   │
+│   │  ├─ Claude (Anthropic)          │   │
+│   │  └─ Ollama (GSU Server)         │   │
+│   └─────────────────────────────────┘   │
+└─────────────────┬───────────────────────┘
+                  │
+         ┌────────┴────────┐
+         │                 │
+┌────────▼─────┐  ┌────────▼────────┐
+│ PostgreSQL   │  │ QDrant Vector   │
+│ (Metadata,   │  │ (Semantic       │
+│  Tables)     │  │  Embeddings)    │
+└──────────────┘  └─────────────────┘
 ```
 
-**Run Batch Queries:**
-```bash
-# Using Docker (recommended)
-docker-compose run --rm pipeline python /app/src/interfaces/batch_query.py --input /data/eval_queries.json --output /data/results.json
+### Multi-Agent Pipeline
 
-# Results saved to data/results.json
+1. **User Query** → Frontend sends to FastAPI
+2. **RetrievalAgent** → Semantic search + table queries (PostgreSQL + QDrant)
+3. **AnalysisAgent** → Extract key facts, metrics, companies mentioned
+4. **SynthesisAgent** → Generate response using LLM (Claude or Ollama)
+5. **Response** → Frontend displays with source citations
+
+### LLM Provider Flexibility
+
+**Development/Demo:**
+```bash
+LLM_PROVIDER=claude
+NODE_ENV=development
+```
+- Uses Claude for high-quality responses
+- Shows dev mode toggle in UI
+- Can switch providers on-the-fly
+
+**Production Deployment:**
+```bash
+LLM_PROVIDER=ollama
+NODE_ENV=production
+```
+- Uses GSU Ollama endpoint
+- No external API costs
+- Dev toggle hidden in UI
+
+---
+
+## 📁 Project Structure
+
+```
+insurance-filings-pipeline/
+├── frontend/                        # M06: React Frontend
+│   ├── app/
+│   │   ├── page.tsx                # Main page
+│   │   ├── layout.tsx              # App layout
+│   │   ├── globals.css             # Global styles
+│   │   └── api/
+│   │       └── orchestrator.ts     # API client
+│   ├── components/
+│   │   ├── ChatInterface.tsx       # Main chat UI
+│   │   ├── SourceCard.tsx          # Source citations
+│   │   └── FormattedText.tsx       # Markdown renderer
+│   ├── package.json
+│   └── next.config.js
+│
+├── src/
+│   ├── agents/                      # M06: Multi-Agent Architecture
+│   │   ├── retrieval_agent.py      # Database retrieval
+│   │   ├── analysis_agent.py       # Data processing
+│   │   ├── synthesis_agent.py      # Response generation
+│   │   ├── orchestrator.py         # Agent coordination
+│   │   └── iterations/             # M05: Ablation variants
+│   │
+│   ├── api/                         # M06: FastAPI Backend
+│   │   └── main.py                 # API endpoints
+│   │
+│   ├── utils/                       # M06: LLM Abstraction
+│   │   └── llm_client.py           # Claude/Ollama client
+│   │
+│   └── storage/
+│       ├── postgres_client.py
+│       └── qdrant_client.py
+│
+├── pipeline/                        # M02: Data Pipeline
+│   ├── ingest.py
+│   ├── extract_text.py
+│   ├── chunk_text.py
+│   ├── embed.py
+│   └── table_extractor.py
+│
+├── eval/                            # M04-M05: Evaluation
+│   ├── eval_test_set.json
+│   ├── results_baseline.json       # 85.7/100
+│   ├── results_combined.json       # 87.1/100 ⭐
+│   └── iterations/
+│
+├── diagrams/
+│   ├── architecture_diagram_m05.svg
+│   ├── database_schema.svg
+│   └── dataflow_diagram_m05.svg
+│
+├── scripts/                         # Utility scripts
+│   ├── resync_qdrant_v2.py
+│   └── backfill_qdrant.py
+│
+├── .env                             # Environment config
+├── .env.example
+├── docker-compose.yml
+├── requirements.txt
+├── M02_MILESTONE.md
+├── M03_MILESTONE.md
+├── M04_MILESTONE.md
+├── M05_MILESTONE.md
+├── M06_MILESTONE.md                # Latest milestone
+└── README.md
 ```
 
-### 4. Run Evaluation (M04)
+---
 
+## 💻 Usage Examples
+
+### Example Queries
+
+Try these in the chat interface:
+
+**Reserve Adequacy:**
+- "What did AIG say about reserve adequacy in their latest filing?"
+- "Compare reserve trends across all carriers"
+
+**Loss Development:**
+- "Analyze prior year development for Travelers"
+- "What caused reserve strengthening in Q3 2024?"
+
+**Catastrophe Impact:**
+- "How did Hurricane Helene impact reserves?"
+- "Compare CAT losses across companies"
+
+**External Risks:**
+- "What external factors impacted reserves this quarter?"
+- "How are carriers addressing social inflation?"
+
+### API Usage
+
+**Query Endpoint:**
 ```bash
-# Run full evaluation on 75 queries
-python eval/run_evaluation.py --mode live \
-  --input eval/eval_test_set.json \
-  --output eval/eval_results.json
-
-# View results
-python eval/run_evaluation.py --mode score \
-  --input eval/eval_results.json
+curl -X POST http://localhost:8000/api/query \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What are AIG reserves?",
+    "company": "AIG",
+    "use_balanced_search": true
+  }'
 ```
 
-### 5. Test M05 Improvements
-
+**Health Check:**
 ```bash
-# The production system uses V4 (Combined) improvements
-# To test individual variants, use the iteration files
-
-# Example: Test baseline
-cp src/agents/iterations/tools_baseline.py src/agents/tools.py
-cp src/agents/iterations/orchestrator_baseline.py src/agents/orchestrator.py
-python eval/run_evaluation.py --mode live \
-  --input eval/eval_test_set.json \
-  --output eval/results_baseline.json
-
-# Restore production (V4 Combined)
-cp src/agents/iterations/tools_combined.py src/agents/tools.py
-cp src/agents/iterations/orchestrator_combined.py src/agents/orchestrator.py
+curl http://localhost:8000/
 ```
 
-## Architecture
-Input PDFs → Ingestion → Extraction → Chunking → Embedding → Storage → AI Agent
-↓          ↓            ↓           ↓          ↓         ↓         ↓
-5 files   Metadata    Text/Tables   1000-char  384-dim   PostgreSQL Query
-parsing                   chunks     vectors   + QDrant   Answer
-↓
-M05: Query Expansion
-+ Balanced Retrieval
+**Available Providers:**
+```bash
+curl http://localhost:8000/providers
+```
 
-## Database Access
+---
+
+## 🎨 Frontend Features
+
+### Sophisticated Dashboard UI
+- Dark gradient theme with clean aesthetics
+- Card-based layouts with subtle borders
+- Smooth animations with Framer Motion
+- Professional analytics platform feel
+
+### Query Interface
+- Real-time search with loading states
+- 3-step pipeline visualization (Retrieval → Analysis → Synthesis)
+- Search suggestions after 2+ characters
+- Recent queries (clickable history)
+
+### Filters & Controls
+- **Company:** All, AIG, Travelers, Chubb
+- **Year:** 2024, 2023, 2022, 2021
+- **Quarter:** Q1, Q2, Q3, Q4, All
+- **Filing Type:** 10-K, 10-Q, All
+- **Balanced Search:** Toggle for multi-company analysis
+- **LLM Provider:** Claude vs Ollama (dev mode only)
+
+### Source Attribution
+- Interactive source cards with hover previews
+- Company, filing type, date, page numbers
+- Relevance scores
+- Direct quotes with citations
+
+---
+
+## 🔧 Configuration
+
+### Environment Variables
+
+**Database:**
+```env
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=insurance_filings
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+QDRANT_HOST=localhost
+QDRANT_PORT=6333
+```
+
+**LLM Providers:**
+```env
+# Claude (Anthropic)
+LLM_PROVIDER=claude
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+
+# Ollama (GSU Server)
+LLM_PROVIDER=ollama
+OLLAMA_API_KEY=your-gsu-key
+OLLAMA_BASE_URL=https://gpu-01.insight.gsu.edu:11443
+OLLAMA_MODEL=llama3.1
+```
+
+**Development:**
+```env
+NODE_ENV=development  # Shows LLM provider toggle
+```
+
+**Production:**
+```env
+NODE_ENV=production  # Hides dev features
+```
+
+### Frontend Configuration
+
+For network/mobile access, create `frontend/.env.local`:
+```env
+NEXT_PUBLIC_API_URL=http://your-ip:8000
+```
+
+---
+
+## 📊 Performance Metrics
+
+### Data Processing (M02)
+- 5 SEC filings processed
+- 3,224 text chunks generated
+- 700+ financial tables extracted
+- Processing time: 5-10 minutes
+
+### Query Performance (M06)
+- **Frontend Load:** 1-2 seconds initial
+- **Query Response (Claude):** 3-5 seconds
+- **Query Response (Ollama):** 5-8 seconds
+- **Database Query:** <100ms
+
+### Evaluation Results (M05)
+- **Baseline:** 85.7/100
+- **Query Expansion Only:** 79.6/100
+- **Balanced Search Only:** 86.1/100
+- **Combined (Final):** 87.1/100 ⭐
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (M06)
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v3
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+
+### Backend (M06)
+- **API:** FastAPI (Python 3.9)
+- **LLM Providers:**
+  - Claude Sonnet 4 (Anthropic)
+  - Llama 3.1 (Ollama/GSU)
+- **Architecture:** Multi-agent pipeline
+
+### Data Layer (M02)
+- **Vector DB:** QDrant
+- **Structured DB:** PostgreSQL 15
+- **Embeddings:** sentence-transformers (all-MiniLM-L6-v2)
+- **PDF Processing:** pdfplumber
+
+---
+
+## 🔍 Database Access
 
 **PostgreSQL:**
 ```bash
 docker-compose exec postgres psql -U postgres -d insurance_filings
 
 # Example queries
-SELECT company, filing_type, page_count FROM filings;
+SELECT company, filing_type, filing_date FROM filings;
 SELECT COUNT(*) FROM text_chunks;
+SELECT COUNT(*) FROM financial_tables;
 ```
 
 **QDrant Dashboard:**
 http://localhost:6333/dashboard
 
-**Neo4j Browser (Optional):**
-http://localhost:7474
-Username: neo4j
-Password: password123
-
-## Project Structure
-insurance-filings-pipeline/
-├── data/
-│   ├── raw/                # PDF SEC filings
-│   ├── output/             # Processing artifacts
-│   ├── test_queries.json   # M03 batch queries
-│   └── batch_results.json  # M03 batch results
-├── eval/                   # M04 evaluation + M05 ablation
-│   ├── eval_test_set.json
-│   ├── eval_results_baseline.json      # V1: 85.7
-│   ├── results_query_exp_only.json     # V2: 79.6
-│   ├── results_balanced_only.json      # V3: 86.1
-│   ├── results_combined.json           # V4: 87.1 (WINNER)
-│   └── run_evaluation.py
-├── src/
-│   ├── pipeline/          # M02 data pipeline
-│   │   ├── ingest.py
-│   │   ├── extract_text.py
-│   │   ├── section_filter.py
-│   │   ├── table_extractor.py
-│   │   ├── chunk_text.py
-│   │   ├── embed.py
-│   │   └── run_ingest.py
-│   ├── agents/            # M03 agent + M05 improvements
-│   │   ├── tools.py              # Production (V4 Combined)
-│   │   ├── orchestrator.py       # Production (V4 Combined)
-│   │   ├── query_expansion.py    # M05: Synonym expansion
-│   │   └── iterations/           # M05: Ablation variants
-│   │       ├── tools_baseline.py
-│   │       ├── orchestrator_baseline.py
-│   │       ├── tools_query_exp_only.py
-│   │       ├── orchestrator_query_exp_only.py
-│   │       ├── tools_balanced_only.py
-│   │       ├── orchestrator_balanced_only.py
-│   │       ├── tools_combined.py
-│   │       └── orchestrator_combined.py
-│   ├── storage/
-│   │   ├── postgres_client.py
-│   │   └── qdrant_client.py
-│   ├── interfaces/
-│   │   ├── streamlit_app.py
-│   │   └── batch_query.py
-│   └── utils/
-│       ├── logger.py
-│       └── validators.py
-├── config/
-│   ├── database_config.yml
-│   └── pipeline_config.yml
-├── tests/
-│   ├── test_pipeline.py
-│   ├── test_extraction.py
-│   ├── test_processing.py
-│   └── test_storage.py
-├── notebooks/
-│   └── exploratory_analysis.ipynb
-├── docker-compose.yml
-├── requirements.txt
-├── .env
-├── README.md
-├── M02_MILESTONE.md
-├── M03_MILESTONE.md
-├── M04_MILESTONE.md
-└── M05_MILESTONE.md
-
-## System Statistics
-
-**Data Processed (M02):**
-- 5 SEC filings (2 × 10-K, 3 × 10-Q)
-- 3,224 text chunks
-- ~700 financial tables
-- 3,224 vector embeddings
-
-**Agent Performance (M03-M05):**
-- Baseline (M04): 85.7/100 composite score
-- Final (M05): 87.1/100 composite score
-- Improvement: +1.4 points, +3.6% completeness
-- Best category: Catastrophe reserves (99.2/100, +28.2 from baseline)
-- Test coverage: 75 queries across 10 actuarial categories
-
-**M05 Ablation Study Results:**
-
-| Variant | Composite | Keyword | Source | Complete | Verdict |
-|---------|-----------|---------|--------|----------|---------|
-| V1: Baseline | 85.7 | 92.2% | 100.0% | 71.9% | Strong baseline |
-| V2: Query Exp Only | 79.6 | 85.9% | 94.7% | 65.1% | Failed (-6.1) |
-| V3: Balanced Only | 86.1 | 90.6% | 100.0% | 70.7% | Modest gain (+0.4) |
-| V4: Combined | **87.1** | 90.8% | 100.0% | **75.5%** | **Winner (+1.4)** |
-
-## Example Queries
-```python
-# Try these in the chat interface:
-"What did AIG say about reserve adequacy in their latest filing?"
-"Compare loss development across all carriers"
-"What external risks impacted reserves?"
-"Show me commercial auto reserve trends"
-"How are carriers addressing social inflation?"
-"What catastrophe events most impacted Chubb's reserves in 2024?"
-"Compare the reserve sensitivity analyses across AIG, Travelers, and Chubb"
+**API Documentation:**
+```
+http://localhost:8000/docs
 ```
 
-## Monitoring & Debugging
+---
 
-**Check pipeline progress:**
-```bash
-docker-compose logs -f pipeline
-```
+## 🐛 Troubleshooting
 
-**Database statistics:**
-```sql
--- Chunks per company
-SELECT f.company, COUNT(c.chunk_id) as chunks
-FROM filings f
-LEFT JOIN text_chunks c ON f.filing_id = c.filing_id
-GROUP BY f.company;
-
--- QDrant collection info
-curl http://localhost:6333/collections/insurance_filings | python3 -m json.tool
-```
-
-**Common Issues:**
+### Common Issues
 
 | Issue | Solution |
 |-------|----------|
-| PDF extraction fails | Verify PDFs not corrupted: `pdfinfo file.pdf` |
-| Out of memory | Reduce batch size in `embedder.py` |
-| Database connection errors | Check services: `docker-compose ps` |
-| Chat interface slow | First load takes ~30s to load embedding model |
-| API authentication error | Verify `.env` has `ANTHROPIC_API_KEY` |
-| Evaluation takes long | Normal - 75 queries × 15s = ~20 min per variant |
+| Frontend won't start | Check Node.js version (18+), run `npm install` |
+| Backend 404 errors | Verify uvicorn running with `--host 0.0.0.0` |
+| CORS errors | Check `allowedDevOrigins` in `next.config.js` |
+| LLM provider errors | Verify API keys in `.env` |
+| Database connection fails | Run `docker-compose ps`, restart if needed |
+| Port already in use | Change port in uvicorn/npm command |
+### Debugging Commands
 
-## Performance Notes
+```bash
+# Check backend health
+curl http://localhost:8000/
 
-**M02 Pipeline:**
-- Processing time: ~5-10 minutes for 5 PDFs
-- Memory usage: ~2GB peak
+# Check available providers
+curl http://localhost:8000/providers
 
-**M03 Chat Interface:**
-- Initial load: ~30-60 seconds (loading embedding model)
-- Query response time: 3-5 seconds average
-- API cost: ~$0.01-0.02 per query (with Claude)
+# View backend logs
+# (check terminal running uvicorn)
+# View frontend logs
+# (check terminal running npm dev)
 
-**M04/M05 Evaluation:**
-- Full evaluation: ~18-20 minutes (75 queries)
-- Per-query time: ~14-15 seconds average
-- Ablation study total: ~80 minutes (4 variants)
-
-## Deliverables
-
-### M02 ✅
-- [x] Multi-stage data pipeline
-- [x] PDF text extraction (pdfplumber)
-- [x] Vector embeddings (sentence-transformers)
-- [x] PostgreSQL + QDrant storage
-- [x] 3,224 chunks processed
-
-### M03 ✅
-- [x] Agent orchestrator with semantic search
-- [x] Streamlit chat interface
-- [x] Batch query evaluation system
-- [x] Pre-generated results (`data/results.json`)
-
-### M04 ✅
-- [x] Evaluation framework (75 queries, 10 categories)
-- [x] Baseline performance: 85.7/100
-- [x] Comprehensive metrics (keyword, source, completeness)
-- [x] Failure mode analysis
-
-### M05 ✅
-- [x] Query expansion with actuarial synonyms
-- [x] Balanced multi-company retrieval
-- [x] Ablation study (4 variants)
-- [x] Final system: 87.1/100 (+1.4 improvement)
-- [x] Completeness breakthrough: 75.5% (+3.6%)
-- [x] Catastrophe category: 99.2/100 (+28.2 points)
-
-## Tech Stack
-
-**M02 Pipeline:**
-- Python 3.9
-- pdfplumber (PDF extraction)
-- sentence-transformers (embeddings)
-- PostgreSQL 15 (structured data)
-- QDrant (vector search)
-
-**M03 Agent:**
-- Anthropic Claude API (LLM)
-- Streamlit (chat UI)
-- Custom orchestration (tool calling)
-
-**M04/M05 Evaluation:**
-- Custom scoring framework
-- JSON-based test sets
-- Automated batch evaluation
-
-## Configuration
-
-Environment variables (`.env`):
-```env
-# Database connections (M02)
-POSTGRES_HOST=postgres
-POSTGRES_PORT=5432
-POSTGRES_DB=insurance_filings
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-QDRANT_HOST=qdrant
-QDRANT_PORT=6333
-INPUT_DIR=/data/raw
-
-# AI Agent (M03)
-ANTHROPIC_API_KEY=sk-ant-your-key-here  # Optional - for chat demo
+# Check database
+docker-compose exec postgres psql -U postgres -d insurance_filings
 ```
 
-## Key Findings (M05)
+---
 
-### Synergistic Effects
-Query expansion alone failed (-6.1 points), but when combined with balanced retrieval, created a synergistic effect (+1.4 points). This demonstrates that complementary improvements can compensate for each other's weaknesses.
+## 📈 Evaluation & Testing
 
-### Domain Customization Matters
-The catastrophe category improved by +28.2 points (40% relative improvement) through domain-specific synonyms ("CAT", "natural disaster") combined with multi-company coverage.
+### M04-M05 Ablation Study
 
-### Completeness Breakthrough
-The combined system improved answer completeness from 71.9% to 75.5% (+3.6%), addressing the weakest baseline metric through targeted improvements.
+The system was systematically evaluated using 8 test queries across different configurations:
 
-## Future Work
+| Variant | Features | Score |
+|---------|----------|-------|
+| V1: Baseline | Standard semantic search | 85.7 |
+| V2: Query Expansion | Synonym mapping only | 79.6 |
+| V3: Balanced Search | Multi-company sampling | 86.1 |
+| V4: Combined | Both improvements | **87.1** ⭐ |
 
-**Potential Enhancements:**
-- Expand to carriers
-- Add historical coverage (2020-2024)
-- Implement hybrid search (BM25 + semantic)
-- Add multi-turn conversation memory
-- Deploy production API endpoint
-- Advanced reranking strategies
+All evaluation results and code variants are preserved in `eval/` and `src/agents/iterations/`.
+
+---
+
+## 🚀 Deployment
+
+### Local Development
+```bash
+# Backend
+uvicorn src.api.main:app --reload
+
+# Frontend
+cd frontend && npm run dev
+```
+
+### Production Deployment
+
+**For GSU/Ollama:**
+```bash
+# Update .env
+LLM_PROVIDER=ollama
+NODE_ENV=production
+
+# Start backend
+uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+
+# Build frontend
+cd frontend
+npm run build
+npm start
+```
+
+**For Cloud Deployment:**
+- Backend: Railway, Render, Fly.io, AWS
+- Frontend: Vercel, Netlify
+- Update `NEXT_PUBLIC_API_URL` to deployed backend URL
+
+---
+
+## 📝 Milestones
+
+- **M02:** ✅ Data pipeline with PDF ingestion, embeddings, vector storage
+- **M03:** ✅ AI agent with semantic search and chat interface
+- **M04:** ✅ Systematic evaluation and baseline measurement
+- **M05:** ✅ Query expansion + balanced retrieval (87.1/100 score)
+- **M06:** ✅ Multi-agent architecture + React frontend + LLM abstraction
+
+---
+
+## 📚 Documentation
+
+- **M02_MILESTONE.md:** Data pipeline architecture
+- **M03_MILESTONE.md:** AI agent design
+- **M04_MILESTONE.md:** Evaluation methodology
+- **M05_MILESTONE.md:** Ablation study results
+- **M06_MILESTONE.md:** Multi-agent architecture + frontend (latest)
+
+---

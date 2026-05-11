@@ -1,112 +1,138 @@
 """
-Batch query interface for automated evaluation
+Batch Query Interface - Updated for Multi-Agent Architecture (M06)
+Processes multiple queries and saves results to JSON
 """
-import sys
-from pathlib import Path
 
-# Add paths for both local and Docker environments
-sys.path.insert(0, '/app/src')  # Docker path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))  # Local path
-sys.path.insert(0, str(Path(__file__).parent.parent))  # Local src path
-
-from agents.orchestrator import ReservingAgent
 import json
 import argparse
 from datetime import datetime
-import time
+import os
+from dotenv import load_dotenv
 
-def run_batch_queries(input_file: str, output_file: str):
+# Load environment variables
+load_dotenv()
+
+# Import multi-agent orchestrator
+from src.agents import MultiAgentOrchestrator
+
+
+def run_batch_evaluation(input_file: str, output_file: str):
     """
-    Run batch queries from JSON file
+    Run batch evaluation using multi-agent orchestrator.
     
     Args:
-        input_file: Path to queries JSON
-        output_file: Path to save results JSON
+        input_file: Path to JSON file with queries
+        output_file: Path to save results
     """
+    print("🚀 Starting Multi-Agent Batch Evaluation")
+    print(f"Input: {input_file}")
+    print(f"Output: {output_file}")
+    
     # Load queries
-    print(f"📂 Loading queries from {input_file}...")
     with open(input_file, 'r') as f:
-        queries = json.load(f)
+        data = json.load(f)
     
-    print(f"✅ Loaded {len(queries)} queries")
+    queries = data.get('queries', data)  # Handle both formats
+    print(f"📋 Loaded {len(queries)} queries")
     
-    # Initialize agent
-    print("🤖 Initializing agent...")
-    agent = ReservingAgent()
-    print("✅ Agent ready")
+    # Initialize multi-agent orchestrator
+    print("🏗️ Initializing Multi-Agent System...")
+    orchestrator = MultiAgentOrchestrator()
+    print("✅ Orchestrator ready (Retrieval → Analysis → Synthesis)")
     
-    # Run each query
+    # Process queries
     results = []
-    for i, query_item in enumerate(queries, 1):
-        query = query_item.get('query', '')
-        company = query_item.get('company', None)
+    successful = 0
+    failed = 0
+    
+    for idx, query_item in enumerate(queries):
+        query_id = query_item.get('id', idx + 1)
+        query_text = query_item.get('query', '')
+        company = query_item.get('company')
         
-        print(f"\n{'='*80}")
-        print(f"Query {i}/{len(queries)}: {query[:60]}...")
-        print(f"{'='*80}")
-        
-        start_time = time.time()
+        print(f"\n[{idx+1}/{len(queries)}] Processing Query {query_id}...")
+        print(f"Query: {query_text[:80]}...")
         
         try:
-            result = agent.answer_query(query, company=company)
-            processing_time = time.time() - start_time
+            # Run multi-agent pipeline
+            response = orchestrator.query(
+                user_query=query_text,
+                company=company,
+                use_balanced_search=(company is None)  # Use balanced for multi-company
+            )
             
-            results.append({
-                'id': query_item.get('id', i),
-                'query': query,
-                'company_filter': company,
-                'answer': result['answer'],
-                'num_sources': result['num_sources'],
+            # Format result
+            result = {
+                'id': query_id,
+                'query': query_text,
+                'company': company,
+                'answer': response['answer'],
+                'sources': response['sources'],
+                'num_sources': response['num_sources'],
+                'companies_mentioned': response.get('companies_mentioned', []),
+                'pipeline_stats': response.get('pipeline_stats', {}),
                 'timestamp': datetime.now().isoformat(),
-                'processing_time_seconds': round(processing_time, 2),
                 'status': 'success'
-            })
+            }
             
-            print(f"✅ Completed in {processing_time:.2f}s")
-            print(f"   Sources used: {result['num_sources']}")
+            results.append(result)
+            successful += 1
+            print(f"✅ Success - {response['num_sources']} sources")
             
         except Exception as e:
-            processing_time = time.time() - start_time
-            print(f"❌ Error: {e}")
+            print(f"❌ Error: {str(e)}")
             
-            results.append({
-                'id': query_item.get('id', i),
-                'query': query,
-                'company_filter': company,
+            result = {
+                'id': query_id,
+                'query': query_text,
+                'company': company,
                 'answer': None,
                 'error': str(e),
                 'timestamp': datetime.now().isoformat(),
-                'processing_time_seconds': round(processing_time, 2),
                 'status': 'failed'
-            })
+            }
+            
+            results.append(result)
+            failed += 1
     
     # Save results
-    print(f"\n{'='*80}")
-    print(f"💾 Saving results to {output_file}...")
+    output_data = {
+        'metadata': {
+            'total_queries': len(queries),
+            'successful': successful,
+            'failed': failed,
+            'timestamp': datetime.now().isoformat(),
+            'architecture': 'multi-agent',
+            'agents': ['RetrievalAgent', 'AnalysisAgent', 'SynthesisAgent']
+        },
+        'results': results
+    }
+    
     with open(output_file, 'w') as f:
-        json.dump(results, f, indent=2)
+        json.dump(output_data, f, indent=2)
     
-    # Summary
-    successful = sum(1 for r in results if r['status'] == 'success')
-    failed = len(results) - successful
-    total_time = sum(r['processing_time_seconds'] for r in results)
-    avg_time = total_time / len(results) if results else 0
-    
-    print(f"{'='*80}")
-    print(f"📊 BATCH QUERY SUMMARY")
-    print(f"{'='*80}")
-    print(f"Total queries: {len(results)}")
-    print(f"Successful: {successful}")
-    print(f"Failed: {failed}")
-    print(f"Total time: {total_time:.2f}s")
-    print(f"Average time per query: {avg_time:.2f}s")
-    print(f"{'='*80}")
-    print(f"✅ Results saved to {output_file}")
+    print(f"\n{'='*60}")
+    print(f"✅ Batch Evaluation Complete!")
+    print(f"📊 Results: {successful} successful, {failed} failed")
+    print(f"💾 Saved to: {output_file}")
+    print(f"{'='*60}")
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Run batch queries for evaluation')
-    parser.add_argument('--input', required=True, help='Input queries JSON file')
-    parser.add_argument('--output', required=True, help='Output results JSON file')
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run batch query evaluation with multi-agent system")
+    parser.add_argument(
+        "--input",
+        type=str,
+        default="eval/eval_test_set.json",
+        help="Input JSON file with queries"
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="eval/batch_results_multiagent.json",
+        help="Output JSON file for results"
+    )
     
     args = parser.parse_args()
-    run_batch_queries(args.input, args.output)
+    
+    run_batch_evaluation(args.input, args.output)
